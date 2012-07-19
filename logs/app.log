@@ -154,3 +154,1493 @@
 [I 120719 18:58:20 web:1447] 200 POST / (192.168.32.17) 188.76ms
 [W 120719 18:58:20 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.05ms
 [W 120719 18:58:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 22:43:21 web:1447] 304 GET / (127.0.0.1) 5.47ms
+[E 120719 22:43:24 web:1064] Uncaught exception POST / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='message=lego', headers={'Origin': 'http://127.0.0.1:8888', 'Content-Length': '12', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8888/', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 85, in post
+        mgs = rakuten_api(parts_dict)
+    TypeError: rakuten_api() takes exactly 0 arguments (1 given)
+[E 120719 22:43:24 web:1447] 500 POST / (127.0.0.1) 4.20ms
+[I 120719 22:43:45 autoreload:175] app.py modified; restarting server
+[E 120719 22:43:47 web:1064] Uncaught exception POST / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='message=lego', headers={'Origin': 'http://127.0.0.1:8888', 'Content-Length': '12', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 85, in post
+        mgs = rakuten_api(parts_dict)
+      File "app.py", line 56, in rakuten_api
+        infos = j['Body']["ItemSearch"]["Items"]["Item"]
+    KeyError: 'Body'
+[E 120719 22:43:47 web:1447] 500 POST / (127.0.0.1) 55.35ms
+[E 120719 22:43:49 web:1064] Uncaught exception POST / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='message=lego', headers={'Origin': 'http://127.0.0.1:8888', 'Content-Length': '12', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 85, in post
+        mgs = rakuten_api(parts_dict)
+      File "app.py", line 56, in rakuten_api
+        infos = j['Body']["ItemSearch"]["Items"]["Item"]
+    KeyError: 'Body'
+[E 120719 22:43:49 web:1447] 500 POST / (127.0.0.1) 25.11ms
+[E 120719 22:43:52 web:1064] Uncaught exception POST / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='message=lego', headers={'Origin': 'http://127.0.0.1:8888', 'Content-Length': '12', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 85, in post
+        mgs = rakuten_api(parts_dict)
+      File "app.py", line 56, in rakuten_api
+        infos = j['Body']["ItemSearch"]["Items"]["Item"]
+    KeyError: 'Body'
+[E 120719 22:43:52 web:1447] 500 POST / (127.0.0.1) 32.29ms
+[I 120719 22:43:54 autoreload:175] app.py modified; restarting server
+[E 120719 22:43:55 web:1064] Uncaught exception POST / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='message=lego', headers={'Origin': 'http://127.0.0.1:8888', 'Content-Length': '12', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 85, in post
+        mgs = rakuten_api(parts_dict)
+    TypeError: rakuten_api() takes exactly 0 arguments (1 given)
+[E 120719 22:43:55 web:1447] 500 POST / (127.0.0.1) 3.14ms
+[I 120719 22:47:57 autoreload:175] app.py modified; restarting server
+[I 120719 22:48:00 autoreload:175] app.py modified; restarting server
+[I 120719 22:48:11 web:1447] 200 POST / (127.0.0.1) 577.28ms
+[I 120719 22:48:13 web:1447] 200 GET / (127.0.0.1) 1.71ms
+[I 120719 22:48:17 web:1447] 200 POST / (127.0.0.1) 535.26ms
+[E 120719 22:51:08 web:1064] Uncaught exception GET / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'If-None-Match': '"3a943bf02172361d014e4334497e5af16f24bff3"', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 80, in get
+        genreId="0")
+      File "app.py", line 56, in rakuten_api
+        infos = j['Body']["ItemSearch"]["Items"]["Item"]
+    KeyError: 'ItemSearch'
+[E 120719 22:51:08 web:1447] 500 GET / (127.0.0.1) 58.31ms
+[I 120719 22:52:42 autoreload:175] app.py modified; restarting server
+[I 120719 22:53:17 web:1447] 200 GET / (127.0.0.1) 58.71ms
+[I 120719 22:53:21 web:1447] 200 POST / (127.0.0.1) 529.03ms
+[W 120719 22:53:21 web:1447] 404 GET /Body (127.0.0.1) 2.65ms
+[W 120719 22:53:21 web:1447] 404 GET /Header (127.0.0.1) 0.82ms
+[I 120719 22:54:04 autoreload:175] app.py modified; restarting server
+[E 120719 22:54:09 web:1064] Uncaught exception GET / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 83, in get
+        self.render("index.html", message=mgs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 602, in render_string
+        t = loader.load(template_name)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 324, in load
+        self.templates[name] = self._create_template(name)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 355, in _create_template
+        f = open(path, "rb")
+    IOError: [Errno 2] No such file or directory: '/Users/guoyang/Desktop/bipapa/templates/index.html'
+[E 120719 22:54:09 web:1447] 500 GET / (127.0.0.1) 60.78ms
+[E 120719 22:54:10 web:1064] Uncaught exception GET / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 83, in get
+        self.render("index.html", message=mgs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 602, in render_string
+        t = loader.load(template_name)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 324, in load
+        self.templates[name] = self._create_template(name)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 355, in _create_template
+        f = open(path, "rb")
+    IOError: [Errno 2] No such file or directory: '/Users/guoyang/Desktop/bipapa/templates/index.html'
+[E 120719 22:54:10 web:1447] 500 GET / (127.0.0.1) 47.01ms
+[E 120719 22:54:20 web:1064] Uncaught exception GET / (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 83, in get
+        self.render("index.html", message=mgs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 602, in render_string
+        t = loader.load(template_name)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 324, in load
+        self.templates[name] = self._create_template(name)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 355, in _create_template
+        f = open(path, "rb")
+    IOError: [Errno 2] No such file or directory: '/Users/guoyang/Desktop/bipapa/templates/index.html'
+[E 120719 22:54:20 web:1447] 500 GET / (127.0.0.1) 38.18ms
+[I 120719 22:54:42 web:1447] 200 GET / (127.0.0.1) 37.98ms
+[I 120719 22:54:46 web:1447] 200 POST / (127.0.0.1) 254.59ms
+[W 120719 22:54:46 web:1447] 404 GET /Body (127.0.0.1) 2.05ms
+[W 120719 22:54:46 web:1447] 404 GET /Header (127.0.0.1) 3.25ms
+[I 120719 22:55:13 web:1447] 200 POST / (127.0.0.1) 230.95ms
+[I 120719 22:56:07 web:1447] 200 GET / (127.0.0.1) 36.18ms
+[I 120719 22:57:15 autoreload:175] app.py modified; restarting server
+[I 120719 22:57:46 autoreload:175] app.py modified; restarting server
+[I 120719 22:57:47 web:1447] 200 GET / (127.0.0.1) 41.36ms
+[I 120719 22:58:10 autoreload:175] app.py modified; restarting server
+[I 120719 22:58:51 autoreload:175] app.py modified; restarting server
+[I 120719 23:02:03 web:1447] 200 GET / (127.0.0.1) 6.55ms
+[I 120719 23:02:11 web:1447] 200 GET /genreid (127.0.0.1) 93.12ms
+[I 120719 23:06:46 web:1447] 304 GET / (127.0.0.1) 1.66ms
+[I 120719 23:06:49 web:1447] 304 GET /genreid (127.0.0.1) 29.56ms
+[I 120719 23:07:24 autoreload:175] app.py modified; restarting server
+[I 120719 23:07:24 web:1447] 200 GET /genreid (127.0.0.1) 50.28ms
+[I 120719 23:07:34 autoreload:175] app.py modified; restarting server
+[I 120719 23:07:35 web:1447] 200 GET /genreid (127.0.0.1) 43.07ms
+[I 120719 23:08:03 autoreload:175] app.py modified; restarting server
+[I 120719 23:08:03 web:1447] 200 GET /genreid (127.0.0.1) 37.07ms
+[I 120719 23:10:45 autoreload:175] app.py modified; restarting server
+[I 120719 23:11:37 autoreload:175] app.py modified; restarting server
+[E 120719 23:11:42 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 86, in get
+        for key, value in mgs:
+    ValueError: too many values to unpack
+[E 120719 23:11:43 web:1447] 500 GET /genreid (127.0.0.1) 73.09ms
+[I 120719 23:13:04 autoreload:175] app.py modified; restarting server
+[E 120719 23:13:10 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 86, in get
+        for key, value in mgs.items():
+    AttributeError: 'list' object has no attribute 'items'
+[E 120719 23:13:10 web:1447] 500 GET /genreid (127.0.0.1) 45.94ms
+[I 120719 23:14:50 autoreload:175] app.py modified; restarting server
+[I 120719 23:15:11 autoreload:175] app.py modified; restarting server
+[I 120719 23:17:41 autoreload:175] app.py modified; restarting server
+[I 120719 23:17:42 autoreload:175] app.py modified; restarting server
+[I 120719 23:17:49 web:1447] 304 GET / (127.0.0.1) 5.41ms
+[W 120719 23:17:52 web:1447] 404 GET /genreid/ (127.0.0.1) 5.06ms
+[E 120719 23:17:55 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'If-None-Match': '"41d0434337aa69c761fce3edd60069417ad2caa3"', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 86, in get
+        for key, value in mgs.items():
+    AttributeError: 'list' object has no attribute 'items'
+[E 120719 23:17:55 web:1447] 500 GET /genreid (127.0.0.1) 414.16ms
+[I 120719 23:19:22 autoreload:175] app.py modified; restarting server
+[I 120719 23:19:23 web:1447] 200 GET /genreid (127.0.0.1) 44.18ms
+[I 120719 23:19:30 autoreload:175] app.py modified; restarting server
+[I 120719 23:19:31 web:1447] 200 GET /genreid (127.0.0.1) 43.21ms
+[I 120719 23:19:41 autoreload:175] app.py modified; restarting server
+[I 120719 23:19:43 web:1447] 200 GET /genreid (127.0.0.1) 39.80ms
+[I 120719 23:19:56 autoreload:175] app.py modified; restarting server
+[I 120719 23:25:48 autoreload:175] app.py modified; restarting server
+[I 120719 23:25:52 web:1447] 200 GET /genreid (127.0.0.1) 40.59ms
+[I 120719 23:25:52 web:1447] 200 GET /genreid (127.0.0.1) 26.67ms
+[I 120719 23:25:53 web:1447] 200 GET /genreid (127.0.0.1) 38.71ms
+[I 120719 23:25:53 web:1447] 200 GET /genreid (127.0.0.1) 24.31ms
+[I 120719 23:25:53 web:1447] 200 GET /genreid (127.0.0.1) 29.63ms
+[I 120719 23:25:55 web:1447] 200 GET /genreid (127.0.0.1) 86.74ms
+[I 120719 23:27:10 web:1447] 200 GET /genreid (127.0.0.1) 39.19ms
+[E 120719 23:27:58 template:257] genreid.html code:
+     1  def _execute():  # genreid.html:0
+     2      _buffer = []  # genreid.html:0
+     3      _append = _buffer.append  # genreid.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # genreid.html:6
+     5      if message:  # genreid.html:6
+     6          _append('\n')  # genreid.html:7
+     7          for k,v in message:  # genreid.html:7
+     8              _append('\n')  # genreid.html:8
+     9              _tmp = k,v  # genreid.html:8
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    11              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    13              _append(_tmp)  # genreid.html:8
+    14              _append('\n')  # genreid.html:9
+    15          _append('\n')  # genreid.html:10
+    16      _append('\n</form>\n</body>\n</html>')  # genreid.html:13
+    17      return _utf8('').join(_buffer)  # genreid.html:0
+[E 120719 23:27:58 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 96, in get
+        self.render("genreid.html", message=m)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "genreid_html.generated.py", line 7, in _execute
+        for k,v in message:  # genreid.html:7
+    ValueError: too many values to unpack
+[E 120719 23:27:58 web:1447] 500 GET /genreid (127.0.0.1) 31.52ms
+[E 120719 23:36:20 template:257] genreid.html code:
+     1  def _execute():  # genreid.html:0
+     2      _buffer = []  # genreid.html:0
+     3      _append = _buffer.append  # genreid.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # genreid.html:6
+     5      if message:  # genreid.html:6
+     6          _append('\n')  # genreid.html:7
+     7          for k,v in message.items:  # genreid.html:7
+     8              _append('\n')  # genreid.html:8
+     9              _tmp = k  # genreid.html:8
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    11              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    13              _append(_tmp)  # genreid.html:8
+    14              _append(' ==> ')  # genreid.html:8
+    15              _tmp = v  # genreid.html:8
+    16              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    17              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    18              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    19              _append(_tmp)  # genreid.html:8
+    20              _append('\n')  # genreid.html:9
+    21          _append('\n')  # genreid.html:10
+    22      _append('\n</form>\n</body>\n</html>')  # genreid.html:13
+    23      return _utf8('').join(_buffer)  # genreid.html:0
+[E 120719 23:36:20 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 96, in get
+        self.render("genreid.html", message=m)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "genreid_html.generated.py", line 7, in _execute
+        for k,v in message.items:  # genreid.html:7
+    TypeError: 'builtin_function_or_method' object is not iterable
+[E 120719 23:36:20 web:1447] 500 GET /genreid (127.0.0.1) 34.05ms
+[E 120719 23:36:21 template:257] genreid.html code:
+     1  def _execute():  # genreid.html:0
+     2      _buffer = []  # genreid.html:0
+     3      _append = _buffer.append  # genreid.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # genreid.html:6
+     5      if message:  # genreid.html:6
+     6          _append('\n')  # genreid.html:7
+     7          for k,v in message.items:  # genreid.html:7
+     8              _append('\n')  # genreid.html:8
+     9              _tmp = k  # genreid.html:8
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    11              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    13              _append(_tmp)  # genreid.html:8
+    14              _append(' ==> ')  # genreid.html:8
+    15              _tmp = v  # genreid.html:8
+    16              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    17              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    18              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    19              _append(_tmp)  # genreid.html:8
+    20              _append('\n')  # genreid.html:9
+    21          _append('\n')  # genreid.html:10
+    22      _append('\n</form>\n</body>\n</html>')  # genreid.html:13
+    23      return _utf8('').join(_buffer)  # genreid.html:0
+[E 120719 23:36:21 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 96, in get
+        self.render("genreid.html", message=m)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "genreid_html.generated.py", line 7, in _execute
+        for k,v in message.items:  # genreid.html:7
+    TypeError: 'builtin_function_or_method' object is not iterable
+[E 120719 23:36:21 web:1447] 500 GET /genreid (127.0.0.1) 58.47ms
+[I 120719 23:37:36 web:1447] 200 GET /genreid (127.0.0.1) 26.85ms
+[I 120719 23:38:02 autoreload:175] app.py modified; restarting server
+[E 120719 23:38:02 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        for key, value in m.items():
+    AttributeError: 'unicode' object has no attribute 'items'
+[E 120719 23:38:02 web:1447] 500 GET /genreid (127.0.0.1) 50.41ms
+[I 120719 23:38:05 autoreload:175] app.py modified; restarting server
+[I 120719 23:38:05 web:1447] 200 GET /genreid (127.0.0.1) 42.89ms
+[I 120719 23:38:06 web:1447] 200 GET /genreid (127.0.0.1) 44.44ms
+[I 120719 23:38:21 web:1447] 200 GET /genreid (127.0.0.1) 55.40ms
+[I 120719 23:39:01 autoreload:175] app.py modified; restarting server
+[I 120719 23:39:08 autoreload:175] app.py modified; restarting server
+[I 120719 23:39:14 autoreload:175] app.py modified; restarting server
+[E 120719 23:39:59 template:257] genreid.html code:
+     1  def _execute():  # genreid.html:0
+     2      _buffer = []  # genreid.html:0
+     3      _append = _buffer.append  # genreid.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # genreid.html:6
+     5      if message:  # genreid.html:6
+     6          _append('\n')  # genreid.html:7
+     7          for k,v in message.items():  # genreid.html:7
+     8              _append('\n')  # genreid.html:8
+     9              _tmp = k  # genreid.html:8
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    11              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    13              _append(_tmp)  # genreid.html:8
+    14              _append(' ==> ')  # genreid.html:8
+    15              _tmp = v  # genreid.html:8
+    16              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    17              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    18              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    19              _append(_tmp)  # genreid.html:8
+    20              _append('</br>\n')  # genreid.html:9
+    21          _append('\n')  # genreid.html:10
+    22      _append('\n</form>\n</body>\n</html>')  # genreid.html:13
+    23      return _utf8('').join(_buffer)  # genreid.html:0
+[E 120719 23:39:59 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 87, in get
+        self.render("genreid.html", message=m)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "genreid_html.generated.py", line 7, in _execute
+        for k,v in message.items():  # genreid.html:7
+    AttributeError: 'list' object has no attribute 'items'
+[E 120719 23:39:59 web:1447] 500 GET /genreid (127.0.0.1) 46.95ms
+[I 120719 23:40:18 web:1447] 200 GET /genreid (127.0.0.1) 35.25ms
+[I 120719 23:41:41 autoreload:175] app.py modified; restarting server
+[I 120719 23:41:41 web:1447] 200 GET /genreid (127.0.0.1) 69.77ms
+[I 120719 23:41:43 web:1447] 200 GET /genreid (127.0.0.1) 51.81ms
+[I 120719 23:42:00 web:1447] 200 GET /genreid (127.0.0.1) 49.83ms
+[I 120719 23:42:01 web:1447] 200 GET /genreid (127.0.0.1) 35.52ms
+[I 120719 23:46:02 autoreload:175] app.py modified; restarting server
+[E 120719 23:46:06 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 89, in get
+        m[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120719 23:46:06 web:1447] 500 GET /genreid (127.0.0.1) 387.01ms
+[I 120719 23:46:20 autoreload:175] app.py modified; restarting server
+[I 120719 23:47:03 autoreload:175] app.py modified; restarting server
+[I 120719 23:47:04 web:1447] 200 GET /genreid (127.0.0.1) 44.56ms
+[I 120719 23:47:43 autoreload:175] app.py modified; restarting server
+[E 120719 23:47:49 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 91, in get
+        m[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120719 23:47:49 web:1447] 500 GET /genreid (127.0.0.1) 30.32ms
+[I 120719 23:48:07 autoreload:175] app.py modified; restarting server
+[I 120719 23:48:14 autoreload:175] app.py modified; restarting server
+[E 120719 23:48:15 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 89, in get
+        m[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120719 23:48:15 web:1447] 500 GET /genreid (127.0.0.1) 37.19ms
+[E 120719 23:48:15 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 89, in get
+        m[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120719 23:48:15 web:1447] 500 GET /genreid (127.0.0.1) 26.17ms
+[E 120719 23:48:16 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 89, in get
+        m[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120719 23:48:16 web:1447] 500 GET /genreid (127.0.0.1) 173.91ms
+[E 120719 23:48:16 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 89, in get
+        m[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120719 23:48:16 web:1447] 500 GET /genreid (127.0.0.1) 61.71ms
+[I 120719 23:49:09 autoreload:175] app.py modified; restarting server
+[I 120719 23:49:09 web:1447] 200 GET /genreid (127.0.0.1) 39.42ms
+[I 120719 23:49:50 autoreload:175] app.py modified; restarting server
+[E 120719 23:49:50 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 86, in get
+        self.render("genreid.html", message=m)
+    NameError: global name 'm' is not defined
+[E 120719 23:49:50 web:1447] 500 GET /genreid (127.0.0.1) 41.20ms
+[I 120719 23:49:56 autoreload:175] app.py modified; restarting server
+[E 120719 23:49:56 template:257] genreid.html code:
+     1  def _execute():  # genreid.html:0
+     2      _buffer = []  # genreid.html:0
+     3      _append = _buffer.append  # genreid.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # genreid.html:6
+     5      if message:  # genreid.html:6
+     6          _append('\n')  # genreid.html:7
+     7          for k,v in message.items():  # genreid.html:7
+     8              _append('\n')  # genreid.html:8
+     9              _tmp = k  # genreid.html:8
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    11              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    13              _append(_tmp)  # genreid.html:8
+    14              _append(' ==> ')  # genreid.html:8
+    15              _tmp = v  # genreid.html:8
+    16              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    17              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    18              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    19              _append(_tmp)  # genreid.html:8
+    20              _append('</br>\n')  # genreid.html:9
+    21          _append('\n')  # genreid.html:10
+    22      _append('\n</form>\n</body>\n</html>')  # genreid.html:13
+    23      return _utf8('').join(_buffer)  # genreid.html:0
+[E 120719 23:49:56 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 86, in get
+        self.render("genreid.html", message=mgs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "genreid_html.generated.py", line 7, in _execute
+        for k,v in message.items():  # genreid.html:7
+    AttributeError: 'list' object has no attribute 'items'
+[E 120719 23:49:56 web:1447] 500 GET /genreid (127.0.0.1) 65.04ms
+[I 120719 23:50:05 autoreload:175] app.py modified; restarting server
+[I 120719 23:50:22 autoreload:175] app.py modified; restarting server
+[I 120719 23:50:43 web:1447] 200 GET /genreid (127.0.0.1) 44.28ms
+[I 120719 23:51:02 autoreload:175] app.py modified; restarting server
+[I 120719 23:52:41 autoreload:175] app.py modified; restarting server
+[E 120719 23:52:43 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 89, in get
+        m[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120719 23:52:43 web:1447] 500 GET /genreid (127.0.0.1) 37.15ms
+[I 120719 23:52:58 autoreload:175] app.py modified; restarting server
+[I 120719 23:54:13 autoreload:175] app.py modified; restarting server
+[I 120719 23:54:19 autoreload:175] app.py modified; restarting server
+[E 120719 23:54:30 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 95, in get
+        mgs_dcit.update(m)
+    NameError: global name 'mgs_dcit' is not defined
+[E 120719 23:54:30 web:1447] 500 GET /genreid (127.0.0.1) 46.81ms
+[E 120719 23:54:31 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 95, in get
+        mgs_dcit.update(m)
+    NameError: global name 'mgs_dcit' is not defined
+[E 120719 23:54:31 web:1447] 500 GET /genreid (127.0.0.1) 42.70ms
+[I 120719 23:54:42 autoreload:175] app.py modified; restarting server
+[E 120719 23:54:43 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 96, in get
+        self.render("genreid.html", message=mgs_dcit)
+    NameError: global name 'mgs_dcit' is not defined
+[E 120719 23:54:43 web:1447] 500 GET /genreid (127.0.0.1) 38.00ms
+[I 120719 23:54:52 autoreload:175] app.py modified; restarting server
+[I 120719 23:54:53 web:1447] 200 GET /genreid (127.0.0.1) 43.91ms
+[I 120719 23:54:54 web:1447] 200 GET /genreid (127.0.0.1) 29.81ms
+[I 120719 23:54:54 web:1447] 200 GET /genreid (127.0.0.1) 35.87ms
+[I 120719 23:55:34 autoreload:175] app.py modified; restarting server
+[I 120719 23:55:35 web:1447] 200 GET /genreid (127.0.0.1) 56.13ms
+[I 120719 23:55:36 web:1447] 200 GET /genreid (127.0.0.1) 26.81ms
+[I 120719 23:55:36 web:1447] 200 GET /genreid (127.0.0.1) 25.68ms
+[I 120719 23:55:37 autoreload:175] app.py modified; restarting server
+[I 120719 23:56:19 autoreload:175] app.py modified; restarting server
+[I 120719 23:56:24 autoreload:175] app.py modified; restarting server
+[I 120719 23:56:27 web:1447] 200 GET /genreid (127.0.0.1) 41.74ms
+[I 120719 23:56:28 web:1447] 200 GET /genreid (127.0.0.1) 46.62ms
+[W 120719 23:56:28 iostream:425] Read error on 86: [Errno 54] Connection reset by peer
+[E 120719 23:56:28 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 96, in get
+        self.render("genreid.html", message=mgs_dict)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 386, in _try_inline_read
+        if self._read_to_buffer() == 0:
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 54] Connection reset by peer
+[E 120719 23:56:28 web:718] Cannot send error response after headers written
+[E 120719 23:56:28 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120719 23:56:28 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x10f17a628>
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[W 120719 23:56:28 iostream:425] Read error on 86: [Errno 54] Connection reset by peer
+[E 120719 23:56:28 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 96, in get
+        self.render("genreid.html", message=mgs_dict)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 386, in _try_inline_read
+        if self._read_to_buffer() == 0:
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 54] Connection reset by peer
+[E 120719 23:56:28 web:718] Cannot send error response after headers written
+[E 120719 23:56:28 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120719 23:56:28 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x10f39ce68>
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[I 120719 23:56:28 web:1447] 200 GET /genreid (127.0.0.1) 28.08ms
+[I 120719 23:56:29 web:1447] 200 GET /genreid (127.0.0.1) 35.48ms
+[I 120719 23:56:36 autoreload:175] app.py modified; restarting server
+[I 120719 23:56:36 web:1447] 200 GET /genreid (127.0.0.1) 70.87ms
+[I 120719 23:56:37 web:1447] 200 GET /genreid (127.0.0.1) 25.06ms
+[I 120719 23:56:38 web:1447] 200 GET /genreid (127.0.0.1) 33.08ms
+[I 120719 23:56:38 web:1447] 200 GET /genreid (127.0.0.1) 34.84ms
+[I 120719 23:56:39 web:1447] 200 GET /genreid (127.0.0.1) 34.66ms
+[I 120719 23:56:43 autoreload:175] app.py modified; restarting server
+[I 120719 23:58:35 autoreload:175] app.py modified; restarting server
+[I 120719 23:58:40 web:1447] 200 GET /genreid (127.0.0.1) 45.36ms
+[I 120719 23:58:41 web:1447] 200 GET /genreid (127.0.0.1) 41.24ms
+[I 120719 23:58:41 web:1447] 200 GET /genreid (127.0.0.1) 41.32ms
+[I 120719 23:59:02 autoreload:175] app.py modified; restarting server
+[E 120719 23:59:02 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        mgs_dict.update(m)
+    ValueError: dictionary update sequence element #0 has length 1; 2 is required
+[E 120719 23:59:02 web:1447] 500 GET /genreid (127.0.0.1) 56.88ms
+[I 120719 23:59:18 autoreload:175] app.py modified; restarting server
+[E 120719 23:59:19 template:257] genreid.html code:
+     1  def _execute():  # genreid.html:0
+     2      _buffer = []  # genreid.html:0
+     3      _append = _buffer.append  # genreid.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # genreid.html:6
+     5      if message:  # genreid.html:6
+     6          _append('\n')  # genreid.html:7
+     7          for k,v in message.items():  # genreid.html:7
+     8              _append('\n')  # genreid.html:8
+     9              _tmp = k  # genreid.html:8
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    11              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    13              _append(_tmp)  # genreid.html:8
+    14              _append(' ==> ')  # genreid.html:8
+    15              _tmp = v  # genreid.html:8
+    16              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # genreid.html:8
+    17              else: _tmp = _utf8(str(_tmp))  # genreid.html:8
+    18              _tmp = _utf8(xhtml_escape(_tmp))  # genreid.html:8
+    19              _append(_tmp)  # genreid.html:8
+    20              _append('</br>\n')  # genreid.html:9
+    21          _append('\n')  # genreid.html:10
+    22      _append('\n</form>\n</body>\n</html>')  # genreid.html:13
+    23      return _utf8('').join(_buffer)  # genreid.html:0
+[E 120719 23:59:19 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 86, in get
+        self.render("genreid.html", message=mgs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/Library/Python/2.7/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "genreid_html.generated.py", line 7, in _execute
+        for k,v in message.items():  # genreid.html:7
+    AttributeError: 'list' object has no attribute 'items'
+[E 120719 23:59:19 web:1447] 500 GET /genreid (127.0.0.1) 43.47ms
+[I 120719 23:59:32 web:1447] 200 GET /genreid (127.0.0.1) 39.17ms
+[I 120719 23:59:44 autoreload:175] app.py modified; restarting server
+[I 120719 23:59:45 web:1447] 200 GET /genreid (127.0.0.1) 61.87ms
+[I 120719 23:59:46 web:1447] 200 GET /genreid (127.0.0.1) 35.89ms
+[I 120720 00:00:39 autoreload:175] app.py modified; restarting server
+[E 120720 00:00:40 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 92, in get
+        m[key] = value.encode('utf-8')
+    NameError: global name 'm' is not defined
+[E 120720 00:00:40 web:1447] 500 GET /genreid (127.0.0.1) 42.50ms
+[E 120720 00:00:41 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 92, in get
+        m[key] = value.encode('utf-8')
+    NameError: global name 'm' is not defined
+[E 120720 00:00:41 web:1447] 500 GET /genreid (127.0.0.1) 38.95ms
+[E 120720 00:00:41 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 92, in get
+        m[key] = value.encode('utf-8')
+    NameError: global name 'm' is not defined
+[E 120720 00:00:41 web:1447] 500 GET /genreid (127.0.0.1) 24.13ms
+[I 120720 00:00:54 autoreload:175] app.py modified; restarting server
+[I 120720 00:00:55 web:1447] 200 GET /genreid (127.0.0.1) 45.57ms
+[I 120720 00:00:55 web:1447] 200 GET /genreid (127.0.0.1) 24.81ms
+[I 120720 00:00:56 web:1447] 200 GET /genreid (127.0.0.1) 94.00ms
+[I 120720 00:01:08 autoreload:175] app.py modified; restarting server
+[I 120720 00:01:09 web:1447] 200 GET /genreid (127.0.0.1) 43.48ms
+[I 120720 00:01:10 web:1447] 200 GET /genreid (127.0.0.1) 29.77ms
+[I 120720 00:01:10 web:1447] 200 GET /genreid (127.0.0.1) 49.90ms
+[I 120720 00:01:12 web:1447] 200 GET /genreid (127.0.0.1) 55.75ms
+[I 120720 00:01:12 web:1447] 200 GET /genreid (127.0.0.1) 75.44ms
+[W 120720 00:01:13 iostream:425] Read error on 120: [Errno 54] Connection reset by peer
+[E 120720 00:01:13 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 94, in get
+        self.render("genreid.html", message=m)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 386, in _try_inline_read
+        if self._read_to_buffer() == 0:
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 54] Connection reset by peer
+[E 120720 00:01:13 web:718] Cannot send error response after headers written
+[E 120720 00:01:13 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120720 00:01:13 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x106b9f5d0>
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[I 120720 00:01:13 web:1447] 200 GET /genreid (127.0.0.1) 37.53ms
+[I 120720 00:01:29 autoreload:175] app.py modified; restarting server
+[I 120720 00:01:33 autoreload:175] app.py modified; restarting server
+[I 120720 00:01:54 autoreload:175] app.py modified; restarting server
+[I 120720 00:02:13 autoreload:175] app.py modified; restarting server
+[I 120720 00:02:17 autoreload:175] app.py modified; restarting server
+[E 120720 00:02:17 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        mgs[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120720 00:02:17 web:1447] 500 GET /genreid (127.0.0.1) 51.91ms
+[I 120720 00:04:39 autoreload:175] app.py modified; restarting server
+[I 120720 00:05:27 autoreload:175] app.py modified; restarting server
+[E 120720 00:05:28 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        u = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 142, in search
+        return _compile(pattern, flags).search(string)
+    TypeError: expected string or buffer
+[E 120720 00:05:28 web:1447] 500 GET /genreid (127.0.0.1) 38.13ms
+[E 120720 00:05:28 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        u = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 142, in search
+        return _compile(pattern, flags).search(string)
+    TypeError: expected string or buffer
+[E 120720 00:05:28 web:1447] 500 GET /genreid (127.0.0.1) 26.45ms
+[E 120720 00:05:29 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        u = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 142, in search
+        return _compile(pattern, flags).search(string)
+    TypeError: expected string or buffer
+[W 120720 00:05:29 iostream:425] Read error on 138: [Errno 54] Connection reset by peer
+[E 120720 00:05:29 web:727] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 725, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 766, in write_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 386, in _try_inline_read
+        if self._read_to_buffer() == 0:
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 54] Connection reset by peer
+[E 120720 00:05:29 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 729, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120720 00:05:29 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x1035a25d0>
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 729, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120720 00:05:29 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        u = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 142, in search
+        return _compile(pattern, flags).search(string)
+    TypeError: expected string or buffer
+[E 120720 00:05:29 web:1447] 500 GET /genreid (127.0.0.1) 24.33ms
+[E 120720 00:05:29 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        u = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 142, in search
+        return _compile(pattern, flags).search(string)
+    TypeError: expected string or buffer
+[E 120720 00:05:29 web:1447] 500 GET /genreid (127.0.0.1) 79.90ms
+[E 120720 00:05:30 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        u = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 142, in search
+        return _compile(pattern, flags).search(string)
+    TypeError: expected string or buffer
+[E 120720 00:05:30 web:1447] 500 GET /genreid (127.0.0.1) 51.01ms
+[E 120720 00:05:30 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        u = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+      File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 142, in search
+        return _compile(pattern, flags).search(string)
+    TypeError: expected string or buffer
+[E 120720 00:05:30 web:1447] 500 GET /genreid (127.0.0.1) 30.42ms
+[I 120720 00:05:35 autoreload:175] app.py modified; restarting server
+[E 120720 00:05:35 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 92, in get
+        m[key] = value.encode('utf-8')
+    NameError: global name 'm' is not defined
+[E 120720 00:05:35 web:1447] 500 GET /genreid (127.0.0.1) 147.76ms
+[E 120720 00:05:36 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 92, in get
+        m[key] = value.encode('utf-8')
+    NameError: global name 'm' is not defined
+[E 120720 00:05:36 web:1447] 500 GET /genreid (127.0.0.1) 85.39ms
+[E 120720 00:05:36 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 92, in get
+        m[key] = value.encode('utf-8')
+    NameError: global name 'm' is not defined
+[E 120720 00:05:36 web:1447] 500 GET /genreid (127.0.0.1) 102.52ms
+[E 120720 00:05:36 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 92, in get
+        m[key] = value.encode('utf-8')
+    NameError: global name 'm' is not defined
+[E 120720 00:05:36 web:1447] 500 GET /genreid (127.0.0.1) 23.55ms
+[I 120720 00:05:57 autoreload:175] app.py modified; restarting server
+[I 120720 00:05:58 web:1447] 200 GET /genreid (127.0.0.1) 401.71ms
+[I 120720 00:24:19 web:1447] 200 GET /genreid (127.0.0.1) 49.21ms
+[I 120720 00:24:20 web:1447] 200 GET /genreid (127.0.0.1) 31.71ms
+[I 120720 00:25:15 autoreload:175] app.py modified; restarting server
+[I 120720 00:25:15 web:1447] 200 GET /genreid (127.0.0.1) 52.01ms
+[I 120720 00:25:16 web:1447] 200 GET /genreid (127.0.0.1) 38.27ms
+[I 120720 00:25:17 web:1447] 200 GET /genreid (127.0.0.1) 28.01ms
+[I 120720 00:25:17 web:1447] 200 GET /genreid (127.0.0.1) 53.90ms
+[I 120720 00:25:24 autoreload:175] app.py modified; restarting server
+[I 120720 00:25:25 web:1447] 200 GET /genreid (127.0.0.1) 58.21ms
+[I 120720 00:25:26 web:1447] 200 GET /genreid (127.0.0.1) 41.39ms
+[I 120720 00:25:26 web:1447] 200 GET /genreid (127.0.0.1) 73.42ms
+[I 120720 00:25:27 web:1447] 200 GET /genreid (127.0.0.1) 61.31ms
+[I 120720 00:25:45 web:1447] 200 GET /genreid (127.0.0.1) 24.81ms
+[I 120720 00:26:27 autoreload:175] app.py modified; restarting server
+[I 120720 00:26:37 autoreload:175] app.py modified; restarting server
+[I 120720 00:26:38 web:1447] 200 GET /genreid (127.0.0.1) 41.34ms
+[I 120720 00:26:38 web:1447] 200 GET /genreid (127.0.0.1) 42.82ms
+[I 120720 00:26:39 web:1447] 200 GET /genreid (127.0.0.1) 32.75ms
+[I 120720 00:26:39 web:1447] 200 GET /genreid (127.0.0.1) 33.20ms
+[I 120720 00:27:38 autoreload:175] app.py modified; restarting server
+[E 120720 00:27:42 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 90, in get
+        mgs[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120720 00:27:42 web:1447] 500 GET /genreid (127.0.0.1) 41.93ms
+[E 120720 00:27:42 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 90, in get
+        mgs[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120720 00:27:42 web:1447] 500 GET /genreid (127.0.0.1) 30.01ms
+[I 120720 00:28:19 autoreload:175] app.py modified; restarting server
+[I 120720 00:28:19 web:1447] 200 GET /genreid (127.0.0.1) 41.58ms
+[I 120720 00:29:21 autoreload:175] app.py modified; restarting server
+[I 120720 00:29:22 web:1447] 200 GET /genreid (127.0.0.1) 43.13ms
+[I 120720 00:29:22 web:1447] 200 GET /genreid (127.0.0.1) 36.06ms
+[I 120720 00:29:23 web:1447] 200 GET /genreid (127.0.0.1) 48.41ms
+[I 120720 00:29:37 autoreload:175] app.py modified; restarting server
+[I 120720 00:29:37 web:1447] 200 GET /genreid (127.0.0.1) 46.68ms
+[I 120720 00:29:38 web:1447] 200 GET /genreid (127.0.0.1) 29.74ms
+[I 120720 00:29:38 web:1447] 200 GET /genreid (127.0.0.1) 30.46ms
+[I 120720 00:30:06 autoreload:175] app.py modified; restarting server
+[E 120720 00:30:07 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        mgs[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120720 00:30:07 web:1447] 500 GET /genreid (127.0.0.1) 46.32ms
+[E 120720 00:30:08 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        mgs[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120720 00:30:08 web:1447] 500 GET /genreid (127.0.0.1) 38.58ms
+[E 120720 00:30:09 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        mgs[key] = value.encode('utf-8')
+    AttributeError: 'int' object has no attribute 'encode'
+[E 120720 00:30:09 web:1447] 500 GET /genreid (127.0.0.1) 43.11ms
+[I 120720 00:30:27 autoreload:175] app.py modified; restarting server
+[I 120720 00:30:27 web:1447] 200 GET /genreid (127.0.0.1) 58.07ms
+[I 120720 00:30:41 autoreload:175] app.py modified; restarting server
+[E 120720 00:30:42 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 86, in get
+        for key, value in mgs.items():
+    AttributeError: 'list' object has no attribute 'items'
+[E 120720 00:30:42 web:1447] 500 GET /genreid (127.0.0.1) 37.61ms
+[I 120720 00:31:05 autoreload:175] app.py modified; restarting server
+[I 120720 00:31:05 web:1447] 200 GET /genreid (127.0.0.1) 41.29ms
+[I 120720 00:31:06 web:1447] 200 GET /genreid (127.0.0.1) 44.86ms
+[I 120720 00:31:25 autoreload:175] app.py modified; restarting server
+[I 120720 00:31:56 autoreload:175] app.py modified; restarting server
+[I 120720 00:31:56 web:1447] 200 GET /genreid (127.0.0.1) 62.69ms
+[I 120720 00:31:57 web:1447] 200 GET /genreid (127.0.0.1) 26.02ms
+[I 120720 00:31:58 web:1447] 200 GET /genreid (127.0.0.1) 24.90ms
+[I 120720 00:31:58 web:1447] 200 GET /genreid (127.0.0.1) 55.92ms
+[I 120720 00:32:23 autoreload:175] app.py modified; restarting server
+[I 120720 00:32:24 web:1447] 200 GET /genreid (127.0.0.1) 49.83ms
+[I 120720 00:32:25 web:1447] 200 GET /genreid (127.0.0.1) 41.12ms
+[W 120720 00:32:25 iostream:425] Read error on 202: [Errno 54] Connection reset by peer
+[E 120720 00:32:25 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 93, in get
+        self.render("genreid.html", message=mgs_dict)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 386, in _try_inline_read
+        if self._read_to_buffer() == 0:
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 54] Connection reset by peer
+[E 120720 00:32:25 web:718] Cannot send error response after headers written
+[E 120720 00:32:25 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120720 00:32:25 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x10bd0d5d0>
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[I 120720 00:32:25 web:1447] 200 GET /genreid (127.0.0.1) 23.74ms
+[W 120720 00:32:26 iostream:425] Read error on 202: [Errno 54] Connection reset by peer
+[E 120720 00:32:26 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 93, in get
+        self.render("genreid.html", message=mgs_dict)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 386, in _try_inline_read
+        if self._read_to_buffer() == 0:
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 54] Connection reset by peer
+[E 120720 00:32:26 web:718] Cannot send error response after headers written
+[E 120720 00:32:26 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120720 00:32:26 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x10bd0d6d8>
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/Library/Python/2.7/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/Library/Python/2.7/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[I 120720 00:32:26 web:1447] 200 GET /genreid (127.0.0.1) 36.69ms
+[I 120720 00:33:13 autoreload:175] app.py modified; restarting server
+[E 120720 00:33:14 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        for key, value in m.items():
+    AttributeError: 'unicode' object has no attribute 'items'
+[E 120720 00:33:14 web:1447] 500 GET /genreid (127.0.0.1) 41.05ms
+[I 120720 00:33:22 autoreload:175] app.py modified; restarting server
+[E 120720 00:33:22 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        for key, value in m.items():
+    AttributeError: 'unicode' object has no attribute 'items'
+[E 120720 00:33:22 web:1447] 500 GET /genreid (127.0.0.1) 63.58ms
+[E 120720 00:33:23 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        for key, value in m.items():
+    AttributeError: 'unicode' object has no attribute 'items'
+[E 120720 00:33:23 web:1447] 500 GET /genreid (127.0.0.1) 48.56ms
+[I 120720 00:33:29 autoreload:175] app.py modified; restarting server
+[I 120720 00:33:29 web:1447] 200 GET /genreid (127.0.0.1) 43.14ms
+[I 120720 00:33:30 web:1447] 200 GET /genreid (127.0.0.1) 24.78ms
+[I 120720 00:33:37 autoreload:175] app.py modified; restarting server
+[E 120720 00:33:37 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        for key, value in m.items():
+    AttributeError: 'unicode' object has no attribute 'items'
+[E 120720 00:33:37 web:1447] 500 GET /genreid (127.0.0.1) 43.17ms
+[I 120720 00:33:40 autoreload:175] app.py modified; restarting server
+[I 120720 00:33:41 web:1447] 200 GET /genreid (127.0.0.1) 40.16ms
+[I 120720 00:33:42 web:1447] 200 GET /genreid (127.0.0.1) 39.77ms
+[I 120720 00:33:42 web:1447] 200 GET /genreid (127.0.0.1) 49.31ms
+[I 120720 00:33:47 autoreload:175] app.py modified; restarting server
+[I 120720 00:33:47 web:1447] 200 GET /genreid (127.0.0.1) 54.28ms
+[I 120720 00:33:48 web:1447] 200 GET /genreid (127.0.0.1) 24.12ms
+[I 120720 00:33:55 autoreload:175] app.py modified; restarting server
+[I 120720 00:33:57 autoreload:175] app.py modified; restarting server
+[I 120720 00:33:58 web:1447] 200 GET /genreid (127.0.0.1) 50.07ms
+[I 120720 00:33:59 web:1447] 200 GET /genreid (127.0.0.1) 25.91ms
+[I 120720 00:34:15 autoreload:175] app.py modified; restarting server
+[I 120720 00:34:41 web:1447] 200 GET /genreid (127.0.0.1) 45.13ms
+[I 120720 00:34:43 web:1447] 200 GET /genreid (127.0.0.1) 34.53ms
+[I 120720 00:34:43 web:1447] 200 GET /genreid (127.0.0.1) 32.87ms
+[I 120720 00:34:43 web:1447] 200 GET /genreid (127.0.0.1) 74.38ms
+[I 120720 00:35:46 autoreload:175] app.py modified; restarting server
+[I 120720 00:35:47 web:1447] 200 GET /genreid (127.0.0.1) 38.23ms
+[E 120720 00:35:47 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        self.render("genreid.html", message=mgs_dict)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120720 00:35:47 web:718] Cannot send error response after headers written
+[I 120720 00:35:47 web:1447] 200 GET /genreid (127.0.0.1) 31.44ms
+[E 120720 00:35:47 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        self.render("genreid.html", message=mgs_dict)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120720 00:35:47 web:718] Cannot send error response after headers written
+[I 120720 00:35:48 web:1447] 200 GET /genreid (127.0.0.1) 29.18ms
+[E 120720 00:35:48 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 88, in get
+        self.render("genreid.html", message=mgs_dict)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120720 00:35:48 web:718] Cannot send error response after headers written
+[I 120720 00:36:07 autoreload:175] app.py modified; restarting server
+[I 120720 00:37:39 autoreload:175] app.py modified; restarting server
+[E 120720 00:37:41 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 90, in get
+        mgs_dict.update(m)
+    NameError: global name 'mgs_dict' is not defined
+[E 120720 00:37:41 web:1447] 500 GET /genreid (127.0.0.1) 87.26ms
+[E 120720 00:37:42 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 90, in get
+        mgs_dict.update(m)
+    NameError: global name 'mgs_dict' is not defined
+[E 120720 00:37:42 web:1447] 500 GET /genreid (127.0.0.1) 22.68ms
+[I 120720 00:37:48 autoreload:175] app.py modified; restarting server
+[E 120720 00:37:48 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 90, in get
+        self.render("genreid.html", message=mgs_dict)
+    NameError: global name 'mgs_dict' is not defined
+[E 120720 00:37:48 web:1447] 500 GET /genreid (127.0.0.1) 40.02ms
+[E 120720 00:37:49 web:1064] Uncaught exception GET /genreid (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/genreid', version='HTTP/1.1', remote_ip='127.0.0.1', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2'})
+    Traceback (most recent call last):
+      File "/Library/Python/2.7/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "app.py", line 90, in get
+        self.render("genreid.html", message=mgs_dict)
+    NameError: global name 'mgs_dict' is not defined
+[E 120720 00:37:49 web:1447] 500 GET /genreid (127.0.0.1) 391.31ms
+[I 120720 00:38:00 autoreload:175] app.py modified; restarting server
+[I 120720 00:38:01 web:1447] 200 GET /genreid (127.0.0.1) 42.70ms
+[I 120720 00:38:02 autoreload:175] app.py modified; restarting server

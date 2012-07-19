@@ -34,6 +34,7 @@ class Application(tornado.web.Application):
     def __init__(self):
         handlers = [
             (r"/", MainHandler),
+            (r"/genreid", GenreIdHandler)
         ]
         settings = dict(
             template_path=os.path.join(os.path.dirname(__file__), "templates"),
@@ -42,27 +43,26 @@ class Application(tornado.web.Application):
             )
         tornado.web.Application.__init__(self, handlers, **settings)
 
-def rakuten_api(keyword):
+def rakuten_api(**parts):
     host = "http://api.rakuten.co.jp/rws/3.0/json?"
-    developerId = "375ecf0e10025bd1489adffb9c51c018"
-    search_dict = {"operation": "ItemSearch",
-    		   "version": "2010-09-15"}
-    search_dict["developerId"] = developerId
-    search_dict["keyword"] = keyword
+    search_dict = {"developerId" : "375ecf0e10025bd1489adffb9c51c018"}
+    search_dict.update(parts)
     search_list = []
     for key, value in search_dict.iteritems():
     	temp = '%s=%s' % (key, value)
     	search_list.append(temp)
     url = host + '&'.join(search_list)
     response = urllib2.urlopen(url)
-    j = tornado.escape.json_decode(response.read())
+    api_result = tornado.escape.json_decode(response.read())
+    return api_result
+"""
     infos = j['Body']["ItemSearch"]["Items"]["Item"]
     url_list = []
     for info in infos:
         for key in info.keys():
             if key == "mediumImageUrl":
                 url_list.append(info[key]) 
-    return url_list
+"""
 
 #            value = info[key]
 #            if type(value) is unicode:
@@ -76,13 +76,28 @@ def rakuten_api(keyword):
 #    json_html = response.read()
 #    return json.dumps(json_html, sort_keys=True, indent=4)
 
+class GenreIdHandler(tornado.web.RequestHandler):
+    """docstring for GenreIdHandler"""
+    def get(self):
+        mgs = rakuten_api(operation="GenreSearch", 
+                          version = "2007-04-11", 
+                          genreId="0")
+        mgs_list = mgs["Body"]["GenreSearch"]["child"]
+        for m in mgs_list:
+            for key, value in m.items():
+                if type(value) is not unicode:
+                    m[key] = str(value).encode('utf-8')
+        self.render("genreid.html", message=m)
+
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("template_test.html")
+        self.render("index.html")
     
     def post(self):
-        message=self.get_argument("message")
-        mgs = rakuten_api(message)
+        keyword=self.get_argument("message")
+        mgs = rakuten_api(operation="ItemSearch", 
+                          version="2010-09-15", 
+                          keyword=keyword)
         self.render("template_mgs.html", message=mgs)
 
 def main():
