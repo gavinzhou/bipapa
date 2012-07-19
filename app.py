@@ -62,19 +62,19 @@ def rakuten_api(**parts):
         for key in info.keys():
             if key == "mediumImageUrl":
                 url_list.append(info[key]) 
-"""
 
-#            value = info[key]
-#            if type(value) is unicode:
-#                m = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
-#                if m:
-#                    url_list.append(value) 
+            value = info[key]
+            if type(value) is unicode:
+                m = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
+                if m:
+                    url_list.append(value) 
                 
-#    mgs = json.dumps(info, ensure_ascii=False)
-#    return j['Body']["ItemSearch"]["Items"]["Item"][0]["mediumImageUrl"]
-#    return mgs
-#    json_html = response.read()
-#    return json.dumps(json_html, sort_keys=True, indent=4)
+    mgs = json.dumps(info, ensure_ascii=False)
+    return j['Body']["ItemSearch"]["Items"]["Item"][0]["mediumImageUrl"]
+    return mgs
+    json_html = response.read()
+    return json.dumps(json_html, sort_keys=True, indent=4)
+"""
 
 class GenreIdHandler(tornado.web.RequestHandler):
     """docstring for GenreIdHandler"""
