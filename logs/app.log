@@ -1,0 +1,156 @@
+[I 120719 16:56:14 web:1447] 200 GET / (127.0.0.1) 3.55ms
+[I 120719 16:57:26 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 17:39:10 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 17:39:19 web:1447] 304 GET / (192.168.32.17) 3.67ms
+[W 120719 17:39:20 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.97ms
+[E 120719 17:39:21 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 84, in post
+        mgs = search_api(message)
+    TypeError: search_api() takes exactly 2 arguments (1 given)
+[E 120719 17:39:21 web:1447] 500 POST / (192.168.32.17) 0.96ms
+[W 120719 17:39:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[W 120719 17:39:25 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[E 120719 17:39:27 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 84, in post
+        mgs = search_api(message)
+    TypeError: search_api() takes exactly 2 arguments (1 given)
+[E 120719 17:39:27 web:1447] 500 POST / (192.168.32.17) 0.65ms
+[W 120719 17:39:27 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.52ms
+[W 120719 17:39:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 17:39:53 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 17:39:57 web:1447] 304 GET / (192.168.32.17) 3.63ms
+[W 120719 17:39:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.98ms
+[W 120719 17:39:59 web:1056] 400 POST / (192.168.32.17): Missing argument message
+[W 120719 17:39:59 web:1447] 400 POST / (192.168.32.17) 0.58ms
+[W 120719 17:39:59 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[W 120719 17:40:03 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120719 17:41:17 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 17:41:44 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 17:41:49 web:1447] 200 POST / (192.168.32.17) 355.35ms
+[W 120719 17:41:49 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.05ms
+[W 120719 17:41:51 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120719 18:01:39 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:01:48 web:1447] 304 GET / (192.168.32.17) 3.45ms
+[W 120719 18:01:48 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.94ms
+[E 120719 18:01:54 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 85, in post
+        mgs = search_api(host, d_id, message)
+      File "/root/bipapa/app.py", line 51, in search_api
+        searach_dict.update(d_id)
+    NameError: global name 'searach_dict' is not defined
+[E 120719 18:01:54 web:1447] 500 POST / (192.168.32.17) 0.96ms
+[W 120719 18:01:55 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[W 120719 18:01:58 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120719 18:03:13 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:03:20 web:1447] 304 GET / (192.168.32.17) 3.46ms
+[W 120719 18:03:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[E 120719 18:03:25 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 85, in post
+        mgs = search_api(host, d_id, message)
+      File "/root/bipapa/app.py", line 51, in search_api
+        searach_dict.update(d_id)
+    NameError: global name 'searach_dict' is not defined
+[E 120719 18:03:25 web:1447] 500 POST / (192.168.32.17) 0.95ms
+[W 120719 18:03:25 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 18:15:10 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120719 18:15:14 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 86, in post
+        mgs = search_api(host, d_id, message)
+      File "/root/bipapa/app.py", line 52, in search_api
+        searach_dict.update(d_id)
+    NameError: global name 'searach_dict' is not defined
+[E 120719 18:15:14 web:1447] 500 POST / (192.168.32.17) 2.01ms
+[W 120719 18:15:14 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120719 18:15:16 web:1447] 304 GET / (192.168.32.17) 3.39ms
+[W 120719 18:15:17 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[E 120719 18:15:20 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 86, in post
+        mgs = search_api(host, d_id, message)
+      File "/root/bipapa/app.py", line 52, in search_api
+        searach_dict.update(d_id)
+    NameError: global name 'searach_dict' is not defined
+[E 120719 18:15:20 web:1447] 500 POST / (192.168.32.17) 0.74ms
+[W 120719 18:15:20 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120719 18:15:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 18:29:13 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:29:15 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120719 18:29:22 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 85, in post
+        mgs = search_api(host, d_id, message)
+    NameError: global name 'd_id' is not defined
+[E 120719 18:29:22 web:1447] 500 POST / (192.168.32.17) 1.94ms
+[W 120719 18:29:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.40ms
+[I 120719 18:29:33 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120719 18:29:34 web:1064] Uncaught exception POST / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='message=lego', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '12', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 85, in post
+        mgs = search_api(host, message)
+      File "/root/bipapa/app.py", line 51, in search_api
+        searach_dict.update(d_id)
+    NameError: global name 'searach_dict' is not defined
+[E 120719 18:29:34 web:1447] 500 POST / (192.168.32.17) 1.95ms
+[W 120719 18:29:35 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120719 18:31:13 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:31:15 web:1447] 200 POST / (192.168.32.17) 237.69ms
+[W 120719 18:31:15 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.09ms
+[I 120719 18:31:17 web:1447] 304 GET / (192.168.32.17) 0.69ms
+[W 120719 18:31:18 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120719 18:31:26 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:37:30 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:37:37 web:1447] 304 GET / (192.168.32.17) 3.65ms
+[W 120719 18:37:38 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120719 18:37:39 web:1447] 200 POST / (192.168.32.17) 246.06ms
+[W 120719 18:37:40 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[W 120719 18:37:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 18:37:45 web:1447] 200 POST / (192.168.32.17) 935.40ms
+[W 120719 18:37:46 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[W 120719 18:37:46 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 18:37:49 web:1447] 200 POST / (192.168.32.17) 236.43ms
+[W 120719 18:37:50 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[W 120719 18:37:50 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 18:52:53 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:53:55 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:54:00 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:55:26 web:1447] 304 GET / (192.168.32.17) 17.21ms
+[W 120719 18:55:27 web:1447] 404 GET /favicon.ico (192.168.32.17) 11.64ms
+[I 120719 18:55:33 web:1447] 200 POST / (192.168.32.17) 203.76ms
+[W 120719 18:55:34 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[W 120719 18:55:36 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120719 18:55:38 web:1447] 200 POST / (192.168.32.17) 192.23ms
+[W 120719 18:55:39 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[W 120719 18:55:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120719 18:58:15 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120719 18:58:20 web:1447] 200 POST / (192.168.32.17) 188.76ms
+[W 120719 18:58:20 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.05ms
+[W 120719 18:58:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms

@@ -29,6 +29,7 @@ from tornado.options import define, options
 
 define("port", default=8888, help="run on the given port", type=int)
 
+
 class Application(tornado.web.Application):
     def __init__(self):
         handlers = [
@@ -41,11 +42,12 @@ class Application(tornado.web.Application):
             )
         tornado.web.Application.__init__(self, handlers, **settings)
 
-def search_api(keyword):
+def rakuten_api(keyword):
     host = "http://api.rakuten.co.jp/rws/3.0/json?"
-    search_dict = {"developerId": "375ecf0e10025bd1489adffb9c51c018",
-    		   "operation": "ItemSearch",
+    developerId = "375ecf0e10025bd1489adffb9c51c018"
+    search_dict = {"operation": "ItemSearch",
     		   "version": "2010-09-15"}
+    search_dict["developerId"] = developerId
     search_dict["keyword"] = keyword
     search_list = []
     for key, value in search_dict.iteritems():
@@ -61,6 +63,7 @@ def search_api(keyword):
             if key == "mediumImageUrl":
                 url_list.append(info[key]) 
     return url_list
+
 #            value = info[key]
 #            if type(value) is unicode:
 #                m = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
@@ -79,10 +82,11 @@ class MainHandler(tornado.web.RequestHandler):
     
     def post(self):
         message=self.get_argument("message")
-        mgs = search_api(message)
+        mgs = rakuten_api(message)
         self.render("template_mgs.html", message=mgs)
 
 def main():
+    tornado.options.options['log_file_prefix'].set('./logs/app.log')
     tornado.options.parse_command_line()
     http_server = tornado.httpserver.HTTPServer(Application())
     http_server.listen(options.port)
