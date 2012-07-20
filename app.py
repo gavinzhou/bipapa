@@ -34,7 +34,7 @@ class Application(tornado.web.Application):
     def __init__(self):
         handlers = [
             (r"/", MainHandler),
-            (r"/genreid", GenreIdHandler)
+            (r"/genreid/(\d+)?", GenreIdHandler)
         ]
         settings = dict(
             template_path=os.path.join(os.path.dirname(__file__), "templates"),
@@ -55,39 +55,17 @@ def rakuten_api(**parts):
     response = urllib2.urlopen(url)
     api_result = tornado.escape.json_decode(response.read())
     return api_result
-"""
-    infos = j['Body']["ItemSearch"]["Items"]["Item"]
-    url_list = []
-    for info in infos:
-        for key in info.keys():
-            if key == "mediumImageUrl":
-                url_list.append(info[key]) 
-
-            value = info[key]
-            if type(value) is unicode:
-                m = re.search(u'^http://(.*)(\.gif|\.jpg)', value)
-                if m:
-                    url_list.append(value) 
-                
-    mgs = json.dumps(info, ensure_ascii=False)
-    return j['Body']["ItemSearch"]["Items"]["Item"][0]["mediumImageUrl"]
-    return mgs
-    json_html = response.read()
-    return json.dumps(json_html, sort_keys=True, indent=4)
-"""
 
 class GenreIdHandler(tornado.web.RequestHandler):
     """docstring for GenreIdHandler"""
-    def get(self):
+    def get(self, genreId):
+        if genreId is None:
+            genreId = 0
         mgs = rakuten_api(operation="GenreSearch", 
                           version = "2007-04-11", 
-                          genreId="0")
+                          genreId = genreId)
         mgs_list = mgs["Body"]["GenreSearch"]["child"]
-        for m in mgs_list:
-            for key, value in m.items():
-                if type(value) is not unicode:
-                    m[key] = str(value).encode('utf-8')
-        self.render("genreid.html", message=m)
+        self.render("genreid.html", message=mgs_list)
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
@@ -98,7 +76,8 @@ class MainHandler(tornado.web.RequestHandler):
         mgs = rakuten_api(operation="ItemSearch", 
                           version="2010-09-15", 
                           keyword=keyword)
-        self.render("template_mgs.html", message=mgs)
+        mgs_list = mgs['Body']["ItemSearch"]["Items"]["Item"]
+        self.render("template_mgs.html", message=mgs_list)
 
 def main():
     tornado.options.options['log_file_prefix'].set('./logs/app.log')
@@ -106,7 +85,6 @@ def main():
     http_server = tornado.httpserver.HTTPServer(Application())
     http_server.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
-
 
 if __name__ == "__main__":
     main()

@@ -3,11 +3,24 @@
 <title>template function test</title>
 </head>
 <body>
-	{% if message %}
-   		{% for k,v in message.items() %}
-       		{{ k }} ==> {{ v }}</br>
-   		{% end %}
-	{% end%}
+{% if message %}
+    <table border="1">
+    {% for k in message[0].keys() %}
+        <td>{{k}}</td>
+    {% end %}
+    {% for mgs in message %}
+        <tr>
+        {% for k,v in mgs.items() %}
+            {% if k == "genreId" %}
+                <td><a href="/genreid/{{v}}">{{v}}</a></td>
+            {% else %}
+                <td>{{v}}</td>
+            {% end %}
+        {% end %}
+        </tr>
+    {% end %}
+    </table>
+{% end %}
 </form>
 </body>
 </html>

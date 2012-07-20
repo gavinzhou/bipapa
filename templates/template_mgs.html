@@ -4,11 +4,18 @@
 </head>
 <body>
 {% if message %}
-   {% for mgs in message %}
-       {{ mgs }}
-   {% end %}
-{% end%}
-
-</form>
+    <table border="1">
+    {% for k in message[0].keys() %}
+        <td>{{k}}</td>
+    {% end %}
+    {% for mgs in message %}
+        <tr>
+        {% for v in mgs.values() %}
+            <td>{{v}}</td>
+        {% end %}
+        </tr>
+    {% end %}
+    </table>
+{% end %}
 </body>
 </html>
