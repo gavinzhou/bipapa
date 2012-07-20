@@ -1023,3 +1023,203 @@
 [W 120720 15:13:07 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
 [I 120720 15:13:10 web:1447] 304 GET / (192.168.32.17) 0.67ms
 [W 120720 15:13:11 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[I 120720 17:54:14 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120720 18:08:00 web:1447] 304 GET /genreid/ (192.168.32.17) 31.48ms
+[W 120720 18:08:02 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.92ms
+[I 120720 18:08:05 web:1447] 200 GET /genreid/101164 (192.168.32.17) 34.55ms
+[W 120720 18:08:05 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.99ms
+[I 120720 18:08:09 web:1447] 200 GET /genreid/112928 (192.168.32.17) 46.76ms
+[W 120720 18:08:10 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[W 120720 18:08:12 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120720 18:25:37 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120720 18:32:09 template:257] ranking.html code:
+     1  def _execute():  # ranking.html:0
+     2      _buffer = []  # ranking.html:0
+     3      _append = _buffer.append  # ranking.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # ranking.html:6
+     5      if message:  # ranking.html:6
+     6          _append('\n<table border="1">\n')  # ranking.html:8
+     7          for k in message[0].keys():  # ranking.html:8
+     8              _append('\n<td>')  # ranking.html:9
+     9              _tmp = k  # ranking.html:9
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # ranking.html:9
+    11              else: _tmp = _utf8(str(_tmp))  # ranking.html:9
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # ranking.html:9
+    13              _append(_tmp)  # ranking.html:9
+    14              _append('</td>\n')  # ranking.html:10
+    15          _append('\n')  # ranking.html:11
+    16          for mgs in message:  # ranking.html:11
+    17              _append('\n<tr>\n')  # ranking.html:13
+    18              for v in mgs.items():  # ranking.html:13
+    19                  _append('\n<td>')  # ranking.html:14
+    20                  _tmp = v  # ranking.html:14
+    21                  if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # ranking.html:14
+    22                  else: _tmp = _utf8(str(_tmp))  # ranking.html:14
+    23                  _tmp = _utf8(xhtml_escape(_tmp))  # ranking.html:14
+    24                  _append(_tmp)  # ranking.html:14
+    25                  _append('</td>\n')  # ranking.html:15
+    26              _append('\n</tr>\n')  # ranking.html:17
+    27          _append('\n</table>\n')  # ranking.html:19
+    28      _append('\n</form>\n</body>\n</html>\n')  # ranking.html:23
+    29      return _utf8('').join(_buffer)  # ranking.html:0
+[E 120720 18:32:09 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        self.render("ranking.html", message=mgs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/usr/lib/python2.6/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "ranking_html.generated.py", line 7, in _execute
+        for k in message[0].keys():  # ranking.html:8
+    KeyError: 0
+[E 120720 18:32:09 web:1447] 500 GET /ranking (192.168.32.17) 122.33ms
+[W 120720 18:32:10 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120720 18:32:13 web:1447] 200 GET /genreid/ (192.168.32.17) 30.32ms
+[W 120720 18:32:14 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[E 120720 18:32:18 template:257] ranking.html code:
+     1  def _execute():  # ranking.html:0
+     2      _buffer = []  # ranking.html:0
+     3      _append = _buffer.append  # ranking.html:0
+     4      _append('<html>\n<head>\n<title>template function test</title>\n</head>\n<body>\n')  # ranking.html:6
+     5      if message:  # ranking.html:6
+     6          _append('\n<table border="1">\n')  # ranking.html:8
+     7          for k in message[0].keys():  # ranking.html:8
+     8              _append('\n<td>')  # ranking.html:9
+     9              _tmp = k  # ranking.html:9
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # ranking.html:9
+    11              else: _tmp = _utf8(str(_tmp))  # ranking.html:9
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # ranking.html:9
+    13              _append(_tmp)  # ranking.html:9
+    14              _append('</td>\n')  # ranking.html:10
+    15          _append('\n')  # ranking.html:11
+    16          for mgs in message:  # ranking.html:11
+    17              _append('\n<tr>\n')  # ranking.html:13
+    18              for v in mgs.items():  # ranking.html:13
+    19                  _append('\n<td>')  # ranking.html:14
+    20                  _tmp = v  # ranking.html:14
+    21                  if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # ranking.html:14
+    22                  else: _tmp = _utf8(str(_tmp))  # ranking.html:14
+    23                  _tmp = _utf8(xhtml_escape(_tmp))  # ranking.html:14
+    24                  _append(_tmp)  # ranking.html:14
+    25                  _append('</td>\n')  # ranking.html:15
+    26              _append('\n</tr>\n')  # ranking.html:17
+    27          _append('\n</table>\n')  # ranking.html:19
+    28      _append('\n</form>\n</body>\n</html>\n')  # ranking.html:23
+    29      return _utf8('').join(_buffer)  # ranking.html:0
+[E 120720 18:32:18 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        self.render("ranking.html", message=mgs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/usr/lib/python2.6/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "ranking_html.generated.py", line 7, in _execute
+        for k in message[0].keys():  # ranking.html:8
+    KeyError: 0
+[E 120720 18:32:18 web:1447] 500 GET /ranking (192.168.32.17) 124.77ms
+[W 120720 18:32:18 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120720 18:33:20 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120720 18:33:24 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        mgs_list = mgs[Body][ItemRanking][Items][Item]
+    NameError: global name 'Body' is not defined
+[E 120720 18:33:24 web:1447] 500 GET /ranking (192.168.32.17) 111.40ms
+[W 120720 18:33:24 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.51ms
+[I 120720 18:33:40 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120720 18:33:40 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        mgs_list = mgs[Body]
+    NameError: global name 'Body' is not defined
+[E 120720 18:33:40 web:1447] 500 GET /ranking (192.168.32.17) 91.64ms
+[W 120720 18:33:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.39ms
+[E 120720 18:34:10 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        mgs_list = mgs[Body]
+    NameError: global name 'Body' is not defined
+[E 120720 18:34:10 web:1447] 500 GET /ranking (192.168.32.17) 81.25ms
+[W 120720 18:34:10 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[E 120720 18:34:11 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        mgs_list = mgs[Body]
+    NameError: global name 'Body' is not defined
+[E 120720 18:34:11 web:1447] 500 GET /ranking (192.168.32.17) 80.70ms
+[W 120720 18:34:11 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.34ms
+[E 120720 18:34:11 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        mgs_list = mgs[Body]
+    NameError: global name 'Body' is not defined
+[E 120720 18:34:11 web:1447] 500 GET /ranking (192.168.32.17) 75.36ms
+[W 120720 18:34:12 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[E 120720 18:34:12 web:1064] Uncaught exception GET /ranking (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/ranking', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 65, in get
+        mgs_list = mgs[Body]
+    NameError: global name 'Body' is not defined
+[E 120720 18:34:12 web:1447] 500 GET /ranking (192.168.32.17) 79.57ms
+[W 120720 18:34:12 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.34ms
+[I 120720 18:34:33 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120720 18:34:33 web:1447] 200 GET /ranking (192.168.32.17) 92.43ms
+[W 120720 18:34:34 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[I 120720 18:35:11 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120720 18:35:12 web:1447] 200 GET /ranking (192.168.32.17) 106.49ms
+[W 120720 18:35:12 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.87ms
+[I 120720 18:35:14 web:1447] 200 GET /ranking (192.168.32.17) 95.07ms
+[W 120720 18:35:14 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120720 18:35:26 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120720 18:36:17 web:1447] 200 GET /ranking (192.168.32.17) 91.65ms
+[W 120720 18:36:18 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[I 120720 18:36:44 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120720 18:36:45 web:1447] 200 GET /ranking (192.168.32.17) 94.74ms
+[W 120720 18:36:45 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.02ms
+[I 120720 18:37:21 web:1447] 200 GET /ranking (192.168.32.17) 103.80ms
+[W 120720 18:37:21 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.85ms
+[I 120720 18:42:34 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120720 18:42:38 web:1447] 200 GET /ranking (192.168.32.17) 153.87ms
+[W 120720 18:42:39 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.85ms
+[I 120720 18:44:20 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120720 18:44:22 web:1447] 200 GET /ranking (192.168.32.17) 147.71ms
+[W 120720 18:44:23 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.00ms
+[I 120720 18:44:30 web:1447] 200 GET /ranking (192.168.32.17) 134.46ms
+[W 120720 18:44:31 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.01ms
+[W 120720 18:45:07 web:1447] 404 GET /ranking/ (192.168.32.17) 0.36ms
+[W 120720 18:45:08 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120720 18:45:10 web:1447] 200 GET /ranking (192.168.32.17) 122.11ms
+[W 120720 18:45:11 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[I 120720 18:45:27 web:1447] 200 GET /ranking (192.168.32.17) 113.37ms
+[W 120720 18:45:28 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[I 120720 18:48:40 autoreload:175] /root/bipapa/app.py modified; restarting server

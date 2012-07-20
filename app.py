@@ -29,12 +29,12 @@ from tornado.options import define, options
 
 define("port", default=8888, help="run on the given port", type=int)
 
-
 class Application(tornado.web.Application):
     def __init__(self):
         handlers = [
             (r"/", MainHandler),
-            (r"/genreid/(\d+)?", GenreIdHandler)
+            (r"/genreid/(\d+)?", GenreIdHandler),
+            (r"/ranking", RankingHandler)
         ]
         settings = dict(
             template_path=os.path.join(os.path.dirname(__file__), "templates"),
@@ -55,6 +55,15 @@ def rakuten_api(**parts):
     response = urllib2.urlopen(url)
     api_result = tornado.escape.json_decode(response.read())
     return api_result
+
+class RankingHandler(tornado.web.RequestHandler):
+    def get(self):
+        mgs = rakuten_api(operation="ItemRanking",
+                          version = "2010-08-05",
+                          sex = "1",
+                          age = "20")
+        mgs_list = mgs['Body']['ItemRanking']['Items']['Item']
+        self.render("ranking.html", message=mgs_list)
 
 class GenreIdHandler(tornado.web.RequestHandler):
     """docstring for GenreIdHandler"""
