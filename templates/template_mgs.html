@@ -3,6 +3,9 @@
 <title>template function test</title>
 </head>
 <body>
+<form action="/" method="post">
+<input type="text" name="message">
+<input type="submit" value="Submit">
 {% if message %}
     <table border="1">
     {% for k in message[0].keys() %}

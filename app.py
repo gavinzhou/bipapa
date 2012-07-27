@@ -15,6 +15,8 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
+import logging
+
 import os.path
 import tornado.httpserver
 import tornado.ioloop
@@ -25,6 +27,8 @@ import tornado.escape
 import json
 import re
 import pymongo
+import pycurl
+import StringIO
 
 from tornado.options import define, options
 
@@ -57,6 +61,15 @@ def rakuten_api(**parts):
     	search_list.append(temp)
     url = host + '&'.join(search_list)
     response = urllib2.urlopen(url)
+#    c = pycurl.Curl()
+#    c.setopt(pycurl.URL, url)
+#    b = StringIO.StringIO()
+#    c.setopt(pycurl.WRITEFUNCTION, b.write)
+#    c.setopt(pycurl.FOLLOWLOCATION, 1)
+#    c.setopt(pycurl.MAXREDIRS, 5)
+#    c. perform()
+#    response = b.getvalue()
+#    api_result = tornado.escape.json_decode(response)
     api_result = tornado.escape.json_decode(response.read())
     return api_result
 
@@ -104,31 +117,26 @@ class SearchGenreIdHandler(tornado.web.RequestHandler):
         
 class GenreIdHandler(tornado.web.RequestHandler):
     def get(self, genreId):
-        coll = self.application.db.genreId
         if genreId is None:
-           genreId = 0
+            genreId = 0
         mgs = rakuten_api(operation="GenreSearch", 
                           version = "2007-04-11", 
                           genreId = genreId)
         if mgs["Header"]["Status"] == "Success":
-            mgs_list = mgs["Body"]["GenreSearch"]["child"]
-            for m in mgs_list:
-                for k,v in m.items():
-                   genreid_doc = coll.find_one({k: v})
-                   if not genreid_doc:
-                       coll.insert(m)
-#            genreId_doc = coll.find({"genreLevel" : mgs_list[0]["genreLevel"]})
-            self.render("genreid.html", message=genreId_doc)
+            grenreid_doc  = mgs["Body"]["GenreSearch"]
+            self.render("genreid.html", message = grenreid_doc)
         else:
+            logging.error(mgs["StatusMsg"])
             self.set_status(404)
             self.write("error genreId not found")
-
+        
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
         self.render("index.html")
     
     def post(self):
-        keyword=self.get_argument("message")
+        keyword = self.get_argument("message")
+        keyword = urllib2.quote(keyword.encode('utf-8'))
         mgs = rakuten_api(operation="ItemSearch", 
                           version="2010-09-15", 
                           keyword=keyword)

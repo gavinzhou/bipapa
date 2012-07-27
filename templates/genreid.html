@@ -3,28 +3,33 @@
 <title>template function test</title>
 </head>
 <body>
-<form action="/searchgenreid/" method="post">
+<form action="/genreid/" method="post">
 <input type="text" name="genreId">
 <input type="submit" value="Submit">
 </form>
-{% if message %}
     <table border="1">
-    {% for k in message[0].keys() %}
-        <td>{{k}}</td>
-    {% end %}
-    {% for mgs in message %}
+    {% for key,value in message.items() %}
         <tr>
-        {% for k,v in mgs.items() %}
-            {% if k == "genreName" %}
-                <td><a href="/searchgenreid/{{mgs["genreId"]}}">{{v}}</a></td>
-            {% else %}
-                <td>{{v}}</td>
-            {% end %}
-        {% end %}
+            <td>{{key}}</td>
         </tr>
+            {%if len(value) %}
+                {% for k in value[0].keys() %}
+                    <td>{{k}}</td>
+                {% end %}
+                {% for l in value %}
+                    <tr>
+                    {% for k,v in l.items() %}
+                        {% if k == "genreName" %}
+                            <td><a href="/genreid/{{l["genreId"]}}">{{v}}</a></td>
+                        {% else %}
+                            <td>{{v}}</td>
+                        {% end %}
+                    {% end %}
+                    </tr>
+                {% end %}
+            {% end %}
     {% end %}
     </table>
-{% end %}
 </form>
 </body>
 </html>
