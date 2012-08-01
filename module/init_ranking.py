@@ -27,14 +27,13 @@ def genreIdList():
     return  mongo_coll.find({'genreLevel': 2},{"genreId": 1,"_id": 0})
 
 def main():
-    genreid_list = genreIdList()
-#    genreid_list = [{"genreId": "110729"}]
+#    genreid_list = genreIdList()
+    genreid_list = [{"genreId": "110729"}]
 #    genreid_list = [{"genreId": "100380"}]
     if genreid_list:
         items_keys = ["itemName", "mediumImageUrl", "itemPrice", "genreId", "itemUrl"]
         for genreid in genreid_list:
             items_list =  rankingGet(genreid["genreId"])
-            print len(items_list)
             if items_list:
                 COLLECTION_NAME = 'ranking' + str(genreid["genreId"])
                 mongo_conn = Connection()
