@@ -51,16 +51,16 @@ class Application(tornado.web.Application):
             )
         tornado.web.Application.__init__(self, handlers, **settings)
 
-def rakuten_api(**parts):
-    host = "http://api.rakuten.co.jp/rws/3.0/json?"
-    search_dict = {"developerId" : "375ecf0e10025bd1489adffb9c51c018"}
-    search_dict.update(parts)
-    search_list = []
-    for key, value in search_dict.iteritems():
-    	temp = '%s=%s' % (key, value)
-    	search_list.append(temp)
-    url = host + '&'.join(search_list)
-    response = urllib2.urlopen(url)
+#def rakuten_api(**parts):
+#    host = "http://api.rakuten.co.jp/rws/3.0/json?"
+#    search_dict = {"developerId" : "375ecf0e10025bd1489adffb9c51c018"}
+#    search_dict.update(parts)
+#    search_list = []
+#    for key, value in search_dict.iteritems():
+#    	temp = '%s=%s' % (key, value)
+#    	search_list.append(temp)
+#    url = host + '&'.join(search_list)
+#    response = urllib2.urlopen(url)
 #    c = pycurl.Curl()
 #    c.setopt(pycurl.URL, url)
 #    b = StringIO.StringIO()
@@ -70,8 +70,8 @@ def rakuten_api(**parts):
 #    c. perform()
 #    response = b.getvalue()
 #    api_result = tornado.escape.json_decode(response)
-    api_result = tornado.escape.json_decode(response.read())
-    return api_result
+#    api_result = tornado.escape.json_decode(response.read())
+#    return api_result
 
 class RankingHandler(tornado.web.RequestHandler):
     def get(self):
@@ -129,9 +129,20 @@ class GenreIdHandler(tornado.web.RequestHandler):
             logging.error(mgs["StatusMsg"])
             self.set_status(404)
             self.write("error genreId not found")
+
+def getimg():
+    from pymongo import Connection
+    from gridfs import GridFS
+    db = Connection().test
+    fs = GridFS(db)
+    id = "501a48e841ab1020015db2d9.jpg"
+    im = fs.get_last_version(id).read()
+    return im
         
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
+#        self.set_header("Content-Type", "image/JPEG")
+#        self.write(getimg())
         self.render("index.html")
     
     def post(self):

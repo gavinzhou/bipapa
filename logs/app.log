@@ -307,3 +307,99 @@
 [I 120801 18:08:57 web:1447] 304 GET / (192.168.32.17) 8.16ms
 [I 120802 18:46:05 web:1447] 304 GET / (192.168.32.17) 12.78ms
 [W 120802 18:46:06 web:1447] 404 GET /favicon.ico (192.168.32.17) 21.76ms
+[I 120802 19:16:02 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:17:26 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:17:55 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:18:50 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:19:34 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:20:18 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:20:22 web:1447] 200 GET / (192.168.32.17) 0.56ms
+[W 120802 19:20:23 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.99ms
+[I 120802 19:20:46 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120802 19:20:47 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"d1a112a8e0f2117e090bfdddc8780304897e7817"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.write(getimg())
+      File "/root/bipapa/app.py", line 140, in getimg
+        conn.close()
+    NameError: global name 'conn' is not defined
+[E 120802 19:20:47 web:1447] 500 GET / (192.168.32.17) 8.26ms
+[W 120802 19:20:48 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.50ms
+[I 120802 19:21:02 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120802 19:21:04 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.write(getimg())
+      File "/root/bipapa/app.py", line 140, in getimg
+        db.close()
+      File "/usr/lib64/python2.6/site-packages/pymongo/collection.py", line 1193, in __call__
+        self.__name)
+    TypeError: 'Collection' object is not callable. If you meant to call the 'close' method on a 'Database' object it is failing because no such method exists.
+[E 120802 19:21:04 web:1447] 500 GET / (192.168.32.17) 17.57ms
+[W 120802 19:21:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.51ms
+[E 120802 19:21:05 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.write(getimg())
+      File "/root/bipapa/app.py", line 140, in getimg
+        db.close()
+      File "/usr/lib64/python2.6/site-packages/pymongo/collection.py", line 1193, in __call__
+        self.__name)
+    TypeError: 'Collection' object is not callable. If you meant to call the 'close' method on a 'Database' object it is failing because no such method exists.
+[E 120802 19:21:05 web:1447] 500 GET / (192.168.32.17) 4.42ms
+[W 120802 19:21:05 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[E 120802 19:21:05 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.write(getimg())
+      File "/root/bipapa/app.py", line 140, in getimg
+        db.close()
+      File "/usr/lib64/python2.6/site-packages/pymongo/collection.py", line 1193, in __call__
+        self.__name)
+    TypeError: 'Collection' object is not callable. If you meant to call the 'close' method on a 'Database' object it is failing because no such method exists.
+[E 120802 19:21:05 web:1447] 500 GET / (192.168.32.17) 4.35ms
+[W 120802 19:21:06 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.34ms
+[I 120802 19:21:09 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:21:10 web:1447] 200 GET / (192.168.32.17) 6.40ms
+[W 120802 19:21:13 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.92ms
+[I 120802 19:21:35 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:21:38 web:1447] 200 GET / (192.168.32.17) 4.95ms
+[W 120802 19:21:39 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.94ms
+[I 120802 19:21:39 web:1447] 304 GET / (192.168.32.17) 3.52ms
+[W 120802 19:21:40 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.34ms
+[I 120802 19:23:02 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120802 19:23:08 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'If-None-Match': '"39302de821b2e98e5347bac175d40828aa85b78b"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 144, in get
+        self.write(getimg(), mimetype="image/JPEG")
+    TypeError: write() got an unexpected keyword argument 'mimetype'
+[E 120802 19:23:08 web:1447] 500 GET / (192.168.32.17) 6.96ms
+[W 120802 19:23:09 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.51ms
+[I 120802 19:25:18 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:25:20 web:1447] 200 GET / (192.168.32.17) 6.33ms
+[W 120802 19:25:21 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.92ms
+[I 120802 19:26:15 web:1447] 304 GET / (192.168.32.17) 4.75ms
+[W 120802 19:26:17 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120802 19:26:18 web:1447] 304 GET / (192.168.32.17) 4.33ms
+[W 120802 19:26:18 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120802 19:26:19 web:1447] 304 GET / (192.168.32.17) 4.19ms
+[I 120802 19:26:21 web:1447] 304 GET / (192.168.32.17) 4.31ms
+[W 120802 19:26:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120802 19:26:31 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:26:34 web:1447] 200 GET / (192.168.32.17) 3.61ms
+[W 120802 19:26:35 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
