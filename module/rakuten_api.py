@@ -20,7 +20,7 @@ def rakuten_api(**parts):
     c.setopt(pycurl.WRITEFUNCTION, b.write)
     c.setopt(pycurl.FOLLOWLOCATION, 1)
     c.setopt(pycurl.MAXREDIRS, 5)
-    c. perform()
+    c.perform()
     response = b.getvalue()
     api_result = tornado.escape.json_decode(response)
     return api_result

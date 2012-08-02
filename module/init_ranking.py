@@ -4,6 +4,7 @@
 from pymongo import Connection
 from pymongo.errors import CollectionInvalid
 from rakuten_api import rakuten_api
+from get_img import GetImg
 
 def rankingGet(genreId):
     msg = rakuten_api(operation="ItemRanking",
@@ -29,6 +30,9 @@ def genreIdList():
 def main():
 #    genreid_list = genreIdList()
     genreid_list = [{"genreId": "110729"}]
+    '''
+     110729 one-piece
+    '''
 #    genreid_list = [{"genreId": "100380"}]
     if genreid_list:
         items_keys = ["itemName", "mediumImageUrl", "itemPrice", "genreId", "itemUrl"]
@@ -47,7 +51,9 @@ def main():
                     data["ImageUrl"] = data.pop("mediumImageUrl").split("?")[0]
             #        print data
                     if not mongo_coll.find_one(data):
-                        mongo_coll.insert(data)
+                        url = str(data["ImageUrl"])
+                        id = str(mongo_coll.insert(data))
+                        GetImg(id, url)
 
 if __name__ == "__main__":
     DB_NAME = 'bipapa'
