@@ -135,15 +135,17 @@ def getimg():
     from gridfs import GridFS
     db = Connection().test
     fs = GridFS(db)
-    id = "501a48e841ab1020015db2d9.jpg"
-    im = fs.get_last_version(id).read()
-    return im
+    id = "tornado-icon.png"
+    im = fs.get_version(id).read()
+    dic = fs.get_version(id).content_type
+    return (im, dic)
         
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-#        self.set_header("Content-Type", "image/JPEG")
-#        self.write(getimg())
-        self.render("index.html")
+        (im,dic) = getimg()
+        self.set_header("Content-Type", dic)
+        self.write(im)
+#        self.render("index.html")
     
     def post(self):
         keyword = self.get_argument("message")

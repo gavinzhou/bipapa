@@ -403,3 +403,73 @@
 [I 120802 19:26:31 autoreload:175] /root/bipapa/app.py modified; restarting server
 [I 120802 19:26:34 web:1447] 200 GET / (192.168.32.17) 3.61ms
 [W 120802 19:26:35 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120802 19:37:59 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:38:18 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:38:33 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120802 19:38:37 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'If-None-Match': '"3a943bf02172361d014e4334497e5af16f24bff3"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 144, in get
+        self.set_header("Content-Type", im.content_type)
+    NameError: global name 'im' is not defined
+[E 120802 19:38:37 web:1447] 500 GET / (192.168.32.17) 1.47ms
+[W 120802 19:38:38 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120802 19:38:55 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120802 19:38:56 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.set_header("Content-Type", im.content_type)
+    AttributeError: 'str' object has no attribute 'content_type'
+[E 120802 19:38:56 web:1447] 500 GET / (192.168.32.17) 5.56ms
+[W 120802 19:38:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[E 120802 19:38:57 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.set_header("Content-Type", im.content_type)
+    AttributeError: 'str' object has no attribute 'content_type'
+[E 120802 19:38:57 web:1447] 500 GET / (192.168.32.17) 3.77ms
+[W 120802 19:38:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[E 120802 19:38:57 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.set_header("Content-Type", im.content_type)
+    AttributeError: 'str' object has no attribute 'content_type'
+[E 120802 19:38:57 web:1447] 500 GET / (192.168.32.17) 3.33ms
+[W 120802 19:38:58 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[E 120802 19:38:58 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        self.set_header("Content-Type", im.content_type)
+    AttributeError: 'str' object has no attribute 'content_type'
+[E 120802 19:38:58 web:1447] 500 GET / (192.168.32.17) 3.36ms
+[W 120802 19:38:58 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120802 19:42:08 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120802 19:42:10 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 145, in get
+        (im,dic) = getimg()
+      File "/root/bipapa/app.py", line 140, in getimg
+        dic = im.content_type
+    AttributeError: 'str' object has no attribute 'content_type'
+[E 120802 19:42:10 web:1447] 500 GET / (192.168.32.17) 6.40ms
+[W 120802 19:42:10 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120802 19:43:30 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120802 19:43:32 web:1447] 200 GET / (192.168.32.17) 6.22ms
+[W 120802 19:43:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.94ms
