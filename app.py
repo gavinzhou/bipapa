@@ -130,22 +130,27 @@ class GenreIdHandler(tornado.web.RequestHandler):
             self.set_status(404)
             self.write("error genreId not found")
 
-def getimg():
+def getimg4db():
     from pymongo import Connection
     from gridfs import GridFS
-    db = Connection().test
+    db = Connection().gridfs
     fs = GridFS(db)
-    id = "tornado-icon.png"
-    im = fs.get_version(id).read()
-    dic = fs.get_version(id).content_type
-    return (im, dic)
+    id_list = fs.list()
+    img_list = []
+#    dic_list = []
+    for id in id_list:
+        img_list.append(fs.get_version(id).read())
+#        dic_list.append(fs.get_version(id).content_type)
+#    return (img_list, dic_list)
+    return img_list
         
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        (im,dic) = getimg()
-        self.set_header("Content-Type", dic)
-        self.write(im)
-#        self.render("index.html")
+        img_list = getimg4db()
+#        (img_list,dic_list) = getimg4db()
+#        self.set_header("Content-Type", mage/jpeg)
+#        self.write(im[0])
+        self.render("index.html", img_list=img_list)
     
     def post(self):
         keyword = self.get_argument("message")

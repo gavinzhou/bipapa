@@ -4,7 +4,8 @@
 from pymongo import Connection
 from pymongo.errors import CollectionInvalid
 from rakuten_api import rakuten_api
-from get_img import GetImg
+#from get_img import GetImg
+from getimg2db import GetImg2db
 
 def rankingGet(genreId):
     msg = rakuten_api(operation="ItemRanking",
@@ -53,7 +54,7 @@ def main():
                     if not mongo_coll.find_one(data):
                         url = str(data["ImageUrl"])
                         id = str(mongo_coll.insert(data))
-                        GetImg(id, url)
+                        print GetImg2db(id, url)
 
 if __name__ == "__main__":
     DB_NAME = 'bipapa'
