@@ -419,3 +419,4 @@
     AttributeError: 'MainHandler' object has no attribute 'one_read'
 [E 120806 18:52:16 web:1447] 500 GET / (192.168.32.17) 6.20ms
 [W 120806 18:52:17 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.43ms
+[I 120807 08:57:08 autoreload:175] /root/bipapa/app.py modified; restarting server

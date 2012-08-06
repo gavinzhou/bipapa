@@ -160,18 +160,10 @@ class MainHandler(tornado.web.RequestHandler):
         fs = GridFS(db)
         id_list = fs.list()
         for id in id_list:
-            self.one_read(id)
-#            img,content_type = getimg4db(id)
-#            self.set_header("Content-Type", content_type)
-#            self.write(img)
-#            self.finish()
-
-    def on_read(self):
-        getimg4db(filename)
-        self.set_header("Content-Type", content_type)
-        self.write(img)
-        self.finish()
-        
+            img,content_type = getimg4db("501b745a41ab10241f6d0393")
+            self.set_header("Content-Type", content_type)
+            self.write(img)
+            self.finish()
 #        self.set_header("Content-Length", len(img_list[8]))
 #        self.write(img_list[8])
 #        self.write(img_list[9])
