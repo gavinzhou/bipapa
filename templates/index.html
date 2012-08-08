@@ -8,12 +8,11 @@
 <input type="text" name="message">
 <input type="submit" value="Submit">
 </form>
-{{img_list}}
-
-<!---
-    {% for img in img_list %}
-        <td>{{img}}</td>
+{% if filename_list %}
+    {% for filename in filename_list %}
+        <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg"/></a><p>
     {% end %}
--->
+{% end %}
+
 </body>
 </html>

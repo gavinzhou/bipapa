@@ -420,3 +420,1095 @@
 [E 120806 18:52:16 web:1447] 500 GET / (192.168.32.17) 6.20ms
 [W 120806 18:52:17 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.43ms
 [I 120807 08:57:08 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 14:44:48 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120807 14:44:53 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 156, in get
+        self.render("index.html", img_list=img_list[9])
+    NameError: global name 'img_list' is not defined
+[E 120807 14:44:53 web:1447] 500 GET / (192.168.32.17) 2.02ms
+[W 120807 14:44:54 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.47ms
+[E 120807 14:44:55 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 156, in get
+        self.render("index.html", img_list=img_list[9])
+    NameError: global name 'img_list' is not defined
+[E 120807 14:44:55 web:1447] 500 GET / (192.168.32.17) 0.55ms
+[W 120807 14:44:55 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120807 14:45:06 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120807 14:45:07 template:257] index.html code:
+     1  def _execute():  # index.html:0
+     2      _buffer = []  # index.html:0
+     3      _append = _buffer.append  # index.html:0
+     4      _append('<html>\n<head>\n<meta http-equiv="Content-Type" content="image/jpeg; charset=utf-8" />\n<title>template function test</title>\n</head>\n<body>\n<form action="/" method="post">\n<input type="text" name="message">\n<input type="submit" value="Submit">\n</form>\n')  # index.html:11
+     5      _tmp = img_list  # index.html:11
+     6      if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # index.html:11
+     7      else: _tmp = _utf8(str(_tmp))  # index.html:11
+     8      _tmp = _utf8(xhtml_escape(_tmp))  # index.html:11
+     9      _append(_tmp)  # index.html:11
+    10      _append('\n<!---\n')  # index.html:14
+    11      for img in img_list:  # index.html:14
+    12          _append('\n<td>')  # index.html:15
+    13          _tmp = img  # index.html:15
+    14          if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # index.html:15
+    15          else: _tmp = _utf8(str(_tmp))  # index.html:15
+    16          _tmp = _utf8(xhtml_escape(_tmp))  # index.html:15
+    17          _append(_tmp)  # index.html:15
+    18          _append('</td>\n')  # index.html:16
+    19      _append('\n-->\n</body>\n</html>\n')  # index.html:20
+    20      return _utf8('').join(_buffer)  # index.html:0
+[E 120807 14:45:07 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 156, in get
+        self.render("index.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/usr/lib/python2.6/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "index_html.generated.py", line 5, in _execute
+        _tmp = img_list  # index.html:11
+    NameError: global name 'img_list' is not defined
+[E 120807 14:45:07 web:1447] 500 GET / (192.168.32.17) 13.43ms
+[W 120807 14:45:07 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.42ms
+[E 120807 14:45:08 template:257] index.html code:
+     1  def _execute():  # index.html:0
+     2      _buffer = []  # index.html:0
+     3      _append = _buffer.append  # index.html:0
+     4      _append('<html>\n<head>\n<meta http-equiv="Content-Type" content="image/jpeg; charset=utf-8" />\n<title>template function test</title>\n</head>\n<body>\n<form action="/" method="post">\n<input type="text" name="message">\n<input type="submit" value="Submit">\n</form>\n')  # index.html:11
+     5      _tmp = img_list  # index.html:11
+     6      if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # index.html:11
+     7      else: _tmp = _utf8(str(_tmp))  # index.html:11
+     8      _tmp = _utf8(xhtml_escape(_tmp))  # index.html:11
+     9      _append(_tmp)  # index.html:11
+    10      _append('\n<!---\n')  # index.html:14
+    11      for img in img_list:  # index.html:14
+    12          _append('\n<td>')  # index.html:15
+    13          _tmp = img  # index.html:15
+    14          if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # index.html:15
+    15          else: _tmp = _utf8(str(_tmp))  # index.html:15
+    16          _tmp = _utf8(xhtml_escape(_tmp))  # index.html:15
+    17          _append(_tmp)  # index.html:15
+    18          _append('</td>\n')  # index.html:16
+    19      _append('\n-->\n</body>\n</html>\n')  # index.html:20
+    20      return _utf8('').join(_buffer)  # index.html:0
+[E 120807 14:45:08 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 156, in get
+        self.render("index.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/usr/lib/python2.6/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "index_html.generated.py", line 5, in _execute
+        _tmp = img_list  # index.html:11
+    NameError: global name 'img_list' is not defined
+[E 120807 14:45:08 web:1447] 500 GET / (192.168.32.17) 2.60ms
+[W 120807 14:45:08 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120807 14:46:43 web:1447] 200 GET / (192.168.32.17) 0.84ms
+[W 120807 14:46:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[I 120807 14:58:28 web:1447] 304 GET / (192.168.32.17) 0.86ms
+[I 120807 15:46:46 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 17:01:14 web:1447] 304 GET / (192.168.32.17) 4.23ms
+[E 120807 17:01:16 web:1064] Uncaught exception GET /genreid/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/genreid/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 103, in get
+        mgs = rakuten_api(operation="GenreSearch",
+    NameError: global name 'rakuten_api' is not defined
+[E 120807 17:01:16 web:1447] 500 GET /genreid/ (192.168.32.17) 1.26ms
+[W 120807 17:01:17 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.42ms
+[I 120807 17:01:48 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 17:10:19 web:1447] 200 GET /genreid/ (192.168.32.17) 97.60ms
+[W 120807 17:10:19 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120807 17:25:19 web:1447] 200 GET / (192.168.32.17) 1.00ms
+[I 120807 17:25:20 web:1447] 304 GET /genreid/ (192.168.32.17) 30.04ms
+[W 120807 17:25:21 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.85ms
+[I 120807 17:25:25 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120807 17:25:54 web:1064] Uncaught exception GET /genreid/0 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/genreid/0', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 104, in get
+        genreId = genreId)
+      File "/root/bipapa/module/rakuten_api.py", line 18, in rakuten_api
+        c.setopt(pycurl.URL, url)
+    TypeError: invalid arguments to setopt
+[E 120807 17:25:54 web:1447] 500 GET /genreid/0 (192.168.32.17) 1.88ms
+[W 120807 17:25:54 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120807 17:25:57 web:1447] 200 GET /genreid/ (192.168.32.17) 33.92ms
+[W 120807 17:25:58 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[I 120807 17:26:40 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 17:29:31 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 17:34:52 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 17:40:35 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 17:55:53 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:26:23 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:34:17 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:34:34 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:37:09 web:1447] 304 GET / (192.168.32.17) 3.52ms
+[E 120807 18:37:15 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        pool.apply_async(getimg4db(filename),callback=self.on_read)
+    AttributeError: 'NoneType' object has no attribute 'apply_async'
+[E 120807 18:37:15 web:1447] 500 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.32ms
+[W 120807 18:37:16 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120807 18:37:18 web:1447] 200 GET /view/501b745941ab10241f6d037e (192.168.32.17) 1.08ms
+[E 120807 18:37:18 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:37:18 web:718] Cannot send error response after headers written
+[E 120807 18:37:18 web:1064] Uncaught exception GET /view/.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        pool.apply_async(getimg4db(filename),callback=self.on_read)
+    AttributeError: 'NoneType' object has no attribute 'apply_async'
+[E 120807 18:37:18 web:1447] 500 GET /view/.jpg (192.168.32.17) 0.61ms
+[W 120807 18:37:18 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[E 120807 18:40:20 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        pool.apply_async(getimg4db(filename),callback=self.on_read)
+    AttributeError: 'NoneType' object has no attribute 'apply_async'
+[E 120807 18:40:20 web:1447] 500 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.71ms
+[W 120807 18:40:20 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120807 18:42:41 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:45:02 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:45:06 web:1447] 304 GET / (192.168.32.17) 3.91ms
+[I 120807 18:45:12 web:1447] 200 GET /view/ (192.168.32.17) 1.06ms
+[E 120807 18:45:12 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:45:12 web:718] Cannot send error response after headers written
+[W 120807 18:45:12 web:1447] 404 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.30ms
+[W 120807 18:45:12 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.42ms
+[W 120807 18:45:16 web:1447] 404 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.29ms
+[W 120807 18:45:16 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120807 18:45:20 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120807 18:46:23 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:46:31 web:1447] 304 GET /view/ (192.168.32.17) 12.66ms
+[E 120807 18:46:31 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:46:31 web:718] Cannot send error response after headers written
+[W 120807 18:46:31 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.45ms
+[I 120807 18:46:32 web:1447] 304 GET /view/ (192.168.32.17) 1.05ms
+[E 120807 18:46:32 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:46:32 web:718] Cannot send error response after headers written
+[W 120807 18:46:32 web:1447] 404 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.29ms
+[W 120807 18:46:32 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120807 18:46:35 web:1447] 404 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.27ms
+[W 120807 18:46:35 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[W 120807 18:46:39 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120807 18:46:53 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120807 18:46:55 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+    TypeError: get() takes exactly 1 argument (2 given)
+[E 120807 18:46:55 web:1447] 500 GET /view/ (192.168.32.17) 2.07ms
+[W 120807 18:46:55 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.41ms
+[I 120807 18:47:19 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 18:47:19 web:1447] 200 GET /view/ (192.168.32.17) 4.67ms
+[E 120807 18:47:19 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:47:19 web:718] Cannot send error response after headers written
+[I 120807 18:47:19 web:1447] 200 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.07ms
+[E 120807 18:47:19 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:47:19 web:718] Cannot send error response after headers written
+[W 120807 18:47:19 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.41ms
+[I 120807 18:47:22 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.07ms
+[E 120807 18:47:22 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:47:22 web:718] Cannot send error response after headers written
+[I 120807 18:47:23 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.03ms
+[E 120807 18:47:23 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.jpg', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 18:47:23 web:718] Cannot send error response after headers written
+[W 120807 18:47:23 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120807 18:47:30 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120807 19:08:52 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 19:09:06 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 19:09:09 web:1447] 304 GET /view/ (192.168.32.17) 4.60ms
+[E 120807 19:09:09 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:09:09 web:718] Cannot send error response after headers written
+[W 120807 19:09:10 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.44ms
+[I 120807 19:09:13 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.06ms
+[E 120807 19:09:13 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:09:13 web:718] Cannot send error response after headers written
+[I 120807 19:09:13 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.02ms
+[E 120807 19:09:13 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.jpg', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:09:13 web:718] Cannot send error response after headers written
+[W 120807 19:09:13 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120807 19:09:14 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.03ms
+[E 120807 19:09:14 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.jpg', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:09:14 web:718] Cannot send error response after headers written
+[I 120807 19:09:14 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.16ms
+[E 120807 19:09:14 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.jpg', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:09:14 web:718] Cannot send error response after headers written
+[W 120807 19:09:14 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120807 19:09:15 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.01ms
+[E 120807 19:09:15 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.jpg', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:09:15 web:718] Cannot send error response after headers written
+[I 120807 19:09:15 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.99ms
+[E 120807 19:09:15 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.jpg', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:09:15 web:718] Cannot send error response after headers written
+[W 120807 19:09:15 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120807 19:53:47 web:1447] 200 GET /view/501b745941ab10241f6d037e (192.168.32.17) 1.34ms
+[E 120807 19:53:47 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'If-None-Match': '"359d63e10d94255581ddf1afa15a0dc985680ac8"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:53:47 web:718] Cannot send error response after headers written
+[I 120807 19:53:48 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.02ms
+[E 120807 19:53:48 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:53:48 web:718] Cannot send error response after headers written
+[W 120807 19:53:49 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120807 19:53:53 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.02ms
+[E 120807 19:53:53 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:53:53 web:718] Cannot send error response after headers written
+[I 120807 19:53:54 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.02ms
+[E 120807 19:53:54 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.jpg', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:53:54 web:718] Cannot send error response after headers written
+[W 120807 19:53:54 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120807 19:53:57 web:1447] 200 GET /view/501b745941ab10241f6d037e. (192.168.32.17) 1.01ms
+[E 120807 19:53:57 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e. (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:53:57 web:718] Cannot send error response after headers written
+[I 120807 19:53:58 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.31ms
+[E 120807 19:53:58 web:1064] Uncaught exception GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/501b745941ab10241f6d037e.jpg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/501b745941ab10241f6d037e.', 'If-None-Match': '"ef8361b28bf2019089249a97f4fd8b7d1469d181"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 19:53:58 web:718] Cannot send error response after headers written
+[W 120807 19:53:59 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120807 20:03:07 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 20:03:17 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 20:05:12 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120807 20:05:46 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/root/bipapa/app.py", line 82, in on_read
+        selef.finish(filename)
+    NameError: global name 'selef' is not defined
+[E 120807 20:05:46 web:1447] 500 GET /view/ (192.168.32.17) 6.61ms
+[W 120807 20:05:47 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.40ms
+[I 120807 20:05:58 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 20:06:03 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 20:06:05 web:1447] 200 GET /view/ (192.168.32.17) 5.88ms
+[E 120807 20:06:05 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 20:06:05 web:718] Cannot send error response after headers written
+[W 120807 20:06:06 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.42ms
+[I 120807 20:06:16 web:1447] 304 GET /view/ (192.168.32.17) 4.13ms
+[E 120807 20:06:16 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 20:06:16 web:718] Cannot send error response after headers written
+[I 120807 20:06:19 web:1447] 304 GET /view/ (192.168.32.17) 3.75ms
+[E 120807 20:06:19 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 20:06:19 web:718] Cannot send error response after headers written
+[I 120807 20:06:27 web:1447] 304 GET /view/ (192.168.32.17) 3.98ms
+[E 120807 20:06:27 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 20:06:27 web:718] Cannot send error response after headers written
+[I 120807 20:07:51 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 20:08:49 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 20:15:04 web:1447] 200 GET /view/ (192.168.32.17) 5.29ms
+[E 120807 20:15:04 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 20:15:04 web:718] Cannot send error response after headers written
+[W 120807 20:15:05 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.44ms
+[I 120807 20:15:13 autoreload:175] /root/bipapa/app.py modified; restarting server
+[W 120807 20:18:29 web:1447] 404 GET /view/501b745941ab10241f6d037e. (192.168.32.17) 1.33ms
+[W 120807 20:18:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.47ms
+[E 120807 20:18:33 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/root/bipapa/app.py", line 80, in on_read
+        self.write('<a href="%s"><img src="%s"/></a><p>' % (imglink, imglink))
+    NameError: global name 'imglink' is not defined
+[E 120807 20:18:33 web:1447] 500 GET /view/ (192.168.32.17) 249.80ms
+[W 120807 20:18:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120807 20:18:59 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120807 20:18:59 web:1447] 200 GET /view/ (192.168.32.17) 5.69ms
+[E 120807 20:18:59 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 20:18:59 web:718] Cannot send error response after headers written
+[W 120807 20:19:00 web:1447] 404 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.31ms
+[W 120807 20:19:00 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.41ms
+[W 120807 20:19:02 web:1447] 404 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.29ms
+[W 120807 20:19:03 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.48ms
+[W 120807 20:19:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120807 20:23:04 web:1447] 304 GET /view/ (192.168.32.17) 3.80ms
+[E 120807 20:23:04 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"7f812070857fc9917ff2ed2eefbd4d505badb23d"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120807 20:23:04 web:718] Cannot send error response after headers written
+[W 120807 20:23:05 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[W 120807 20:23:07 web:1447] 404 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 0.27ms
+[W 120807 20:23:08 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120807 20:23:11 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120808 10:47:16 web:1447] 200 GET /view/ (192.168.32.17) 3.85ms
+[E 120808 10:47:16 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        self.render("viewimage.html", imglink=imglink, callback=self.on_read(filename))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 10:47:16 web:718] Cannot send error response after headers written
+[W 120808 10:47:19 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120808 12:27:01 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 12:27:06 web:1447] 304 GET / (192.168.32.17) 4.17ms
+[W 120808 12:27:06 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.02ms
+[E 120808 12:27:10 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'If-None-Match': '"7f812070857fc9917ff2ed2eefbd4d505badb23d"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 77, in get
+        self._write_buffer.append(str(img.body))
+    AttributeError: 'str' object has no attribute 'body'
+[E 120808 12:27:10 web:1447] 500 GET /view/ (192.168.32.17) 5.49ms
+[W 120808 12:27:11 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120808 12:27:21 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 12:27:28 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 12:27:28 web:1447] 200 GET /view/ (192.168.32.17) 6.28ms
+[E 120808 12:27:28 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 89, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 12:27:28 web:718] Cannot send error response after headers written
+[W 120808 12:27:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.43ms
+[I 120808 12:32:30 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120808 12:32:33 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 76, in get
+        content_type, img = getimg4db(filename)
+      File "/root/bipapa/app.py", line 65, in getimg4db
+        f = fs.get_version(filename="%s" %filename)
+      File "/usr/lib64/python2.6/site-packages/pymongo-2.2.1_-py2.6-linux-x86_64.egg/gridfs/__init__.py", line 190, in get_version
+        raise NoFile("no version %d for filename %r" % (version, filename))
+    NoFile: no version -1 for filename "['501b745941ab10241f6d037e', '501b745841ab10241f6d0375']"
+[E 120808 12:32:33 web:1447] 500 GET /view/ (192.168.32.17) 5.66ms
+[W 120808 12:32:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.43ms
+[I 120808 12:33:37 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 12:33:39 web:1447] 200 GET /view/ (192.168.32.17) 6.39ms
+[E 120808 12:33:39 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 12:33:39 web:718] Cannot send error response after headers written
+[I 120808 12:33:39 web:1447] 304 GET /view/ (192.168.32.17) 3.69ms
+[E 120808 12:33:39 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/view/', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 12:33:39 web:718] Cannot send error response after headers written
+[W 120808 12:33:40 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.42ms
+[I 120808 12:33:41 web:1447] 304 GET /view/ (192.168.32.17) 3.79ms
+[E 120808 12:33:41 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 12:33:41 web:718] Cannot send error response after headers written
+[W 120808 12:33:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120808 12:57:19 web:1447] 304 GET / (192.168.32.17) 3.48ms
+[W 120808 12:57:23 web:1447] 404 GET /view/501b745941ab10241f6d037e (192.168.32.17) 0.78ms
+[W 120808 12:57:24 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120808 12:57:38 web:1447] 304 GET / (192.168.32.17) 0.68ms
+[W 120808 12:57:39 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.80ms
+[I 120808 12:57:54 web:1447] 200 GET / (192.168.32.17) 0.68ms
+[W 120808 12:57:54 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[I 120808 12:58:32 web:1447] 200 GET / (192.168.32.17) 0.72ms
+[W 120808 12:58:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[I 120808 12:58:37 web:1447] 200 GET / (192.168.32.17) 0.70ms
+[I 120808 12:58:38 web:1447] 304 GET /view/ (192.168.32.17) 3.94ms
+[E 120808 12:58:38 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 12:58:38 web:718] Cannot send error response after headers written
+[W 120808 12:58:38 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120808 12:58:38 web:1447] 304 GET /view/ (192.168.32.17) 4.06ms
+[E 120808 12:58:38 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 12:58:38 web:718] Cannot send error response after headers written
+[I 120808 12:58:54 web:1447] 200 GET / (192.168.32.17) 0.70ms
+[I 120808 12:58:54 web:1447] 304 GET /view/ (192.168.32.17) 3.59ms
+[E 120808 12:58:54 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 79, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120808 12:58:54 web:718] Cannot send error response after headers written
+[W 120808 12:58:54 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120808 13:02:21 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 13:03:28 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 13:03:43 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 13:03:48 web:1447] 304 GET / (192.168.32.17) 4.17ms
+[E 120808 13:03:49 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'If-None-Match': '"f43d407767d1b1ad5d7aaf87bc9710bfb8129911"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 74, in get
+        content_type, img = getimg4db(filename)
+      File "/root/bipapa/app.py", line 65, in getimg4db
+        f = fs.get_version(filename="%s" %filename)
+      File "/usr/lib64/python2.6/site-packages/pymongo-2.2.1_-py2.6-linux-x86_64.egg/gridfs/__init__.py", line 190, in get_version
+        raise NoFile("no version %d for filename %r" % (version, filename))
+    NoFile: no version -1 for filename u''
+[E 120808 13:03:49 web:1447] 500 GET /view/ (192.168.32.17) 4.99ms
+[I 120808 13:03:51 web:1447] 200 GET /view/501b745941ab10241f6d037e (192.168.32.17) 4.50ms
+[W 120808 13:03:53 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.40ms
+[I 120808 13:04:57 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 13:05:07 web:1447] 304 GET /view/501b745941ab10241f6d037e (192.168.32.17) 3.56ms
+[W 120808 13:05:08 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120808 14:45:31 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120808 14:48:06 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'If-None-Match': '"0afd477338932f5d1a8ddc9dd42ca9fafd64a9b5"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 135, in get
+        self.render("index.html", filename_list)
+    TypeError: render() takes exactly 2 arguments (3 given)
+[E 120808 14:48:06 web:1447] 500 GET / (192.168.32.17) 8.97ms
+[W 120808 14:48:09 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.43ms
+[E 120808 14:48:13 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 135, in get
+        self.render("index.html", filename_list)
+    TypeError: render() takes exactly 2 arguments (3 given)
+[E 120808 14:48:13 web:1447] 500 GET / (192.168.32.17) 1.35ms
+[W 120808 14:48:14 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120808 14:48:35 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120808 14:48:39 template:257] index.html code:
+     1  def _execute():  # index.html:0
+     2      _buffer = []  # index.html:0
+     3      _append = _buffer.append  # index.html:0
+     4      _append('<html>\n<head>\n<meta http-equiv="Content-Type" content="image/jpeg; charset=utf-8" />\n<title>template function test</title>\n</head>\n<body>\n<form action="/" method="post">\n<input type="text" name="message">\n<input type="submit" value="Submit">\n</form>\n')  # index.html:11
+     5      if filename_list:  # index.html:11
+     6          _append('\n')  # index.html:12
+     7          for filename in filename_list:  # index.html:12
+     8              _append('\n<a href="/view/')  # index.html:13
+     9              _tmp = filename  # index.html:13
+    10              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # index.html:13
+    11              else: _tmp = _utf8(str(_tmp))  # index.html:13
+    12              _tmp = _utf8(xhtml_escape(_tmp))  # index.html:13
+    13              _append(_tmp)  # index.html:13
+    14              _append('"><img src="/view/')  # index.html:13
+    15              _tmp = imglink  # index.html:13
+    16              if isinstance(_tmp, _string_types): _tmp = _utf8(_tmp)  # index.html:13
+    17              else: _tmp = _utf8(str(_tmp))  # index.html:13
+    18              _tmp = _utf8(xhtml_escape(_tmp))  # index.html:13
+    19              _append(_tmp)  # index.html:13
+    20              _append('"/></a><p>\n')  # index.html:14
+    21          _append('\n')  # index.html:15
+    22      _append('\n</body>\n</html>\n')  # index.html:19
+    23      return _utf8('').join(_buffer)  # index.html:0
+[E 120808 14:48:39 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/app.py", line 135, in get
+        self.render("index.html", filename_list=filename_list)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 615, in render_string
+        return t.generate(**args)
+      File "/usr/lib/python2.6/site-packages/tornado/template.py", line 254, in generate
+        return execute()
+      File "index_html.generated.py", line 15, in _execute
+        _tmp = imglink  # index.html:13
+    NameError: global name 'imglink' is not defined
+[E 120808 14:48:39 web:1447] 500 GET / (192.168.32.17) 13.27ms
+[W 120808 14:48:40 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.42ms
+[I 120808 14:49:09 web:1447] 200 GET / (192.168.32.17) 2.65ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745641ab10241f6d0345 (192.168.32.17) 3.08ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745641ab10241f6d034b (192.168.32.17) 2.06ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745641ab10241f6d0348 (192.168.32.17) 2.20ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745641ab10241f6d034e (192.168.32.17) 1.73ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745641ab10241f6d0351 (192.168.32.17) 1.60ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745641ab10241f6d0354 (192.168.32.17) 1.49ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745741ab10241f6d035a (192.168.32.17) 2.21ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745741ab10241f6d0357 (192.168.32.17) 2.16ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745741ab10241f6d0363 (192.168.32.17) 2.87ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745741ab10241f6d0360 (192.168.32.17) 1.68ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745741ab10241f6d035d (192.168.32.17) 1.86ms
+[I 120808 14:49:10 web:1447] 200 GET /view/501b745741ab10241f6d0366 (192.168.32.17) 1.67ms
+[I 120808 14:49:11 web:1447] 200 GET /view/501b745841ab10241f6d0369 (192.168.32.17) 1.70ms
+[I 120808 14:49:11 web:1447] 200 GET /view/501b745841ab10241f6d036c (192.168.32.17) 1.33ms
+[I 120808 14:49:11 web:1447] 200 GET /view/501b745841ab10241f6d036f (192.168.32.17) 1.80ms
+[I 120808 14:49:11 web:1447] 200 GET /view/501b745841ab10241f6d0372 (192.168.32.17) 1.94ms
+[I 120808 14:49:11 web:1447] 200 GET /view/501b745841ab10241f6d0378 (192.168.32.17) 1.26ms
+[I 120808 14:49:11 web:1447] 200 GET /view/501b745841ab10241f6d0375 (192.168.32.17) 1.35ms
+[I 120808 14:49:11 web:1447] 200 GET /view/501b745941ab10241f6d037b (192.168.32.17) 1.61ms
+[I 120808 14:49:12 web:1447] 304 GET /view/501b745941ab10241f6d037e (192.168.32.17) 1.63ms
+[I 120808 14:49:12 web:1447] 200 GET /view/501b745941ab10241f6d0381 (192.168.32.17) 1.63ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745941ab10241f6d0387 (192.168.32.17) 2.77ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745941ab10241f6d0384 (192.168.32.17) 1.64ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745941ab10241f6d038a (192.168.32.17) 1.37ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745941ab10241f6d038d (192.168.32.17) 1.29ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745a41ab10241f6d0390 (192.168.32.17) 2.37ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745a41ab10241f6d0393 (192.168.32.17) 1.77ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745b41ab10241f6d0396 (192.168.32.17) 1.78ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745b41ab10241f6d0399 (192.168.32.17) 1.87ms
+[I 120808 14:49:13 web:1447] 200 GET /view/501b745b41ab10241f6d039c (192.168.32.17) 1.39ms
+[W 120808 14:49:15 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.87ms
+[I 120808 14:49:22 web:1447] 304 GET /view/501b745641ab10241f6d034e (192.168.32.17) 1.72ms
+[I 120808 14:49:22 web:1447] 304 GET /view/501b745641ab10241f6d034e (192.168.32.17) 1.38ms
+[W 120808 14:49:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[W 120808 14:49:25 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120808 14:49:26 web:1447] 304 GET /view/501b745641ab10241f6d0354 (192.168.32.17) 1.22ms
+[I 120808 14:49:26 web:1447] 304 GET /view/501b745641ab10241f6d0351 (192.168.32.17) 1.24ms
+[W 120808 14:49:27 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[W 120808 14:49:30 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120808 15:22:30 web:1447] 304 GET / (192.168.32.17) 2.70ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745641ab10241f6d0345 (192.168.32.17) 2.67ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745641ab10241f6d0348 (192.168.32.17) 2.15ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745641ab10241f6d034b (192.168.32.17) 1.90ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745641ab10241f6d034e (192.168.32.17) 1.82ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745641ab10241f6d0351 (192.168.32.17) 1.57ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745641ab10241f6d0354 (192.168.32.17) 1.39ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745741ab10241f6d0357 (192.168.32.17) 2.09ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745741ab10241f6d035a (192.168.32.17) 2.15ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745741ab10241f6d035d (192.168.32.17) 1.60ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745741ab10241f6d0360 (192.168.32.17) 1.69ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745741ab10241f6d0363 (192.168.32.17) 4.65ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745741ab10241f6d0366 (192.168.32.17) 1.80ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745841ab10241f6d0369 (192.168.32.17) 1.99ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745841ab10241f6d036c (192.168.32.17) 1.68ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745841ab10241f6d036f (192.168.32.17) 1.93ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745841ab10241f6d0372 (192.168.32.17) 2.10ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745841ab10241f6d0375 (192.168.32.17) 1.70ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745841ab10241f6d0378 (192.168.32.17) 1.46ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745941ab10241f6d037b (192.168.32.17) 1.76ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745941ab10241f6d037e (192.168.32.17) 2.10ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745941ab10241f6d0381 (192.168.32.17) 1.93ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745941ab10241f6d0384 (192.168.32.17) 1.94ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745941ab10241f6d0387 (192.168.32.17) 2.69ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745941ab10241f6d038a (192.168.32.17) 1.75ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745941ab10241f6d038d (192.168.32.17) 1.53ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745a41ab10241f6d0390 (192.168.32.17) 2.49ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745a41ab10241f6d0393 (192.168.32.17) 2.07ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745b41ab10241f6d0396 (192.168.32.17) 2.08ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745b41ab10241f6d0399 (192.168.32.17) 2.05ms
+[I 120808 15:22:31 web:1447] 304 GET /view/501b745b41ab10241f6d039c (192.168.32.17) 1.72ms
+[W 120808 15:22:32 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.86ms
+[I 120808 15:22:33 web:1447] 304 GET /view/501b745641ab10241f6d0345 (192.168.32.17) 2.11ms
+[I 120808 15:31:10 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 15:31:19 web:1447] 200 GET / (192.168.32.17) 6.16ms
+[I 120808 15:31:19 web:1447] 200 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.20ms
+[I 120808 15:31:19 web:1447] 200 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.14ms
+[I 120808 15:31:19 web:1447] 200 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.82ms
+[I 120808 15:31:19 web:1447] 200 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.81ms
+[I 120808 15:31:19 web:1447] 200 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.60ms
+[I 120808 15:31:19 web:1447] 200 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.53ms
+[I 120808 15:31:20 web:1447] 200 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.94ms
+[I 120808 15:31:20 web:1447] 200 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.00ms
+[I 120808 15:31:20 web:1447] 200 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.36ms
+[I 120808 15:31:20 web:1447] 200 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.36ms
+[I 120808 15:31:20 web:1447] 200 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.44ms
+[I 120808 15:31:21 web:1447] 200 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.63ms
+[I 120808 15:31:21 web:1447] 200 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.53ms
+[I 120808 15:31:21 web:1447] 200 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.30ms
+[I 120808 15:31:21 web:1447] 200 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.63ms
+[I 120808 15:31:22 web:1447] 200 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.80ms
+[I 120808 15:31:22 web:1447] 200 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.48ms
+[I 120808 15:31:22 web:1447] 200 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.35ms
+[I 120808 15:31:22 web:1447] 200 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.64ms
+[I 120808 15:31:22 web:1447] 200 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.74ms
+[I 120808 15:31:22 web:1447] 200 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.47ms
+[I 120808 15:31:22 web:1447] 200 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.71ms
+[I 120808 15:31:22 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.39ms
+[W 120808 15:31:22 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.94ms
+[I 120808 15:31:23 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.43ms
+[W 120808 15:31:23 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120808 15:31:24 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.38ms
+[I 120808 15:31:25 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.39ms
+[I 120808 15:31:27 web:1447] 200 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.23ms
+[I 120808 15:31:27 web:1447] 200 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.66ms
+[I 120808 15:31:27 web:1447] 200 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.60ms
+[I 120808 15:31:27 web:1447] 200 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.62ms
+[I 120808 15:31:27 web:1447] 200 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.63ms
+[I 120808 15:31:27 web:1447] 200 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.80ms
+[I 120808 15:31:27 web:1447] 200 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.58ms
+[I 120808 15:31:28 web:1447] 200 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.74ms
+[I 120808 15:31:28 web:1447] 200 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.40ms
+[I 120808 15:31:28 web:1447] 200 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.62ms
+[I 120808 15:31:28 web:1447] 200 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.40ms
+[I 120808 15:31:28 web:1447] 200 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.73ms
+[I 120808 15:31:28 web:1447] 200 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.85ms
+[I 120808 15:31:28 web:1447] 200 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.46ms
+[W 120808 15:31:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120808 15:31:31 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.23ms
+[W 120808 15:31:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120808 15:31:33 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.22ms
+[I 120808 15:31:34 web:1447] 200 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.36ms
+[W 120808 15:31:35 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[E 120808 15:32:32 web:1064] Uncaught exception GET /view/ (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.60 Safari/537.1'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/app.py", line 72, in get
+        content_type, img = getimg4db(ext)
+      File "/root/bipapa/app.py", line 61, in getimg4db
+        f = fs.get_version(filename="%s" %filename)
+      File "/usr/lib64/python2.6/site-packages/pymongo-2.2.1_-py2.6-linux-x86_64.egg/gridfs/__init__.py", line 190, in get_version
+        raise NoFile("no version %d for filename %r" % (version, filename))
+    NoFile: no version -1 for filename u''
+[E 120808 15:32:32 web:1447] 500 GET /view/ (192.168.32.17) 1.26ms
+[W 120808 15:32:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120808 15:32:41 web:1447] 304 GET /view/501b745941ab10241f6d037e (192.168.32.17) 1.79ms
+[W 120808 15:32:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120808 15:32:44 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.83ms
+[W 120808 15:32:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120808 15:43:45 web:1447] 304 GET /view/501b745941ab10241f6d037e (192.168.32.17) 2.81ms
+[W 120808 15:43:46 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120808 15:43:46 web:1447] 304 GET /view/501b745941ab10241f6d037e (192.168.32.17) 4.24ms
+[I 120808 15:55:05 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120808 15:55:18 web:1447] 304 GET / (192.168.32.17) 6.18ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.20ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.19ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 2.05ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.48ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.49ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.98ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.77ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.17ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.65ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.64ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.63ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.89ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.91ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.46ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.76ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.01ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 2.02ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.68ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.46ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.89ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.85ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.83ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.78ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.68ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.57ms
+[I 120808 15:55:18 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.37ms
+[I 120808 15:55:19 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.93ms
+[I 120808 15:55:19 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 2.03ms
+[I 120808 15:55:19 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.99ms
+[I 120808 15:55:19 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.71ms
+[W 120808 15:55:19 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.91ms
+[I 120808 15:55:19 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 2.22ms

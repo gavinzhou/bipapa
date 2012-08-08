@@ -21,7 +21,6 @@ import os.path
 import tornado.httpserver
 import tornado.ioloop
 import tornado.options
-from tornado import template
 import tornado.web
 import urllib2
 import tornado.escape
@@ -30,11 +29,14 @@ import re
 import pymongo
 import pycurl
 import StringIO
+from tornado import template
+from module.rakuten_api import rakuten_api
 
 from multiprocessing import Pool
 from tornado.options import define, options
 
 define("port", default=8888, help="run on the given port", type=int)
+loader = tornado.template.Loader("templates")
 
 class Application(tornado.web.Application):
     def __init__(self):
@@ -42,6 +44,7 @@ class Application(tornado.web.Application):
             (r"/", MainHandler),
             (r"/genreid/(\d+)?", GenreIdHandler),
             (r"/searchgenreid/(\d+)?", SearchGenreIdHandler),
+            (r"/view/(.*)", ViewImageHandler),
             (r"/ranking", RankingHandler)
         ]
         conn = pymongo.Connection("localhost", 27017)
@@ -54,28 +57,25 @@ class Application(tornado.web.Application):
             )
         tornado.web.Application.__init__(self, handlers, **settings)
 
-#def rakuten_api(**parts):
-#    host = "http://api.rakuten.co.jp/rws/3.0/json?"
-#    search_dict = {"developerId" : "375ecf0e10025bd1489adffb9c51c018"}
-#    search_dict.update(parts)
-#    search_list = []
-#    for key, value in search_dict.iteritems():
-#    	temp = '%s=%s' % (key, value)
-#    	search_list.append(temp)
-#    url = host + '&'.join(search_list)
-#    response = urllib2.urlopen(url)
-#    c = pycurl.Curl()
-#    c.setopt(pycurl.URL, url)
-#    b = StringIO.StringIO()
-#    c.setopt(pycurl.WRITEFUNCTION, b.write)
-#    c.setopt(pycurl.FOLLOWLOCATION, 1)
-#    c.setopt(pycurl.MAXREDIRS, 5)
-#    c. perform()
-#    response = b.getvalue()
-#    api_result = tornado.escape.json_decode(response)
-#    api_result = tornado.escape.json_decode(response.read())
-#    return api_result
-
+def getimg4db(filename):
+    f = fs.get_version(filename="%s" %filename)
+    img = f.read()
+    content_type = f.content_type
+    db.close
+    return content_type,img
+        
+class ViewImageHandler(tornado.web.RequestHandler):
+    @tornado.web.asynchronous
+    def get(self,filename):
+        name,sep,ext = filename.rpartition(".")
+        if not sep:
+            content_type, img = getimg4db(ext)
+        else:
+            content_type, img = getimg4db(name)
+        self.set_header('Content-Type',content_type)
+        self.write(img)
+        self.finish()
+        
 class RankingHandler(tornado.web.RequestHandler):
     def get(self):
         mgs = rakuten_api(operation="ItemRanking",
@@ -133,43 +133,12 @@ class GenreIdHandler(tornado.web.RequestHandler):
             self.set_status(404)
             self.write("error genreId not found")
 
-def getimg4db(filename):
-    from pymongo import Connection
-    from gridfs import GridFS
-    db = Connection().gridfs
-    fs = GridFS(db)
-    f = fs.get_version(filename="%s" %filename)
-    img = f.read()
-    content_type = f.content_type
-#    id_list = fs.list()
-#    img_list = []
-#    dic_list = []
-#    for id in id_list:
-#        img_list.append(fs.get_version(id).read())
-#        dic_list.append(fs.get_version(id).content_type)
-#    return (img_list, dic_list)
-    db.close
-    return img,content_type
-        
 class MainHandler(tornado.web.RequestHandler):
     @tornado.web.asynchronous
     def get(self):
-        from pymongo import Connection
-        from gridfs import GridFS
-        db = Connection().gridfs
-        fs = GridFS(db)
-        id_list = fs.list()
-        for id in id_list:
-            img,content_type = getimg4db("501b745a41ab10241f6d0393")
-            self.set_header("Content-Type", content_type)
-            self.write(img)
-            self.finish()
-#        self.set_header("Content-Length", len(img_list[8]))
-#        self.write(img_list[8])
-#        self.write(img_list[9])
-#        self.render("index.html", img_list=img_list[9])
-#        self.finish('<html><form enctype="multipart/form-data" action="/upload" method="post">Upload File: <input type="file" name="file1" /><input type="submit" value="upload" />')
-    
+        filename_list = fs.list()
+        self.render("index.html", filename_list=filename_list)
+
     def post(self):
         keyword = self.get_argument("message")
         keyword = urllib2.quote(keyword.encode('utf-8'))
@@ -187,4 +156,8 @@ def main():
     tornado.ioloop.IOLoop.instance().start()
 
 if __name__ == "__main__":
+    from pymongo import Connection
+    from gridfs import GridFS
+    db = Connection().gridfs
+    fs = GridFS(db)
     main()
