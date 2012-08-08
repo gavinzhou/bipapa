@@ -32,11 +32,9 @@ import StringIO
 from tornado import template
 from module.rakuten_api import rakuten_api
 
-from multiprocessing import Pool
 from tornado.options import define, options
 
 define("port", default=8888, help="run on the given port", type=int)
-loader = tornado.template.Loader("templates")
 
 class Application(tornado.web.Application):
     def __init__(self):
