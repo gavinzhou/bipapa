@@ -50,7 +50,6 @@ class Application(tornado.web.Application):
         settings = dict(
             template_path=os.path.join(os.path.dirname(__file__), "templates"),
             static_path=os.path.join(os.path.dirname(__file__), "static"),
-            pool = Pool(2),
             debug = True,
             )
         tornado.web.Application.__init__(self, handlers, **settings)
