@@ -146,7 +146,7 @@ class MainHandler(tornado.web.RequestHandler):
         self.render("template_mgs.html", message=mgs_list)
 
 def main():
-    tornado.options.options['log_file_prefix'].set('./logs/app.log')
+    tornado.options.options['log_file_prefix'].set('logs/app.log')
     tornado.options.parse_command_line()
     http_server = tornado.httpserver.HTTPServer(Application())
     http_server.listen(options.port)
