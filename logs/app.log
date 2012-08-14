@@ -124,3 +124,1183 @@
 [I 120813 18:42:02 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.75ms
 [I 120813 18:42:02 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.38ms
 [W 120813 18:42:02 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.92ms
+[I 120814 09:45:06 web:1447] 304 GET / (192.168.32.17) 7.05ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 2.28ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.74ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 1.79ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.61ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.44ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.21ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.11ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.72ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.22ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.31ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.54ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.44ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.56ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.34ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.64ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.81ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.33ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.13ms
+[I 120814 09:45:07 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.46ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.80ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.57ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.58ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.31ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.38ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.16ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.15ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.70ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.69ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.76ms
+[I 120814 09:45:08 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.40ms
+[W 120814 09:45:08 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[I 120814 09:50:02 web:1447] 304 GET / (192.168.32.17) 3.46ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.69ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 1.78ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 1.79ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.22ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.40ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.13ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.71ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.78ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.53ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.27ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.23ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.38ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.58ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.32ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.63ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.84ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.55ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.72ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.32ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.39ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.47ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.59ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.33ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.39ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.17ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.11ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.68ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.68ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.74ms
+[I 120814 09:50:03 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.40ms
+[W 120814 09:50:03 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[I 120814 09:50:40 autoreload:175] /root/bipapa/app.py modified; restarting server
+[E 120814 09:53:05 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cookie': '_xsrf=54b81bf061794459b878b59fb7bd3e88; _oauth_request_token="ZUo2Z3FqV2dQc3lBYTBqVkdPR3BrME9aOWJSREd6aGNXM1h6TTVPZGZR|c0RoQVhocWJWUVdURWd2ZHRJYXpDRVRucTdqS1poSEhmMmc3MXhwZFU="', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 116, in get
+        filename_list = fs.list()
+    NameError: global name 'fs' is not defined
+[E 120814 09:53:05 web:1447] 500 GET / (192.168.32.17) 1.92ms
+[W 120814 09:53:05 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.39ms
+[E 120814 09:55:42 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Cookie': '_xsrf=54b81bf061794459b878b59fb7bd3e88; _oauth_request_token="ZUo2Z3FqV2dQc3lBYTBqVkdPR3BrME9aOWJSREd6aGNXM1h6TTVPZGZR|c0RoQVhocWJWUVdURWd2ZHRJYXpDRVRucTdqS1poSEhmMmc3MXhwZFU="', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 116, in get
+        filename_list = fs.list()
+    NameError: global name 'fs' is not defined
+[E 120814 09:55:42 web:1447] 500 GET / (192.168.32.17) 1.03ms
+[W 120814 09:55:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 09:59:15 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120814 09:59:56 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 10:00:00 web:1447] 200 GET / (192.168.32.17) 6.16ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.01ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 2.03ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.59ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.83ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.63ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.49ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.06ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.14ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.56ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.58ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.64ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.73ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.83ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.56ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.86ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.01ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.59ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.41ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.74ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.92ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.72ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.79ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.50ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.55ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.30ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.23ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.85ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.84ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.89ms
+[I 120814 10:00:00 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.52ms
+[W 120814 10:00:00 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[I 120814 15:08:15 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120814 15:09:58 web:1447] 200 GET / (192.168.32.17) 6.14ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.01ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.18ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 2.10ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.86ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.62ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.59ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.14ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.19ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.73ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.85ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.62ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.48ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 2.01ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.20ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 2.14ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.63ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.52ms
+[I 120814 15:09:58 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.41ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.85ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 2.13ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.89ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.93ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.48ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.64ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.58ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.50ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 2.05ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 2.00ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.97ms
+[I 120814 15:09:59 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.81ms
+[W 120814 15:09:59 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[I 120814 15:11:06 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120814 15:11:22 web:1447] 200 GET / (192.168.32.17) 6.15ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.13ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 2.05ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.15ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.75ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.52ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.48ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.03ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.06ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.46ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.58ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.71ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.77ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.81ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.53ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.88ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.00ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.52ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.34ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.63ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 2.00ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.79ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.67ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.56ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.59ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.37ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.39ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.83ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.83ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.97ms
+[I 120814 15:11:23 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.62ms
+[I 120814 15:24:49 web:1447] 304 GET / (192.168.32.17) 3.47ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 2.70ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.99ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.15ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.80ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.58ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.48ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.06ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.15ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.61ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.62ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.52ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.75ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.81ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.54ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.85ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.02ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.51ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.41ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.95ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.93ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.95ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.77ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.65ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.76ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.40ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.41ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 2.06ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 2.04ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 2.13ms
+[I 120814 15:24:50 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.75ms
+[W 120814 15:24:50 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.90ms
+[I 120814 15:26:20 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 15:27:04 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120814 15:27:09 web:1447] 200 GET /login (192.168.32.17) 3.92ms
+[W 120814 15:27:09 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.97ms
+[W 120814 15:27:16 web:1447] 404 GET /facebook_login (192.168.32.17) 0.28ms
+[W 120814 15:27:17 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[W 120814 15:27:18 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 15:28:47 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 15:31:14 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 15:31:18 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120814 15:31:41 web:1447] 200 GET /login (192.168.32.17) 3.87ms
+[W 120814 15:31:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120814 15:31:44 web:1447] 302 GET /logout (192.168.32.17) 0.91ms
+[I 120814 15:31:44 web:1447] 304 GET / (192.168.32.17) 3.24ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.04ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.03ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.95ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.62ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.50ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.74ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.92ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.06ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.55ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.64ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.51ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.72ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.83ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.37ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.91ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.12ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.63ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.43ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.71ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.95ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.82ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.89ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.39ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.86ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.30ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.40ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 2.00ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.95ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 2.03ms
+[I 120814 15:31:44 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.65ms
+[W 120814 15:31:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[W 120814 15:31:46 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 15:31:46 web:1447] 304 GET /login (192.168.32.17) 0.76ms
+[W 120814 15:31:46 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 15:34:57 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 15:35:39 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120814 15:35:41 web:1447] 304 GET /login (192.168.32.17) 3.85ms
+[W 120814 15:35:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120814 15:35:43 web:1447] 200 GET /register (192.168.32.17) 0.74ms
+[W 120814 15:35:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[W 120814 15:35:48 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 15:43:28 web:1447] 304 GET /login (192.168.32.17) 0.84ms
+[W 120814 15:43:28 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[I 120814 15:43:57 web:1447] 200 GET /login (192.168.32.17) 0.78ms
+[W 120814 15:43:58 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 15:44:21 web:1447] 304 GET /login (192.168.32.17) 0.95ms
+[W 120814 15:44:21 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[I 120814 15:44:23 web:1447] 200 GET /register (192.168.32.17) 0.71ms
+[W 120814 15:44:23 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[W 120814 15:44:27 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 16:01:15 web:1447] 304 GET /register (192.168.32.17) 0.84ms
+[W 120814 16:01:16 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.85ms
+[I 120814 16:21:39 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:22:32 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:24:09 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:24:20 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:24:23 web:1447] 304 GET /register (192.168.32.17) 3.85ms
+[W 120814 16:24:24 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.98ms
+[I 120814 16:26:26 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:27:04 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:27:23 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:27:25 web:1447] 304 GET /register (192.168.32.17) 3.52ms
+[W 120814 16:27:25 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[E 120814 16:27:32 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=123456&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '59', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 76, in post
+        self.set_current_user(email)
+    AttributeError: 'RegisterHandler' object has no attribute 'set_current_user'
+[E 120814 16:27:32 web:1447] 500 POST /register (192.168.32.17) 24.37ms
+[W 120814 16:27:32 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 16:33:18 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:33:31 web:1447] 304 GET / (192.168.32.17) 6.32ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.00ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 1.90ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.68ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.46ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.24ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.16ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.72ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.81ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.30ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.31ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.31ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.49ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.67ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.31ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.65ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.82ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.37ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.15ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.49ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.77ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.58ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.63ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.20ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.40ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.35ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.19ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.76ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.69ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.78ms
+[I 120814 16:33:32 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.40ms
+[W 120814 16:33:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.13ms
+[I 120814 16:33:35 web:1447] 304 GET /login (192.168.32.17) 0.82ms
+[W 120814 16:33:36 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 16:33:37 web:1447] 304 GET /register (192.168.32.17) 0.70ms
+[W 120814 16:33:37 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[E 120814 16:33:43 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=111111&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '59', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 96, in post
+        self.set_current_user(email)
+    AttributeError: 'RegisterHandler' object has no attribute 'set_current_user'
+[E 120814 16:33:43 web:1447] 500 POST /register (192.168.32.17) 24.64ms
+[W 120814 16:33:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 16:34:25 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 16:34:27 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=111111&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '59', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 91, in post
+        self.set_current_user(email)
+      File "/root/bipapa/handlers/handlers.py", line 67, in set_current_user
+        self.set_secure_cookie("user", tornado.escape.json_encode(user))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 424, in set_secure_cookie
+        self.set_cookie(name, self.create_signed_value(name, value),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 434, in create_signed_value
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 977, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 120814 16:34:27 web:1447] 500 POST /register (192.168.32.17) 25.76ms
+[W 120814 16:34:27 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120814 16:34:29 web:1447] 304 GET /register (192.168.32.17) 3.31ms
+[W 120814 16:34:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[E 120814 16:34:33 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=111111&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '59', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 91, in post
+        self.set_current_user(email)
+      File "/root/bipapa/handlers/handlers.py", line 67, in set_current_user
+        self.set_secure_cookie("user", tornado.escape.json_encode(user))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 424, in set_secure_cookie
+        self.set_cookie(name, self.create_signed_value(name, value),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 434, in create_signed_value
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 977, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 120814 16:34:33 web:1447] 500 POST /register (192.168.32.17) 24.21ms
+[W 120814 16:34:34 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 16:35:52 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120814 16:37:19 web:1447] 304 GET /register (192.168.32.17) 3.58ms
+[W 120814 16:37:19 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.94ms
+[I 120814 16:37:24 web:1447] 302 POST /register (192.168.32.17) 24.43ms
+[I 120814 16:37:24 web:1447] 304 GET / (192.168.32.17) 2.91ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 2.66ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.05ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.56ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.59ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.34ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.22ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.83ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.34ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.78ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.44ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.39ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.55ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.68ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.36ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.65ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.91ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.44ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.26ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.57ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.82ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.66ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.76ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.42ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.48ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.28ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.18ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.79ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.78ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.83ms
+[I 120814 16:37:24 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.49ms
+[W 120814 16:37:24 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[I 120814 16:38:44 web:1447] 304 GET /register (192.168.32.17) 1.10ms
+[W 120814 16:38:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.86ms
+[I 120814 16:38:48 web:1447] 302 POST /register (192.168.32.17) 24.16ms
+[I 120814 16:38:48 web:1447] 304 GET / (192.168.32.17) 2.77ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 1.94ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 1.85ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.14ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.19ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.69ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.53ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.76ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.79ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.25ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.43ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.32ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.36ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.51ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.32ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.65ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.21ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.28ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.79ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.58ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.75ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.57ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.63ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.21ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.35ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.26ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.63ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.69ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.42ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.57ms
+[I 120814 16:38:49 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.74ms
+[W 120814 16:38:49 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.87ms
+[W 120814 16:38:50 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 16:39:01 web:1447] 302 POST /register (192.168.32.17) 23.82ms
+[I 120814 16:39:01 web:1447] 304 GET / (192.168.32.17) 2.76ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 1.85ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 1.82ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.23ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.40ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.63ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.16ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.73ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.78ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.25ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.32ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 3.98ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.47ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.58ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.31ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.64ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.82ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.32ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.16ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.48ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.75ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.57ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.62ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.34ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.40ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.16ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.11ms
+[I 120814 16:39:01 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.68ms
+[I 120814 16:39:02 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.72ms
+[I 120814 16:39:02 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.76ms
+[I 120814 16:39:02 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.41ms
+[W 120814 16:39:02 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[W 120814 16:39:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 16:41:55 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:41:57 web:1447] 304 GET /register (192.168.32.17) 3.64ms
+[W 120814 16:41:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120814 16:41:57 web:1447] 304 GET /register (192.168.32.17) 0.71ms
+[W 120814 16:41:58 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 16:42:01 web:1447] 302 POST /register (192.168.32.17) 24.55ms
+[I 120814 16:42:01 web:1447] 304 GET / (192.168.32.17) 3.06ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.17ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.17ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 2.01ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.82ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.59ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.50ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.03ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.17ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.59ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.61ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.54ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.76ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.89ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.65ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.89ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.05ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.68ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.48ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.72ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 2.04ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.84ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.83ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.61ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.64ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.38ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.43ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.94ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.95ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.98ms
+[I 120814 16:42:01 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.66ms
+[W 120814 16:42:01 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[W 120814 16:42:03 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 16:42:40 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 16:43:09 web:1447] 302 POST /register (192.168.32.17) 25.09ms
+[I 120814 16:43:09 web:1447] 304 GET / (192.168.32.17) 5.58ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 206.48ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.34ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.87ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.92ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.63ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.66ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.67ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.04ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.17ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.56ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.88ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.61ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.81ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.72ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.92ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.08ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.63ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.53ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.87ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 2.10ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.86ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 2.02ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.48ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.62ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.45ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.43ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.93ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.89ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 2.00ms
+[I 120814 16:43:10 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.65ms
+[W 120814 16:43:10 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.87ms
+[I 120814 16:43:13 web:1447] 304 GET /register (192.168.32.17) 0.75ms
+[W 120814 16:43:14 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[I 120814 16:43:31 web:1447] 302 POST /register (192.168.32.17) 23.80ms
+[I 120814 16:43:31 web:1447] 304 GET / (192.168.32.17) 2.76ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.75ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 1.85ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 1.83ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.38ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.22ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.42ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.64ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.78ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.26ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.33ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.26ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.50ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.61ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.34ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.64ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 1.82ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.34ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.18ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.48ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.75ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.59ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.63ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.34ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.61ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.20ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.16ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.70ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.69ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.77ms
+[I 120814 16:43:31 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.42ms
+[W 120814 16:43:31 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.86ms
+[W 120814 16:43:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:09:39 web:1447] 200 GET /searchgenreid/ (192.168.32.17) 24.54ms
+[W 120814 17:09:39 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.85ms
+[I 120814 17:09:42 web:1447] 200 POST /searchgenreid/ (192.168.32.17) 2.54ms
+[W 120814 17:09:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 2.60ms
+[I 120814 17:09:45 web:1447] 200 POST /searchgenreid/ (192.168.32.17) 2.46ms
+[W 120814 17:09:45 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[I 120814 17:11:02 web:1447] 200 POST /searchgenreid/ (192.168.32.17) 3.59ms
+[W 120814 17:11:03 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.86ms
+[I 120814 17:11:41 web:1447] 200 POST /searchgenreid/ (192.168.32.17) 4.08ms
+[W 120814 17:11:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.86ms
+[W 120814 17:11:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:11:50 web:1447] 304 GET /register (192.168.32.17) 0.73ms
+[W 120814 17:11:50 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.13ms
+[I 120814 17:14:00 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:14:12 handlers:77] gavinzhou57@yahoo.co.jp
+[I 120814 17:14:12 web:1447] 302 POST /register (192.168.32.17) 25.53ms
+[I 120814 17:14:12 web:1447] 304 GET / (192.168.32.17) 5.64ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 3.05ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.26ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.98ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.48ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.63ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.52ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.86ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.01ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.49ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.60ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.73ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.61ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.77ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.65ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 2.11ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.17ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.51ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.49ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.74ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 2.00ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.82ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.86ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.60ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.54ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.53ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.45ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.99ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.89ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 2.03ms
+[I 120814 17:14:13 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.64ms
+[W 120814 17:14:13 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.86ms
+[I 120814 17:14:57 web:1447] 304 GET /register (192.168.32.17) 0.77ms
+[W 120814 17:14:58 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[I 120814 17:16:10 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:17:25 web:1447] 200 GET /register (192.168.32.17) 3.57ms
+[W 120814 17:17:25 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120814 17:17:29 web:1447] 200 POST /register (192.168.32.17) 1.18ms
+[W 120814 17:17:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:17:56 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:17:57 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1023, in _execute
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in finish
+        content_length = sum(len(part) for part in self._write_buffer)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in <genexpr>
+        content_length = sum(len(part) for part in self._write_buffer)
+    TypeError: object of type 'NoneType' has no len()
+[E 120814 17:17:57 web:1447] 500 POST /register (192.168.32.17) 2.30ms
+[W 120814 17:17:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120814 17:18:08 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:18:09 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(type(already_taken))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:18:09 web:1447] 500 POST /register (192.168.32.17) 9.99ms
+[W 120814 17:18:09 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:18:31 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:18:32 web:1447] 200 POST /register (192.168.32.17) 0.73ms
+[W 120814 17:18:32 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.12ms
+[I 120814 17:19:23 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:19:25 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1023, in _execute
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in finish
+        content_length = sum(len(part) for part in self._write_buffer)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in <genexpr>
+        content_length = sum(len(part) for part in self._write_buffer)
+    TypeError: object of type 'NoneType' has no len()
+[E 120814 17:19:25 web:1447] 500 POST /register (192.168.32.17) 2.24ms
+[W 120814 17:19:26 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:19:27 web:1447] 304 GET /register (192.168.32.17) 3.27ms
+[W 120814 17:19:27 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[E 120814 17:19:32 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1023, in _execute
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in finish
+        content_length = sum(len(part) for part in self._write_buffer)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in <genexpr>
+        content_length = sum(len(part) for part in self._write_buffer)
+    TypeError: object of type 'NoneType' has no len()
+[E 120814 17:19:32 web:1447] 500 POST /register (192.168.32.17) 1.03ms
+[W 120814 17:19:32 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:19:41 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:19:42 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 79, in post
+        self.write(type(coll.find_one()))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:19:42 web:1447] 500 POST /register (192.168.32.17) 2.91ms
+[W 120814 17:19:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120814 17:19:44 web:1447] 304 GET /register (192.168.32.17) 3.38ms
+[W 120814 17:19:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[E 120814 17:19:49 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 79, in post
+        self.write(type(coll.find_one()))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:19:49 web:1447] 500 POST /register (192.168.32.17) 1.37ms
+[W 120814 17:19:49 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120814 17:19:52 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120814 17:22:01 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:22:03 web:1447] 200 POST /register (192.168.32.17) 1.35ms
+[W 120814 17:22:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.13ms
+[W 120814 17:22:06 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:23:39 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:24:43 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:24:48 web:1447] 304 GET /register (192.168.32.17) 3.83ms
+[W 120814 17:24:48 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120814 17:24:53 web:1447] 200 POST /register (192.168.32.17) 1.06ms
+[W 120814 17:24:53 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:27:00 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:27:03 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(type(email))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:27:03 web:1447] 500 POST /register (192.168.32.17) 2.42ms
+[W 120814 17:27:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[W 120814 17:27:09 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[E 120814 17:27:10 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(type(email))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:27:10 web:1447] 500 POST /register (192.168.32.17) 0.76ms
+[W 120814 17:27:11 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.34ms
+[I 120814 17:27:23 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120814 17:27:24 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.49ms
+[E 120814 17:27:26 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(type(str(email)))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:27:26 web:1447] 500 POST /register (192.168.32.17) 1.25ms
+[W 120814 17:27:26 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:27:46 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:27:49 web:1447] 200 POST /register (192.168.32.17) 0.93ms
+[W 120814 17:27:50 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.13ms
+[I 120814 17:27:56 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:27:57 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 80, in post
+        self.write(type(email))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:27:57 web:1447] 500 POST /register (192.168.32.17) 2.42ms
+[W 120814 17:27:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120814 17:28:26 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:28:29 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 80, in post
+        self.write(type(email))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:28:29 web:1447] 500 POST /register (192.168.32.17) 2.40ms
+[W 120814 17:28:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120814 17:28:30 web:1447] 304 GET /register (192.168.32.17) 3.36ms
+[W 120814 17:28:31 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[E 120814 17:28:33 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 80, in post
+        self.write(type(email))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:28:33 web:1447] 500 POST /register (192.168.32.17) 0.96ms
+[W 120814 17:28:34 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120814 17:29:01 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:29:02 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(aa)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:29:02 web:1447] 500 POST /register (192.168.32.17) 2.37ms
+[W 120814 17:29:03 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120814 17:29:07 web:1447] 304 GET /register (192.168.32.17) 3.32ms
+[W 120814 17:29:07 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[E 120814 17:29:09 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(aa)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:29:09 web:1447] 500 POST /register (192.168.32.17) 0.93ms
+[W 120814 17:29:10 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:29:34 web:1447] 200 GET /register (192.168.32.17) 0.79ms
+[W 120814 17:29:40 iostream:425] Read error on 70: [Errno 104] Connection reset by peer
+[W 120814 17:29:40 iostream:359] error on read
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 354, in _handle_read
+        if self._read_to_buffer() == 0:
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 104] Connection reset by peer
+[W 120814 17:29:41 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[I 120814 17:30:05 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:30:07 web:1447] 200 POST /register (192.168.32.17) 0.93ms
+[W 120814 17:30:07 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.14ms
+[I 120814 17:30:15 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:30:16 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(type(aa))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:30:16 web:1447] 500 POST /register (192.168.32.17) 2.42ms
+[W 120814 17:30:16 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120814 17:30:18 web:1447] 304 GET /register (192.168.32.17) 3.33ms
+[W 120814 17:30:18 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[E 120814 17:30:21 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 81, in post
+        self.write(type(aa))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:30:21 web:1447] 500 POST /register (192.168.32.17) 0.94ms
+[W 120814 17:30:21 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120814 17:30:24 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120814 17:30:49 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:30:50 web:1447] 304 GET /register (192.168.32.17) 3.79ms
+[W 120814 17:30:50 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[E 120814 17:30:52 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1023, in _execute
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in finish
+        content_length = sum(len(part) for part in self._write_buffer)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 689, in <genexpr>
+        content_length = sum(len(part) for part in self._write_buffer)
+    TypeError: object of type 'NoneType' has no len()
+[E 120814 17:30:52 web:1447] 500 POST /register (192.168.32.17) 1.51ms
+[W 120814 17:30:52 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120814 17:33:41 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120814 17:33:43 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 82, in post
+        self.write(type(res))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:33:43 web:1447] 500 POST /register (192.168.32.17) 2.87ms
+[W 120814 17:33:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120814 17:33:45 web:1447] 304 GET /register (192.168.32.17) 3.37ms
+[W 120814 17:33:45 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[E 120814 17:33:48 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344932052|1813dc14b7cc027c5a357b2dc7d6945326e51084"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 82, in post
+        self.write(type(res))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 493, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 168, in utf8
+        assert isinstance(value, unicode)
+    AssertionError
+[E 120814 17:33:48 web:1447] 500 POST /register (192.168.32.17) 1.35ms
+[W 120814 17:33:48 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.37ms
+[I 120814 17:35:52 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:35:55 web:1447] 304 GET /register (192.168.32.17) 3.77ms
+[W 120814 17:35:55 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120814 17:35:57 web:1447] 200 POST /register (192.168.32.17) 1.09ms
+[W 120814 17:35:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120814 17:36:00 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[W 120814 17:36:02 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:36:20 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:36:28 web:1447] 304 GET /register (192.168.32.17) 3.83ms
+[W 120814 17:36:28 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120814 17:36:31 web:1447] 200 POST /register (192.168.32.17) 1.08ms
+[W 120814 17:36:31 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[W 120814 17:36:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:41:55 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:41:57 web:1447] 304 GET /register (192.168.32.17) 3.83ms
+[W 120814 17:41:57 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120814 17:42:01 web:1447] 200 POST /register (192.168.32.17) 2.20ms
+[W 120814 17:42:01 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:43:03 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120814 17:43:05 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.47ms
+[I 120814 17:43:06 web:1447] 200 POST /register (192.168.32.17) 2.18ms
+[W 120814 17:43:06 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:43:08 web:1447] 200 POST /register (192.168.32.17) 1.45ms
+[W 120814 17:43:09 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:43:12 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:43:44 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:43:45 web:1447] 200 POST /register (192.168.32.17) 2.39ms
+[W 120814 17:43:46 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.12ms
+[I 120814 17:43:47 web:1447] 304 GET /register (192.168.32.17) 3.33ms
+[W 120814 17:43:48 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.85ms
+[I 120814 17:43:51 web:1447] 200 POST /register (192.168.32.17) 1.44ms
+[W 120814 17:43:51 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:44:17 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:44:19 web:1447] 200 GET /register (192.168.32.17) 2.39ms
+[W 120814 17:44:19 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120814 17:44:23 web:1447] 304 GET /register (192.168.32.17) 1.34ms
+[W 120814 17:44:23 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:46:31 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:46:33 web:1447] 200 GET /register (192.168.32.17) 3.86ms
+[W 120814 17:46:33 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120814 17:46:34 web:1447] 304 GET /register (192.168.32.17) 0.74ms
+[W 120814 17:46:34 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 17:46:38 web:1447] 200 POST /register (192.168.32.17) 2.41ms
+[W 120814 17:46:38 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:47:34 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:48:31 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:48:34 web:1447] 304 GET /register (192.168.32.17) 3.83ms
+[W 120814 17:48:34 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.99ms
+[I 120814 17:48:43 web:1447] 302 POST /register (192.168.32.17) 24.57ms
+[I 120814 17:48:43 web:1447] 304 GET / (192.168.32.17) 2.89ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 2.84ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.10ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 1.92ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.84ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.46ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.43ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.04ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.06ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.50ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.52ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.69ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.63ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.73ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.10ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.57ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.45ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.46ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 2.00ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.78ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 2.01ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.86ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.84ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.55ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.42ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.68ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.43ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.98ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.97ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 2.01ms
+[I 120814 17:48:44 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.64ms
+[W 120814 17:48:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[W 120814 17:48:45 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:49:25 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120814 17:49:47 web:1447] 304 GET /register (192.168.32.17) 3.67ms
+[W 120814 17:49:47 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120814 17:49:50 web:1447] 302 POST /register (192.168.32.17) 24.58ms
+[I 120814 17:49:50 web:1447] 304 GET / (192.168.32.17) 2.86ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 2.94ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 2.03ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.74ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.10ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.55ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.76ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 1.90ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 1.98ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.48ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.58ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.58ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.78ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.82ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.44ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.91ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.23ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.71ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.51ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.95ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.75ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.59ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.78ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.81ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.43ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.58ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.41ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 1.76ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.97ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.72ms
+[I 120814 17:49:51 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.94ms
+[W 120814 17:49:51 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[W 120814 17:49:52 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:49:52 web:1447] 304 GET /register (192.168.32.17) 0.73ms
+[W 120814 17:49:53 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 17:50:03 web:1447] 302 POST /register (192.168.32.17) 1.22ms
+[E 120814 17:50:03 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344934190|c54427d62d41dcaceba0cb204dbb29a02bb495e6"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 94, in post
+        self.redirect("/")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 459, in redirect
+        raise Exception("Cannot redirect after headers have been written")
+    Exception: Cannot redirect after headers have been written
+[E 120814 17:50:03 web:718] Cannot send error response after headers written
+[I 120814 17:50:04 web:1447] 200 GET /login?error=Login+name+already+taken (192.168.32.17) 0.76ms
+[W 120814 17:50:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[W 120814 17:50:07 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120814 17:50:08 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[I 120814 17:50:47 web:1447] 304 GET /register (192.168.32.17) 0.72ms
+[W 120814 17:50:47 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.10ms
+[I 120814 17:50:51 web:1447] 302 POST /register (192.168.32.17) 0.78ms
+[E 120814 17:50:51 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhou57%40yahoo.co.jp&password=&login=LOGIN', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '53', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Cache-Control': 'max-age=0', 'Cookie': 'user="ImdhdmluemhvdTU3QHlhaG9vLmNvLmpwIg==|1344934190|c54427d62d41dcaceba0cb204dbb29a02bb495e6"', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 94, in post
+        self.redirect("/")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 459, in redirect
+        raise Exception("Cannot redirect after headers have been written")
+    Exception: Cannot redirect after headers have been written
+[E 120814 17:50:51 web:718] Cannot send error response after headers written
+[I 120814 17:50:51 web:1447] 304 GET /login?error=Login+name+already+taken (192.168.32.17) 0.75ms
+[W 120814 17:50:52 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 17:51:25 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120814 17:51:43 web:1447] 404 GET /favicon.ico (192.168.32.17) 1.45ms
+[I 120814 17:51:44 web:1447] 304 GET /register (192.168.32.17) 3.34ms
+[W 120814 17:51:44 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[I 120814 17:51:48 web:1447] 302 POST /register (192.168.32.17) 24.55ms
+[I 120814 17:51:48 web:1447] 304 GET / (192.168.32.17) 3.12ms
+[I 120814 17:51:48 web:1447] 304 GET /view/501b745641ab10241f6d0345.jpg (192.168.32.17) 2.85ms
+[I 120814 17:51:48 web:1447] 304 GET /view/501b745641ab10241f6d034b.jpg (192.168.32.17) 2.05ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745641ab10241f6d0348.jpg (192.168.32.17) 2.11ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745741ab10241f6d0357.jpg (192.168.32.17) 2.09ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745741ab10241f6d035a.jpg (192.168.32.17) 2.08ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745741ab10241f6d035d.jpg (192.168.32.17) 1.59ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745641ab10241f6d0351.jpg (192.168.32.17) 1.55ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745641ab10241f6d0354.jpg (192.168.32.17) 1.44ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745641ab10241f6d034e.jpg (192.168.32.17) 1.69ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745741ab10241f6d0360.jpg (192.168.32.17) 1.62ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745741ab10241f6d0363.jpg (192.168.32.17) 2.48ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745741ab10241f6d0366.jpg (192.168.32.17) 1.73ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745841ab10241f6d0369.jpg (192.168.32.17) 1.89ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745841ab10241f6d036f.jpg (192.168.32.17) 1.79ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745841ab10241f6d036c.jpg (192.168.32.17) 1.54ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745841ab10241f6d0372.jpg (192.168.32.17) 2.08ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745841ab10241f6d0375.jpg (192.168.32.17) 1.60ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745841ab10241f6d0378.jpg (192.168.32.17) 1.41ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745941ab10241f6d037b.jpg (192.168.32.17) 1.92ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745941ab10241f6d037e.jpg (192.168.32.17) 1.94ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745941ab10241f6d0381.jpg (192.168.32.17) 1.80ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745941ab10241f6d0384.jpg (192.168.32.17) 1.90ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745941ab10241f6d0387.jpg (192.168.32.17) 2.58ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745941ab10241f6d038a.jpg (192.168.32.17) 1.68ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745941ab10241f6d038d.jpg (192.168.32.17) 1.38ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745a41ab10241f6d0390.jpg (192.168.32.17) 2.39ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745a41ab10241f6d0393.jpg (192.168.32.17) 2.01ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745b41ab10241f6d0396.jpg (192.168.32.17) 1.96ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745b41ab10241f6d0399.jpg (192.168.32.17) 1.99ms
+[I 120814 17:51:49 web:1447] 304 GET /view/501b745b41ab10241f6d039c.jpg (192.168.32.17) 1.63ms
+[W 120814 17:51:49 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.84ms
+[W 120814 17:51:51 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.35ms
+[W 120814 17:51:53 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120814 17:51:54 web:1447] 304 GET /register (192.168.32.17) 0.72ms
+[W 120814 17:51:54 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.81ms
+[I 120814 17:52:03 web:1447] 302 POST /register (192.168.32.17) 1.23ms
+[I 120814 17:52:03 web:1447] 304 GET /login?error=Login+name+already+taken (192.168.32.17) 0.75ms
+[W 120814 17:52:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120814 17:54:36 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server

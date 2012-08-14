@@ -28,3 +28,6 @@ pip-log.txt
 
 #MAC image
 .DS_Store
+
+#log file
+.log
