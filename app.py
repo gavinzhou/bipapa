@@ -15,18 +15,13 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-import logging
-
 import os.path
 import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 import tornado.web
-import urllib2
 import tornado.escape
-import json
 import pymongo
-from tornado import template
 import base64, uuid
 
 from module.rakuten_api import rakuten_api
@@ -39,23 +34,41 @@ define("port", default=8888, help="run on the given port", type=int)
 class Application(tornado.web.Application):
     def __init__(self):
         handlers = [
+            # main handler
             (r"/", MainHandler),
             (r"/genreid/(\d+)?", GenreIdHandler),
             (r"/searchgenreid/(\d+)?", SearchGenreIdHandler),
+
+            # image server
             (r"/view/(.*)", ViewImageHandler),
+
             (r"/ranking", RankingHandler),
+
+            # auth
             (r"/login", LoginHandler),
             (r"/logout", LogoutHandler),
             (r"/register", RegisterHandler),
+
+            (r"/twitter_login", TwitterLoginHandler),
+            (r"/facebook_login", FacebookLoginHandler),
+
+            (r"/hello", HelloHandler),
         ]
         conn = pymongo.Connection("localhost", 27017)
         self.db = conn["bipapa"]
-        settings = dict(
-            template_path=os.path.join(os.path.dirname(__file__), "templates"),
-            static_path=os.path.join(os.path.dirname(__file__), "static"),
-            cookie_secret=base64.b64encode(uuid.uuid4().bytes + uuid.uuid4().bytes),
-            debug = True,
-            )
+        settings = {
+            "template_path" : os.path.join(os.path.dirname(__file__), "templates"),
+            "static_path" : os.path.join(os.path.dirname(__file__), "static"),
+            "cookie_secret" : base64.b64encode(uuid.uuid4().bytes + uuid.uuid4().bytes),
+            "twitter_consumer_key": "IR6TQE5y8Q0LMIeEPIs5w",
+            "twitter_consumer_secret": "3lUtS7oCeJoJx6VuoCAdKxMovJnYy3NHcR8GdgOBOXU",
+            'facebook_app_id': '106387102723201',
+            'facebook_secret': '8f468511877dab8fbacc0743a7050405',
+            'facebook_registration_redirect_url': 'http://10.24.94.36:8888/facebook_login',
+            "xsrf_cookies" : True,
+            "debug" : True,
+            }
+
         tornado.web.Application.__init__(self, handlers, **settings)
 
 def main():

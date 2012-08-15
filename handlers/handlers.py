@@ -16,26 +16,25 @@
 # under the License.
 
 import logging
+import urllib2
+import tornado.escape
+import pymongo,gridfs
+import bcrypt
+from pymongo import Connection
+from gridfs import GridFS
 
-import os.path
+import tornado.auth
 import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 import tornado.web
-import urllib2
-import tornado.escape
-import json
-import pymongo
-import bcrypt
+
 from module.rakuten_api import rakuten_api
 
 from tornado.options import define, options
-from pymongo import Connection
-from gridfs import GridFS
 
 db = Connection().gridfs
 fs = GridFS(db)
-
 
 def getimg4db(filename):
     f = fs.get_version(filename="%s" %filename)
@@ -43,12 +42,24 @@ def getimg4db(filename):
     content_type = f.content_type
     db.close
     return content_type,img
+
+class BaseHandler(tornado.web.RequestHandler):
+
+    def get_login_url(self):
+        return u"/login"
+
+    def get_current_user(self):
+        user_json = self.get_secure_cookie("user")
+        if user_json:
+            return tornado.escape.json_decode(user_json)
+        else:
+            return None
         
-class LoginHandler(tornado.web.RequestHandler):
+class LoginHandler(BaseHandler):
     def get(self):
         self.render("login.html")
 
-    def post(seflf):
+    def post(self):
         email = self.get_argument("email", "")
         password = self.get_argument("password", "")
 
@@ -56,9 +67,9 @@ class LoginHandler(tornado.web.RequestHandler):
 
         if user and user['password'] and bcrypt.hashpw(password, user['password']) == user['password']:
             self.set_current_user(email)
-            self.redirect("/")
+            self.redirect("hello")
         else:
-            error_msg = u"?notification=" + tornado.escape.url_escap("Login incorrect.")
+            error_msg = u"?notification=" + tornado.escape.url_escape("Login incorrect.")
             self.redirect(u"/login" + error_msg)
 
     def set_current_user(self, user):
@@ -70,6 +81,10 @@ class LoginHandler(tornado.web.RequestHandler):
 
 class RegisterHandler(LoginHandler):
     def get(self):
+        '''
+        logging exp
+        logging.info("**Request to RegisterHandler!")
+        '''
         self.render("register.html")
 
     def post(self):
@@ -88,15 +103,71 @@ class RegisterHandler(LoginHandler):
             user['user'] = email
             user['password'] = hashed_pass
     
-            auth = self.application.db['users'].save(user)
+            userId = self.application.db['users'].save(user)
+            logging.info("user ObjectId is %s" % userId)
             self.set_current_user(email)
     
-            self.redirect("/")
+            self.redirect("hello")
 
-class LogoutHandler(tornado.web.RequestHandler):
+class TwitterLoginHandler(LoginHandler, tornado.auth.TwitterMixin):
+    @tornado.web.asynchronous
     def get(self):
-        self.clear_all_cookies()
-        self.redirect(u"/")
+        if self.get_argument("oauth_token", None):
+            logging.info("twitter oauth_token is %s" % self.get_argument("oauth_token", None))
+            self.get_authenticated_user(self.async_callback(self._on_auth))
+            return
+        self.authorize_redirect("/twitter_login")
+
+    def _on_auth(self, user):
+        if not user:
+            raise tornado.web.HTTPError(500, "Twitter auth failed")
+        logging.info("twitter Auth worked")
+
+        userId = self.application.db['users'].save(user)
+        self.set_current_user(user['username'])
+        self.redirect("hello")
+
+class FacebookLoginHandler(LoginHandler, tornado.auth.FacebookGraphMixin):
+    @tornado.web.asynchronous
+    def get(self):
+        if self.get_argument('code', False):
+            self.get_authenticated_user(
+                redirect_uri=self.settings['facebook_registration_redirect_url'],
+                client_id=self.application.settings['facebook_app_id'],
+                client_secret=self.application.settings['facebook_secret'],
+                code=self.get_argument('code'),
+                callback=self.async_callback(self._on_login)
+            )
+            return
+
+        self.authorize_redirect(redirect_uri=self.settings['facebook_registration_redirect_url'],
+                                client_id=self.settings['facebook_app_id'],
+                                extra_params={'scope' : 'email'})
+
+    def _on_login(self, user):
+        if not user:
+            self.clear_allcookies()
+            raise tornado.web.HTTPError(500, 'Facebook authentication failed')
+        logging.info("facebook Auth worked")
+
+        userId = self.application.db['users'].save(user)
+        self.set_current_user(user['name'])
+        self.redirect('hello')
+
+class LogoutHandler(BaseHandler):
+    def get(self):
+        self.clear_cookie("user")
+        self.redirect(u"/login")
+
+class HelloHandler(BaseHandler):
+    @tornado.web.authenticated
+    def get(self):
+        user = self.get_current_user()
+        logging.info("user is %s" % user)
+        self.render("hello.html", user=user)
+
+    def post(self):
+        return self.get()
 
 class ViewImageHandler(tornado.web.RequestHandler):
     @tornado.web.asynchronous
