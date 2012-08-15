@@ -44,7 +44,6 @@ def getimg4db(filename):
     return content_type,img
 
 class BaseHandler(tornado.web.RequestHandler):
-
     def get_login_url(self):
         return u"/login"
 
@@ -54,6 +53,19 @@ class BaseHandler(tornado.web.RequestHandler):
             return tornado.escape.json_decode(user_json)
         else:
             return None
+    
+    @property        
+    def db(self):
+        """mongodb settings"""
+        if not hasattr(BaseHandler, "_db") :
+            _db = pymongodb.Connection().bipapa
+        return _db
+        
+    @property
+    def fs(self):
+        if not hasattr(BaseHandler,"_fs"):
+            _fs = gridfs.GridFS(self.db)
+        return _fs
         
 class LoginHandler(BaseHandler):
     def get(self):
