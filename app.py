@@ -21,7 +21,6 @@ import tornado.ioloop
 import tornado.options
 import tornado.web
 import tornado.escape
-import pymongo
 import base64, uuid
 
 from module.rakuten_api import rakuten_api
@@ -54,8 +53,6 @@ class Application(tornado.web.Application):
 
             (r"/hello", HelloHandler),
         ]
-        conn = pymongo.Connection("localhost", 27017)
-        self.db = conn["bipapa"]
         settings = {
             "template_path" : os.path.join(os.path.dirname(__file__), "templates"),
             "static_path" : os.path.join(os.path.dirname(__file__), "static"),
@@ -65,7 +62,7 @@ class Application(tornado.web.Application):
             'facebook_app_id': '106387102723201',
             'facebook_secret': '8f468511877dab8fbacc0743a7050405',
             'facebook_registration_redirect_url': 'http://10.24.94.36:8888/facebook_login',
-            "xsrf_cookies" : True,
+#            "xsrf_cookies" : True,
             "debug" : True,
             }
 

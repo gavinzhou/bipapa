@@ -20,8 +20,6 @@ import urllib2
 import tornado.escape
 import pymongo,gridfs
 import bcrypt
-from pymongo import Connection
-from gridfs import GridFS
 
 import tornado.auth
 import tornado.httpserver
@@ -32,16 +30,6 @@ import tornado.web
 from module.rakuten_api import rakuten_api
 
 from tornado.options import define, options
-
-db = Connection().gridfs
-fs = GridFS(db)
-
-def getimg4db(filename):
-    f = fs.get_version(filename="%s" %filename)
-    img = f.read()
-    content_type = f.content_type
-    db.close
-    return content_type,img
 
 class BaseHandler(tornado.web.RequestHandler):
     def get_login_url(self):
@@ -57,14 +45,15 @@ class BaseHandler(tornado.web.RequestHandler):
     @property        
     def db(self):
         """mongodb settings"""
-        if not hasattr(BaseHandler, "_db") :
-            _db = pymongodb.Connection().bipapa
+        if not hasattr(BaseHandler, "_db"):
+            _db = pymongo.Connection().bipapa
         return _db
         
     @property
     def fs(self):
         if not hasattr(BaseHandler,"_fs"):
-            _fs = gridfs.GridFS(self.db)
+            db = pymongo.Connection().gridfs
+            _fs = gridfs.GridFS(db)
         return _fs
         
 class LoginHandler(BaseHandler):
@@ -75,14 +64,14 @@ class LoginHandler(BaseHandler):
         email = self.get_argument("email", "")
         password = self.get_argument("password", "")
 
-        user = self.application.db['users'].find_one({'user':email})
+        user = self.db['users'].find_one({'user':email})
 
         if user and user['password'] and bcrypt.hashpw(password, user['password']) == user['password']:
             self.set_current_user(email)
             self.redirect("hello")
         else:
             error_msg = u"?notification=" + tornado.escape.url_escape("Login incorrect.")
-            self.redirect(u"/login" + error_msg)
+            self.redirect(u"register" + error_msg)
 
     def set_current_user(self, user):
         print "setting" + user
@@ -135,7 +124,7 @@ class TwitterLoginHandler(LoginHandler, tornado.auth.TwitterMixin):
             raise tornado.web.HTTPError(500, "Twitter auth failed")
         logging.info("twitter Auth worked")
 
-        userId = self.application.db['users'].save(user)
+        userId = self.db['users'].save(user)
         self.set_current_user(user['username'])
         self.redirect("hello")
 
@@ -153,18 +142,22 @@ class FacebookLoginHandler(LoginHandler, tornado.auth.FacebookGraphMixin):
             return
 
         self.authorize_redirect(redirect_uri=self.settings['facebook_registration_redirect_url'],
-                                client_id=self.settings['facebook_app_id'],
-                                extra_params={'scope' : 'email'})
+                                client_id=self.settings['facebook_app_id'])
 
     def _on_login(self, user):
         if not user:
             self.clear_allcookies()
             raise tornado.web.HTTPError(500, 'Facebook authentication failed')
         logging.info("facebook Auth worked")
-
-        userId = self.application.db['users'].save(user)
+        logging.info(user['access_token'])
+        self.facebook_request("/me", access_token=user['access_token'], callback=self._save_user_profile)
         self.set_current_user(user['name'])
         self.redirect('hello')
+
+    def _save_user_profile(self, user):
+        if not user:
+            raise tornado.web.HTTPError(500, "Facebook authentication failed.")
+        userId = self.db['users'].save(user)
 
 class LogoutHandler(BaseHandler):
     def get(self):
@@ -181,16 +174,17 @@ class HelloHandler(BaseHandler):
     def post(self):
         return self.get()
 
-class ViewImageHandler(tornado.web.RequestHandler):
+class ViewImageHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self,filename):
         name,sep,ext = filename.rpartition(".")
         if not sep:
-            content_type, img = getimg4db(ext)
+            img_name = ext
         else:
-            content_type, img = getimg4db(name)
-        self.set_header('Content-Type',content_type)
-        self.write(img)
+            img_name = name
+        img_file = self.fs.get_version(filename=img_name)
+        self.add_header('Content-Type',img_file.content_type)
+        self.write(img_file.read())
         self.finish()
         
 class RankingHandler(tornado.web.RequestHandler):
@@ -250,10 +244,10 @@ class GenreIdHandler(tornado.web.RequestHandler):
             self.set_status(404)
             self.write("error genreId not found")
 
-class MainHandler(tornado.web.RequestHandler):
+class MainHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
-        filename_list = fs.list()
+        filename_list = self.fs.list()
         self.render("index.html", filename_list=filename_list)
 
     def post(self):
