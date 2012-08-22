@@ -2,18 +2,45 @@
 <head>
 <meta http-equiv="Content-Type" content="image/jpeg; charset=utf-8" />
 <title>template function test</title>
+<script type="text/javascript" src="{{ static_url("js/jquery.masonry.min.js")}}"></script>
+<script type="text/javascript" src="{{ static_url("js/jquery-1.8.0.min.js")}}"></script>
+<script type="text/javascript">
+$(function() {
+    $('#demo').masonry({
+        singleMode: true,
+        itemSelector: '.box'
+
+    });
+})
+</script>
+<style type="text/css">
+
+.box {
+  margin: 5px;
+  padding: 5px;
+  background: #D8D5D2;
+  font-size: 11px;
+  float: left;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+.col1 { width: 80px; }
+</style>
 </head>
 <body>
+<!--
 <img src="{{ static_url("tornado-icon.png") }}" alt="tornado" />
-<form action="/" method="post">
-<input type="text" name="message">
-<input type="submit" value="Submit">
-</form>
+-->
+<div id="demo" class="wrap">
 {% if filename_list %}
+        {% set colnum = 1 %}
     {% for filename in filename_list %}
-        <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg"/></a><p>
+        {% set colnum = colnum + 1 %}
+        <div class="box col{{colnum}}">
+        <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg" width="384"/></a><p>
+        </div>
     {% end %}
 {% end %}
-
 </body>
 </html>

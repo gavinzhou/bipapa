@@ -20,6 +20,7 @@ import urllib2
 import tornado.escape
 import pymongo,gridfs
 import bcrypt
+from PIL import Image
 
 import tornado.auth
 import tornado.httpserver
