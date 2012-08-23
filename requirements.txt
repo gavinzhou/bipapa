@@ -3,3 +3,5 @@
 
 pymongo==2.2.1
 tornado==2.3
+PIL==1.1.7
+py-bcrypt==0.2
