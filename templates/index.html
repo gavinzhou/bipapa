@@ -29,16 +29,13 @@ $(function() {
 </style>
 </head>
 <body>
-<!--
-<img src="{{ static_url("tornado-icon.png") }}" alt="tornado" />
--->
 <div id="demo" class="wrap">
 {% if filename_list %}
         {% set colnum = 1 %}
     {% for filename in filename_list %}
         {% set colnum = colnum + 1 %}
         <div class="box col{{colnum}}">
-        <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg" width="384"/></a><p>
+        <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg?_re=200x300"/></a><p>
         </div>
     {% end %}
 {% end %}
