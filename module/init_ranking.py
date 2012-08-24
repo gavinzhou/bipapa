@@ -4,7 +4,6 @@
 from pymongo import Connection
 from pymongo.errors import CollectionInvalid
 from rakuten_api import rakuten_api
-#from get_img import GetImg
 from getimg2db import GetImg2db
 
 def rankingGet(genreId, page):
@@ -28,7 +27,6 @@ def genreIdList():
     return  mongo_coll.find({'genreLevel': 2},{"genreId": 1,"_id": 0})
 
 def main():
-#    genreid_list = genreIdList()
     genreid_list = [{"genreId": "110729"}]
     '''
      110729 one-piece
@@ -37,12 +35,12 @@ def main():
     if genreid_list:
         items_keys = ["itemName", "mediumImageUrl", "itemPrice", "genreId", "itemUrl"]
         for genreid in genreid_list:
+            COLLECTION_NAME = 'ranking' + str(genreid["genreId"])
+            mongo_conn = Connection()
+            mongo_db = mongo_conn[DB_NAME]
             for page in range(1,5):
                 items_list =  rankingGet(genreid["genreId"], page)
                 if items_list:
-                    COLLECTION_NAME = 'ranking' + str(genreid["genreId"])
-                    mongo_conn = Connection()
-                    mongo_db = mongo_conn[DB_NAME]
                     try:
                         mongo_coll = mongo_db.create_collection(COLLECTION_NAME)
                     except CollectionInvalid:
@@ -50,7 +48,6 @@ def main():
                     for items in items_list:
                         data = dict([(key,items.pop(key)) for key in items_keys])
                         data["ImageUrl"] = data.pop("mediumImageUrl").split("?")[0]
-                #        print data
                         if not mongo_coll.find_one(data):
                             url = str(data["ImageUrl"])
                             id = str(mongo_coll.insert(data))

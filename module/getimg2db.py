@@ -3,14 +3,15 @@
 
 import pycurl
 import StringIO
+import time
 
 from pymongo import Connection
 from gridfs import GridFS
 
-def img2db(img, content_type, filename):
+def img2db(img, content_type, filename, timestamp):
     db = Connection().gridfs
     fs = GridFS(db)
-    oid = fs.put(img, content_type = content_type, filename = filename)
+    oid = fs.put(img, content_type = content_type, filename = filename, timestamp= timestamp)
     return oid
 
 def GetImg2db(filename, url):
@@ -18,12 +19,11 @@ def GetImg2db(filename, url):
     crl.setopt(pycurl.HTTPGET, 1)
     crl.setopt(pycurl.URL, url)
     data = StringIO.StringIO()
-#    outfile = open("./tmp/" + filename + ".jpg" ,"wb")
     crl.setopt(pycurl.WRITEFUNCTION, data.write)
     crl.perform()
     img = data.getvalue()
     content_type = crl.getinfo(pycurl.CONTENT_TYPE)
-    oid = img2db(img, content_type, filename)
+    oid = img2db(img, content_type, filename, int(time.time()))
     return  oid
 
 #url = "http://thumbnail.image.rakuten.co.jp/@0_mall/pierrot/cabinet/img14/a1203-031544_1.jpg"

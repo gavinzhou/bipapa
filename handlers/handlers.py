@@ -204,6 +204,16 @@ class ViewImageHandler(BaseHandler):
         self.add_header('Content-Type',img_file.content_type)
         self.write(img)
         self.finish()
+
+class ShowHandler(BaseHandler):
+    @tornado.web.asynchronous
+    def get(self):
+        iterms_list = self.db['ranking110729'].find().limit(10)
+        if iterms_list:
+            iterms = []
+            for iterm in iterms_list:
+                iterms.append(iterm)
+        self.render("show.html", iterms=iterms)
         
 class RankingHandler(tornado.web.RequestHandler):
     def get(self):
@@ -265,7 +275,12 @@ class GenreIdHandler(tornado.web.RequestHandler):
 class MainHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
-        filename_list = self.fs.list()
+        skip = self.get_argument('page', 1)
+        iterms_list = self.db['ranking110729'].find().limit(40).skip((int(skip)-1) * 40)
+        if iterms_list:
+            filename_list = []
+            for iterm in iterms_list:
+                filename_list.append(iterm["_id"])
         self.render("index.html", filename_list=filename_list)
 
     def post(self):
