@@ -16,22 +16,6 @@
         gutterWidth:0,
       });
     });
-
-    $container.infinitescroll({
-      navSelector  : '#page-nav',
-      nextSelector : '#page-nav a',
-      itemSelector : '.box',
-      loading: {
-          finishedMsg: 'NULL',
-        }
-      },
-      function( newElements ) {
-        var $newElems = $( newElements );
-        $newElems.imagesLoaded(function(){
-          $container.masonry( 'appended', $newElems, true );
-        });
-      }
-    );
   });
 </script>
 </head>
@@ -44,7 +28,7 @@
         {% set colnum = 1 %}
     {% for filename in filename_list %}
         {% set colnum = colnum + 1 %}
-        <div class="box">
+        <div class="box col{{colnum}}">
         <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg?_re=200x300"/></a><p>
         </div>
     {% end %}
