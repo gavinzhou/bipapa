@@ -1,9 +1,24 @@
-.box {
-    width: 220px;
-    height: 300px;
-    margin: 5px;
-    float: left;
-    border: 1px solid #ccc;
-    background: #eee;
-    box-shadow: 0 2px 1px #eee;
+#container,
+.item {
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -ms-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+#container {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.item {
+    -webkit-transition-property: left, right, top;
+    -moz-transition-property: left, right, top;
+    -ms-transition-property: left, right, top;
+    -o-transition-property: left, right, top;
+    transition-property: left, right, top;
 }
