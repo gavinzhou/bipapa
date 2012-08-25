@@ -5,25 +5,21 @@
 <script type="text/javascript" src="{{ static_url("js/jquery-1.8.0.min.js")}}"></script>
 <script type="text/javascript" src="{{ static_url("js/jquery.masonry.min.js")}}"></script>
 <script type="text/javascript" src="{{ static_url("js/jquery.infinitescroll.min.js")}}"></script>
-<script type="text/javascript" src="{{ static_url("js/scrollpagination.js")}}"></script>
+
 <script type="text/javascript">
   $(function(){
     var $container = $('#container');
     $container.imagesLoaded(function(){
       $container.masonry({
         itemSelector: '.box',
-        columnWidth: 251,
-        gutterWidth:0,
       });
     });
   });
 </script>
 </head>
 <body>
-<nav id="page-nav">
- <a href="?page=3"></a>
-</nav>
-<div id="container" class="transitions-enabled infinite-scroll clearfix">
+
+<div id="container">
 {% if filename_list %}
         {% set colnum = 1 %}
     {% for filename in filename_list %}
