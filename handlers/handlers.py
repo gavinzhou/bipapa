@@ -215,6 +215,9 @@ class ShowHandler(BaseHandler):
                 iterms.append(iterm)
         self.render("show.html", iterms=iterms)
         
+    def post(self):
+        return self.get()
+        
 class RankingHandler(tornado.web.RequestHandler):
     def get(self):
         mgs = rakuten_api(operation="ItemRanking",
