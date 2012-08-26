@@ -41,16 +41,16 @@
 <nav id="page-nav">
 	<a href="show/?page=2"></a>
 </nav>
+<h2>Iterms List</h2>
 <div id="container">
     {% if iterms %}
-            <h2>Iterms List</h2>
             {% for iterm in iterms %}
 			<div class="item">
                {% for k in iterm.keys() %}
                    {% if k == "_id" %}
                        <a href="/view/{{ iterm[k] }}.jpg"><img src="/view/{{ iterm[k] }}.jpg?_re=200x300"/></a><p> 
                    {% else %}
-                       {{k}}=>{{iterm[k]}}<br/>
+                       {{k}} => {{iterm[k]}}<br/>
                    {% end %}
                {% end %}
 			   </div>
