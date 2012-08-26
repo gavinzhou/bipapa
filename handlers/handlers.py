@@ -41,6 +41,7 @@ class BaseHandler(tornado.web.RequestHandler):
     def initialize(self, lookup=LOOK_UP):
         self._lookup = lookup
 
+'''
     def render_string(self, filename, **kwargs):
         try:
             template = self._lookup.get_template(filename)
@@ -61,7 +62,7 @@ class BaseHandler(tornado.web.RequestHandler):
     
     def render(self, filename, **kwargs):
         self.finish(self.render_string(filename, **kwargs))
-    
+'''    
     def get_login_url(self):
         return u"/login"
 
