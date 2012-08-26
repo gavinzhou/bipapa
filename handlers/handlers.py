@@ -208,12 +208,16 @@ class ViewImageHandler(BaseHandler):
 class ShowHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
-        iterms_list = self.db['ranking110729'].find().limit(10)
+        skip = self.get_argument('page', 1)
+        iterms_list = self.db['ranking110729'].find().limit(40).skip((int(skip)-1) * 40)
         if iterms_list:
             iterms = []
             for iterm in iterms_list:
                 iterms.append(iterm)
         self.render("show.html", iterms=iterms)
+        
+    def post(self):
+        return self.get()
         
 class RankingHandler(tornado.web.RequestHandler):
     def get(self):
