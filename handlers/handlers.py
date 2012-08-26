@@ -37,11 +37,11 @@ from module.rakuten_api import rakuten_api
 from tornado.options import define, options
 
 class BaseHandler(tornado.web.RequestHandler):
+'''
     LOOK_UP = mako.lookup.TemplateLookup(directories=['./templates'],)
     def initialize(self, lookup=LOOK_UP):
         self._lookup = lookup
 
-'''
     def render_string(self, filename, **kwargs):
         try:
             template = self._lookup.get_template(filename)
