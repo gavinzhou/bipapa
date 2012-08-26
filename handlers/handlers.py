@@ -215,9 +215,6 @@ class ShowHandler(BaseHandler):
                 iterms.append(iterm)
         self.render("show.html", iterms=iterms)
         
-    def post(self):
-        return self.get()
-        
 class RankingHandler(tornado.web.RequestHandler):
     def get(self):
         mgs = rakuten_api(operation="ItemRanking",
@@ -287,10 +284,4 @@ class MainHandler(BaseHandler):
         self.render("index.html", filename_list=filename_list)
 
     def post(self):
-        keyword = self.get_argument("message")
-        keyword = urllib2.quote(keyword.encode('utf-8'))
-        mgs = rakuten_api(operation="ItemSearch", 
-                          version="2010-09-15", 
-                          keyword=keyword)
-        mgs_list = mgs['Body']["ItemSearch"]["Items"]["Item"]
-        self.render("template_mgs.html", message=mgs_list)
+        return self.get()
