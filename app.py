@@ -35,7 +35,7 @@ class Application(tornado.web.Application):
         handlers = [
             # main handler
             (r"/", MainHandler),
-            (r"/show", ShowHandler),
+            (r"/show/", ShowHandler),
             (r"/genreid/(\d+)?", GenreIdHandler),
             (r"/searchgenreid/(\d+)?", SearchGenreIdHandler),
 
