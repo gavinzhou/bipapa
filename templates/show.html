@@ -41,13 +41,11 @@
 <nav id="page-nav">
 	<a href="show/?page=2"></a>
 </nav>
-<body>
-<div id="item">
+<div id="container">
     {% if iterms %}
             <h2>Iterms List</h2>
-            {% set colnum = 1 %}
             {% for iterm in iterms %}
-               {% set colnum = colnum + 1 %}
+			<div class="item">
                {% for k in iterm.keys() %}
                    {% if k == "_id" %}
                        <a href="/view/{{ iterm[k] }}.jpg"><img src="/view/{{ iterm[k] }}.jpg?_re=200x300"/></a><p> 
@@ -55,6 +53,7 @@
                        {{k}}=>{{iterm[k]}}<br/>
                    {% end %}
                {% end %}
+			   </div>
             {% end %}
     {% end %}
 </div>
