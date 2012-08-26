@@ -44,7 +44,7 @@ class BaseHandler(tornado.web.RequestHandler):
     def render_string(self, filename, **kwargs):
         try:
             template = self._lookup.get_template(filename)
-            env_kwargs = {
+            env_kwargs = dict(
                 handler = self,
                 request = self.request,
                 current_user = self.current_user,
@@ -53,7 +53,7 @@ class BaseHandler(tornado.web.RequestHandler):
                 static_url = self.static_url,
                 xsrf_form_html = self.xsrf_form_html,
                 reverse_url = self.application.reverse_url,
-            }
+            )
             env_kwargs.update(kwargs)
             return template.render(**env_kwargs)
         except:
