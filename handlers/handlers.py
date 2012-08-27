@@ -96,7 +96,7 @@ class RegisterHandler(LoginHandler):
     def post(self):
         email = self.get_argument("email", "")
 
-        already_taken = self.application.db["users"].find_one({'user': email})
+        already_taken = self.db["users"].find_one({'user': email})
         if already_taken:
             error_msg = u"?error=" + tornado.escape.url_escape("Login name already taken")
             self.write(error_msg)
@@ -109,7 +109,7 @@ class RegisterHandler(LoginHandler):
             user['user'] = email
             user['password'] = hashed_pass
     
-            userId = self.application.db['users'].save(user)
+            userId = self.db['users'].save(user)
             logging.info("user ObjectId is %s" % userId)
             self.set_current_user(email)
     
@@ -138,7 +138,7 @@ class FacebookLoginHandler(LoginHandler, tornado.auth.FacebookGraphMixin):
     def get(self):
         if self.get_argument('code', False):
             self.get_authenticated_user(
-                redirect_uri=self.settings['facebook_registration_redirect_url'],
+                redirect_uri=self.application.settings['facebook_registration_redirect_url'],
                 client_id=self.application.settings['facebook_app_id'],
                 client_secret=self.application.settings['facebook_secret'],
                 code=self.get_argument('code'),
@@ -212,7 +212,14 @@ class ShowHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
         skip = self.get_argument('page', 1)
-        iterms_list = self.db['ranking110729'].find().limit(40).skip((int(skip)-1) * 40)
+        genreid  = self.get_argument('genreid', None)
+        logging.info(genreid)
+        if genreid is None:
+            coll = "ranking110729"
+        else:
+		    coll = "ranking" + str(genreid)
+#        iterms_list = self.db['ranking110729'].find({},{"ImageUrl":0}).limit(20).skip((int(skip)-1) * 20)
+        iterms_list = self.db[coll].find({},{"ImageUrl":0}).limit(20).skip((int(skip)-1) * 20)
         if iterms_list:
             iterms = []
             for iterm in iterms_list:
@@ -283,7 +290,7 @@ class MainHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
         skip = self.get_argument('page', 1)
-        iterms_list = self.db['ranking110729'].find().limit(40).skip((int(skip)-1) * 40)
+        iterms_list = self.db['ranking110729'].find().limit(20).skip((int(skip)-1) * 20)
         if iterms_list:
             filename_list = []
             for iterm in iterms_list:

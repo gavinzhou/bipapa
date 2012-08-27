@@ -39,22 +39,16 @@
 </head>
 <body>
 <nav id="page-nav">
-	<a href="show/?page=2"></a>
+	<a href="?page=2"></a>
 </nav>
-<h2>Iterms List</h2>
 <div id="container">
     {% if iterms %}
-            {% for iterm in iterms %}
-			<div class="item">
-               {% for k in iterm.keys() %}
-                   {% if k == "_id" %}
-                       <a href="/view/{{ iterm[k] }}.jpg"><img src="/view/{{ iterm[k] }}.jpg?_re=200x300"/></a><p> 
-                   {% else %}
-                       {{k}} => {{iterm[k]}}<br/>
-                   {% end %}
-               {% end %}
-			   </div>
-            {% end %}
+        {% for iterm in iterms %}
+		    <div class="item">
+            <a href="{{ iterm["itemUrl"] }}"><img src="/view/{{ iterm["_id"] }}.jpg?_re=200x300"/></a><p>
+		    <ol>Price is {{ iterm["itemPrice"] }}</ol>
+		    </div>
+        {% end %}
     {% end %}
 </div>
 </body>

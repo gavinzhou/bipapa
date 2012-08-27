@@ -27,7 +27,8 @@ def genreIdList():
     return  mongo_coll.find({'genreLevel': 2},{"genreId": 1,"_id": 0})
 
 def main():
-    genreid_list = [{"genreId": "110729"}]
+    genreid_list = genreIdList()
+#    genreid_list = [{"genreId": "110729"}]
     '''
      110729 one-piece
     '''

@@ -1,3 +1,4 @@
+/*
 #container,
 .item {
     -webkit-transition-duration: 0.7s;
@@ -6,9 +7,12 @@
     -o-transition-duration: 0.7s;
     transition-duration: 0.7s;
 }
+*/
 
 #container {
 	width: 1000px;
+	margin-left: auto; 
+	margin-right: auto;
     -webkit-transition-property: height, width;
     -moz-transition-property: height, width;
     -ms-transition-property: height, width;
@@ -17,6 +21,12 @@
 }
 
 .item {
+    margin: 5px;
+	padding: 5px;
+	background: #424242
+	color: #FFF
+	display: inline;
+	box-shadow: 0 5px 5px #eee;
     -webkit-transition-property: left, right, top;
     -moz-transition-property: left, right, top;
     -ms-transition-property: left, right, top;
