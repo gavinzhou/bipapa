@@ -218,7 +218,6 @@ class ShowHandler(BaseHandler):
             coll = "ranking110729"
         else:
 		    coll = "ranking" + str(genreid)
-#        iterms_list = self.db['ranking110729'].find({},{"ImageUrl":0}).limit(20).skip((int(skip)-1) * 20)
         iterms_list = self.db[coll].find({},{"ImageUrl":0}).limit(20).skip((int(skip)-1) * 20)
         if iterms_list:
             iterms = []

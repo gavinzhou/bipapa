@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 {% block body %}
-<nav id="page-nav">
-	<a href="?page=2"></a>
-</nav>
-<div id="container">
-{% if filename_list %}
-    {% for filename in filename_list %}
-        <div class="item">
-        <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg?_re=200x300"/></a><p>
-        </div>
-    {% end %}
-{% end %}
-</div>
+	<nav id="page-nav">
+		<a href="?page=2"></a>
+	</nav>
+	<div id="container">
+	{% if filename_list %}
+	    {% for filename in filename_list %}
+	        <div class="item">
+	        <a href="/view/{{ filename }}.jpg"><img src="/view/{{ filename }}.jpg?_re=200x300"/></a><p>
+	        </div>
+	    {% end %}
+	{% end %}
+	</div>
 {% end %}
