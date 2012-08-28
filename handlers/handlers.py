@@ -187,9 +187,12 @@ class ViewImageHandler(BaseHandler):
             img_name = ext
         else:
             img_name = name
-        img_file = self.fs.get_version(filename=img_name)
-        img = img_file.read()
-
+        try:
+            img_file = self.fs.get_version(filename=img_name)
+            img = img_file.read()
+        except gridfs.errors.NoFile:
+            raise tornado.web.HTTPError(500, 'image is not found ')
+    
         resize = self.get_argument('_re', None)
         if resize :
             width, resep, height = resize.rpartition("x")
@@ -197,9 +200,12 @@ class ViewImageHandler(BaseHandler):
             output.write(img)
             output.seek(0)
             im = Image.open(output)
+            format = im.format
+#            size = im.size
+#            logging.info("format is %s ,size is %s" %(format,size))
             im = im.resize((int(width),int(height)), Image.ANTIALIAS)
             tmp = StringIO()
-            im.save(tmp, 'JPEG')
+            im.save(tmp, format)
             img = tmp.getvalue()
             tmp.close()
             output.close()
@@ -207,13 +213,15 @@ class ViewImageHandler(BaseHandler):
         self.add_header('Content-Type',img_file.content_type)
         self.write(img)
         self.finish()
+		    
 
 class ShowHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
         skip = self.get_argument('page', 1)
         genreid  = self.get_argument('genreid', None)
-        logging.info(genreid)
+        logging.info("genreid is %s " % genreid)
+        logging.info("skip is %s " % skip)
         if genreid is None:
             coll = "ranking110729"
         else:
