@@ -11,12 +11,12 @@
 	<link rel="stylesheet" href="{{static_url('css/bipapa.css')}}" type="text/css"/>
     <link rel="stylesheet" href="{{static_url('css/login.css')}}" type="text/css"/>
 </head>
-<body>
+<body>		
+	{% include "login.html" %}
 	<div id="header">
 		{% block header %} {% end %}
-		{% include "login.html" %}
 	</div>
-	<div id="content">
+	<div id="container">
 		{% block body %} {% end %}
 	</div>
 	<div id="footer">
