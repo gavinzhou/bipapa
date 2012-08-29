@@ -15,7 +15,7 @@ $container.infinitescroll({
 		img: 'http://i.imgur.com/6RMhx.gif',
 	}
 },
-	
+
 function( newElements ){
 	var $newElems = $( newElements ).css({ opacity: 0 });
 	$newElems.imagesLoaded(function(){
