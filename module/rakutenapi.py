@@ -87,7 +87,7 @@ def getCollId(keyword):
         coll = db.create_collection(COLLECTION_NAME)
     except CollectionInvalid:
         coll = db[COLLECTION_NAME]
-    rz = coll.find_one({'keyword': keywrod})
+    rz = coll.find_one({'keyword': keyword})
     if keyword:
         _id = coll.insert({'keyword': keyword})
     else:
