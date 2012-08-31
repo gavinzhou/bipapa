@@ -57,48 +57,53 @@ class GetAPI(RakutenAPI):
         else:
             return msg['Header']['StatusMsg']
 
-def getItem(keyword, coll_name, page=1):
-    """ get item from rakuten api """
-    coll = db[coll_name]
-    getapi = GetAPI()
-    itemresult = getapi.ItemSearch(keyword, page)
-    if page < itemresult["pageCount"]:
-        for item in itemresult["Items"]["Item"]:
-            _item = {}
-            _item["itemName"]       =   item["itemName"]
-            _item["itemImageUrl"]   =   item["mediumImageUrl"].split("?")[0]           
-            _item["itemPrice"]      =   item["itemPrice"]
-            _item["genreId"]        =   item["genreId"]
-            _item["itemUrl"]        =   item["itemUrl"]
+class GetItem(object):
+    """GetItem from rakuten api"""
+
+    @property    
+    def db(self):
+        """mongodb settings"""
+        if not hasattr(BaseHandler, "_db"):
+            _db = pymongo.Connection().bipapa
+        return _db
+
+    def getCollId(self, keyword):
+        COLLECTION_NAME = "KeywordList"
+        try:
+            coll = self.db.create_collection(COLLECTION_NAME)
+        except CollectionInvalid:
+            coll = self.db[COLLECTION_NAME]
+        rz = coll.find_one({'keyword': keyword})
+        if keyword:
+            _id = coll.insert({'keyword': keyword})
+        else:
+            _id = rz["_id"]
+        return _id
             
-            if not coll.find_one(_item):
-                coll.insert(_item)
-        getItem(keyword, coll_name, page + 1)
+    def getItem(self, keyword, coll_name, page=1):
+        """ get item from rakuten api """
+        coll = db[coll_name]
+        getapi = GetAPI()
+        itemresult = getapi.ItemSearch(keyword, page)
+        if page < itemresult["pageCount"]:
+            for item in itemresult["Items"]["Item"]:
+                _item = {}
+                _item["itemName"]       =   item["itemName"]
+                _item["itemImageUrl"]   =   item["mediumImageUrl"].split("?")[0]           
+                _item["itemPrice"]      =   item["itemPrice"]
+                _item["genreId"]        =   item["genreId"]
+                _item["itemUrl"]        =   item["itemUrl"]
+            
+                if not coll.find_one(_item):
+                    coll.insert(_item)
+            getItem(keyword, coll_name, page + 1)
 
-def db():
-    """mongodb settings"""
-    if not hasattr(BaseHandler, "_db"):
-        _db = pymongo.Connection().bipapa
-    return _db
-
-def getCollId(keyword):
-    db = pymongo.Connection().bipapa    
-    COLLECTION_NAME = "KeywordList"
-    try:
-        coll = db.create_collection(COLLECTION_NAME)
-    except CollectionInvalid:
-        coll = db[COLLECTION_NAME]
-    rz = coll.find_one({'keyword': keyword})
-    if keyword:
-        _id = coll.insert({'keyword': keyword})
-    else:
-        _id = rz["_id"]
-    return _id
 
 def main():
+    g = GetItem()
     keyword = 'ワンピース'
-    coll_name = getCollId(keyword)    
-    getItem(keyword, coll_name)
+    coll_name = g.getCollId(keyword)    
+    g.getItem(keyword, coll_name)
 
 if __name__ == "__main__":
     main()
