@@ -56,15 +56,17 @@ class GetAPI(RakutenAPI):
         else:
             return msg['Header']['StatusMsg']
 
-def db(self):
+def db():
     """mongodb settings"""
     if not hasattr(BaseHandler, "_db"):
         _db = pymongo.Connection().bipapa
     return _db
 
-def getItem(keyword, page=1):
+def getItem(keyword, page=1, coll_name):
+    """ get item from rakuten api """
+    coll = db[coll_name]
     getapi = GetAPI()
-    itemresult = getapi.ItemSearch(keyword, page)    
+    itemresult = getapi.ItemSearch(keyword, page)
     if page < itemresult["pageCount"]:
         for item in itemresult["Items"]["Item"]:
             _item = {}
@@ -73,11 +75,26 @@ def getItem(keyword, page=1):
             _item["itemPrice"]      =   item["itemPrice"]
             _item["genreId"]        =   item["genreId"]
             _item["itemUrl"]        =   item["itemUrl"]
-            print _item
-        getItem(keyword, page + 1)
+            
+            if not coll.find_one(_item):
+                coll.insert(_item)
+        getItem(keyword, page + 1, coll_name)
+
+def getCollId(keyword):    
+    COLLECTION_NAME = "KeywordList"
+    try:
+        coll = db.create_collection(COLLECTION_NAME)
+    except CollectionInvalid:
+        coll = db[COLLECTION_NAME]
+    rz = coll.find_one({'keyword': keywrod})
+    if keyword:
+        _id = coll.insert({'keyword': keyword})
+    else:
+        _id = rz["_id"]
+    return _id
 
 def main():
-    keyword = 'ワンピース'
+    keyword = 'ワンピース'    
     getItem(keyword)
 
 if __name__ == "__main__":

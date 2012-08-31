@@ -30,8 +30,8 @@ def nextGenreId(genreid):
 def initGenreId():
     '''
     100371	レディースファッション
-    216129	ジュエリー・アクセサリー   
-	100380  カジュアル
+    216129	ジュエリー・アクセサリー
+    100380  カジュアル
     '''
     init_genreid_list = [100371, 100380]
     for genreid in init_genreid_list:
