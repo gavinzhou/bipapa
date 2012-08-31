@@ -62,7 +62,7 @@ def db():
         _db = pymongo.Connection().bipapa
     return _db
 
-def getItem(keyword, page=1, coll_name):
+def getItem(keyword, coll_name, page=1):
     """ get item from rakuten api """
     coll = db[coll_name]
     getapi = GetAPI()
@@ -78,7 +78,7 @@ def getItem(keyword, page=1, coll_name):
             
             if not coll.find_one(_item):
                 coll.insert(_item)
-        getItem(keyword, page + 1, coll_name)
+        getItem(keyword, coll_name, page + 1)
 
 def getCollId(keyword):    
     COLLECTION_NAME = "KeywordList"
