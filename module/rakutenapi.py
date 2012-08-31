@@ -56,12 +56,6 @@ class GetAPI(RakutenAPI):
         else:
             return msg['Header']['StatusMsg']
 
-def db():
-    """mongodb settings"""
-    if not hasattr(BaseHandler, "_db"):
-        _db = pymongo.Connection().bipapa
-    return _db
-
 def getItem(keyword, coll_name, page=1):
     """ get item from rakuten api """
     coll = db[coll_name]
@@ -80,22 +74,32 @@ def getItem(keyword, coll_name, page=1):
                 coll.insert(_item)
         getItem(keyword, coll_name, page + 1)
 
-def getCollId(keyword):    
-    COLLECTION_NAME = "KeywordList"
-    try:
-        coll = db.create_collection(COLLECTION_NAME)
-    except CollectionInvalid:
-        coll = db[COLLECTION_NAME]
-    rz = coll.find_one({'keyword': keywrod})
-    if keyword:
-        _id = coll.insert({'keyword': keyword})
-    else:
-        _id = rz["_id"]
-    return _id
+class Mongo(object):
+    """ Mongo DB """
+    @property
+    def db(self):
+        """mongodb settings"""
+        if not hasattr(BaseHandler, "_db"):
+            _db = pymongo.Connection().bipapa
+        return _db
+
+    def getCollId(self, keyword):    
+        COLLECTION_NAME = "KeywordList"
+        try:
+            coll = self.db.create_collection(COLLECTION_NAME)
+        except CollectionInvalid:
+            coll = self.db[COLLECTION_NAME]
+        rz = coll.find_one({'keyword': keywrod})
+        if keyword:
+            _id = coll.insert({'keyword': keyword})
+        else:
+            _id = rz["_id"]
+        return _id
 
 def main():
     keyword = 'ワンピース'
-    coll_name = getCollId(keyword)    
+    db = Mongo()
+    coll_name = db.getCollId(keyword)    
     getItem(keyword, coll_name)
 
 if __name__ == "__main__":
