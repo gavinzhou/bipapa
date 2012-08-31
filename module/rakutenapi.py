@@ -82,7 +82,7 @@ class GetItem(object):
             
     def getItem(self, keyword, coll_name, page=1):
         """ get item from rakuten api """
-        coll = db[coll_name]
+        coll = self.db[coll_name]
         getapi = GetAPI()
         itemresult = getapi.ItemSearch(keyword, page)
         if page < itemresult["pageCount"]:
