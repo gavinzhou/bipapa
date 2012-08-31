@@ -74,7 +74,7 @@ class GetItem(object):
         except CollectionInvalid:
             coll = self.db[COLLECTION_NAME]
         rz = coll.find_one({'keyword': keyword})
-        if rz:
+        if not rz:
             _id = coll.insert({'keyword': keyword})
         else:
             _id = rz["_id"]
@@ -102,8 +102,7 @@ class GetItem(object):
 def main():
     g = GetItem()
     keyword = 'ワンピース'
-    coll_name = g.getCollId(keyword)
-    print coll_name    
+    coll_name = g.getCollId(keyword)    
     g.getItem(keyword, coll_name)
 
 if __name__ == "__main__":
