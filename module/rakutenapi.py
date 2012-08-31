@@ -7,6 +7,7 @@ import StringIO
 #import simplejson as json
 import time
 import pymongo
+from pymongo.errors import CollectionInvalid
 
 from getimg2db import GetImg2db
 
