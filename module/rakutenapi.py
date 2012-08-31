@@ -63,7 +63,7 @@ class GetItem(object):
     @property    
     def db(self):
         """mongodb settings"""
-        if not hasattr(BaseHandler, "_db"):
+        if not hasattr(GetItem, "_db"):
             _db = pymongo.Connection().bipapa
         return _db
 
