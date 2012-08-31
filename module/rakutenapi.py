@@ -94,8 +94,9 @@ def getCollId(keyword):
     return _id
 
 def main():
-    keyword = 'ワンピース'    
-    getItem(keyword)
+    keyword = 'ワンピース'
+    coll_name = getCollId(keyword)    
+    getItem(keyword, coll_name)
 
 if __name__ == "__main__":
     main()
