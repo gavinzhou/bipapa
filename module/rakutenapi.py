@@ -96,7 +96,7 @@ class GetItem(object):
             
                 if not coll.find_one(_item):
                     _id = coll.insert(_item)
-                    print GetImag2db(_id, str(_item["itemImageUrl"]))
+                    print GetImg2db(_id, str(_item["itemImageUrl"]))
             self.getItem(keyword, coll_name, page + 1)
 
 def main():
