@@ -95,15 +95,15 @@ class GetItem(object):
                 _item["itemUrl"]        =   item["itemUrl"]
             
                 if not coll.find_one(_item):
-                    coll.insert(_item)
-            getItem(keyword, coll_name, page + 1)
-
+                    _id = coll.insert(_item)
+                    print GetImag2db(_id, str(_item["itemImageUrl"]))
+            self.getItem(keyword, coll_name, page + 1)
 
 def main():
     g = GetItem()
     keyword = 'ワンピース'
-    coll_name = g.getCollId(keyword)    
-    g.getItem(keyword, coll_name)
+    coll_name = g.getCollId(keyword)
+    g.getItem(keyword, str(coll_name))
 
 if __name__ == "__main__":
     main()
