@@ -46,11 +46,11 @@ class GetAPI(RakutenAPI):
         else:
             return msg['Header']['StatusMsg']
 
-    def ItemSearch(self, keyword, page):
+    def ItemSearch(self, genreid, page):
         params = dict(operation="ItemSearch",
                           version = "2010-09-15",
                           page = page,
-                          keyword = keyword,)
+                          genreid = genreid,)
         msg = self.result(params)
         if msg['Header']['Status'] == 'Success':
             return msg['Body']['ItemSearch']
@@ -66,7 +66,7 @@ class GetItem(object):
         if not hasattr(GetItem, "_db"):
             _db = pymongo.Connection().bipapa
         return _db
-
+"""
     def getCollId(self, keyword):
         COLLECTION_NAME = "KeywordList"
         try:
@@ -79,31 +79,42 @@ class GetItem(object):
         else:
             _id = rz["_id"]
         return _id
-            
-    def getItem(self, keyword, coll_name, page=1):
+"""    
+    def getCollList(self):
+        try:
+            coll = self.db.genreId
+        except CollectionInvalid:
+            pass
+        genreidlist = [ genreid for genreid in coll.find({"genreLevel": 2}) ]
+        return genreidlist
+                
+    def getItem(self, coll_name, page=1):
         """ get item from rakuten api """
         coll = self.db[coll_name]
         getapi = GetAPI()
         itemresult = getapi.ItemSearch(keyword, page)
         if page < itemresult["pageCount"]:
             for item in itemresult["Items"]["Item"]:
-                _item = {}
-                _item["itemName"]       =   item["itemName"]
-                _item["itemImageUrl"]   =   item["mediumImageUrl"].split("?")[0]           
-                _item["itemPrice"]      =   item["itemPrice"]
-                _item["genreId"]        =   item["genreId"]
-                _item["itemUrl"]        =   item["itemUrl"]
+                if not coll.find_one(item["itemCode"])
+                    _item = {}
+                    _item["itemName"]       =   item["itemName"]
+                    _item["itemImageUrl"]   =   item["mediumImageUrl"].split("?")[0]           
+                    _item["itemPrice"]      =   item["itemPrice"]
+                    _item["itemCode"]       =   itemCode["itemCode"]
+                    _item["genreId"]        =   item["genreId"].
+                    _item["itemUrl"]        =   item["itemUrl"]
+                    _item["timestamp"]      =   int(time.time())
             
-                if not coll.find_one(_item):
+#                if not coll.find_one(_item):
                     _id = coll.insert(_item)
                     print GetImg2db(_id, str(_item["itemImageUrl"]))
             self.getItem(keyword, coll_name, page + 1)
 
 def main():
     g = GetItem()
-    keyword = 'ワンピース'
-    coll_name = g.getCollId(keyword)
-    g.getItem(keyword, str(coll_name))
+#    keyword = 'ワンピース'
+    for coll_name in g.getCollList()
+        g.getItem(coll_name)
 
 if __name__ == "__main__":
     main()
