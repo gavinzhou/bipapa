@@ -95,7 +95,7 @@ class GetItem(object):
         itemresult = getapi.ItemSearch(keyword, page)
         if page < itemresult["pageCount"]:
             for item in itemresult["Items"]["Item"]:
-                if not coll.find_one(item["itemCode"])
+                if not coll.find_one(item["itemCode"]):
                     _item = {}
                     _item["itemName"]       =   item["itemName"]
                     _item["itemImageUrl"]   =   item["mediumImageUrl"].split("?")[0]           
