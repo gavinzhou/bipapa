@@ -81,10 +81,7 @@ class GetItem(object):
         return _id
 """    
     def getCollList(self):
-        try:
-            coll = self.db.genreId
-        except CollectionInvalid:
-            pass
+        coll = self.db.genreId
         genreidlist = [ genreid for genreid in coll.find({"genreLevel": 2}) ]
         return genreidlist
                 
