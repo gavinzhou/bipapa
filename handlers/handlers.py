@@ -270,7 +270,7 @@ class RankingHandler(tornado.web.RequestHandler):
 class SearchGenreIdHandler(tornado.web.RequestHandler):
     """docstring for GenreIdHandler"""
     def get(self, genreId):
-        coll = self.application.db.genreId
+        coll = self.db.genreId
         genreId_doc = []
         if genreId is None:
             genreId_list = coll.find({"genreLevel" : 1}, {"_id":0})

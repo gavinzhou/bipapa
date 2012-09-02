@@ -33,7 +33,7 @@ def initGenreId():
     216129	ジュエリー・アクセサリー
     100380  カジュアル
     '''
-    init_genreid_list = [100371, 100380]
+    init_genreid_list = [100371]
     for genreid in init_genreid_list:
         topGenreId = genreIdGet(genreid)
         mainGenreId(topGenreId)
