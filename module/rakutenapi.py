@@ -50,7 +50,7 @@ class GetAPI(RakutenAPI):
         params = dict(operation="ItemSearch",
                           version = "2010-09-15",
                           page = page,
-                          genreid = genreid,)
+                          genreId = genreid,)
         msg = self.result(params)
         if msg['Header']['Status'] == 'Success':
             return msg['Body']['ItemSearch']
@@ -113,7 +113,7 @@ def main():
     g = GetItem()
 #    keyword = 'ワンピース'
     for coll_name in g.getCollList():
-        g.getItem(str(coll_name))
+        g.getItem(coll_name)
 
 if __name__ == "__main__":
     main()
