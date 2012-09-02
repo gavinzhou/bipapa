@@ -113,7 +113,7 @@ def main():
     g = GetItem()
 #    keyword = 'ワンピース'
     for coll_name in g.getCollList():
-        g.getItem(coll_name)
+        g.getItem(str(coll_name))
 
 if __name__ == "__main__":
     main()
