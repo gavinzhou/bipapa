@@ -112,7 +112,7 @@ class GetItem(object):
 def main():
     g = GetItem()
 #    keyword = 'ワンピース'
-    for coll_name in g.getCollList()
+    for coll_name in g.getCollList():
         g.getItem(coll_name)
 
 if __name__ == "__main__":
