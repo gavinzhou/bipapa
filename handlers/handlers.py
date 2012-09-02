@@ -242,7 +242,7 @@ class ShowHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self, genreid):
         if genreid:
-            coll = "ranking" + str(genreid)
+            coll = "genreid" + str(genreid)
         else:
             raise tornado.web.HTTPError(500, "Not found Genreid")
         skip = self.get_argument('page', 1)
