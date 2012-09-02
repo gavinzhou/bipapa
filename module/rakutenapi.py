@@ -66,7 +66,7 @@ class GetItem(object):
         if not hasattr(GetItem, "_db"):
             _db = pymongo.Connection().bipapa
         return _db
-"""
+    """
     def getCollId(self, keyword):
         COLLECTION_NAME = "KeywordList"
         try:
@@ -79,9 +79,12 @@ class GetItem(object):
         else:
             _id = rz["_id"]
         return _id
-"""    
+    """    
     def getCollList(self):
-        coll = self.db.genreId
+        try:
+            coll = self.db.genreId
+        except CollectionInvalid:
+            pass
         genreidlist = [ genreid for genreid in coll.find({"genreLevel": 2}) ]
         return genreidlist
                 
@@ -102,7 +105,6 @@ class GetItem(object):
                     _item["itemUrl"]        =   item["itemUrl"]
                     _item["timestamp"]      =   int(time.time())
             
-#                if not coll.find_one(_item):
                     _id = coll.insert(_item)
                     print GetImg2db(_id, str(_item["itemImageUrl"]))
             self.getItem(keyword, coll_name, page + 1)
