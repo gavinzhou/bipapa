@@ -92,7 +92,7 @@ class GetItem(object):
         """ get item from rakuten api """
         coll = self.db[coll_name]
         getapi = GetAPI()
-        itemresult = getapi.ItemSearch(keyword, page)
+        itemresult = getapi.ItemSearch(coll_name, page)
         if page < itemresult["pageCount"]:
             for item in itemresult["Items"]["Item"]:
                 if not coll.find_one(item["itemCode"]):
