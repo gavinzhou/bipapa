@@ -107,7 +107,7 @@ class GetItem(object):
             
                     _id = coll.insert(_item)
                     print GetImg2db(_id, str(_item["itemImageUrl"]))
-            self.getItem(keyword, coll_name, page + 1)
+            self.getItem(coll_name, page + 1)
 
 def main():
     g = GetItem()
