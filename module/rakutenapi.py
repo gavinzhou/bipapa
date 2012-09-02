@@ -85,7 +85,7 @@ class GetItem(object):
             coll = self.db.genreId
         except CollectionInvalid:
             pass
-        genreidlist = [ genreid for genreid in coll.find({"genreLevel": 2}) ]
+        genreidlist = [ genreid["genreId"] for genreid in coll.find({"genreLevel": 2}) ]
         return genreidlist
                 
     def getItem(self, coll_name, page=1):
