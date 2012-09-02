@@ -100,7 +100,7 @@ class GetItem(object):
                     _item["itemName"]       =   item["itemName"]
                     _item["itemImageUrl"]   =   item["mediumImageUrl"].split("?")[0]           
                     _item["itemPrice"]      =   item["itemPrice"]
-                    _item["itemCode"]       =   itemCode["itemCode"]
+                    _item["itemCode"]       =   item["itemCode"]
                     _item["genreId"]        =   item["genreId"]
                     _item["itemUrl"]        =   item["itemUrl"]
                     _item["timestamp"]      =   int(time.time())
