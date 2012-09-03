@@ -347,7 +347,7 @@ class MainHandler(BaseHandler):
             filename_list = []
             for iterm in iterms_list:
                 filename_list.append(iterm["_id"])
-        self.render("index.html", filename_list=iterms_list)
+        self.render("index.html", filename_list=filename_list)
 
     def post(self):
         return self.get()
