@@ -15156,3 +15156,1887 @@
 [I 120830 14:37:23 web:1447] 304 GET /view/503c7f1841ab106c95bf3f46.jpg?_re=200x300 (192.168.32.17) 64.25ms
 [I 120830 14:37:23 web:1447] 304 GET /view/503c7f1841ab106c95bf3f49.jpg?_re=200x300 (192.168.32.17) 27.89ms
 [I 120830 14:37:23 web:1447] 304 GET /view/503c7f1841ab106c95bf3f4c.jpg?_re=200x300 (192.168.32.17) 32.11ms
+[I 120903 11:23:18 handlers:249] genreid is 110729 
+[I 120903 11:23:18 handlers:250] skip is 1 
+[I 120903 11:23:18 web:1447] 200 GET /show/110729 (192.168.32.17) 19.46ms
+[I 120903 11:23:19 web:1447] 200 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 1.00ms
+[I 120903 11:23:19 web:1447] 200 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.46ms
+[I 120903 11:23:19 web:1447] 200 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.45ms
+[I 120903 11:23:19 web:1447] 200 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.44ms
+[I 120903 11:23:19 web:1447] 200 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 84.27ms
+[I 120903 11:23:19 web:1447] 200 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.93ms
+[I 120903 11:23:19 web:1447] 200 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.53ms
+[I 120903 11:23:19 web:1447] 200 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.81ms
+[I 120903 11:23:19 web:1447] 200 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 58.94ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 61.70ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 69.18ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 66.64ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.95ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.75ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.31ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.73ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.62ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 68.98ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 73.55ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 73.26ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 68.13ms
+[I 120903 11:23:20 web:1447] 200 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 78.39ms
+[I 120903 11:23:21 web:1447] 200 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 70.12ms
+[I 120903 11:23:21 web:1447] 200 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.64ms
+[I 120903 11:23:21 web:1447] 200 GET /static/images/bar.png (192.168.32.17) 0.44ms
+[I 120903 11:23:21 web:1447] 200 GET /static/images/buttonbg.png (192.168.32.17) 0.41ms
+[I 120903 11:23:21 web:1447] 200 GET /static/images/loginArrow.png (192.168.32.17) 0.42ms
+[W 120903 11:23:21 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.96ms
+[I 120903 11:23:25 web:1447] 200 POST /?page=2 (192.168.32.17) 8.32ms
+[I 120903 11:23:40 handlers:249] genreid is 110729/ 
+[I 120903 11:23:40 handlers:250] skip is 2 
+[I 120903 11:23:40 web:1447] 200 GET /show/110729/?page=2 (192.168.32.17) 8.55ms
+[W 120903 11:23:40 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.86ms
+[I 120903 11:24:03 handlers:249] genreid is 110729/ 
+[I 120903 11:24:03 handlers:250] skip is 2 
+[I 120903 11:24:03 web:1447] 304 GET /show/110729/?page=2 (192.168.32.17) 8.19ms
+[I 120903 11:24:04 web:1447] 304 GET /static/js/jquery.masonry.min.js?v=fc2d7 (192.168.32.17) 0.45ms
+[I 120903 11:24:04 web:1447] 304 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.41ms
+[I 120903 11:24:04 web:1447] 304 GET /static/js/jquery.infinitescroll.min.js?v=24131 (192.168.32.17) 0.42ms
+[I 120903 11:24:04 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.42ms
+[I 120903 11:24:04 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 0.41ms
+[I 120903 11:24:04 web:1447] 304 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.41ms
+[W 120903 11:24:04 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.83ms
+[I 120903 11:24:06 handlers:249] genreid is 110729 
+[I 120903 11:24:06 handlers:250] skip is 1 
+[I 120903 11:24:06 web:1447] 304 GET /show/110729 (192.168.32.17) 8.91ms
+[I 120903 11:24:06 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 60.68ms
+[I 120903 11:24:06 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 61.81ms
+[I 120903 11:24:06 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 60.32ms
+[I 120903 11:24:06 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 62.57ms
+[I 120903 11:24:06 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.61ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 57.65ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.42ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.89ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.15ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 72.66ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.90ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.22ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.99ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 69.10ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 69.68ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 72.57ms
+[I 120903 11:24:07 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.49ms
+[I 120903 11:24:08 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 75.05ms
+[I 120903 11:24:08 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 70.38ms
+[I 120903 11:24:08 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.48ms
+[W 120903 11:24:08 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[I 120903 11:24:22 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120903 11:24:26 handlers:249] genreid is 110729 
+[I 120903 11:24:26 handlers:250] skip is 1 
+[I 120903 11:24:26 web:1447] 304 GET /show/110729 (192.168.32.17) 10.57ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 64.12ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 67.79ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.73ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 59.34ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 60.21ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 60.83ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.87ms
+[I 120903 11:24:27 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.96ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 28.02ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.88ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.06ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.36ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.56ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 70.48ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.50ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 72.68ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.41ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 74.00ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.79ms
+[I 120903 11:24:28 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 16.34ms
+[I 120903 11:24:28 web:1447] 200 POST /?page=2 (192.168.32.17) 7.93ms
+[W 120903 11:24:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.99ms
+[I 120903 11:24:42 handlers:249] genreid is 110729 
+[I 120903 11:24:42 handlers:250] skip is 1 
+[I 120903 11:24:42 web:1447] 304 GET /show/110729 (192.168.32.17) 9.29ms
+[I 120903 11:24:43 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 1.04ms
+[I 120903 11:24:43 web:1447] 304 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.42ms
+[I 120903 11:24:43 web:1447] 304 GET /static/js/jquery.infinitescroll.min.js?v=24131 (192.168.32.17) 0.42ms
+[I 120903 11:24:43 web:1447] 304 GET /static/js/jquery.masonry.min.js?v=fc2d7 (192.168.32.17) 0.49ms
+[I 120903 11:24:43 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.71ms
+[I 120903 11:24:43 web:1447] 304 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.47ms
+[I 120903 11:24:44 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.37ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 60.66ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 67.17ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 57.98ms
+[I 120903 11:24:44 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.40ms
+[I 120903 11:24:44 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.45ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 63.95ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 61.30ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 62.83ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 69.04ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 66.67ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 66.81ms
+[I 120903 11:24:44 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.77ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.66ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.28ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.90ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 270.92ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 69.87ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 72.01ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.47ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 75.30ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 68.79ms
+[I 120903 11:24:45 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.36ms
+[W 120903 11:24:46 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.95ms
+[I 120903 11:24:49 web:1447] 200 POST /?page=2 (192.168.32.17) 7.97ms
+[I 120903 11:24:59 handlers:249] genreid is 110729 
+[I 120903 11:24:59 handlers:250] skip is 2 
+[I 120903 11:24:59 web:1447] 200 GET /show/110729/?page=2 (192.168.32.17) 9.64ms
+[I 120903 11:24:59 web:1447] 200 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 75.91ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 22.72ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 39.12ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 69.31ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 67.30ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 68.68ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.80ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 71.14ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 16.06ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 74.71ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 29.06ms
+[I 120903 11:25:00 web:1447] 200 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 46.12ms
+[I 120903 11:25:01 web:1447] 200 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 76.98ms
+[I 120903 11:25:01 web:1447] 200 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 67.33ms
+[I 120903 11:25:01 web:1447] 200 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 21.92ms
+[I 120903 11:25:01 web:1447] 200 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 73.53ms
+[I 120903 11:25:01 web:1447] 200 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.97ms
+[I 120903 11:25:01 web:1447] 200 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 69.12ms
+[I 120903 11:25:01 web:1447] 200 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 73.39ms
+[W 120903 11:25:01 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 11:25:01 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.28ms
+[W 120903 11:25:01 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120903 11:25:29 handlers:249] genreid is 110729 
+[I 120903 11:25:29 handlers:250] skip is 2 
+[I 120903 11:25:29 web:1447] 200 GET /show/110729?page=2 (192.168.32.17) 9.36ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 76.09ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 68.70ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 67.03ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 69.18ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 39.07ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 22.44ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 15.85ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 71.58ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.67ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.80ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 74.48ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 45.64ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 66.94ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 21.63ms
+[I 120903 11:25:30 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 75.51ms
+[I 120903 11:25:31 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.57ms
+[I 120903 11:25:31 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 69.24ms
+[I 120903 11:25:31 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 73.70ms
+[W 120903 11:25:31 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 11:25:31 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.38ms
+[I 120903 11:25:31 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 70.19ms
+[W 120903 11:25:31 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.36ms
+[I 120903 11:25:46 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120903 11:25:59 handlers:249] genreid is 110729 
+[I 120903 11:25:59 handlers:250] skip is 1 
+[I 120903 11:25:59 web:1447] 304 GET /show/110729 (192.168.32.17) 10.53ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 60.79ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 68.59ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 67.09ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.64ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 60.91ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 58.63ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.79ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.46ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 66.26ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.26ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 68.97ms
+[I 120903 11:26:00 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 24.51ms
+[I 120903 11:26:01 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 28.10ms
+[I 120903 11:26:01 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.49ms
+[I 120903 11:26:01 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 69.86ms
+[I 120903 11:26:01 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 274.33ms
+[I 120903 11:26:01 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.32ms
+[I 120903 11:26:01 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 73.71ms
+[I 120903 11:26:02 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.53ms
+[I 120903 11:26:02 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.26ms
+[W 120903 11:26:02 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.94ms
+[I 120903 11:26:04 handlers:249] genreid is 110729 
+[I 120903 11:26:04 handlers:250] skip is 2 
+[I 120903 11:26:04 web:1447] 304 GET /show/110729?page=2 (192.168.32.17) 9.06ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 69.38ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 68.97ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 38.73ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 22.44ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 75.88ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 66.75ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 15.85ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 71.31ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.85ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.80ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 74.38ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 45.52ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 66.96ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 21.53ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 75.36ms
+[I 120903 11:26:05 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.49ms
+[I 120903 11:26:06 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 69.06ms
+[I 120903 11:26:06 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 73.45ms
+[W 120903 11:26:06 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 11:26:06 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.01ms
+[I 120903 11:26:06 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 69.70ms
+[W 120903 11:26:06 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120903 11:27:33 web:1447] 200 GET /static/images/buttonbgHover.png (192.168.32.17) 1.20ms
+[I 120903 11:27:33 web:1447] 200 GET /static/images/loginbuttonbg.png (192.168.32.17) 0.42ms
+[I 120903 11:27:34 handlers:249] genreid is 110729 
+[I 120903 11:27:34 handlers:250] skip is 1 
+[I 120903 11:27:34 web:1447] 200 GET /show/110729 (192.168.32.17) 9.65ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.73ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 60.28ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 59.12ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 65.27ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.87ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 56.98ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.61ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.97ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.81ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 72.93ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.29ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 24.89ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.61ms
+[I 120903 11:27:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.81ms
+[I 120903 11:27:36 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 70.04ms
+[I 120903 11:27:36 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 71.95ms
+[I 120903 11:27:36 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.45ms
+[I 120903 11:27:36 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 74.85ms
+[I 120903 11:27:36 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 70.18ms
+[I 120903 11:27:36 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.23ms
+[W 120903 11:27:36 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.89ms
+[E 120903 11:27:37 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '0', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://10.24.94.36:8888/show/110729'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 11:27:37 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 0.75ms
+[I 120903 11:27:52 handlers:249] genreid is 110729 
+[I 120903 11:27:52 handlers:250] skip is 1 
+[I 120903 11:27:52 web:1447] 304 GET /show/110729 (192.168.32.17) 12.21ms
+[I 120903 11:27:52 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.47ms
+[I 120903 11:27:52 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 0.42ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 60.63ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 62.59ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.73ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 59.54ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 56.86ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.23ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.58ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 61.25ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 66.86ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 74.35ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 71.08ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.36ms
+[I 120903 11:27:53 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.90ms
+[I 120903 11:27:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 70.33ms
+[I 120903 11:27:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 69.84ms
+[I 120903 11:27:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 71.81ms
+[I 120903 11:27:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.41ms
+[I 120903 11:27:54 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 75.36ms
+[I 120903 11:27:54 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.81ms
+[I 120903 11:27:54 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.40ms
+[I 120903 11:27:54 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.41ms
+[I 120903 11:27:54 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.38ms
+[I 120903 11:27:54 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.39ms
+[W 120903 11:27:54 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.88ms
+[E 120903 11:28:02 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '0', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://10.24.94.36:8888/show/110729'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 11:28:02 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 0.90ms
+[I 120903 11:28:26 handlers:249] genreid is 110729 
+[I 120903 11:28:26 handlers:250] skip is 2 
+[I 120903 11:28:26 web:1447] 200 GET /show/110729?page=2 (192.168.32.17) 9.32ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 39.54ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 69.01ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 21.97ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 75.27ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 16.12ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 70.79ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 66.90ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.68ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 68.49ms
+[I 120903 11:28:27 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.77ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 74.76ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 46.01ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 67.02ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 21.67ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 75.58ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.51ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 69.43ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 73.33ms
+[W 120903 11:28:28 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 11:28:28 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.12ms
+[I 120903 11:28:28 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 69.67ms
+[W 120903 11:28:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.38ms
+[I 120903 11:30:35 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120903 11:31:03 handlers:249] genreid is 110729 
+[I 120903 11:31:03 handlers:250] skip is 1 
+[I 120903 11:31:07 web:1447] 200 GET /show/110729 (192.168.32.17) 3921.22ms
+[I 120903 11:31:08 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 60.50ms
+[I 120903 11:31:08 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 68.18ms
+[I 120903 11:31:08 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 60.68ms
+[I 120903 11:31:08 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.24ms
+[I 120903 11:31:08 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 58.90ms
+[I 120903 11:31:08 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.93ms
+[I 120903 11:31:08 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.64ms
+[I 120903 11:31:09 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.98ms
+[I 120903 11:31:09 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 363.21ms
+[I 120903 11:31:17 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 8195.01ms
+[I 120903 11:31:23 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 5968.49ms
+[I 120903 11:31:23 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 111.04ms
+[I 120903 11:31:23 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.85ms
+[I 120903 11:31:23 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.64ms
+[I 120903 11:31:23 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 69.73ms
+[E 120903 11:31:23 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Origin': 'http://10.24.94.36:8888', 'Content-Length': '0', 'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://10.24.94.36:8888/show/110729'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 11:31:23 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 2.91ms
+[I 120903 11:31:27 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 3645.60ms
+[I 120903 11:31:29 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 2230.30ms
+[I 120903 11:31:29 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 74.25ms
+[I 120903 11:31:29 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.46ms
+[I 120903 11:31:29 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.26ms
+[W 120903 11:31:29 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.39ms
+[I 120903 11:32:41 autoreload:175] /root/bipapa/app.py modified; restarting server
+[W 120903 11:33:21 web:1056] 500 GET /show/ (10.24.94.36): Not found Genreid
+[E 120903 11:33:21 web:1447] 500 GET /show/ (10.24.94.36) 1.84ms
+[I 120903 11:33:30 handlers:249] genreid is 110729 
+[I 120903 11:33:30 handlers:250] skip is 1 
+[I 120903 11:33:34 web:1447] 200 GET /show/110729 (10.24.94.36) 3697.08ms
+[I 120903 11:55:07 handlers:249] genreid is 110729 
+[I 120903 11:55:07 handlers:250] skip is 1 
+[I 120903 11:55:07 web:1447] 200 GET /show/110729 (192.168.32.17) 278.10ms
+[I 120903 11:55:07 web:1447] 200 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 1.07ms
+[I 120903 11:55:13 web:1447] 200 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 6102.22ms
+[I 120903 11:55:15 web:1447] 200 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 1645.41ms
+[I 120903 11:55:17 web:1447] 200 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 2232.76ms
+[I 120903 11:55:19 web:1447] 200 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 1880.80ms
+[I 120903 11:55:21 web:1447] 200 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 1646.80ms
+[I 120903 11:55:21 web:1447] 200 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.60ms
+[I 120903 11:55:25 web:1447] 200 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 4072.37ms
+[I 120903 11:55:28 web:1447] 200 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 3151.92ms
+[I 120903 11:55:32 web:1447] 200 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 4231.64ms
+[I 120903 11:55:40 web:1447] 200 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 7983.23ms
+[I 120903 11:55:40 web:1447] 200 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 68.34ms
+[I 120903 11:55:43 web:1447] 200 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 2449.91ms
+[I 120903 11:55:43 web:1447] 200 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 48.19ms
+[I 120903 11:55:49 web:1447] 200 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 5870.55ms
+[I 120903 11:55:56 web:1447] 200 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 6815.81ms
+[I 120903 11:56:03 web:1447] 200 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 7565.99ms
+[I 120903 11:56:07 web:1447] 200 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 4150.30ms
+[I 120903 11:56:15 web:1447] 200 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 7901.89ms
+[I 120903 11:56:15 web:1447] 200 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.45ms
+[E 120903 11:56:15 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Content-Length': '0', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://10.24.94.36:8888/show/110729'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 11:56:15 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 7975.22ms
+[I 120903 11:56:15 web:1447] 200 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.43ms
+[I 120903 11:56:15 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.43ms
+[I 120903 11:56:15 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.37ms
+[I 120903 11:56:15 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.40ms
+[I 120903 11:57:24 web:1447] 200 POST / (10.24.94.63) 268.05ms
+[E 120903 11:57:49 web:1064] Uncaught exception POST /show/110729/ (10.24.94.63)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729/', version='HTTP/1.1', remote_ip='10.24.94.63', body='?page=2', headers={'Host': '10.24.94.36:8888', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '7', 'Accept': '*/*', 'User-Agent': 'curl/7.15.5 (x86_64-redhat-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8b zlib/1.2.3 libidn/0.6.5'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 11:57:49 web:1447] 500 POST /show/110729/ (10.24.94.63) 1.34ms
+[I 120903 12:03:33 autoreload:175] /root/bipapa/app.py modified; restarting server
+[I 120903 12:03:39 handlers:249] genreid is 110729 
+[I 120903 12:03:39 handlers:250] skip is 1 
+[I 120903 12:03:39 web:1447] 200 GET /show/110729/ (192.168.32.17) 10.48ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 60.13ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.68ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.65ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.50ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.58ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 58.72ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.37ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.82ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 66.34ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.02ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.47ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.49ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 29.34ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 70.53ms
+[I 120903 12:03:40 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 71.20ms
+[I 120903 12:03:41 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 71.68ms
+[I 120903 12:03:41 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.45ms
+[I 120903 12:03:41 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 76.90ms
+[I 120903 12:03:41 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 68.77ms
+[I 120903 12:03:41 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.53ms
+[I 120903 12:03:53 handlers:249] genreid is 110729 
+[I 120903 12:03:53 handlers:250] skip is 1 
+[I 120903 12:03:53 web:1447] 304 GET /show/110729/ (192.168.32.17) 16.83ms
+[I 120903 12:03:53 web:1447] 304 GET /static/js/jquery.infinitescroll.min.js?v=24131 (192.168.32.17) 1.01ms
+[I 120903 12:03:53 web:1447] 304 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.42ms
+[I 120903 12:03:53 web:1447] 304 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.42ms
+[I 120903 12:03:53 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 0.41ms
+[I 120903 12:03:53 web:1447] 304 GET /static/js/jquery.masonry.min.js?v=fc2d7 (192.168.32.17) 0.43ms
+[I 120903 12:03:53 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.42ms
+[I 120903 12:03:53 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.75ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.72ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 56.82ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.85ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.09ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.87ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.40ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 59.05ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.26ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.03ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.99ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.24ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.73ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.82ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 69.76ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 72.16ms
+[I 120903 12:03:54 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.32ms
+[I 120903 12:03:55 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 74.72ms
+[I 120903 12:03:55 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 68.71ms
+[I 120903 12:03:55 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.28ms
+[I 120903 12:03:55 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.39ms
+[I 120903 12:03:55 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.37ms
+[I 120903 12:03:55 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.38ms
+[E 120903 12:04:00 web:1064] Uncaught exception POST /show/110729/?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729/?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Content-Length': '0', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://10.24.94.36:8888/show/110729/'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 12:04:00 web:1447] 500 POST /show/110729/?page=2 (192.168.32.17) 1.22ms
+[I 120903 12:05:27 handlers:249] genreid is 110729 
+[I 120903 12:05:27 handlers:250] skip is 2 
+[I 120903 12:05:32 web:1447] 200 GET /show/110729/?page=2 (192.168.32.17) 5054.28ms
+[I 120903 12:05:32 web:1447] 200 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 23.73ms
+[I 120903 12:05:32 web:1447] 200 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 38.58ms
+[I 120903 12:05:32 web:1447] 200 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 68.66ms
+[I 120903 12:05:32 web:1447] 200 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 73.67ms
+[I 120903 12:05:39 web:1447] 200 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 6763.40ms
+[I 120903 12:05:39 web:1447] 200 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 68.10ms
+[I 120903 12:05:39 web:1447] 200 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 69.87ms
+[I 120903 12:05:39 web:1447] 200 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 15.91ms
+[I 120903 12:05:39 web:1447] 200 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 28.04ms
+[I 120903 12:05:39 web:1447] 200 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.78ms
+[I 120903 12:05:39 web:1447] 200 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 73.15ms
+[I 120903 12:05:40 web:1447] 200 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 45.36ms
+[I 120903 12:05:40 web:1447] 200 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 65.63ms
+[I 120903 12:05:40 web:1447] 200 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 21.39ms
+[I 120903 12:05:40 web:1447] 200 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 73.87ms
+[I 120903 12:05:40 web:1447] 200 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 72.06ms
+[I 120903 12:05:40 web:1447] 200 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 709.00ms
+[I 120903 12:05:41 web:1447] 200 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 411.41ms
+[W 120903 12:05:41 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:05:41 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 258.72ms
+[I 120903 12:05:42 web:1447] 200 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 583.98ms
+[E 120903 12:05:48 web:1064] Uncaught exception POST /show/110729/?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729/?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Content-Length': '0', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://10.24.94.36:8888/show/110729/?page=2'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 12:05:48 web:1447] 500 POST /show/110729/?page=2 (192.168.32.17) 0.80ms
+[I 120903 12:16:34 handlers:249] genreid is 110729 
+[I 120903 12:16:34 handlers:250] skip is 1 
+[I 120903 12:16:34 web:1447] 304 GET /show/110729 (192.168.32.17) 27.38ms
+[I 120903 12:16:34 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 71.66ms
+[I 120903 12:16:34 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.19ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 62.26ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 59.24ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.57ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 60.05ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.45ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.55ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 267.05ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.34ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.63ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.23ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.77ms
+[I 120903 12:16:35 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 69.08ms
+[I 120903 12:16:36 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 272.10ms
+[I 120903 12:16:36 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 273.56ms
+[I 120903 12:16:36 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 267.76ms
+[I 120903 12:16:36 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 75.12ms
+[I 120903 12:16:36 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.51ms
+[I 120903 12:16:36 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.17ms
+[E 120903 12:16:40 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Content-Length': '0', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://10.24.94.36:8888/show/110729'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 12:16:40 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 1.18ms
+[I 120903 12:17:46 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120903 12:17:51 web:1447] 200 GET / (192.168.32.17) 9.64ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 60.40ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 67.40ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 91.74ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.09ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.06ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.83ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.07ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 65.26ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.66ms
+[I 120903 12:17:51 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.60ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 270.50ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.10ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.69ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.62ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 271.26ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 273.65ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.36ms
+[I 120903 12:17:52 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 74.54ms
+[I 120903 12:17:53 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 68.78ms
+[I 120903 12:17:53 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.28ms
+[I 120903 12:17:55 web:1447] 200 POST /?page=2 (192.168.32.17) 8.25ms
+[I 120903 12:17:55 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 269.60ms
+[I 120903 12:17:55 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 23.20ms
+[I 120903 12:17:55 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 38.90ms
+[I 120903 12:17:55 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 69.15ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 68.73ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 74.88ms
+[W 120903 12:17:56 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:17:56 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.07ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 15.94ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 71.14ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.89ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.82ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 75.09ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 68.48ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 313.16ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 22.44ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 75.77ms
+[I 120903 12:17:56 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.61ms
+[I 120903 12:17:57 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 271.58ms
+[I 120903 12:17:57 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 73.95ms
+[I 120903 12:17:57 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 69.95ms
+[I 120903 12:18:00 web:1447] 200 POST /?page=3 (192.168.32.17) 8.85ms
+[W 120903 12:18:00 web:1056] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:00 web:1447] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17) 3.38ms
+[I 120903 12:18:00 web:1447] 200 GET /view/50440d8141ab10184fcfdb7b.jpg?_re=200x300 (192.168.32.17) 71.70ms
+[W 120903 12:18:00 web:1056] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:00 web:1447] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17) 2.53ms
+[I 120903 12:18:00 web:1447] 200 GET /view/50440d8241ab10184fcfdb88.jpg?_re=200x300 (192.168.32.17) 69.31ms
+[I 120903 12:18:00 web:1447] 200 GET /view/50440d8141ab10184fcfdb7f.jpg?_re=200x300 (192.168.32.17) 70.35ms
+[I 120903 12:18:01 web:1447] 200 GET /view/50440d8141ab10184fcfdb82.jpg?_re=200x300 (192.168.32.17) 321.29ms
+[I 120903 12:18:01 web:1447] 200 GET /view/50440d8241ab10184fcfdb85.jpg?_re=200x300 (192.168.32.17) 68.75ms
+[I 120903 12:18:01 web:1447] 200 GET /view/50440d8241ab10184fcfdb90.jpg?_re=200x300 (192.168.32.17) 68.82ms
+[I 120903 12:18:01 web:1447] 200 GET /view/50440d8241ab10184fcfdb8c.jpg?_re=200x300 (192.168.32.17) 81.12ms
+[W 120903 12:18:01 web:1056] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:01 web:1447] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17) 2.66ms
+[W 120903 12:18:01 web:1056] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:01 web:1447] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17) 2.70ms
+[I 120903 12:18:01 web:1447] 200 POST /?page=4 (192.168.32.17) 7.91ms
+[W 120903 12:18:01 web:1056] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:01 web:1447] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17) 3.25ms
+[W 120903 12:18:01 web:1056] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:01 web:1447] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17) 2.67ms
+[I 120903 12:18:01 web:1447] 200 GET /view/50440d8341ab10184fcfdb9a.jpg?_re=200x300 (192.168.32.17) 67.56ms
+[W 120903 12:18:01 web:1056] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:01 web:1447] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17) 2.71ms
+[W 120903 12:18:01 web:1056] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:01 web:1447] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17) 2.61ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440d8341ab10184fcfdba1.jpg?_re=200x300 (192.168.32.17) 71.21ms
+[W 120903 12:18:02 web:1056] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:18:02 web:1447] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17) 2.50ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440d8341ab10184fcfdba5.jpg?_re=200x300 (192.168.32.17) 74.44ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440d8341ab10184fcfdb9d.jpg?_re=200x300 (192.168.32.17) 70.08ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440dc941ab1019db0b8ba3.jpg?_re=200x300 (192.168.32.17) 58.58ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440dcd41ab1019db0b8ba9.jpg?_re=200x300 (192.168.32.17) 60.51ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440dcb41ab1019db0b8ba6.jpg?_re=200x300 (192.168.32.17) 66.50ms
+[I 120903 12:18:02 web:1447] 200 POST /?page=5 (192.168.32.17) 195.24ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440dcf41ab1019db0b8bac.jpg?_re=200x300 (192.168.32.17) 61.90ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440dd141ab1019db0b8baf.jpg?_re=200x300 (192.168.32.17) 65.89ms
+[I 120903 12:18:02 web:1447] 200 GET /view/50440dd341ab1019db0b8bb2.jpg?_re=200x300 (192.168.32.17) 60.77ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440dd541ab1019db0b8bb5.jpg?_re=200x300 (192.168.32.17) 67.46ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440ddc41ab1019db0b8bb8.jpg?_re=200x300 (192.168.32.17) 65.81ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440dde41ab1019db0b8bbb.jpg?_re=200x300 (192.168.32.17) 267.39ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440e0441ab1019db0b8e80.jpg?_re=200x300 (192.168.32.17) 14.09ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de141ab1019db0b8bc9.jpg?_re=200x300 (192.168.32.17) 27.88ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de041ab1019db0b8bbe.jpg?_re=200x300 (192.168.32.17) 73.36ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de141ab1019db0b8bc2.jpg?_re=200x300 (192.168.32.17) 68.67ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de141ab1019db0b8bc6.jpg?_re=200x300 (192.168.32.17) 25.21ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de141ab1019db0b8bd0.jpg?_re=200x300 (192.168.32.17) 69.96ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de141ab1019db0b8bcc.jpg?_re=200x300 (192.168.32.17) 68.35ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de141ab1019db0b8bd4.jpg?_re=200x300 (192.168.32.17) 71.90ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de241ab1019db0b8bdb.jpg?_re=200x300 (192.168.32.17) 74.39ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de241ab1019db0b8bdf.jpg?_re=200x300 (192.168.32.17) 69.34ms
+[I 120903 12:18:03 web:1447] 200 GET /view/50440de141ab1019db0b8bd8.jpg?_re=200x300 (192.168.32.17) 66.19ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de241ab1019db0b8be2.jpg?_re=200x300 (192.168.32.17) 14.37ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de241ab1019db0b8be5.jpg?_re=200x300 (192.168.32.17) 75.18ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de241ab1019db0b8be8.jpg?_re=200x300 (192.168.32.17) 23.05ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de241ab1019db0b8beb.jpg?_re=200x300 (192.168.32.17) 38.49ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de241ab1019db0b8bee.jpg?_re=200x300 (192.168.32.17) 69.69ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de241ab1019db0b8bf2.jpg?_re=200x300 (192.168.32.17) 116.43ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de341ab1019db0b8bf6.jpg?_re=200x300 (192.168.32.17) 269.58ms
+[I 120903 12:18:04 web:1447] 200 GET /view/50440de341ab1019db0b8bf9.jpg?_re=200x300 (192.168.32.17) 16.30ms
+[E 120903 12:18:04 web:1064] Uncaught exception GET /view/50440de341ab1019db0b8bfc.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50440de341ab1019db0b8bfc.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Referer': 'http://10.24.94.36:8888/', 'Host': '10.24.94.36:8888', 'Accept': 'image/png,image/*;q=0.8,*/*;q=0.5', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 238, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120903 12:18:04 web:718] Cannot send error response after headers written
+[E 120903 12:18:04 web:1064] Uncaught exception GET /view/50440de341ab1019db0b8bfc.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50440de341ab1019db0b8bfc.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Referer': 'http://10.24.94.36:8888/', 'Host': '10.24.94.36:8888', 'Accept': 'image/png,image/*;q=0.8,*/*;q=0.5', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/stack_context.py", line 161, in __exit__
+        return self.exception_handler(type, value, traceback)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1002, in _stack_context_handle_exception
+        self._handle_request_exception(value)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 web:718] Cannot send error response after headers written
+[E 120903 12:18:04 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x1b7f2b8>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 web:1064] Uncaught exception GET /view/50440de341ab1019db0b8c00.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50440de341ab1019db0b8c00.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Referer': 'http://10.24.94.36:8888/', 'Host': '10.24.94.36:8888', 'Accept': 'image/png,image/*;q=0.8,*/*;q=0.5', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 238, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120903 12:18:04 web:718] Cannot send error response after headers written
+[E 120903 12:18:04 web:1064] Uncaught exception GET /view/50440de341ab1019db0b8c00.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50440de341ab1019db0b8c00.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Referer': 'http://10.24.94.36:8888/', 'Host': '10.24.94.36:8888', 'Accept': 'image/png,image/*;q=0.8,*/*;q=0.5', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/stack_context.py", line 161, in __exit__
+        return self.exception_handler(type, value, traceback)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1002, in _stack_context_handle_exception
+        self._handle_request_exception(value)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 web:718] Cannot send error response after headers written
+[E 120903 12:18:04 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x1b7f4c8>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 web:1064] Uncaught exception GET /view/50440de341ab1019db0b8c03.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50440de341ab1019db0b8c03.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Referer': 'http://10.24.94.36:8888/', 'Host': '10.24.94.36:8888', 'Accept': 'image/png,image/*;q=0.8,*/*;q=0.5', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 238, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120903 12:18:04 web:718] Cannot send error response after headers written
+[E 120903 12:18:04 web:1064] Uncaught exception GET /view/50440de341ab1019db0b8c03.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50440de341ab1019db0b8c03.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Referer': 'http://10.24.94.36:8888/', 'Host': '10.24.94.36:8888', 'Accept': 'image/png,image/*;q=0.8,*/*;q=0.5', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/stack_context.py", line 161, in __exit__
+        return self.exception_handler(type, value, traceback)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1002, in _stack_context_handle_exception
+        self._handle_request_exception(value)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 web:718] Cannot send error response after headers written
+[E 120903 12:18:04 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120903 12:18:04 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x1b7f6d8>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[I 120903 12:18:04 web:1447] 304 GET / (192.168.32.17) 7.95ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 58.97ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 60.59ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 66.44ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.90ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 58.85ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.96ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.24ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.81ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.17ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 274.61ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 69.42ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 24.97ms
+[I 120903 12:18:05 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.67ms
+[I 120903 12:18:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.81ms
+[I 120903 12:18:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 70.05ms
+[I 120903 12:18:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 71.86ms
+[I 120903 12:18:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.33ms
+[I 120903 12:18:06 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 74.52ms
+[I 120903 12:18:06 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.52ms
+[I 120903 12:18:06 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 26.87ms
+[I 120903 12:31:12 web:1447] 200 POST /?page=2 (192.168.32.17) 8.45ms
+[I 120903 12:31:12 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 74.53ms
+[I 120903 12:31:12 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 38.68ms
+[I 120903 12:31:12 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 23.15ms
+[I 120903 12:31:12 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 269.66ms
+[I 120903 12:31:12 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 65.72ms
+[I 120903 12:31:12 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 67.43ms
+[W 120903 12:31:12 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:12 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.39ms
+[I 120903 12:31:12 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 16.25ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 69.47ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.69ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.85ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 73.07ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 45.56ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 267.43ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 22.20ms
+[I 120903 12:31:13 web:1447] 200 POST /?page=3 (192.168.32.17) 32.42ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 74.25ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 72.16ms
+[I 120903 12:31:13 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 68.33ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 274.92ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 70.23ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17) 3.12ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8141ab10184fcfdb7f.jpg?_re=200x300 (192.168.32.17) 68.46ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8141ab10184fcfdb82.jpg?_re=200x300 (192.168.32.17) 73.66ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8241ab10184fcfdb85.jpg?_re=200x300 (192.168.32.17) 68.39ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8141ab10184fcfdb7b.jpg?_re=200x300 (192.168.32.17) 71.03ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8241ab10184fcfdb88.jpg?_re=200x300 (192.168.32.17) 69.38ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17) 2.30ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8241ab10184fcfdb8c.jpg?_re=200x300 (192.168.32.17) 70.59ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8241ab10184fcfdb90.jpg?_re=200x300 (192.168.32.17) 68.77ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17) 2.57ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17) 2.58ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17) 2.52ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17) 2.45ms
+[I 120903 12:31:14 web:1447] 200 POST /?page=4 (192.168.32.17) 13.87ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17) 3.05ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8341ab10184fcfdb9a.jpg?_re=200x300 (192.168.32.17) 68.09ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8341ab10184fcfdb9d.jpg?_re=200x300 (192.168.32.17) 68.82ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17) 2.42ms
+[W 120903 12:31:14 web:1056] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:31:14 web:1447] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17) 2.51ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8341ab10184fcfdba1.jpg?_re=200x300 (192.168.32.17) 71.01ms
+[I 120903 12:31:14 web:1447] 304 GET /view/50440d8341ab10184fcfdba5.jpg?_re=200x300 (192.168.32.17) 72.57ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dc941ab1019db0b8ba3.jpg?_re=200x300 (192.168.32.17) 56.79ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dcb41ab1019db0b8ba6.jpg?_re=200x300 (192.168.32.17) 64.92ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dcd41ab1019db0b8ba9.jpg?_re=200x300 (192.168.32.17) 59.79ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dcf41ab1019db0b8bac.jpg?_re=200x300 (192.168.32.17) 60.77ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dd141ab1019db0b8baf.jpg?_re=200x300 (192.168.32.17) 59.19ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dd341ab1019db0b8bb2.jpg?_re=200x300 (192.168.32.17) 59.81ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dd541ab1019db0b8bb5.jpg?_re=200x300 (192.168.32.17) 67.41ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440ddc41ab1019db0b8bb8.jpg?_re=200x300 (192.168.32.17) 65.00ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440e0441ab1019db0b8e80.jpg?_re=200x300 (192.168.32.17) 13.92ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440dde41ab1019db0b8bbb.jpg?_re=200x300 (192.168.32.17) 65.11ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440de041ab1019db0b8bbe.jpg?_re=200x300 (192.168.32.17) 73.06ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440de141ab1019db0b8bc2.jpg?_re=200x300 (192.168.32.17) 69.88ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440de141ab1019db0b8bc6.jpg?_re=200x300 (192.168.32.17) 25.31ms
+[I 120903 12:31:15 web:1447] 304 GET /view/50440de141ab1019db0b8bc9.jpg?_re=200x300 (192.168.32.17) 27.66ms
+[I 120903 12:31:16 web:1447] 304 GET /view/50440de141ab1019db0b8bcc.jpg?_re=200x300 (192.168.32.17) 68.83ms
+[I 120903 12:31:16 web:1447] 304 GET /view/50440de141ab1019db0b8bd0.jpg?_re=200x300 (192.168.32.17) 69.77ms
+[I 120903 12:31:16 web:1447] 304 GET /view/50440de141ab1019db0b8bd4.jpg?_re=200x300 (192.168.32.17) 72.17ms
+[I 120903 12:31:16 web:1447] 304 GET /view/50440de141ab1019db0b8bd8.jpg?_re=200x300 (192.168.32.17) 267.71ms
+[I 120903 12:31:16 web:1447] 304 GET /view/50440de241ab1019db0b8bdb.jpg?_re=200x300 (192.168.32.17) 276.95ms
+[I 120903 12:31:16 web:1447] 304 GET /view/50440de241ab1019db0b8bdf.jpg?_re=200x300 (192.168.32.17) 69.97ms
+[W 120903 12:36:01 web:1056] 500 GET /show/ (192.168.32.17): Not found Genreid
+[E 120903 12:36:01 web:1447] 500 GET /show/ (192.168.32.17) 0.66ms
+[W 120903 12:36:05 web:1056] 500 GET /show/ (192.168.32.17): Not found Genreid
+[E 120903 12:36:05 web:1447] 500 GET /show/ (192.168.32.17) 0.53ms
+[I 120903 12:36:10 handlers:249] genreid is 110729 
+[I 120903 12:36:10 handlers:250] skip is 1 
+[I 120903 12:36:10 web:1447] 304 GET /show/110729 (192.168.32.17) 9.35ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 57.87ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.31ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 60.14ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 65.22ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.66ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 58.67ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.31ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.80ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.24ms
+[I 120903 12:36:11 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 274.65ms
+[I 120903 12:36:12 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 271.02ms
+[I 120903 12:36:12 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.07ms
+[I 120903 12:36:12 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.78ms
+[I 120903 12:36:12 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 270.45ms
+[I 120903 12:36:12 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 69.78ms
+[I 120903 12:36:12 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 274.07ms
+[I 120903 12:36:13 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 268.12ms
+[I 120903 12:36:13 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 74.91ms
+[I 120903 12:36:13 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.46ms
+[I 120903 12:36:13 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.29ms
+[E 120903 12:36:15 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Content-Length': '0', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://10.24.94.36:8888/show/110729'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 12:36:15 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 1.23ms
+[I 120903 12:36:31 handlers:249] genreid is 110729 
+[I 120903 12:36:31 handlers:250] skip is 2 
+[I 120903 12:36:31 web:1447] 200 GET /show/110729?page=2 (192.168.32.17) 9.17ms
+[W 120903 12:36:31 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:31 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.37ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 270.56ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 75.55ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 22.47ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 38.68ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 271.28ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 66.92ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 15.82ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 272.22ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.69ms
+[I 120903 12:36:32 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.88ms
+[I 120903 12:36:33 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 275.61ms
+[I 120903 12:36:33 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 45.61ms
+[I 120903 12:36:33 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 268.14ms
+[I 120903 12:36:33 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 21.78ms
+[I 120903 12:36:33 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 75.28ms
+[I 120903 12:36:33 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.47ms
+[I 120903 12:36:33 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 270.77ms
+[I 120903 12:36:34 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 284.87ms
+[I 120903 12:36:34 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 70.19ms
+[E 120903 12:36:36 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Content-Length': '0', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://10.24.94.36:8888/show/110729?page=2'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 12:36:36 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 0.67ms
+[I 120903 12:36:40 handlers:249] genreid is 110729 
+[I 120903 12:36:40 handlers:250] skip is 3 
+[I 120903 12:36:40 web:1447] 200 GET /show/110729?page=3 (192.168.32.17) 9.09ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17) 3.37ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17) 2.61ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17) 2.53ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17) 2.47ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17) 2.37ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17) 2.48ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17) 2.40ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17) 2.82ms
+[W 120903 12:36:41 web:1056] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:36:41 web:1447] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17) 2.59ms
+[I 120903 12:36:41 web:1447] 304 GET /view/50440d8141ab10184fcfdb7b.jpg?_re=200x300 (192.168.32.17) 71.07ms
+[I 120903 12:36:41 web:1447] 304 GET /view/50440d8141ab10184fcfdb7f.jpg?_re=200x300 (192.168.32.17) 68.30ms
+[I 120903 12:36:41 web:1447] 304 GET /view/50440d8141ab10184fcfdb82.jpg?_re=200x300 (192.168.32.17) 73.32ms
+[I 120903 12:36:41 web:1447] 304 GET /view/50440d8241ab10184fcfdb85.jpg?_re=200x300 (192.168.32.17) 68.44ms
+[I 120903 12:36:41 web:1447] 304 GET /view/50440d8241ab10184fcfdb88.jpg?_re=200x300 (192.168.32.17) 69.20ms
+[I 120903 12:36:41 web:1447] 304 GET /view/50440d8241ab10184fcfdb8c.jpg?_re=200x300 (192.168.32.17) 271.49ms
+[I 120903 12:36:41 web:1447] 304 GET /view/50440d8241ab10184fcfdb90.jpg?_re=200x300 (192.168.32.17) 68.92ms
+[I 120903 12:36:42 web:1447] 304 GET /view/50440d8341ab10184fcfdb9a.jpg?_re=200x300 (192.168.32.17) 67.53ms
+[I 120903 12:36:42 web:1447] 304 GET /view/50440d8341ab10184fcfdb9d.jpg?_re=200x300 (192.168.32.17) 68.73ms
+[I 120903 12:36:42 web:1447] 304 GET /view/50440d8341ab10184fcfdba1.jpg?_re=200x300 (192.168.32.17) 70.75ms
+[I 120903 12:36:42 web:1447] 304 GET /view/50440d8341ab10184fcfdba5.jpg?_re=200x300 (192.168.32.17) 72.15ms
+[E 120903 12:36:44 web:1064] Uncaught exception POST /show/110729?page=2 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/show/110729?page=2', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Content-Length': '0', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://10.24.94.36:8888/show/110729?page=3'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+    TypeError: post() got an unexpected keyword argument 'genreid'
+[E 120903 12:36:44 web:1447] 500 POST /show/110729?page=2 (192.168.32.17) 0.67ms
+[I 120903 12:39:16 handlers:249] genreid is 110729 
+[I 120903 12:39:16 handlers:250] skip is 1 
+[I 120903 12:39:16 web:1447] 200 GET /show/110729 (192.168.32.17) 9.25ms
+[I 120903 12:39:16 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 57.29ms
+[I 120903 12:39:16 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 65.18ms
+[I 120903 12:39:16 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 59.66ms
+[I 120903 12:39:16 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 59.40ms
+[I 120903 12:39:16 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.22ms
+[I 120903 12:39:16 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.75ms
+[I 120903 12:39:16 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.88ms
+[I 120903 12:39:17 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 64.97ms
+[I 120903 12:39:17 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 267.62ms
+[I 120903 12:39:17 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 275.01ms
+[I 120903 12:39:17 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 70.24ms
+[I 120903 12:39:17 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.16ms
+[I 120903 12:39:17 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.89ms
+[I 120903 12:39:17 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 68.80ms
+[I 120903 12:39:18 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 271.93ms
+[I 120903 12:39:18 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 73.27ms
+[I 120903 12:39:18 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 66.24ms
+[I 120903 12:39:18 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 276.25ms
+[I 120903 12:39:18 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.27ms
+[I 120903 12:39:18 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.65ms
+[I 120903 12:39:21 web:1447] 200 POST /?page=2 (192.168.32.17) 8.69ms
+[I 120903 12:39:21 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 22.91ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 38.74ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 75.04ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 66.77ms
+[W 120903 12:39:22 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:22 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.33ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 15.79ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 68.86ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 68.56ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 71.13ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 27.70ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.89ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 74.17ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 45.47ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 268.93ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 23.65ms
+[I 120903 12:39:22 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 74.94ms
+[I 120903 12:39:23 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.81ms
+[I 120903 12:39:23 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 270.15ms
+[I 120903 12:39:23 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 275.52ms
+[I 120903 12:39:23 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 70.00ms
+[I 120903 12:39:26 web:1447] 200 POST /?page=3 (192.168.32.17) 8.41ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8141ab10184fcfdb82.jpg?_re=200x300 (192.168.32.17) 74.76ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8141ab10184fcfdb7f.jpg?_re=200x300 (192.168.32.17) 69.83ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8241ab10184fcfdb85.jpg?_re=200x300 (192.168.32.17) 68.27ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8241ab10184fcfdb88.jpg?_re=200x300 (192.168.32.17) 69.14ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8241ab10184fcfdb8c.jpg?_re=200x300 (192.168.32.17) 72.37ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8141ab10184fcfdb7b.jpg?_re=200x300 (192.168.32.17) 71.38ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17) 3.08ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17) 2.47ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17) 2.44ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17) 2.36ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17) 2.45ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17) 18.48ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17) 2.56ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17) 2.62ms
+[W 120903 12:39:26 web:1056] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:39:26 web:1447] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17) 2.51ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8241ab10184fcfdb90.jpg?_re=200x300 (192.168.32.17) 68.79ms
+[I 120903 12:39:26 web:1447] 304 GET /view/50440d8341ab10184fcfdb9a.jpg?_re=200x300 (192.168.32.17) 67.55ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440d8341ab10184fcfdb9d.jpg?_re=200x300 (192.168.32.17) 70.19ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440d8341ab10184fcfdba1.jpg?_re=200x300 (192.168.32.17) 70.70ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440d8341ab10184fcfdba5.jpg?_re=200x300 (192.168.32.17) 73.18ms
+[I 120903 12:39:27 web:1447] 200 POST /?page=4 (192.168.32.17) 223.35ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dcb41ab1019db0b8ba6.jpg?_re=200x300 (192.168.32.17) 66.46ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dc941ab1019db0b8ba3.jpg?_re=200x300 (192.168.32.17) 57.73ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dcd41ab1019db0b8ba9.jpg?_re=200x300 (192.168.32.17) 58.75ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dcf41ab1019db0b8bac.jpg?_re=200x300 (192.168.32.17) 61.10ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dd141ab1019db0b8baf.jpg?_re=200x300 (192.168.32.17) 59.00ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dd341ab1019db0b8bb2.jpg?_re=200x300 (192.168.32.17) 59.99ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dd541ab1019db0b8bb5.jpg?_re=200x300 (192.168.32.17) 67.12ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440e0441ab1019db0b8e80.jpg?_re=200x300 (192.168.32.17) 13.53ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440ddc41ab1019db0b8bb8.jpg?_re=200x300 (192.168.32.17) 64.76ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440dde41ab1019db0b8bbb.jpg?_re=200x300 (192.168.32.17) 64.95ms
+[I 120903 12:39:27 web:1447] 304 GET /view/50440de041ab1019db0b8bbe.jpg?_re=200x300 (192.168.32.17) 72.90ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de141ab1019db0b8bc2.jpg?_re=200x300 (192.168.32.17) 68.98ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de141ab1019db0b8bc6.jpg?_re=200x300 (192.168.32.17) 24.84ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de141ab1019db0b8bc9.jpg?_re=200x300 (192.168.32.17) 27.58ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de141ab1019db0b8bcc.jpg?_re=200x300 (192.168.32.17) 68.72ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de141ab1019db0b8bd0.jpg?_re=200x300 (192.168.32.17) 69.84ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de141ab1019db0b8bd4.jpg?_re=200x300 (192.168.32.17) 273.84ms
+[I 120903 12:39:28 web:1447] 200 POST /?page=5 (192.168.32.17) 283.73ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de141ab1019db0b8bd8.jpg?_re=200x300 (192.168.32.17) 66.79ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de241ab1019db0b8bdb.jpg?_re=200x300 (192.168.32.17) 276.73ms
+[I 120903 12:39:28 web:1447] 304 GET /view/50440de241ab1019db0b8bdf.jpg?_re=200x300 (192.168.32.17) 69.96ms
+[I 120903 12:39:29 web:1447] 304 GET /view/50440de241ab1019db0b8be5.jpg?_re=200x300 (192.168.32.17) 75.39ms
+[I 120903 12:39:29 web:1447] 304 GET /view/50440de241ab1019db0b8be2.jpg?_re=200x300 (192.168.32.17) 14.37ms
+[I 120903 12:39:29 web:1447] 304 GET /view/50440de241ab1019db0b8be8.jpg?_re=200x300 (192.168.32.17) 22.43ms
+[I 120903 12:39:29 web:1447] 304 GET /view/50440de241ab1019db0b8beb.jpg?_re=200x300 (192.168.32.17) 38.78ms
+[I 120903 12:39:29 web:1447] 304 GET /view/50440de241ab1019db0b8bee.jpg?_re=200x300 (192.168.32.17) 270.16ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de241ab1019db0b8bf2.jpg?_re=200x300 (192.168.32.17) 69.01ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de341ab1019db0b8bf6.jpg?_re=200x300 (192.168.32.17) 66.80ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de341ab1019db0b8bf9.jpg?_re=200x300 (192.168.32.17) 16.32ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de341ab1019db0b8bfc.jpg?_re=200x300 (192.168.32.17) 70.67ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de341ab1019db0b8c00.jpg?_re=200x300 (192.168.32.17) 27.86ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de341ab1019db0b8c03.jpg?_re=200x300 (192.168.32.17) 27.98ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de441ab1019db0b8c06.jpg?_re=200x300 (192.168.32.17) 27.81ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de541ab1019db0b8c09.jpg?_re=200x300 (192.168.32.17) 27.92ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de541ab1019db0b8c0c.jpg?_re=200x300 (192.168.32.17) 73.40ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de541ab1019db0b8c0f.jpg?_re=200x300 (192.168.32.17) 45.53ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de541ab1019db0b8c12.jpg?_re=200x300 (192.168.32.17) 72.72ms
+[I 120903 12:39:29 web:1447] 200 GET /view/50440de541ab1019db0b8c15.jpg?_re=200x300 (192.168.32.17) 76.33ms
+[I 120903 12:39:30 web:1447] 200 GET /view/50440de541ab1019db0b8c18.jpg?_re=200x300 (192.168.32.17) 271.54ms
+[I 120903 12:39:30 web:1447] 200 GET /view/50440de541ab1019db0b8c1c.jpg?_re=200x300 (192.168.32.17) 275.92ms
+[I 120903 12:39:30 web:1447] 200 GET /view/50440de541ab1019db0b8c20.jpg?_re=200x300 (192.168.32.17) 271.44ms
+[I 120903 12:48:04 handlers:249] genreid is 110729 
+[I 120903 12:48:04 handlers:250] skip is 1 
+[I 120903 12:48:04 web:1447] 304 GET /show/110729 (192.168.32.17) 9.56ms
+[I 120903 12:48:04 web:1447] 304 GET /static/js/jquery.masonry.min.js?v=fc2d7 (192.168.32.17) 1.04ms
+[I 120903 12:48:04 web:1447] 304 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.43ms
+[I 120903 12:48:04 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 0.41ms
+[I 120903 12:48:04 web:1447] 304 GET /static/js/jquery.infinitescroll.min.js?v=24131 (192.168.32.17) 0.41ms
+[I 120903 12:48:04 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.44ms
+[I 120903 12:48:04 web:1447] 304 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.42ms
+[I 120903 12:48:04 web:1447] 304 GET /view/50440d7c41ab10184fcfdafa.jpg?_re=200x300 (192.168.32.17) 57.50ms
+[I 120903 12:48:04 web:1447] 304 GET /view/50440d7c41ab10184fcfdafd.jpg?_re=200x300 (192.168.32.17) 65.36ms
+[I 120903 12:48:04 web:1447] 304 GET /view/50440d7c41ab10184fcfdb03.jpg?_re=200x300 (192.168.32.17) 61.75ms
+[I 120903 12:48:04 web:1447] 304 GET /view/50440d7c41ab10184fcfdb00.jpg?_re=200x300 (192.168.32.17) 58.78ms
+[I 120903 12:48:04 web:1447] 304 GET /view/50440d7c41ab10184fcfdb06.jpg?_re=200x300 (192.168.32.17) 58.74ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb09.jpg?_re=200x300 (192.168.32.17) 59.95ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0c.jpg?_re=200x300 (192.168.32.17) 67.57ms
+[I 120903 12:48:05 web:1447] 200 POST /?page=2 (192.168.32.17) 9.67ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb0f.jpg?_re=200x300 (192.168.32.17) 65.11ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb12.jpg?_re=200x300 (192.168.32.17) 65.42ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7c41ab10184fcfdb15.jpg?_re=200x300 (192.168.32.17) 73.29ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7d41ab10184fcfdb19.jpg?_re=200x300 (192.168.32.17) 271.25ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7d41ab10184fcfdb1d.jpg?_re=200x300 (192.168.32.17) 25.05ms
+[I 120903 12:48:05 web:1447] 304 GET /view/50440d7d41ab10184fcfdb20.jpg?_re=200x300 (192.168.32.17) 27.98ms
+[W 120903 12:48:05 web:1056] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:05 web:1447] 500 GET /view/50440d8141ab10184fcfdb77.jpg?_re=200x300 (192.168.32.17) 3.21ms
+[I 120903 12:48:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb23.jpg?_re=200x300 (192.168.32.17) 270.53ms
+[I 120903 12:48:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb27.jpg?_re=200x300 (192.168.32.17) 70.23ms
+[I 120903 12:48:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2b.jpg?_re=200x300 (192.168.32.17) 273.96ms
+[I 120903 12:48:06 web:1447] 304 GET /view/50440d7d41ab10184fcfdb2f.jpg?_re=200x300 (192.168.32.17) 268.59ms
+[I 120903 12:48:06 web:1447] 304 GET /view/50440d7e41ab10184fcfdb32.jpg?_re=200x300 (192.168.32.17) 276.66ms
+[I 120903 12:48:06 web:1447] 304 GET /view/50440d7e41ab10184fcfdb36.jpg?_re=200x300 (192.168.32.17) 69.32ms
+[I 120903 12:48:06 web:1447] 304 GET /view/50440d7e41ab10184fcfdb39.jpg?_re=200x300 (192.168.32.17) 14.22ms
+[I 120903 12:48:06 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.43ms
+[I 120903 12:48:07 web:1447] 200 POST /?page=3 (192.168.32.17) 371.47ms
+[I 120903 12:48:07 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.38ms
+[I 120903 12:48:07 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.39ms
+[I 120903 12:48:07 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3c.jpg?_re=200x300 (192.168.32.17) 75.13ms
+[I 120903 12:48:07 web:1447] 304 GET /view/50440d7e41ab10184fcfdb3f.jpg?_re=200x300 (192.168.32.17) 22.58ms
+[I 120903 12:48:07 web:1447] 304 GET /view/50440d7e41ab10184fcfdb42.jpg?_re=200x300 (192.168.32.17) 38.79ms
+[I 120903 12:48:07 web:1447] 304 GET /view/50440d7e41ab10184fcfdb49.jpg?_re=200x300 (192.168.32.17) 270.47ms
+[I 120903 12:48:07 web:1447] 304 GET /view/50440d7e41ab10184fcfdb45.jpg?_re=200x300 (192.168.32.17) 271.11ms
+[I 120903 12:48:07 web:1447] 304 GET /view/50440d7e41ab10184fcfdb4d.jpg?_re=200x300 (192.168.32.17) 67.01ms
+[I 120903 12:48:07 web:1447] 304 GET /view/50440d7f41ab10184fcfdb50.jpg?_re=200x300 (192.168.32.17) 15.93ms
+[W 120903 12:48:07 web:1056] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:07 web:1447] 500 GET /view/50440d8141ab10184fcfdb7e.jpg?_re=200x300 (192.168.32.17) 3.11ms
+[W 120903 12:48:07 web:1056] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:07 web:1447] 500 GET /view/50440d8241ab10184fcfdb8b.jpg?_re=200x300 (192.168.32.17) 2.51ms
+[W 120903 12:48:07 web:1056] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:07 web:1447] 500 GET /view/50440d8241ab10184fcfdb93.jpg?_re=200x300 (192.168.32.17) 2.48ms
+[W 120903 12:48:07 web:1056] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:07 web:1447] 500 GET /view/50440d8241ab10184fcfdb94.jpg?_re=200x300 (192.168.32.17) 2.40ms
+[W 120903 12:48:07 web:1056] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:07 web:1447] 500 GET /view/50440d8241ab10184fcfdb95.jpg?_re=200x300 (192.168.32.17) 2.72ms
+[W 120903 12:48:07 web:1056] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:07 web:1447] 500 GET /view/50440d8241ab10184fcfdb96.jpg?_re=200x300 (192.168.32.17) 2.60ms
+[W 120903 12:48:07 web:1056] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:07 web:1447] 500 GET /view/50440d8241ab10184fcfdb97.jpg?_re=200x300 (192.168.32.17) 2.56ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d7f41ab10184fcfdb53.jpg?_re=200x300 (192.168.32.17) 273.39ms
+[W 120903 12:48:08 web:1056] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:08 web:1447] 500 GET /view/50440d8341ab10184fcfdba0.jpg?_re=200x300 (192.168.32.17) 3.03ms
+[W 120903 12:48:08 web:1056] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17): image is not found 
+[E 120903 12:48:08 web:1447] 500 GET /view/50440d8341ab10184fcfdba4.jpg?_re=200x300 (192.168.32.17) 2.52ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d7f41ab10184fcfdb57.jpg?_re=200x300 (192.168.32.17) 28.19ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d7f41ab10184fcfdb5a.jpg?_re=200x300 (192.168.32.17) 27.81ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8041ab10184fcfdb5d.jpg?_re=200x300 (192.168.32.17) 74.52ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8041ab10184fcfdb60.jpg?_re=200x300 (192.168.32.17) 45.85ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8041ab10184fcfdb63.jpg?_re=200x300 (192.168.32.17) 66.91ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb66.jpg?_re=200x300 (192.168.32.17) 21.70ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb69.jpg?_re=200x300 (192.168.32.17) 75.81ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb6c.jpg?_re=200x300 (192.168.32.17) 73.31ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb6f.jpg?_re=200x300 (192.168.32.17) 69.66ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb73.jpg?_re=200x300 (192.168.32.17) 73.56ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb78.jpg?_re=200x300 (192.168.32.17) 69.88ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb7b.jpg?_re=200x300 (192.168.32.17) 71.30ms
+[I 120903 12:48:08 web:1447] 304 GET /view/50440d8141ab10184fcfdb7f.jpg?_re=200x300 (192.168.32.17) 69.82ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8141ab10184fcfdb82.jpg?_re=200x300 (192.168.32.17) 74.80ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8241ab10184fcfdb85.jpg?_re=200x300 (192.168.32.17) 68.21ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8241ab10184fcfdb88.jpg?_re=200x300 (192.168.32.17) 69.18ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8241ab10184fcfdb8c.jpg?_re=200x300 (192.168.32.17) 272.91ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8241ab10184fcfdb90.jpg?_re=200x300 (192.168.32.17) 69.23ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8341ab10184fcfdb9a.jpg?_re=200x300 (192.168.32.17) 67.65ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8341ab10184fcfdb9d.jpg?_re=200x300 (192.168.32.17) 70.01ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8341ab10184fcfdba1.jpg?_re=200x300 (192.168.32.17) 70.64ms
+[I 120903 12:48:09 web:1447] 304 GET /view/50440d8341ab10184fcfdba5.jpg?_re=200x300 (192.168.32.17) 73.42ms
+[I 120903 12:48:11 web:1447] 200 POST /?page=4 (192.168.32.17) 15.26ms
+[I 120903 12:48:11 web:1447] 304 GET /view/50440dc941ab1019db0b8ba3.jpg?_re=200x300 (192.168.32.17) 57.96ms
+[I 120903 12:48:11 web:1447] 304 GET /view/50440dcd41ab1019db0b8ba9.jpg?_re=200x300 (192.168.32.17) 60.44ms
+[I 120903 12:48:11 web:1447] 304 GET /view/50440dcf41ab1019db0b8bac.jpg?_re=200x300 (192.168.32.17) 62.34ms
+[I 120903 12:48:11 web:1447] 304 GET /view/50440dd141ab1019db0b8baf.jpg?_re=200x300 (192.168.32.17) 60.21ms
+[I 120903 12:48:11 web:1447] 304 GET /view/50440dd341ab1019db0b8bb2.jpg?_re=200x300 (192.168.32.17) 61.40ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440dcb41ab1019db0b8ba6.jpg?_re=200x300 (192.168.32.17) 66.31ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440dd541ab1019db0b8bb5.jpg?_re=200x300 (192.168.32.17) 68.08ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440ddc41ab1019db0b8bb8.jpg?_re=200x300 (192.168.32.17) 64.88ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440e0441ab1019db0b8e80.jpg?_re=200x300 (192.168.32.17) 13.50ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440dde41ab1019db0b8bbb.jpg?_re=200x300 (192.168.32.17) 65.23ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440de041ab1019db0b8bbe.jpg?_re=200x300 (192.168.32.17) 274.65ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440de141ab1019db0b8bc2.jpg?_re=200x300 (192.168.32.17) 270.89ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440de141ab1019db0b8bc6.jpg?_re=200x300 (192.168.32.17) 25.18ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440de141ab1019db0b8bc9.jpg?_re=200x300 (192.168.32.17) 27.75ms
+[I 120903 12:48:12 web:1447] 304 GET /view/50440de141ab1019db0b8bcc.jpg?_re=200x300 (192.168.32.17) 69.29ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de141ab1019db0b8bd0.jpg?_re=200x300 (192.168.32.17) 69.97ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de141ab1019db0b8bd4.jpg?_re=200x300 (192.168.32.17) 72.03ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de141ab1019db0b8bd8.jpg?_re=200x300 (192.168.32.17) 66.33ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8bdb.jpg?_re=200x300 (192.168.32.17) 74.89ms
+[I 120903 12:48:13 web:1447] 200 POST /?page=5 (192.168.32.17) 292.53ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8bdf.jpg?_re=200x300 (192.168.32.17) 68.94ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8be5.jpg?_re=200x300 (192.168.32.17) 75.47ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8be2.jpg?_re=200x300 (192.168.32.17) 14.35ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8bee.jpg?_re=200x300 (192.168.32.17) 69.09ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8bf2.jpg?_re=200x300 (192.168.32.17) 68.67ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de341ab1019db0b8bf6.jpg?_re=200x300 (192.168.32.17) 68.15ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8be8.jpg?_re=200x300 (192.168.32.17) 22.46ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de241ab1019db0b8beb.jpg?_re=200x300 (192.168.32.17) 38.78ms
+[I 120903 12:48:13 web:1447] 304 GET /view/50440de341ab1019db0b8bf9.jpg?_re=200x300 (192.168.32.17) 15.92ms
+[I 120903 12:48:14 web:1447] 304 GET /view/50440de341ab1019db0b8bfc.jpg?_re=200x300 (192.168.32.17) 272.41ms
+[I 120903 12:48:14 web:1447] 304 GET /view/50440de341ab1019db0b8c00.jpg?_re=200x300 (192.168.32.17) 27.90ms
+[I 120903 12:48:14 web:1447] 304 GET /view/50440de341ab1019db0b8c03.jpg?_re=200x300 (192.168.32.17) 27.87ms
+[I 120903 12:48:14 web:1447] 304 GET /view/50440de441ab1019db0b8c06.jpg?_re=200x300 (192.168.32.17) 27.86ms
+[I 120903 12:48:14 web:1447] 304 GET /view/50440de541ab1019db0b8c09.jpg?_re=200x300 (192.168.32.17) 27.76ms
+[I 120903 12:48:14 web:1447] 304 GET /view/50440de541ab1019db0b8c0c.jpg?_re=200x300 (192.168.32.17) 73.46ms
+[I 120903 12:48:15 web:1447] 304 GET /view/50440de541ab1019db0b8c0f.jpg?_re=200x300 (192.168.32.17) 45.94ms
+[I 120903 12:48:15 web:1447] 304 GET /view/50440de541ab1019db0b8c12.jpg?_re=200x300 (192.168.32.17) 268.50ms
+[I 120903 12:48:15 web:1447] 304 GET /view/50440de541ab1019db0b8c15.jpg?_re=200x300 (192.168.32.17) 75.94ms
+[I 120903 12:48:15 web:1447] 304 GET /view/50440de541ab1019db0b8c18.jpg?_re=200x300 (192.168.32.17) 69.37ms
+[I 120903 12:48:15 web:1447] 304 GET /view/50440de541ab1019db0b8c1c.jpg?_re=200x300 (192.168.32.17) 274.95ms
+[I 120903 12:48:15 web:1447] 304 GET /view/50440de541ab1019db0b8c20.jpg?_re=200x300 (192.168.32.17) 69.53ms
+[W 120903 12:48:32 web:1056] 500 GET /view/50440d8141ab10184fcfdb7e.jpg (192.168.32.17): image is not found 
+[E 120903 12:48:32 web:1447] 500 GET /view/50440d8141ab10184fcfdb7e.jpg (192.168.32.17) 3.36ms
+[I 120903 13:01:33 handlers:249] genreid is 110729 
+[I 120903 13:01:33 handlers:250] skip is 1 
+[I 120903 13:01:33 web:1447] 200 GET /show/110729 (192.168.32.17) 9.76ms
+[I 120903 13:01:34 web:1447] 200 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 109.11ms
+[I 120903 13:01:34 web:1447] 200 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.84ms
+[I 120903 13:01:34 web:1447] 200 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 65.42ms
+[I 120903 13:01:34 web:1447] 200 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 62.08ms
+[I 120903 13:01:34 web:1447] 200 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.93ms
+[I 120903 13:01:34 web:1447] 200 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.77ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.29ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.93ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.64ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 73.68ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.94ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.19ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.76ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.94ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 271.41ms
+[I 120903 13:01:35 web:1447] 200 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.82ms
+[I 120903 13:01:36 web:1447] 200 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 274.81ms
+[I 120903 13:01:36 web:1447] 200 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 268.03ms
+[I 120903 13:01:36 web:1447] 200 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.51ms
+[I 120903 13:01:36 web:1447] 200 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.21ms
+[I 120903 13:01:38 web:1447] 200 POST /?page=2 (192.168.32.17) 8.48ms
+[I 120903 13:01:39 web:1447] 200 GET /view/50442a0241ab10602fb5e7c6.jpg?_re=200x300 (192.168.32.17) 16.51ms
+[I 120903 13:01:39 web:1447] 200 GET /view/50442a0241ab10602fb5e7bb.jpg?_re=200x300 (192.168.32.17) 290.98ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0241ab10602fb5e7c9.jpg?_re=200x300 (192.168.32.17) 273.71ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0241ab10602fb5e7b5.jpg?_re=200x300 (192.168.32.17) 22.20ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0241ab10602fb5e7b2.jpg?_re=200x300 (192.168.32.17) 75.55ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0341ab10602fb5e7cd.jpg?_re=200x300 (192.168.32.17) 27.88ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0241ab10602fb5e7b8.jpg?_re=200x300 (192.168.32.17) 38.66ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0241ab10602fb5e7bf.jpg?_re=200x300 (192.168.32.17) 270.18ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0241ab10602fb5e7c3.jpg?_re=200x300 (192.168.32.17) 67.18ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0341ab10602fb5e7d6.jpg?_re=200x300 (192.168.32.17) 21.72ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0341ab10602fb5e7d0.jpg?_re=200x300 (192.168.32.17) 27.91ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0341ab10602fb5e7d9.jpg?_re=200x300 (192.168.32.17) 45.64ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0341ab10602fb5e7df.jpg?_re=200x300 (192.168.32.17) 27.86ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0341ab10602fb5e7d3.jpg?_re=200x300 (192.168.32.17) 74.23ms
+[I 120903 13:01:40 web:1447] 200 GET /view/50442a0341ab10602fb5e7dc.jpg?_re=200x300 (192.168.32.17) 27.87ms
+[I 120903 13:01:41 web:1447] 200 GET /view/50442a0341ab10602fb5e7e8.jpg?_re=200x300 (192.168.32.17) 270.36ms
+[I 120903 13:01:41 web:1447] 200 GET /view/50442a0341ab10602fb5e7e2.jpg?_re=200x300 (192.168.32.17) 67.40ms
+[I 120903 13:01:41 web:1447] 200 GET /view/50442a0341ab10602fb5e7e5.jpg?_re=200x300 (192.168.32.17) 75.08ms
+[I 120903 13:01:41 web:1447] 200 POST /?page=3 (192.168.32.17) 8.86ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e7f4.jpg?_re=200x300 (192.168.32.17) 69.21ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e806.jpg?_re=200x300 (192.168.32.17) 68.68ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e7f7.jpg?_re=200x300 (192.168.32.17) 42.84ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e809.jpg?_re=200x300 (192.168.32.17) 69.37ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0541ab10602fb5e80c.jpg?_re=200x300 (192.168.32.17) 72.10ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e7fa.jpg?_re=200x300 (192.168.32.17) 74.94ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e803.jpg?_re=200x300 (192.168.32.17) 69.79ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e7fd.jpg?_re=200x300 (192.168.32.17) 70.22ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0441ab10602fb5e800.jpg?_re=200x300 (192.168.32.17) 71.87ms
+[I 120903 13:01:42 web:1447] 200 GET /view/50442a0541ab10602fb5e80f.jpg?_re=200x300 (192.168.32.17) 72.05ms
+[I 120903 13:01:43 web:1447] 200 GET /view/50442a0541ab10602fb5e813.jpg?_re=200x300 (192.168.32.17) 68.93ms
+[I 120903 13:01:43 web:1447] 200 GET /view/50442a0641ab10602fb5e825.jpg?_re=200x300 (192.168.32.17) 279.16ms
+[I 120903 13:01:43 web:1447] 200 GET /view/50442a0441ab10602fb5e7f0.jpg?_re=200x300 (192.168.32.17) 270.73ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0541ab10602fb5e816.jpg?_re=200x300 (192.168.32.17) 277.82ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0541ab10602fb5e81a.jpg?_re=200x300 (192.168.32.17) 278.18ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0641ab10602fb5e81e.jpg?_re=200x300 (192.168.32.17) 27.97ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0441ab10602fb5e7ec.jpg?_re=200x300 (192.168.32.17) 73.70ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0641ab10602fb5e821.jpg?_re=200x300 (192.168.32.17) 70.12ms
+[I 120903 13:01:44 web:1447] 200 POST /?page=4 (192.168.32.17) 739.02ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0641ab10602fb5e832.jpg?_re=200x300 (192.168.32.17) 75.63ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0641ab10602fb5e829.jpg?_re=200x300 (192.168.32.17) 73.36ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0641ab10602fb5e82c.jpg?_re=200x300 (192.168.32.17) 70.06ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0641ab10602fb5e82f.jpg?_re=200x300 (192.168.32.17) 15.66ms
+[I 120903 13:01:44 web:1447] 200 GET /view/50442a0741ab10602fb5e83c.jpg?_re=200x300 (192.168.32.17) 73.76ms
+[I 120903 13:01:45 web:1447] 200 GET /view/50442a0741ab10602fb5e842.jpg?_re=200x300 (192.168.32.17) 271.30ms
+[I 120903 13:01:45 web:1447] 200 GET /view/50442a0741ab10602fb5e83f.jpg?_re=200x300 (192.168.32.17) 71.11ms
+[I 120903 13:01:45 web:1447] 200 GET /view/50442a0741ab10602fb5e835.jpg?_re=200x300 (192.168.32.17) 76.71ms
+[I 120903 13:01:45 web:1447] 200 GET /view/50442a0741ab10602fb5e839.jpg?_re=200x300 (192.168.32.17) 44.45ms
+[I 120903 13:01:45 web:1447] 200 GET /view/50442a0841ab10602fb5e857.jpg?_re=200x300 (192.168.32.17) 81.70ms
+[I 120903 13:01:45 web:1447] 200 GET /view/50442a0941ab10602fb5e85e.jpg?_re=200x300 (192.168.32.17) 275.36ms
+[I 120903 13:01:45 web:1447] 200 GET /view/50442a0841ab10602fb5e84e.jpg?_re=200x300 (192.168.32.17) 24.74ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0941ab10602fb5e862.jpg?_re=200x300 (192.168.32.17) 272.39ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0841ab10602fb5e851.jpg?_re=200x300 (192.168.32.17) 73.04ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0841ab10602fb5e854.jpg?_re=200x300 (192.168.32.17) 74.92ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0841ab10602fb5e85b.jpg?_re=200x300 (192.168.32.17) 65.62ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0741ab10602fb5e846.jpg?_re=200x300 (192.168.32.17) 278.82ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0841ab10602fb5e84b.jpg?_re=200x300 (192.168.32.17) 15.46ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0941ab10602fb5e872.jpg?_re=200x300 (192.168.32.17) 43.68ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0941ab10602fb5e86c.jpg?_re=200x300 (192.168.32.17) 74.50ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0941ab10602fb5e86f.jpg?_re=200x300 (192.168.32.17) 24.77ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0941ab10602fb5e866.jpg?_re=200x300 (192.168.32.17) 69.83ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0941ab10602fb5e869.jpg?_re=200x300 (192.168.32.17) 23.98ms
+[I 120903 13:01:46 web:1447] 200 GET /view/50442a0941ab10602fb5e875.jpg?_re=200x300 (192.168.32.17) 15.38ms
+[I 120903 13:23:51 web:1447] 304 GET /static/images/buttonbgHover.png (192.168.32.17) 0.53ms
+[I 120903 13:23:53 handlers:249] genreid is 110729 
+[I 120903 13:23:53 handlers:250] skip is 1 
+[I 120903 13:23:53 web:1447] 304 GET /show/110729 (192.168.32.17) 9.39ms
+[I 120903 13:23:53 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 57.34ms
+[I 120903 13:23:53 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.43ms
+[I 120903 13:23:53 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.95ms
+[I 120903 13:23:53 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 61.29ms
+[I 120903 13:23:53 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 65.25ms
+[I 120903 13:23:53 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 60.96ms
+[I 120903 13:23:53 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.78ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.65ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 266.77ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 274.76ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 69.66ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.10ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.75ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.71ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 70.22ms
+[I 120903 13:23:54 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 71.69ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 267.68ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.77ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.44ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.27ms
+[I 120903 13:23:55 web:1447] 200 POST /?page=2 (192.168.32.17) 8.12ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7b5.jpg?_re=200x300 (192.168.32.17) 22.91ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7b8.jpg?_re=200x300 (192.168.32.17) 38.63ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7b2.jpg?_re=200x300 (192.168.32.17) 75.36ms
+[I 120903 13:23:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7c6.jpg?_re=200x300 (192.168.32.17) 15.99ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7c9.jpg?_re=200x300 (192.168.32.17) 70.96ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7bb.jpg?_re=200x300 (192.168.32.17) 68.95ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7bf.jpg?_re=200x300 (192.168.32.17) 68.76ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7c3.jpg?_re=200x300 (192.168.32.17) 67.03ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7cd.jpg?_re=200x300 (192.168.32.17) 50.38ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7d0.jpg?_re=200x300 (192.168.32.17) 27.89ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7d3.jpg?_re=200x300 (192.168.32.17) 74.17ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7d6.jpg?_re=200x300 (192.168.32.17) 21.66ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7d9.jpg?_re=200x300 (192.168.32.17) 45.66ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7dc.jpg?_re=200x300 (192.168.32.17) 27.79ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7df.jpg?_re=200x300 (192.168.32.17) 27.94ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7e2.jpg?_re=200x300 (192.168.32.17) 268.27ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7e5.jpg?_re=200x300 (192.168.32.17) 75.03ms
+[I 120903 13:23:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7e8.jpg?_re=200x300 (192.168.32.17) 69.09ms
+[I 120903 13:23:57 web:1447] 304 GET /view/50442a0441ab10602fb5e7ec.jpg?_re=200x300 (192.168.32.17) 73.36ms
+[I 120903 13:23:57 web:1447] 304 GET /view/50442a0441ab10602fb5e7f0.jpg?_re=200x300 (192.168.32.17) 270.90ms
+[I 120903 13:23:59 web:1447] 200 POST /?page=3 (192.168.32.17) 8.27ms
+[I 120903 13:23:59 web:1447] 304 GET /view/50442a0441ab10602fb5e7f7.jpg?_re=200x300 (192.168.32.17) 42.53ms
+[I 120903 13:23:59 web:1447] 304 GET /view/50442a0441ab10602fb5e7fa.jpg?_re=200x300 (192.168.32.17) 73.57ms
+[I 120903 13:23:59 web:1447] 304 GET /view/50442a0441ab10602fb5e7fd.jpg?_re=200x300 (192.168.32.17) 70.07ms
+[I 120903 13:23:59 web:1447] 304 GET /view/50442a0441ab10602fb5e800.jpg?_re=200x300 (192.168.32.17) 70.98ms
+[I 120903 13:23:59 web:1447] 304 GET /view/50442a0441ab10602fb5e803.jpg?_re=200x300 (192.168.32.17) 68.25ms
+[I 120903 13:23:59 web:1447] 304 GET /view/50442a0441ab10602fb5e7f4.jpg?_re=200x300 (192.168.32.17) 68.24ms
+[I 120903 13:23:59 web:1447] 304 GET /view/50442a0441ab10602fb5e806.jpg?_re=200x300 (192.168.32.17) 67.39ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0441ab10602fb5e809.jpg?_re=200x300 (192.168.32.17) 69.29ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0541ab10602fb5e80c.jpg?_re=200x300 (192.168.32.17) 72.33ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0541ab10602fb5e80f.jpg?_re=200x300 (192.168.32.17) 70.45ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0541ab10602fb5e813.jpg?_re=200x300 (192.168.32.17) 68.41ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0541ab10602fb5e816.jpg?_re=200x300 (192.168.32.17) 74.44ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0541ab10602fb5e81a.jpg?_re=200x300 (192.168.32.17) 74.66ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0641ab10602fb5e81e.jpg?_re=200x300 (192.168.32.17) 27.36ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0641ab10602fb5e821.jpg?_re=200x300 (192.168.32.17) 68.94ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0641ab10602fb5e825.jpg?_re=200x300 (192.168.32.17) 276.89ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0641ab10602fb5e829.jpg?_re=200x300 (192.168.32.17) 72.07ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0641ab10602fb5e82c.jpg?_re=200x300 (192.168.32.17) 68.70ms
+[I 120903 13:24:00 web:1447] 304 GET /view/50442a0641ab10602fb5e82f.jpg?_re=200x300 (192.168.32.17) 15.56ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0641ab10602fb5e832.jpg?_re=200x300 (192.168.32.17) 73.69ms
+[I 120903 13:24:01 web:1447] 200 POST /?page=4 (192.168.32.17) 9.31ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0741ab10602fb5e83c.jpg?_re=200x300 (192.168.32.17) 72.04ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0741ab10602fb5e83f.jpg?_re=200x300 (192.168.32.17) 78.98ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0741ab10602fb5e835.jpg?_re=200x300 (192.168.32.17) 277.37ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0741ab10602fb5e842.jpg?_re=200x300 (192.168.32.17) 69.54ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0741ab10602fb5e846.jpg?_re=200x300 (192.168.32.17) 76.12ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0741ab10602fb5e839.jpg?_re=200x300 (192.168.32.17) 45.62ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0841ab10602fb5e84b.jpg?_re=200x300 (192.168.32.17) 15.27ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0841ab10602fb5e84e.jpg?_re=200x300 (192.168.32.17) 24.72ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0841ab10602fb5e851.jpg?_re=200x300 (192.168.32.17) 72.15ms
+[I 120903 13:24:01 web:1447] 304 GET /view/50442a0841ab10602fb5e854.jpg?_re=200x300 (192.168.32.17) 73.56ms
+[I 120903 13:24:01 web:1447] 200 POST /?page=5 (192.168.32.17) 83.33ms
+[I 120903 13:24:02 web:1447] 304 GET /view/50442a0841ab10602fb5e857.jpg?_re=200x300 (192.168.32.17) 81.34ms
+[I 120903 13:24:02 web:1447] 304 GET /view/50442a0841ab10602fb5e85b.jpg?_re=200x300 (192.168.32.17) 65.44ms
+[I 120903 13:24:02 web:1447] 304 GET /view/50442a0941ab10602fb5e85e.jpg?_re=200x300 (192.168.32.17) 274.51ms
+[I 120903 13:24:02 web:1447] 304 GET /view/50442a0941ab10602fb5e862.jpg?_re=200x300 (192.168.32.17) 69.69ms
+[I 120903 13:24:02 web:1447] 304 GET /view/50442a0941ab10602fb5e866.jpg?_re=200x300 (192.168.32.17) 69.80ms
+[I 120903 13:24:02 web:1447] 304 GET /view/50442a0941ab10602fb5e86c.jpg?_re=200x300 (192.168.32.17) 72.43ms
+[I 120903 13:24:02 web:1447] 200 GET /view/50442a0a41ab10602fb5e878.jpg?_re=200x300 (192.168.32.17) 68.97ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0a41ab10602fb5e87c.jpg?_re=200x300 (192.168.32.17) 74.67ms
+[I 120903 13:24:03 web:1447] 304 GET /view/50442a0941ab10602fb5e869.jpg?_re=200x300 (192.168.32.17) 23.98ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0a41ab10602fb5e883.jpg?_re=200x300 (192.168.32.17) 75.98ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0a41ab10602fb5e886.jpg?_re=200x300 (192.168.32.17) 68.72ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0a41ab10602fb5e880.jpg?_re=200x300 (192.168.32.17) 15.81ms
+[I 120903 13:24:03 web:1447] 200 POST /?page=6 (192.168.32.17) 169.49ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0a41ab10602fb5e889.jpg?_re=200x300 (192.168.32.17) 71.86ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0a41ab10602fb5e890.jpg?_re=200x300 (192.168.32.17) 69.09ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0a41ab10602fb5e88d.jpg?_re=200x300 (192.168.32.17) 44.06ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0b41ab10602fb5e896.jpg?_re=200x300 (192.168.32.17) 72.56ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0b41ab10602fb5e89d.jpg?_re=200x300 (192.168.32.17) 62.18ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0b41ab10602fb5e899.jpg?_re=200x300 (192.168.32.17) 68.09ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0b41ab10602fb5e8a0.jpg?_re=200x300 (192.168.32.17) 63.02ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0b41ab10602fb5e893.jpg?_re=200x300 (192.168.32.17) 69.87ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0c41ab10602fb5e8a3.jpg?_re=200x300 (192.168.32.17) 69.78ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0c41ab10602fb5e8a6.jpg?_re=200x300 (192.168.32.17) 70.42ms
+[I 120903 13:24:03 web:1447] 200 GET /view/50442a0c41ab10602fb5e8a9.jpg?_re=200x300 (192.168.32.17) 70.65ms
+[I 120903 13:24:04 web:1447] 200 GET /view/50442a0c41ab10602fb5e8ac.jpg?_re=200x300 (192.168.32.17) 73.01ms
+[E 120903 13:24:04 web:1064] Uncaught exception GET /view/50442a0c41ab10602fb5e8af.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0c41ab10602fb5e8af.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Referer': 'http://10.24.94.36:8888/show/110729', 'Host': '10.24.94.36:8888', 'Accept': 'image/png,image/*;q=0.8,*/*;q=0.5', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 225, in get
+        im = Image.open(output)
+      File "/usr/lib64/python2.6/site-packages/PIL/Image.py", line 1980, in open
+        raise IOError("cannot identify image file")
+    IOError: cannot identify image file
+[E 120903 13:24:04 web:1447] 500 GET /view/50442a0c41ab10602fb5e8af.jpg?_re=200x300 (192.168.32.17) 91.16ms
+[I 120903 13:24:04 web:1447] 200 GET /view/50442a0c41ab10602fb5e8b2.jpg?_re=200x300 (192.168.32.17) 278.12ms
+[I 120903 13:24:04 web:1447] 200 GET /view/50442a0c41ab10602fb5e8b5.jpg?_re=200x300 (192.168.32.17) 287.93ms
+[I 120903 13:24:04 web:1447] 200 GET /view/50442a0c41ab10602fb5e8b9.jpg?_re=200x300 (192.168.32.17) 67.16ms
+[I 120903 13:24:04 web:1447] 200 GET /view/50442a0c41ab10602fb5e8c2.jpg?_re=200x300 (192.168.32.17) 21.02ms
+[I 120903 13:24:04 web:1447] 304 GET /view/50442a0941ab10602fb5e86f.jpg?_re=200x300 (192.168.32.17) 24.72ms
+[I 120903 13:24:04 web:1447] 304 GET /view/50442a0941ab10602fb5e872.jpg?_re=200x300 (192.168.32.17) 43.46ms
+[I 120903 13:24:04 web:1447] 304 GET /view/50442a0941ab10602fb5e875.jpg?_re=200x300 (192.168.32.17) 15.47ms
+[I 120903 13:24:18 web:1447] 200 GET / (192.168.32.17) 8.25ms
+[I 120903 13:24:18 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 65.92ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.76ms
+[I 120903 13:24:19 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 57.46ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 61.59ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 60.28ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.06ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.15ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.83ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 68.66ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.35ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 24.98ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 73.09ms
+[I 120903 13:24:19 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 69.47ms
+[I 120903 13:24:20 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 271.41ms
+[I 120903 13:24:20 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 274.76ms
+[I 120903 13:24:20 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 66.64ms
+[I 120903 13:24:20 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.67ms
+[I 120903 13:24:20 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 276.39ms
+[I 120903 13:24:20 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.36ms
+[I 120903 13:24:20 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.30ms
+[I 120903 13:24:21 web:1447] 304 GET /static/images/loginbuttonbg.png (192.168.32.17) 0.42ms
+[I 120903 13:24:28 web:1447] 302 POST /login (192.168.32.17) 29.40ms
+[I 120903 13:24:28 handlers:199] user is gavinzhm
+[I 120903 13:24:28 web:1447] 200 GET /hello (192.168.32.17) 8.38ms
+[I 120903 13:24:33 web:1447] 304 GET / (192.168.32.17) 8.11ms
+[I 120903 13:24:33 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.80ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.64ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.74ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.09ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.96ms
+[I 120903 13:24:34 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 56.96ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.18ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.75ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.06ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 72.95ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.93ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.38ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.88ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.82ms
+[I 120903 13:24:34 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 69.90ms
+[I 120903 13:24:35 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 71.78ms
+[I 120903 13:24:35 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 66.45ms
+[I 120903 13:24:35 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.67ms
+[I 120903 13:24:35 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.19ms
+[I 120903 13:24:35 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.59ms
+[I 120903 13:24:45 web:1447] 304 GET / (192.168.32.17) 8.44ms
+[I 120903 13:24:46 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 0.46ms
+[I 120903 13:24:46 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.41ms
+[I 120903 13:24:46 web:1447] 304 GET /static/js/jquery.infinitescroll.min.js?v=24131 (192.168.32.17) 0.42ms
+[I 120903 13:24:46 web:1447] 304 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.42ms
+[I 120903 13:24:46 web:1447] 304 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.41ms
+[I 120903 13:24:46 web:1447] 304 GET /static/js/jquery.masonry.min.js?v=fc2d7 (192.168.32.17) 0.41ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.80ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.73ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.92ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.08ms
+[I 120903 13:24:46 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 56.97ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.19ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 65.33ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.17ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 72.97ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 61.44ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 68.99ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 24.96ms
+[I 120903 13:24:46 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.72ms
+[I 120903 13:24:47 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.65ms
+[I 120903 13:24:47 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 69.79ms
+[I 120903 13:24:47 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 71.97ms
+[I 120903 13:24:47 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 66.79ms
+[I 120903 13:24:47 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 276.63ms
+[I 120903 13:24:47 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.11ms
+[I 120903 13:24:47 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.20ms
+[I 120903 13:24:47 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.40ms
+[I 120903 13:24:47 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.59ms
+[I 120903 13:24:47 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.37ms
+[I 120903 13:26:06 web:1447] 200 POST /?page=2 (192.168.32.17) 8.43ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7b5.jpg?_re=200x300 (192.168.32.17) 23.17ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7b8.jpg?_re=200x300 (192.168.32.17) 38.60ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7bb.jpg?_re=200x300 (192.168.32.17) 68.02ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7bf.jpg?_re=200x300 (192.168.32.17) 268.46ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7b2.jpg?_re=200x300 (192.168.32.17) 74.45ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7c6.jpg?_re=200x300 (192.168.32.17) 15.90ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7c9.jpg?_re=200x300 (192.168.32.17) 69.95ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0341ab10602fb5e7cd.jpg?_re=200x300 (192.168.32.17) 29.41ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0341ab10602fb5e7d0.jpg?_re=200x300 (192.168.32.17) 27.77ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7c3.jpg?_re=200x300 (192.168.32.17) 65.93ms
+[I 120903 13:26:06 web:1447] 304 GET /view/50442a0341ab10602fb5e7d3.jpg?_re=200x300 (192.168.32.17) 73.45ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0341ab10602fb5e7d6.jpg?_re=200x300 (192.168.32.17) 21.68ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0341ab10602fb5e7d9.jpg?_re=200x300 (192.168.32.17) 45.50ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0341ab10602fb5e7dc.jpg?_re=200x300 (192.168.32.17) 27.73ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0341ab10602fb5e7df.jpg?_re=200x300 (192.168.32.17) 27.51ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0341ab10602fb5e7e2.jpg?_re=200x300 (192.168.32.17) 65.88ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0341ab10602fb5e7e5.jpg?_re=200x300 (192.168.32.17) 74.83ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0341ab10602fb5e7e8.jpg?_re=200x300 (192.168.32.17) 68.05ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0441ab10602fb5e7ec.jpg?_re=200x300 (192.168.32.17) 72.63ms
+[I 120903 13:26:07 web:1447] 304 GET /view/50442a0441ab10602fb5e7f0.jpg?_re=200x300 (192.168.32.17) 68.05ms
+[I 120903 13:26:09 web:1447] 200 POST /?page=3 (192.168.32.17) 8.55ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e7fd.jpg?_re=200x300 (192.168.32.17) 70.83ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e7f7.jpg?_re=200x300 (192.168.32.17) 42.55ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e7fa.jpg?_re=200x300 (192.168.32.17) 73.87ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e7f4.jpg?_re=200x300 (192.168.32.17) 68.66ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e806.jpg?_re=200x300 (192.168.32.17) 67.41ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e800.jpg?_re=200x300 (192.168.32.17) 71.32ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e803.jpg?_re=200x300 (192.168.32.17) 68.80ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0441ab10602fb5e809.jpg?_re=200x300 (192.168.32.17) 69.44ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0541ab10602fb5e80c.jpg?_re=200x300 (192.168.32.17) 72.29ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0541ab10602fb5e80f.jpg?_re=200x300 (192.168.32.17) 70.77ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0541ab10602fb5e813.jpg?_re=200x300 (192.168.32.17) 68.91ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0541ab10602fb5e816.jpg?_re=200x300 (192.168.32.17) 74.58ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0541ab10602fb5e81a.jpg?_re=200x300 (192.168.32.17) 74.74ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0641ab10602fb5e81e.jpg?_re=200x300 (192.168.32.17) 27.46ms
+[I 120903 13:26:10 web:1447] 304 GET /view/50442a0641ab10602fb5e821.jpg?_re=200x300 (192.168.32.17) 69.21ms
+[I 120903 13:26:11 web:1447] 304 GET /view/50442a0641ab10602fb5e825.jpg?_re=200x300 (192.168.32.17) 75.48ms
+[I 120903 13:26:11 web:1447] 304 GET /view/50442a0641ab10602fb5e829.jpg?_re=200x300 (192.168.32.17) 72.48ms
+[I 120903 13:26:11 web:1447] 304 GET /view/50442a0641ab10602fb5e82c.jpg?_re=200x300 (192.168.32.17) 69.16ms
+[I 120903 13:26:11 web:1447] 304 GET /view/50442a0641ab10602fb5e82f.jpg?_re=200x300 (192.168.32.17) 36.09ms
+[I 120903 13:26:11 web:1447] 304 GET /view/50442a0641ab10602fb5e832.jpg?_re=200x300 (192.168.32.17) 74.07ms
+[I 120903 13:26:13 web:1447] 200 POST /?page=4 (192.168.32.17) 8.21ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0741ab10602fb5e835.jpg?_re=200x300 (192.168.32.17) 76.09ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0741ab10602fb5e83c.jpg?_re=200x300 (192.168.32.17) 72.15ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0741ab10602fb5e83f.jpg?_re=200x300 (192.168.32.17) 70.92ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0741ab10602fb5e842.jpg?_re=200x300 (192.168.32.17) 68.78ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0741ab10602fb5e846.jpg?_re=200x300 (192.168.32.17) 76.22ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0741ab10602fb5e839.jpg?_re=200x300 (192.168.32.17) 44.07ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0841ab10602fb5e84b.jpg?_re=200x300 (192.168.32.17) 15.36ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0841ab10602fb5e84e.jpg?_re=200x300 (192.168.32.17) 24.83ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0841ab10602fb5e851.jpg?_re=200x300 (192.168.32.17) 72.72ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0841ab10602fb5e854.jpg?_re=200x300 (192.168.32.17) 73.68ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0841ab10602fb5e857.jpg?_re=200x300 (192.168.32.17) 80.94ms
+[I 120903 13:26:14 web:1447] 304 GET /view/50442a0841ab10602fb5e85b.jpg?_re=200x300 (192.168.32.17) 64.76ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e85e.jpg?_re=200x300 (192.168.32.17) 274.07ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e862.jpg?_re=200x300 (192.168.32.17) 271.55ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e866.jpg?_re=200x300 (192.168.32.17) 69.68ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e869.jpg?_re=200x300 (192.168.32.17) 24.46ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e86c.jpg?_re=200x300 (192.168.32.17) 72.63ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e86f.jpg?_re=200x300 (192.168.32.17) 24.64ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e872.jpg?_re=200x300 (192.168.32.17) 43.35ms
+[I 120903 13:26:15 web:1447] 304 GET /view/50442a0941ab10602fb5e875.jpg?_re=200x300 (192.168.32.17) 15.35ms
+[I 120903 13:39:38 web:1447] 304 GET / (192.168.32.17) 8.42ms
+[I 120903 13:39:38 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 58.21ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 65.65ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.77ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.84ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.91ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.95ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.52ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.86ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 64.94ms
+[I 120903 13:39:39 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 274.86ms
+[I 120903 13:39:40 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.64ms
+[I 120903 13:39:40 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.39ms
+[I 120903 13:39:40 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.76ms
+[I 120903 13:39:40 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 270.34ms
+[I 120903 13:39:40 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 272.34ms
+[I 120903 13:39:40 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 275.42ms
+[I 120903 13:39:41 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 267.76ms
+[I 120903 13:39:41 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 276.17ms
+[I 120903 13:39:41 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 70.19ms
+[I 120903 13:39:41 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.51ms
+[I 120903 13:40:18 web:1447] 200 GET /login (192.168.32.17) 1.11ms
+[I 120903 13:40:24 web:1447] 304 GET /login (192.168.32.17) 0.88ms
+[I 120903 14:10:00 web:1447] 304 GET /login (192.168.32.17) 1.22ms
+[I 120903 14:11:30 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120903 14:11:49 web:1064] Uncaught exception GET /login (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/login', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'user="ImdhdmluemhtIg==|1346646268|4618249c0fadea32e7eafd542417bf494e6e1e1a"', 'Cache-Control': 'max-age=0', 'If-None-Match': '"54fdb0ecfc6ece4d8cfc511b71e9fbc98dfe900f"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 89, in get
+        if not self.user:
+    AttributeError: 'LoginHandler' object has no attribute 'user'
+[E 120903 14:11:49 web:1447] 500 GET /login (192.168.32.17) 1.73ms
+[I 120903 14:13:56 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120903 14:14:43 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120903 14:14:51 web:1447] 200 GET /login (192.168.32.17) 1.76ms
+[I 120903 14:14:56 web:1447] 304 GET /login (192.168.32.17) 0.80ms
+[I 120903 14:15:10 web:1447] 304 GET / (192.168.32.17) 8.84ms
+[I 120903 14:15:10 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 60.71ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 67.45ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 60.57ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.96ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.05ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 60.42ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 73.75ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 68.79ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.07ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.70ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.11ms
+[I 120903 14:15:10 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.47ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.16ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 24.81ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 69.59ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 71.73ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.21ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 68.56ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.45ms
+[I 120903 14:15:11 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 66.40ms
+[I 120903 14:15:18 web:1447] 302 POST /login (192.168.32.17) 24.96ms
+[I 120903 14:15:18 web:1447] 302 GET /hello (192.168.32.17) 0.73ms
+[I 120903 14:15:18 web:1447] 200 GET /login?next=%2Fhello (192.168.32.17) 0.88ms
+[I 120903 14:15:31 web:1447] 302 POST /login (192.168.32.17) 24.46ms
+[I 120903 14:15:31 web:1447] 302 GET /hello (192.168.32.17) 0.31ms
+[I 120903 14:15:31 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 1.01ms
+[I 120903 14:15:49 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120903 14:15:53 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 1.77ms
+[I 120903 14:15:57 web:1447] 302 POST /login (192.168.32.17) 25.67ms
+[I 120903 14:15:57 web:1447] 302 GET /hello (192.168.32.17) 0.74ms
+[I 120903 14:15:57 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.83ms
+[I 120903 14:17:19 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120903 14:17:20 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649357|b7ffb03613adaba25f69eff7cb3cac1360394ae5'
+[I 120903 14:17:20 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 2.07ms
+[W 120903 14:17:22 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649357|b7ffb03613adaba25f69eff7cb3cac1360394ae5'
+[I 120903 14:17:22 web:1447] 200 GET /login (192.168.32.17) 1.02ms
+[W 120903 14:17:25 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649357|b7ffb03613adaba25f69eff7cb3cac1360394ae5'
+[I 120903 14:17:25 web:1447] 304 GET / (192.168.32.17) 9.11ms
+[I 120903 14:17:25 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 60.42ms
+[I 120903 14:17:25 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 60.58ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.88ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.77ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 61.68ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.66ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.19ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 65.06ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.73ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 73.05ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 68.89ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.14ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 28.15ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.59ms
+[I 120903 14:17:26 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 271.07ms
+[I 120903 14:17:27 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 71.94ms
+[I 120903 14:17:27 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 66.06ms
+[I 120903 14:17:27 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.59ms
+[I 120903 14:17:27 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 68.77ms
+[I 120903 14:17:27 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.12ms
+[I 120903 14:17:32 web:1447] 302 POST /login (192.168.32.17) 24.93ms
+[I 120903 14:17:32 handlers:197] user is gavinzhm
+[I 120903 14:17:32 web:1447] 200 GET /hello (192.168.32.17) 1.33ms
+[I 120903 14:18:13 handlers:197] user is gavinzhm
+[I 120903 14:18:13 web:1447] 304 GET /hello (192.168.32.17) 1.21ms
+[I 120903 14:52:48 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120903 14:55:07 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649452|0f9b7eec67d95441a36168dd030adb2fd6be1213'
+[I 120903 14:55:07 web:1447] 200 GET /login (192.168.32.17) 2.16ms
+[W 120903 14:55:09 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649452|0f9b7eec67d95441a36168dd030adb2fd6be1213'
+[I 120903 14:55:09 web:1447] 304 GET /login (192.168.32.17) 0.99ms
+[W 120903 14:55:09 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649452|0f9b7eec67d95441a36168dd030adb2fd6be1213'
+[I 120903 14:55:09 web:1447] 304 GET /login (192.168.32.17) 1.00ms
+[I 120903 15:25:29 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120903 15:25:42 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649452|0f9b7eec67d95441a36168dd030adb2fd6be1213'
+[I 120903 15:25:42 web:1447] 304 GET / (192.168.32.17) 10.05ms
+[I 120903 15:25:42 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 60.53ms
+[I 120903 15:25:42 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 67.61ms
+[I 120903 15:25:42 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.91ms
+[I 120903 15:25:42 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.83ms
+[I 120903 15:25:42 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.92ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.91ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 276.66ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.65ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.84ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.21ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.07ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 69.94ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.86ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.03ms
+[I 120903 15:25:43 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.03ms
+[I 120903 15:25:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 267.87ms
+[I 120903 15:25:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.48ms
+[I 120903 15:25:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 71.97ms
+[I 120903 15:25:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.13ms
+[I 120903 15:25:44 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.22ms
+[W 120903 15:25:54 web:2027] Invalid cookie signature 'ImdhdmluemhtIg==|1346649452|0f9b7eec67d95441a36168dd030adb2fd6be1213'
+[I 120903 15:25:54 handlers:87] None
+[I 120903 15:25:54 web:1447] 304 GET /login (192.168.32.17) 1.25ms
+[I 120903 15:26:00 web:1447] 302 POST /login (192.168.32.17) 24.86ms
+[I 120903 15:26:00 handlers:201] user is gavinzhm
+[I 120903 15:26:00 web:1447] 200 GET /hello (192.168.32.17) 1.24ms
+[I 120903 15:26:11 handlers:87] gavinzhm
+[I 120903 15:26:11 web:1447] 302 GET /login (192.168.32.17) 0.56ms
+[I 120903 15:26:11 web:1447] 304 GET / (192.168.32.17) 8.24ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.68ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.97ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.86ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.96ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.74ms
+[I 120903 15:26:11 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 56.90ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.45ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.73ms
+[I 120903 15:26:11 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.40ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 73.09ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 69.15ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 24.97ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.70ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 68.85ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 69.98ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 71.98ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 86.40ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.97ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.50ms
+[I 120903 15:26:12 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.27ms
+[I 120903 15:26:41 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120903 15:30:31 web:1447] 302 GET /logout (192.168.32.17) 1.08ms
+[I 120903 15:30:31 web:1447] 200 GET /login (192.168.32.17) 1.36ms
+[I 120903 15:30:36 web:1447] 304 GET /login (192.168.32.17) 0.74ms
+[W 120903 15:54:08 web:1447] 404 GET /register/ (192.168.32.17) 0.89ms
+[I 120903 15:54:12 web:1447] 200 GET /register (192.168.32.17) 0.83ms

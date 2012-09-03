@@ -64,11 +64,9 @@ class BaseHandler(tornado.web.RequestHandler):
         return u"/login"
 
     def get_current_user(self):
-        user_json = self.get_secure_cookie("user")
-        if user_json:
-            return tornado.escape.json_decode(user_json)
-        else:
-            return None
+        user_json = self.get_secure_cookie("user") or False
+        if not user_json: return None
+        return tornado.escape.json_decode(user_json)
     
     @property        
     def db(self):
@@ -86,7 +84,10 @@ class BaseHandler(tornado.web.RequestHandler):
         
 class LoginHandler(BaseHandler):
     def get(self):
-        self.render("login.html")
+        if not self.current_user:
+            self.render("login.html")
+        else:
+            self.redirect("/")
 
     def post(self):
         email = self.get_argument("email", "")
@@ -319,7 +320,7 @@ class MainHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
         skip = self.get_argument('page', 1)
-        iterms_list = self.db['ranking110729'].find().limit(20).skip((int(skip)-1) * 20)
+        iterms_list = self.db['genreid110729'].find().limit(20).skip((int(skip)-1) * 20)
         if iterms_list:
             filename_list = []
             for iterm in iterms_list:

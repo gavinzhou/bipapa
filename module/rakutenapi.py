@@ -31,7 +31,7 @@ class RakutenAPI(object):
         self.c.close()
         response = b.getvalue()
         _result = tornado.escape.json_decode(response)
-        time.sleep(1)
+#        time.sleep(1)
         return _result
 
 class GetAPI(RakutenAPI):
@@ -66,20 +66,7 @@ class GetItem(object):
         if not hasattr(GetItem, "_db"):
             _db = pymongo.Connection().bipapa
         return _db
-    """
-    def getCollId(self, keyword):
-        COLLECTION_NAME = "KeywordList"
-        try:
-            coll = self.db.create_collection(COLLECTION_NAME)
-        except CollectionInvalid:
-            coll = self.db[COLLECTION_NAME]
-        rz = coll.find_one({'keyword': keyword})
-        if not rz:
-            _id = coll.insert({'keyword': keyword})
-        else:
-            _id = rz["_id"]
-        return _id
-    """    
+
     def getCollList(self):
         try:
             coll = self.db.genreId
@@ -93,9 +80,10 @@ class GetItem(object):
         coll = self.db["genreid" + coll_name]
         getapi = GetAPI()
         itemresult = getapi.ItemSearch(coll_name, page)
-        if page < itemresult["pageCount"]:
+#        if page < itemresult["pageCount"] + 1:
+        if page < 6:
             for item in itemresult["Items"]["Item"]:
-                if not coll.find_one(item["itemCode"]):
+                if not coll.find_one(item["itemCode"]) and item["mediumImageUrl"] :
                     _item = {}
                     _item["itemName"]       =   item["itemName"]
                     _item["itemImageUrl"]   =   item["mediumImageUrl"].split("?")[0]           
@@ -105,7 +93,7 @@ class GetItem(object):
                     _item["itemUrl"]        =   item["itemUrl"]
                     _item["timestamp"]      =   int(time.time())
             
-                    _id = coll.insert(_item)
+                    _id = str(coll.insert(_item))
                     print GetImg2db(_id, str(_item["itemImageUrl"]))
             self.getItem(coll_name, page + 1)
 
