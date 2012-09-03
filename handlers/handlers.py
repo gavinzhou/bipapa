@@ -316,6 +316,28 @@ class GenreIdHandler(tornado.web.RequestHandler):
             self.set_status(404)
             self.write("error genreId not found")
 
+class LikeHandler(BaseHandler):
+    """Like img 
+    mongodb -> {"imgID": "user-email"}
+    exp)
+    command -> db.likes.find({"504482b1b770676615efb2d0": "test1@test.com"})
+               db.likes.find({"504482b1b770676615efb2d0": "test2@test.com"})
+    
+            -> db.likes.find({},{"504482b1b770676615efb2d0":1}).count()
+    """
+    def get(self,filename):
+#        user = self.current_user
+        filename = self.get_argument("filename", False)
+        if filename:
+            likes = self.db.likes.find({},{filename:1}).count()
+            self.write(likes)
+        else:
+            self.write("ERROR")
+
+    def post(self):
+        return self.get()
+        
+
 class MainHandler(BaseHandler):
     @tornado.web.asynchronous
     def get(self):
@@ -325,7 +347,7 @@ class MainHandler(BaseHandler):
             filename_list = []
             for iterm in iterms_list:
                 filename_list.append(iterm["_id"])
-        self.render("index.html", filename_list=filename_list)
+        self.render("index.html", filename_list=iterms_list)
 
     def post(self):
         return self.get()
