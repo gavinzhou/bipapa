@@ -29,9 +29,6 @@ import tornado.ioloop
 import tornado.options
 import tornado.web
 
-import mako.lookup
-import mako.template
-
 from module.rakuten_api import rakuten_api
 
 from tornado.options import define, options
@@ -68,6 +65,12 @@ class BaseHandler(tornado.web.RequestHandler):
         if not user_json: return None
         return tornado.escape.json_decode(user_json)
     
+    def set_current_user(self, user):
+        if user:
+            self.set_secure_cookie("user", tornado.escape.json_encode(user))
+        else:
+            self.clear_cookie("user")
+
     @property        
     def db(self):
         """mongodb settings"""
@@ -93,7 +96,7 @@ class LoginHandler(BaseHandler):
         email = self.get_argument("email", "")
         password = self.get_argument("password", "")
 
-        user = self.db['users'].find_one({'user':email})
+        user = self.db.users.find_one({'email':email})
 
         if user and user['password'] and bcrypt.hashpw(password, user['password']) == user['password']:
             self.set_current_user(email)
@@ -101,13 +104,6 @@ class LoginHandler(BaseHandler):
         else:
             error_msg = u"?notification=" + tornado.escape.url_escape("Login incorrect.")
             self.redirect(u"register" + error_msg)
-
-    def set_current_user(self, user):
-        print "setting" + user
-        if user:
-            self.set_secure_cookie("user", tornado.escape.json_encode(user))
-        else:
-            self.clear_cookie("user")
 
 class RegisterHandler(LoginHandler):
     def get(self):
@@ -119,23 +115,25 @@ class RegisterHandler(LoginHandler):
 
     def post(self):
         email = self.get_argument("email", "")
-
-        already_taken = self.db["users"].find_one({'user': email})
-        if already_taken:
+#        logging.info("email is %s,username is %s" %(email, username))
+#        already_taken = self.db.users.find_one({'user': email})
+        if self.db.users.find_one({"email":email}):
             error_msg = u"?error=" + tornado.escape.url_escape("Login name already taken")
             self.write(error_msg)
             self.redirect(u"/login" + error_msg)
         else:
             password = self.get_argument("password", "")
+            username = self.get_argument("username", "")
             hashed_pass = bcrypt.hashpw(password, bcrypt.gensalt(8))
-    
+
             user = {}
-            user['user'] = email
+            user['username'] = username
+            user['email'] = email
             user['password'] = hashed_pass
     
-            userId = self.db['users'].save(user)
-            logging.info("user ObjectId is %s" % userId)
-            self.set_current_user(email)
+            _id = self.db.users.save(user)
+            logging.info("username ObjectId is %s" % _id)
+            self.set_current_user(username)
     
             self.redirect("hello")
 
@@ -148,12 +146,17 @@ class TwitterLoginHandler(LoginHandler, tornado.auth.TwitterMixin):
             return
         self.authorize_redirect("/twitter_login")
 
-    def _on_auth(self, user):
-        if not user:
+    def _on_auth(self, twitteruser):
+        if not twitteruser:
             raise tornado.web.HTTPError(500, "Twitter auth failed")
         logging.info("twitter Auth worked")
 
-        userId = self.db['users'].save(user)
+        user = {}
+        user["username"] = twitteruser["username"]
+        user["profile_image"] = twitteruser["profile_image_url_https"]
+        logging.info(user)
+        
+#        userId = self.db.users.save(user)
         self.set_current_user(user['username'])
         self.redirect("hello")
 
@@ -186,7 +189,7 @@ class FacebookLoginHandler(LoginHandler, tornado.auth.FacebookGraphMixin):
     def _save_user_profile(self, user):
         if not user:
             raise tornado.web.HTTPError(500, "Facebook authentication failed.")
-        userId = self.db['users'].save(user)
+        userId = self.db.users.save(user)
 
 class LogoutHandler(BaseHandler):
     def get(self):

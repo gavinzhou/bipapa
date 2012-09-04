@@ -17040,3 +17040,649 @@
 [I 120903 15:30:36 web:1447] 304 GET /login (192.168.32.17) 0.74ms
 [W 120903 15:54:08 web:1447] 404 GET /register/ (192.168.32.17) 0.89ms
 [I 120903 15:54:12 web:1447] 200 GET /register (192.168.32.17) 0.83ms
+[I 120904 08:53:30 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 11:41:15 web:1447] 200 GET /login (192.168.32.17) 1.76ms
+[W 120904 11:41:17 web:1447] 404 GET /login/ (192.168.32.17) 0.89ms
+[W 120904 11:41:17 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.41ms
+[I 120904 11:41:19 web:1447] 304 GET /login (192.168.32.17) 0.82ms
+[W 120904 11:41:20 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120904 11:41:30 web:1447] 302 POST /login (192.168.32.17) 25.84ms
+[I 120904 11:41:30 handlers:200] user is gavinzhm
+[I 120904 11:41:30 web:1447] 304 GET /hello (192.168.32.17) 1.30ms
+[W 120904 11:41:31 web:1447] 404 GET /favicon.ico (192.168.32.17) 0.82ms
+[I 120904 11:41:35 web:1447] 302 GET /login (192.168.32.17) 0.39ms
+[I 120904 11:41:35 web:1447] 200 GET / (192.168.32.17) 8.65ms
+[I 120904 11:41:36 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.91ms
+[I 120904 11:41:36 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.39ms
+[I 120904 11:41:36 web:1447] 200 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 60.42ms
+[I 120904 11:41:36 web:1447] 200 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 67.31ms
+[I 120904 11:41:36 web:1447] 200 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.74ms
+[I 120904 11:41:36 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.41ms
+[I 120904 11:41:36 web:1447] 200 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.90ms
+[I 120904 11:41:36 web:1447] 200 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.36ms
+[I 120904 11:41:36 web:1447] 200 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 62.21ms
+[I 120904 11:41:36 web:1447] 200 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.60ms
+[I 120904 11:41:36 web:1447] 200 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 274.92ms
+[I 120904 11:41:37 web:1447] 200 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.18ms
+[I 120904 11:41:37 web:1447] 200 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 266.50ms
+[I 120904 11:41:37 web:1447] 200 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.28ms
+[I 120904 11:41:37 web:1447] 200 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 28.14ms
+[I 120904 11:41:37 web:1447] 200 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.08ms
+[I 120904 11:41:37 web:1447] 200 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 67.97ms
+[I 120904 11:41:37 web:1447] 200 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 271.86ms
+[I 120904 11:41:38 web:1447] 200 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 273.87ms
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0141ab10602fb5e7a5.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 239, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0141ab10602fb5e7a5.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/stack_context.py", line 161, in __exit__
+        return self.exception_handler(type, value, traceback)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1002, in _stack_context_handle_exception
+        self._handle_request_exception(value)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x11b3ba8>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0141ab10602fb5e7a8.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 239, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0141ab10602fb5e7a8.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/stack_context.py", line 161, in __exit__
+        return self.exception_handler(type, value, traceback)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1002, in _stack_context_handle_exception
+        self._handle_request_exception(value)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x1198890>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0141ab10602fb5e7ac.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 239, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0141ab10602fb5e7ac.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/stack_context.py", line 161, in __exit__
+        return self.exception_handler(type, value, traceback)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1002, in _stack_context_handle_exception
+        self._handle_request_exception(value)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x11b3db8>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0241ab10602fb5e7af.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 239, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 web:1064] Uncaught exception GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/view/50442a0241ab10602fb5e7af.jpg?_re=200x300', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4,zh;q=0.2,zh-TW;q=0.2', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.24.94.36:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Accept-Charset': 'UTF-8,*;q=0.5', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/', 'Cookie': 'user="ImdhdmluemhtIg==|1346726490|f6a73856b970822a2555f89b7143454afda1ec83"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/stack_context.py", line 161, in __exit__
+        return self.exception_handler(type, value, traceback)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1002, in _stack_context_handle_exception
+        self._handle_request_exception(value)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 web:718] Cannot send error response after headers written
+[E 120904 11:41:38 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120904 11:41:38 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x11b3f70>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[I 120904 11:42:29 web:1447] 304 GET /login (192.168.32.17) 1.12ms
+[I 120904 11:42:35 web:1447] 302 POST /login (192.168.32.17) 24.62ms
+[I 120904 11:42:35 handlers:200] user is gavinzhm
+[I 120904 11:42:35 web:1447] 200 GET /hello (192.168.32.17) 1.19ms
+[I 120904 11:42:41 web:1447] 302 GET /login (192.168.32.17) 0.38ms
+[I 120904 11:42:41 web:1447] 304 GET / (192.168.32.17) 8.31ms
+[I 120904 11:42:42 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 57.42ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.42ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 65.24ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.63ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.87ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.65ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.22ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.33ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 65.02ms
+[I 120904 11:42:43 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 275.35ms
+[I 120904 11:42:44 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.97ms
+[I 120904 11:42:44 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.09ms
+[I 120904 11:42:44 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.85ms
+[I 120904 11:42:44 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 270.23ms
+[I 120904 11:42:44 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 272.69ms
+[I 120904 11:42:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 273.99ms
+[I 120904 11:42:45 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 267.84ms
+[I 120904 11:42:45 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 74.82ms
+[I 120904 11:42:45 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.02ms
+[I 120904 11:42:45 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.36ms
+[I 120904 11:42:45 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.42ms
+[I 120904 11:42:45 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.39ms
+[I 120904 11:42:45 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.37ms
+[I 120904 11:42:48 web:1447] 304 GET /static/images/buttonbgHover.png (192.168.32.17) 0.38ms
+[I 120904 11:42:48 web:1447] 304 GET /static/images/loginbuttonbg.png (192.168.32.17) 0.37ms
+[I 120904 11:42:55 web:1447] 200 POST /?page=2 (192.168.32.17) 8.57ms
+[I 120904 11:42:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7b5.jpg?_re=200x300 (192.168.32.17) 22.79ms
+[I 120904 11:42:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7b8.jpg?_re=200x300 (192.168.32.17) 38.68ms
+[I 120904 11:42:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7bb.jpg?_re=200x300 (192.168.32.17) 270.29ms
+[I 120904 11:42:55 web:1447] 304 GET /view/50442a0241ab10602fb5e7b2.jpg?_re=200x300 (192.168.32.17) 75.40ms
+[I 120904 11:42:55 web:1447] 304 GET /view/50442a0341ab10602fb5e7d6.jpg?_re=200x300 (192.168.32.17) 21.66ms
+[I 120904 11:42:55 web:1447] 304 GET /view/50442a0341ab10602fb5e7d9.jpg?_re=200x300 (192.168.32.17) 45.54ms
+[I 120904 11:42:55 web:1447] 304 GET /view/50442a0341ab10602fb5e7dc.jpg?_re=200x300 (192.168.32.17) 27.81ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7bf.jpg?_re=200x300 (192.168.32.17) 269.88ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7c3.jpg?_re=200x300 (192.168.32.17) 66.23ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7c6.jpg?_re=200x300 (192.168.32.17) 15.99ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0241ab10602fb5e7c9.jpg?_re=200x300 (192.168.32.17) 272.77ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7cd.jpg?_re=200x300 (192.168.32.17) 28.12ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7d0.jpg?_re=200x300 (192.168.32.17) 27.99ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7d3.jpg?_re=200x300 (192.168.32.17) 74.19ms
+[I 120904 11:42:56 web:1447] 304 GET /view/50442a0341ab10602fb5e7df.jpg?_re=200x300 (192.168.32.17) 27.70ms
+[I 120904 11:42:57 web:1447] 304 GET /view/50442a0341ab10602fb5e7e2.jpg?_re=200x300 (192.168.32.17) 268.72ms
+[I 120904 11:42:57 web:1447] 304 GET /view/50442a0341ab10602fb5e7e5.jpg?_re=200x300 (192.168.32.17) 74.67ms
+[I 120904 11:42:57 web:1447] 304 GET /view/50442a0341ab10602fb5e7e8.jpg?_re=200x300 (192.168.32.17) 271.05ms
+[I 120904 11:42:57 web:1447] 304 GET /view/50442a0441ab10602fb5e7ec.jpg?_re=200x300 (192.168.32.17) 274.95ms
+[I 120904 11:42:57 web:1447] 304 GET /view/50442a0441ab10602fb5e7f0.jpg?_re=200x300 (192.168.32.17) 270.50ms
+[I 120904 11:43:03 web:1447] 302 GET /login (192.168.32.17) 0.42ms
+[I 120904 11:43:03 web:1447] 304 GET / (192.168.32.17) 8.06ms
+[I 120904 11:43:03 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.70ms
+[I 120904 11:43:03 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.77ms
+[I 120904 11:43:03 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.88ms
+[I 120904 11:43:03 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 57.24ms
+[I 120904 11:43:03 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.26ms
+[I 120904 11:43:03 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.63ms
+[I 120904 11:43:03 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.19ms
+[I 120904 11:43:04 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 274.20ms
+[I 120904 11:43:04 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.94ms
+[I 120904 11:43:04 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.17ms
+[I 120904 11:43:04 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.85ms
+[I 120904 11:43:04 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 271.21ms
+[I 120904 11:43:04 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 60.38ms
+[I 120904 11:43:04 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 61.20ms
+[I 120904 11:43:05 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 273.20ms
+[I 120904 11:43:05 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 275.56ms
+[I 120904 11:43:05 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 267.71ms
+[I 120904 11:43:05 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 276.10ms
+[I 120904 11:43:05 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.65ms
+[I 120904 11:43:05 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.31ms
+[I 120904 11:43:07 web:1447] 302 GET /logout (192.168.32.17) 0.37ms
+[I 120904 11:43:07 web:1447] 200 GET /login (192.168.32.17) 0.82ms
+[I 120904 11:43:09 web:1447] 304 GET /login (192.168.32.17) 0.73ms
+[I 120904 12:09:51 web:1447] 304 GET /register (192.168.32.17) 1.01ms
+[I 120904 12:10:56 web:1447] 304 GET /register (192.168.32.17) 0.86ms
+[I 120904 12:14:40 web:1447] 200 GET /register (192.168.32.17) 0.87ms
+[I 120904 12:15:31 web:1447] 200 GET /register (192.168.32.17) 0.90ms
+[I 120904 12:15:40 web:1447] 200 GET /register (192.168.32.17) 0.75ms
+[I 120904 12:17:43 web:1447] 200 GET /register (192.168.32.17) 0.88ms
+[I 120904 12:37:55 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 12:38:00 web:1447] 304 GET /register (192.168.32.17) 1.69ms
+[I 120904 12:38:18 web:1447] 304 GET /register (192.168.32.17) 0.89ms
+[I 120904 12:38:50 handlers:123] email is gavinzhm57@yahoo.co.jp,username is gavinzhm
+[I 120904 12:38:50 handlers:139] user ObjectId is 504577ca41ab1051dba7289e
+[I 120904 12:38:50 web:1447] 302 POST /register (192.168.32.17) 27.25ms
+[I 120904 12:38:50 handlers:202] user is gavinzhm57@yahoo.co.jp
+[I 120904 12:38:50 web:1447] 200 GET /hello (192.168.32.17) 1.46ms
+[I 120904 12:38:58 web:1447] 302 GET /logout (192.168.32.17) 0.33ms
+[I 120904 12:38:58 web:1447] 304 GET /login (192.168.32.17) 0.74ms
+[I 120904 12:39:02 web:1447] 200 GET /register (192.168.32.17) 0.73ms
+[I 120904 12:39:09 handlers:123] email is gavinzhm57@yahoo.co.jp,username is gavinzhm
+[I 120904 12:39:09 web:1447] 302 POST /register (192.168.32.17) 2.19ms
+[I 120904 12:39:09 web:1447] 200 GET /login?error=Login+name+already+taken (192.168.32.17) 0.76ms
+[I 120904 13:35:51 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 15:30:01 autoreload:175] /usr/lib64/python2.6/site-packages/bson/binary.py modified; restarting server
+[E 120904 16:44:55 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='username=gavinzhm&email=gavinzhm57%40yahoo.co.jp&password=65432&login=LOGIN', headers={'Content-Length': '75', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'X-Msim-Use': 'on', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0_1 like Mac OS X; ja-jp) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5B108 Safari/525.20', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 126, in post
+        if already_taken:
+    NameError: global name 'already_taken' is not defined
+[E 120904 16:44:55 web:1447] 500 POST /register (192.168.32.17) 2.55ms
+[I 120904 16:45:01 web:1447] 200 GET /register (192.168.32.17) 1.40ms
+[I 120904 16:45:05 web:1447] 304 GET /register (192.168.32.17) 0.73ms
+[I 120904 16:48:35 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 16:51:02 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:00:22 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:00:56 web:1447] 304 GET /register (192.168.32.17) 1.93ms
+[I 120904 17:00:58 web:1447] 304 GET /register (192.168.32.17) 0.74ms
+[E 120904 17:01:05 web:1064] Uncaught exception POST /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='username=gavinzhm&email=gavinzhm57%40yahoo.co.jp&password=123456&login=LOGIN', headers={'Content-Length': '76', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/register', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 139, in post
+        logging.info("user ObjectId is %s" % userId)
+    NameError: global name 'userId' is not defined
+[E 120904 17:01:05 web:1447] 500 POST /register (192.168.32.17) 26.96ms
+[I 120904 17:01:24 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:01:28 web:1447] 200 GET /register (192.168.32.17) 1.87ms
+[I 120904 17:01:34 web:1447] 302 POST /register (192.168.32.17) 2.81ms
+[I 120904 17:01:34 web:1447] 200 GET /login?error=Login+name+already+taken (192.168.32.17) 0.77ms
+[I 120904 17:02:27 web:1447] 304 GET /login (192.168.32.17) 0.97ms
+[I 120904 17:02:30 web:1447] 200 GET /register (192.168.32.17) 0.74ms
+[I 120904 17:02:37 web:1447] 302 POST /register (192.168.32.17) 1.66ms
+[I 120904 17:02:37 web:1447] 200 GET /login?error=Login+name+already+taken (192.168.32.17) 0.76ms
+[I 120904 17:02:45 web:1447] 304 GET /login (192.168.32.17) 0.75ms
+[I 120904 17:03:42 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:05:24 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120904 17:05:28 web:1064] Uncaught exception POST /login (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='POST', uri='/login', version='HTTP/1.1', remote_ip='192.168.32.17', body='email=gavinzhm57%40yahoo.co.jp&password=123456&loging=Sign+in', headers={'Content-Length': '61', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/login', 'Content-Type': 'application/x-www-form-urlencoded'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 95, in post
+        if email and user['password'] and bcrypt.hashpw(password, user['password']) == user['password']:
+    NameError: global name 'user' is not defined
+[E 120904 17:05:28 web:1447] 500 POST /login (192.168.32.17) 3.86ms
+[I 120904 17:05:50 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:05:52 web:1447] 302 POST /login (192.168.32.17) 25.86ms
+[I 120904 17:05:52 handlers:199] user is gavinzhm57@yahoo.co.jp
+[I 120904 17:05:52 web:1447] 200 GET /hello (192.168.32.17) 4.09ms
+[I 120904 17:05:53 web:1447] 302 GET /logout (192.168.32.17) 0.35ms
+[I 120904 17:05:53 web:1447] 200 GET /login (192.168.32.17) 0.75ms
+[I 120904 17:05:57 web:1447] 302 POST /login (192.168.32.17) 24.34ms
+[I 120904 17:05:57 handlers:199] user is gavinzhm57@yahoo.co.jp
+[I 120904 17:05:57 web:1447] 200 GET /hello (192.168.32.17) 1.20ms
+[I 120904 17:06:01 web:1447] 302 GET /logout (192.168.32.17) 0.32ms
+[I 120904 17:06:01 web:1447] 200 GET /login (192.168.32.17) 0.75ms
+[I 120904 17:06:01 web:1447] 304 GET /login (192.168.32.17) 0.74ms
+[I 120904 17:06:02 web:1447] 304 GET /login (192.168.32.17) 0.75ms
+[I 120904 17:23:34 web:1447] 200 GET /register (192.168.32.17) 0.93ms
+[I 120904 17:23:45 web:1447] 302 POST /register (192.168.32.17) 2.22ms
+[I 120904 17:23:46 web:1447] 200 GET /login?error=Login+name+already+taken (192.168.32.17) 0.75ms
+[I 120904 17:28:00 web:1447] 200 GET /register (192.168.32.17) 0.77ms
+[I 120904 17:28:18 handlers:136] user ObjectId is 5045bba241ab1051dbfa72fc
+[I 120904 17:28:18 web:1447] 302 POST /register (192.168.32.17) 25.48ms
+[I 120904 17:28:18 handlers:199] user is gavinzhou
+[I 120904 17:28:18 web:1447] 200 GET /hello (192.168.32.17) 1.26ms
+[I 120904 17:28:40 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:33:04 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:33:47 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:33:57 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:34:06 web:1447] 302 GET /logout (192.168.32.17) 1.09ms
+[I 120904 17:34:06 web:1447] 304 GET /login (192.168.32.17) 3.52ms
+[I 120904 17:34:10 web:1447] 200 GET /register (192.168.32.17) 0.75ms
+[I 120904 17:34:15 web:1447] 302 GET /twitter_login (192.168.32.17) 343.12ms
+[I 120904 17:35:05 web:1447] 302 GET /twitter_login (192.168.32.17) 291.39ms
+[I 120904 17:35:11 handlers:145] twitter oauth_token is VauoiWJm0uUXCcWPtMlZr8vH14I88RoQjEUYGJdNKw
+[I 120904 17:35:12 handlers:153] twitter Auth worked
+[I 120904 17:35:12 handlers:155] {'username': u'yepn', u'follow_request_sent': False, u'profile_use_background_image': True, u'default_profile_image': False, u'id': 14868306, u'verified': False, u'profile_image_url_https': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg', u'profile_sidebar_fill_color': u'DDEEF6', u'profile_text_color': u'333333', u'followers_count': 58, u'profile_sidebar_border_color': u'C0DEED', u'id_str': u'14868306', u'profile_background_color': u'C0DEED', u'listed_count': 1, u'status': {u'favorited': False, u'retweeted_status': {u'favorited': False, u'contributors': None, u'truncated': False, u'text': u'\u4eca\u56de\u306e #qpstudy 2012.09 \u306f\u300e\u79cb\u306a\u306e\u306b\u6016\u3044\u8a71 \u301c\u969c\u5bb3\u767a\u751f\u7de8\u301c\u300f\u3001\u5834\u6240\u306f\u3044\u3064\u3082\u306e\u30cb\u30d5\u30c6\u30a3\u3055\u3093\u3067\u3059\u3002Ust\u914d\u4fe1\u3057\u306a\u3044\u3064\u3082\u308a\u3067\u3059\u306e\u3067\u6016\u3044\u8a71\u304c\u805e\u304d\u305f\u3044\u65b9\u306f\u662f\u975e\u3054\u6765\u5834\u4e0b\u3055\u3044\u307e\u305b\u3002 http://t.co/aZuh9Lz1 \u767b\u58c7\u5e0c\u671b\u8005\u3082\u5408\u308f\u305b\u3066\u52df\u96c6\u4e88\u5b9a\u3067\u3059\uff01', u'created_at': u'Tue Sep 04 07:49:00 +0000 2012', u'retweeted': False, u'in_reply_to_status_id_str': None, u'coordinates': None, u'in_reply_to_user_id_str': None, u'source': u'<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>', u'in_reply_to_status_id': None, u'in_reply_to_screen_name': None, u'id_str': u'242892000616124417', u'place': None, u'retweet_count': 8, u'geo': None, u'id': 242892000616124417, u'possibly_sensitive': False, u'in_reply_to_user_id': None}, u'contributors': None, u'truncated': False, u'text': u'RT @qpstudy: \u4eca\u56de\u306e #qpstudy 2012.09 \u306f\u300e\u79cb\u306a\u306e\u306b\u6016\u3044\u8a71 \u301c\u969c\u5bb3\u767a\u751f\u7de8\u301c\u300f\u3001\u5834\u6240\u306f\u3044\u3064\u3082\u306e\u30cb\u30d5\u30c6\u30a3\u3055\u3093\u3067\u3059\u3002Ust\u914d\u4fe1\u3057\u306a\u3044\u3064\u3082\u308a\u3067\u3059\u306e\u3067\u6016\u3044\u8a71\u304c\u805e\u304d\u305f\u3044\u65b9\u306f\u662f\u975e\u3054\u6765\u5834\u4e0b\u3055\u3044\u307e\u305b\u3002 http://t.co/aZuh9Lz1 \u767b\u58c7\u5e0c\u671b\u8005\u3082\u5408\u308f\u305b ...', u'created_at': u'Tue Sep 04 07:54:04 +0000 2012', u'retweeted': False, u'in_reply_to_status_id_str': None, u'coordinates': None, u'in_reply_to_user_id_str': None, u'source': u'<a href="https://chrome.google.com/extensions/detail/encaiiljifbdbjlphpgpiimidegddhic" rel="nofollow">Silver Bird</a>', u'in_reply_to_status_id': None, u'in_reply_to_screen_name': None, u'id_str': u'242893274820509696', u'place': None, u'retweet_count': 8, u'geo': None, u'id': 242893274820509696, u'possibly_sensitive': False, u'in_reply_to_user_id': None}, u'profile_background_image_url_https': u'https://si0.twimg.com/images/themes/theme1/bg.png', u'utc_offset': 32400, u'statuses_count': 737, u'description': u'\u6771\u4eac\u306e\u30b9\u30c8\u30fc\u30ea', u'friends_count': 110, u'location': u'\u6771\u4eac\u90fd', u'profile_link_color': u'0084B4', u'profile_image_url': u'http://a0.twimg.com/profile_images/65163362/my2_normal.jpg', u'following': False, u'show_all_inline_media': False, u'geo_enabled': True, u'profile_background_image_url': u'http://a0.twimg.com/images/themes/theme1/bg.png', u'name': u'yepn', u'lang': u'ja', u'profile_background_tile': False, u'favourites_count': 10, u'screen_name': u'yepn', u'notifications': False, u'url': u'http://wiki.yepn.net', u'created_at': u'Thu May 22 13:43:24 +0000 2008', u'contributors_enabled': False, u'time_zone': u'Tokyo', 'access_token': {'secret': 'Px4Ka6fmwsAU2rPXT7lMgpWnwpaVXsS160Dn1NTMLU', 'user_id': '14868306', 'screen_name': 'yepn', 'key': '14868306-scVrBbobtUkTKtkQMZN3CPgZ61TbmFFRHSQcEX2Wp'}, u'protected': False, u'default_profile': True, u'is_translator': False}
+[I 120904 17:35:12 web:1447] 302 GET /twitter_login?oauth_token=VauoiWJm0uUXCcWPtMlZr8vH14I88RoQjEUYGJdNKw&oauth_verifier=Y4XLSllr92ivaj5Z7ZqjUiAyUJGhy1YbfuYNj5tY8 (192.168.32.17) 583.67ms
+[I 120904 17:35:12 handlers:200] user is yepn
+[I 120904 17:35:12 web:1447] 200 GET /hello (192.168.32.17) 1.23ms
+[I 120904 17:36:42 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:39:32 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:39:38 web:1447] 302 GET /logout (192.168.32.17) 1.08ms
+[I 120904 17:39:38 web:1447] 304 GET /login (192.168.32.17) 3.54ms
+[I 120904 17:39:41 web:1447] 304 GET /register (192.168.32.17) 0.75ms
+[I 120904 17:39:43 web:1447] 302 GET /twitter_login (192.168.32.17) 357.20ms
+[I 120904 17:39:55 handlers:145] twitter oauth_token is JGPEtpzzc2KnOPUCNnwSv0aySAOFIQr82GEFOTzqPsQ
+[E 120904 17:39:55 web:1064] Uncaught exception GET /twitter_login?oauth_token=JGPEtpzzc2KnOPUCNnwSv0aySAOFIQr82GEFOTzqPsQ&oauth_verifier=Tbg7eCLqlA86lGJ1swFl426wmQY95tZdrAX2qE2wY (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/twitter_login?oauth_token=JGPEtpzzc2KnOPUCNnwSv0aySAOFIQr82GEFOTzqPsQ&oauth_verifier=Tbg7eCLqlA86lGJ1swFl426wmQY95tZdrAX2qE2wY', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_oauth_request_token="SkdQRXRwenpjMktuT1BVQ05ud1N2MGF5U0FPRklRcjgyR0VGT1R6cVBzUQ==|Q0t2ZTN3ZzRSbHNDNkozSFFRSlZLTU1HQWlHblFXdHJib1JvS1M3YW5SYw=="', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 964, in wrapper
+        return callback(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 151, in _on_auth
+        if not user:
+    UnboundLocalError: local variable 'user' referenced before assignment
+[E 120904 17:39:56 web:1447] 500 GET /twitter_login?oauth_token=JGPEtpzzc2KnOPUCNnwSv0aySAOFIQr82GEFOTzqPsQ&oauth_verifier=Tbg7eCLqlA86lGJ1swFl426wmQY95tZdrAX2qE2wY (192.168.32.17) 581.12ms
+[I 120904 17:40:10 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:40:18 web:1447] 304 GET /register (192.168.32.17) 3.86ms
+[I 120904 17:40:20 web:1447] 302 GET /twitter_login (192.168.32.17) 306.60ms
+[I 120904 17:40:23 handlers:145] twitter oauth_token is CCHz7aSIFTVXCRb5yXVrVsb9QK1OnoEigvKQDAmIAE
+[I 120904 17:40:24 handlers:153] twitter Auth worked
+[I 120904 17:40:24 handlers:158] {'username': u'yepn', 'profile_image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120904 17:40:24 web:1447] 302 GET /twitter_login?oauth_token=CCHz7aSIFTVXCRb5yXVrVsb9QK1OnoEigvKQDAmIAE&oauth_verifier=yv2ge9xvlniyD2YA9xTvnti10Cb5uglLlSxW2k8A (192.168.32.17) 624.79ms
+[I 120904 17:40:24 handlers:204] user is yepn
+[I 120904 17:40:24 web:1447] 304 GET /hello (192.168.32.17) 1.21ms
+[I 120904 17:47:15 web:1447] 302 GET /logout (192.168.32.17) 0.48ms
+[I 120904 17:47:15 web:1447] 304 GET /login (192.168.32.17) 1.12ms
+[I 120904 17:48:52 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:48:56 web:1447] 304 GET /login (192.168.32.17) 3.89ms
+[I 120904 17:49:03 web:1447] 302 POST /login (192.168.32.17) 25.67ms
+[I 120904 17:49:03 handlers:204] user is gavinzhm57@yahoo.co.jp
+[I 120904 17:49:03 web:1447] 200 GET /hello (192.168.32.17) 1.29ms
+[I 120904 17:49:06 web:1447] 302 GET /logout (192.168.32.17) 0.33ms
+[I 120904 17:49:06 web:1447] 200 GET /login (192.168.32.17) 0.74ms
+[I 120904 17:49:11 web:1447] 302 POST /login (192.168.32.17) 24.34ms
+[I 120904 17:49:11 handlers:204] user is gavin.zhou@gmail.com
+[I 120904 17:49:11 web:1447] 200 GET /hello (192.168.32.17) 1.19ms
+[I 120904 17:49:14 web:1447] 302 GET /logout (192.168.32.17) 0.32ms
+[I 120904 17:49:14 web:1447] 200 GET /login (192.168.32.17) 0.75ms
+[I 120904 17:49:19 web:1447] 302 POST /login (192.168.32.17) 1.89ms
+[I 120904 17:49:19 web:1447] 200 GET /register?notification=Login+incorrect. (192.168.32.17) 0.76ms
+[I 120904 17:50:12 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120904 17:51:34 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
