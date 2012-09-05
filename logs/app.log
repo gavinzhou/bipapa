@@ -17686,3 +17686,1155 @@
 [I 120904 17:49:19 web:1447] 200 GET /register?notification=Login+incorrect. (192.168.32.17) 0.76ms
 [I 120904 17:50:12 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
 [I 120904 17:51:34 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 16:22:53 web:1447] 200 GET /register (192.168.32.17) 3.96ms
+[I 120905 16:25:04 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 16:25:45 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:25:45 web:1447] 304 GET /register (192.168.32.17) 4.21ms
+[I 120905 16:25:53 web:1447] 302 GET /twitter_login (192.168.32.17) 379.65ms
+[I 120905 16:25:58 handlers:146] twitter oauth_token is VrBLT0su9mgZxnU9zoxLFOCMjESPIivfW3zoX8csyc
+[I 120905 16:25:58 handlers:154] twitter Auth worked
+[I 120905 16:25:58 handlers:159] {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[E 120905 16:25:58 web:1064] Uncaught exception GET /twitter_login?oauth_token=VrBLT0su9mgZxnU9zoxLFOCMjESPIivfW3zoX8csyc&oauth_verifier=muiTKrzsjXElRdS5zfgNeMhTCPZL14cdGLWmn4X8Rk (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/twitter_login?oauth_token=VrBLT0su9mgZxnU9zoxLFOCMjESPIivfW3zoX8csyc&oauth_verifier=muiTKrzsjXElRdS5zfgNeMhTCPZL14cdGLWmn4X8Rk', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Cookie': 'username="eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e"; image=aHR0cHM6Ly9zaTAudHdpbWcuY29tL3Byb2ZpbGVfaW1hZ2VzLzY1MTYzMzYyL215Ml9ub3JtYWwuanBn|1346828073|372f03f9243666799bc9986d39086374ead52b90; _oauth_request_token="VnJCTFQwc3U5bWdaeG5VOXpveExGT0NNakVTUElpdmZXM3pvWDhjc3lj|YjFEd3p3dmlHeVB2eXNVNG5Ed3FzTEhpbk1iM0JrMGJHNFZNNDdGTE0="', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 964, in wrapper
+        return callback(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 162, in _on_auth
+        self.set_current_user(user)
+    TypeError: set_current_user() takes exactly 1 argument (2 given)
+[E 120905 16:25:58 web:1447] 500 GET /twitter_login?oauth_token=VrBLT0su9mgZxnU9zoxLFOCMjESPIivfW3zoX8csyc&oauth_verifier=muiTKrzsjXElRdS5zfgNeMhTCPZL14cdGLWmn4X8Rk (192.168.32.17) 603.69ms
+[W 120905 16:26:48 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:26:48 web:1447] 304 GET /register (192.168.32.17) 1.08ms
+[W 120905 16:26:49 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[E 120905 16:26:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username="eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e"; image=aHR0cHM6Ly9zaTAudHdpbWcuY29tL3Byb2ZpbGVfaW1hZ2VzLzY1MTYzMzYyL215Ml9ub3JtYWwuanBn|1346828073|372f03f9243666799bc9986d39086374ead52b90', 'Cache-Control': 'max-age=0', 'If-None-Match': '"4170c0f2806a29ca77a7b9e9aa78066976172f54"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 116, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 580, in render
+        self.finish(html)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120905 16:26:49 web:718] Cannot send error response after headers written
+[E 120905 16:26:49 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120905 16:26:49 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x20e4578>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 720, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[W 120905 16:26:49 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:26:49 web:1447] 304 GET /register (192.168.32.17) 1.05ms
+[W 120905 16:26:54 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:26:54 web:1447] 304 GET /register (192.168.32.17) 1.00ms
+[W 120905 16:26:54 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:26:54 web:1447] 304 GET /register (192.168.32.17) 1.01ms
+[W 120905 16:26:54 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:26:54 web:1447] 304 GET /register (192.168.32.17) 0.99ms
+[W 120905 16:26:54 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:26:54 web:1447] 304 GET /register (192.168.32.17) 0.97ms
+[W 120905 16:26:54 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:26:54 web:1447] 304 GET /register (192.168.32.17) 0.98ms
+[I 120905 16:27:01 web:1447] 302 GET /logout (192.168.32.17) 0.36ms
+[W 120905 16:27:01 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:27:01 web:1447] 304 GET /login (192.168.32.17) 1.07ms
+[W 120905 16:27:04 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:27:04 web:1447] 304 GET /register (192.168.32.17) 1.24ms
+[W 120905 16:27:08 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:27:08 web:1447] 304 GET /register (192.168.32.17) 0.98ms
+[I 120905 16:27:13 web:1447] 302 GET /logout (192.168.32.17) 0.32ms
+[W 120905 16:27:13 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:27:13 web:1447] 304 GET /login (192.168.32.17) 1.03ms
+[W 120905 16:27:16 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:27:16 web:1447] 304 GET /login (192.168.32.17) 1.00ms
+[W 120905 16:27:20 web:2027] Invalid cookie signature 'eWVwbg==|1346828073|81076f78ef0afdaec1c550619ce402019df0fe2e'
+[I 120905 16:27:20 web:1447] 304 GET /login (192.168.32.17) 1.01ms
+[I 120905 16:27:56 web:1447] 304 GET /register (192.168.32.17) 0.70ms
+[I 120905 16:28:01 web:1447] 302 GET /twitter_login (192.168.32.17) 280.29ms
+[I 120905 16:28:20 handlers:146] twitter oauth_token is sktLG363JUK0AfX1AWB8gJV1CMcrWLjY3lGvN7M
+[I 120905 16:28:21 handlers:154] twitter Auth worked
+[I 120905 16:28:21 handlers:159] {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[E 120905 16:28:21 web:1064] Uncaught exception GET /twitter_login?oauth_token=sktLG363JUK0AfX1AWB8gJV1CMcrWLjY3lGvN7M&oauth_verifier=4fWOoBCGaUytWssio7fDOvEkHUkU7AW1EezPWuHE (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/twitter_login?oauth_token=sktLG363JUK0AfX1AWB8gJV1CMcrWLjY3lGvN7M&oauth_verifier=4fWOoBCGaUytWssio7fDOvEkHUkU7AW1EezPWuHE', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_oauth_request_token=c2t0TEczNjNKVUswQWZYMUFXQjhnSlYxQ01jcldMalkzbEd2TjdN|ODFqQ3JIZ3dSNDZRS1dVOG80WEw1SUdibGxINWthT0VqVG5hZmQ1M2lj', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 964, in wrapper
+        return callback(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 162, in _on_auth
+        self.set_current_user(user)
+    TypeError: set_current_user() takes exactly 1 argument (2 given)
+[E 120905 16:28:21 web:1447] 500 GET /twitter_login?oauth_token=sktLG363JUK0AfX1AWB8gJV1CMcrWLjY3lGvN7M&oauth_verifier=4fWOoBCGaUytWssio7fDOvEkHUkU7AW1EezPWuHE (192.168.32.17) 594.30ms
+[I 120905 16:29:21 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 16:29:55 web:1447] 304 GET /register (192.168.32.17) 3.87ms
+[I 120905 16:29:57 web:1447] 302 GET /twitter_login (192.168.32.17) 306.27ms
+[I 120905 16:30:02 handlers:147] twitter oauth_token is FTCzcnneP5auCXRiDPVT7O3HGdRUswW4r60aT0z5ADs
+[I 120905 16:30:02 handlers:155] twitter Auth worked
+[I 120905 16:30:02 handlers:160] {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[E 120905 16:30:02 web:1064] Uncaught exception GET /twitter_login?oauth_token=FTCzcnneP5auCXRiDPVT7O3HGdRUswW4r60aT0z5ADs&oauth_verifier=k1cGSOxElaOJzqzX0d3LjSKWcaQOijxIEnVzAUl77Eg (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/twitter_login?oauth_token=FTCzcnneP5auCXRiDPVT7O3HGdRUswW4r60aT0z5ADs&oauth_verifier=k1cGSOxElaOJzqzX0d3LjSKWcaQOijxIEnVzAUl77Eg', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_oauth_request_token="RlRDemNubmVQNWF1Q1hSaURQVlQ3TzNIR2RSVXN3VzRyNjBhVDB6NUFEcw==|TFppeGRuSVVuNGdxYmhTb0g3V1FoRFhNMjNHQkhzRmpLdE5vQUlVd0U="', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 964, in wrapper
+        return callback(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 163, in _on_auth
+        self.set_current_user(user)
+    TypeError: set_current_user() takes exactly 1 argument (2 given)
+[E 120905 16:30:02 web:1447] 500 GET /twitter_login?oauth_token=FTCzcnneP5auCXRiDPVT7O3HGdRUswW4r60aT0z5ADs&oauth_verifier=k1cGSOxElaOJzqzX0d3LjSKWcaQOijxIEnVzAUl77Eg (192.168.32.17) 574.25ms
+[I 120905 16:54:21 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 16:54:44 web:1447] 304 GET /register (192.168.32.17) 3.90ms
+[I 120905 16:54:46 web:1447] 302 GET /twitter_login (192.168.32.17) 302.62ms
+[I 120905 16:54:53 handlers:147] twitter oauth_token is FQIrvqlqfzPw3Ota7PB5UanvDCPKIZlsJV8dk9CW6E
+[I 120905 16:54:53 handlers:155] twitter Auth worked
+[I 120905 16:54:53 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 16:54:53 web:1447] 302 GET /twitter_login?oauth_token=FQIrvqlqfzPw3Ota7PB5UanvDCPKIZlsJV8dk9CW6E&oauth_verifier=QXXzObZtqA77GY02dnaoRfPNs3JQQm6odPhsskLh14Y (192.168.32.17) 605.49ms
+[I 120905 16:54:53 handlers:206] username is yepn
+[I 120905 16:54:53 web:1447] 200 GET /hello (192.168.32.17) 1.23ms
+[I 120905 16:55:02 handlers:206] username is yepn
+[I 120905 16:55:02 web:1447] 304 GET /hello (192.168.32.17) 1.37ms
+[I 120905 16:59:32 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 16:59:35 web:1447] 302 GET /logout (192.168.32.17) 1.08ms
+[W 120905 16:59:35 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[E 120905 16:59:35 web:1064] Uncaught exception GET /login (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/login', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/hello', 'Cookie': 'username=InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346831693|bb7e60b80b9b061132ebbace75ca0c3322d54d2c"', 'If-None-Match': '"54fdb0ecfc6ece4d8cfc511b71e9fbc98dfe900f"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 97, in get
+        if not self.current_user:
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+      File "/root/bipapa/handlers/handlers.py", line 66, in get_current_user
+        user["username"] = tornado.escape.json_decode(self.get_secure_cookie("username"))
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 95, in json_decode
+        return _json_decode(to_basestring(value))
+      File "/usr/lib64/python2.6/json/__init__.py", line 307, in loads
+        return _default_decoder.decode(s)
+      File "/usr/lib64/python2.6/json/decoder.py", line 319, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+    TypeError: expected string or buffer
+[E 120905 16:59:35 web:1447] 500 GET /login (192.168.32.17) 2.28ms
+[I 120905 17:00:22 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 17:00:42 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 17:00:42 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[E 120905 17:00:42 web:1064] Uncaught exception GET /login (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/login', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Referer': 'http://10.24.94.36:8888/hello', 'Cache-Control': 'max-age=0', 'Cookie': 'username=InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346831693|bb7e60b80b9b061132ebbace75ca0c3322d54d2c"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 95, in get
+        if not self.current_user:
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+      File "/root/bipapa/handlers/handlers.py", line 66, in get_current_user
+        user["username"] = tornado.escape.json_decode(self.get_secure_cookie("username"))
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 95, in json_decode
+        return _json_decode(to_basestring(value))
+      File "/usr/lib64/python2.6/json/__init__.py", line 307, in loads
+        return _default_decoder.decode(s)
+      File "/usr/lib64/python2.6/json/decoder.py", line 319, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+    TypeError: expected string or buffer
+[E 120905 17:00:42 web:1447] 500 GET /login (192.168.32.17) 2.66ms
+[W 120905 17:00:44 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[E 120905 17:00:44 web:1064] Uncaught exception GET / (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Connection': 'keep-alive', 'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Cookie': 'username=InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346831693|bb7e60b80b9b061132ebbace75ca0c3322d54d2c"', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 358, in get
+        self.render("index.html", filename_list=filename_list)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+      File "/root/bipapa/handlers/handlers.py", line 66, in get_current_user
+        user["username"] = tornado.escape.json_decode(self.get_secure_cookie("username"))
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 95, in json_decode
+        return _json_decode(to_basestring(value))
+      File "/usr/lib64/python2.6/json/__init__.py", line 307, in loads
+        return _default_decoder.decode(s)
+      File "/usr/lib64/python2.6/json/decoder.py", line 319, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+    TypeError: expected string or buffer
+[E 120905 17:00:44 web:1447] 500 GET / (192.168.32.17) 11.51ms
+[I 120905 17:01:03 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 17:01:04 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[I 120905 17:01:04 web:1447] 200 GET / (192.168.32.17) 12.07ms
+[I 120905 17:01:04 web:1447] 304 GET /static/js/jquery.masonry.min.js?v=fc2d7 (192.168.32.17) 1.01ms
+[I 120905 17:01:04 web:1447] 304 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.42ms
+[I 120905 17:01:04 web:1447] 304 GET /static/js/jquery.infinitescroll.min.js?v=24131 (192.168.32.17) 0.56ms
+[I 120905 17:01:04 web:1447] 304 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.43ms
+[I 120905 17:01:04 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 0.42ms
+[I 120905 17:01:04 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.47ms
+[I 120905 17:01:04 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 60.67ms
+[I 120905 17:01:04 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.55ms
+[I 120905 17:01:04 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 60.25ms
+[I 120905 17:01:04 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.44ms
+[I 120905 17:01:04 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.42ms
+[I 120905 17:01:04 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.71ms
+[I 120905 17:01:04 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.30ms
+[I 120905 17:01:04 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.76ms
+[I 120905 17:01:05 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.74ms
+[I 120905 17:01:05 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 72.96ms
+[I 120905 17:01:05 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.80ms
+[I 120905 17:01:05 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.09ms
+[I 120905 17:01:05 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.78ms
+[I 120905 17:01:05 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 272.03ms
+[I 120905 17:01:05 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 271.89ms
+[I 120905 17:01:06 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 274.48ms
+[I 120905 17:01:06 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 268.22ms
+[I 120905 17:01:06 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 276.25ms
+[I 120905 17:01:06 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.05ms
+[I 120905 17:01:06 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.14ms
+[I 120905 17:01:06 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.41ms
+[I 120905 17:01:06 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.38ms
+[I 120905 17:01:06 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.37ms
+[W 120905 17:01:07 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[I 120905 17:01:07 web:1447] 304 GET /register (192.168.32.17) 1.12ms
+[W 120905 17:01:08 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[I 120905 17:01:08 web:1447] 304 GET /register (192.168.32.17) 1.00ms
+[I 120905 17:01:10 web:1447] 302 GET /twitter_login (192.168.32.17) 279.37ms
+[W 120905 17:01:13 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[I 120905 17:01:13 web:1447] 304 GET /register (192.168.32.17) 1.04ms
+[W 120905 17:01:15 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[I 120905 17:01:15 web:1447] 304 GET /register (192.168.32.17) 1.02ms
+[I 120905 17:03:47 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 17:04:33 web:2027] Invalid cookie signature 'InllcG4i|1346831693|d9d76e9048af8fb83020b722fdeb61ae51354beb'
+[I 120905 17:04:33 web:1447] 304 GET /register (192.168.32.17) 4.28ms
+[I 120905 17:04:36 web:1447] 302 GET /twitter_login (192.168.32.17) 291.48ms
+[I 120905 17:04:40 handlers:147] twitter oauth_token is Wgh2z1Rsh2MzohCWZptGND99PmwcbYCV5joyhQs3UFs
+[I 120905 17:04:40 handlers:155] twitter Auth worked
+[I 120905 17:04:40 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 17:04:40 web:1447] 302 GET /twitter_login?oauth_token=Wgh2z1Rsh2MzohCWZptGND99PmwcbYCV5joyhQs3UFs&oauth_verifier=HGf4CZHDhuzPG5FmZjqOlja7VpNz1ONakA2fwM4W34 (192.168.32.17) 585.80ms
+[I 120905 17:04:40 handlers:208] username is "yepn"
+[I 120905 17:04:40 web:1447] 200 GET /hello (192.168.32.17) 1.46ms
+[I 120905 17:05:08 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 17:05:16 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:05:16 web:1447] 302 GET /hello (192.168.32.17) 1.69ms
+[W 120905 17:05:17 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:05:17 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 3.80ms
+[W 120905 17:05:26 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:05:26 web:1447] 304 GET / (192.168.32.17) 8.96ms
+[I 120905 17:05:26 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 60.36ms
+[I 120905 17:05:26 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.57ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.40ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.68ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.60ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.81ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.10ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 64.62ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.53ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 72.76ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 270.92ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.03ms
+[I 120905 17:05:27 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.76ms
+[I 120905 17:05:28 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 270.36ms
+[I 120905 17:05:28 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 271.85ms
+[I 120905 17:05:28 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 275.16ms
+[I 120905 17:05:28 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 268.08ms
+[I 120905 17:05:28 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 76.62ms
+[I 120905 17:05:29 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 69.16ms
+[I 120905 17:05:29 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.26ms
+[W 120905 17:05:32 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:05:32 web:1447] 304 GET /register (192.168.32.17) 1.14ms
+[I 120905 17:05:52 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 17:05:54 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:05:54 web:1447] 304 GET /register (192.168.32.17) 4.21ms
+[W 120905 17:05:57 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:05:57 web:1447] 304 GET /register (192.168.32.17) 1.03ms
+[I 120905 17:06:03 web:1447] 302 GET /logout (192.168.32.17) 0.82ms
+[W 120905 17:06:03 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:06:03 web:1447] 200 GET /login (192.168.32.17) 1.04ms
+[W 120905 17:06:11 web:2027] Invalid cookie signature 'InllcG4i|1346832280|9c1a2bc9159259e1e6df8478aa1fd5b95b8967e9'
+[I 120905 17:06:11 web:1447] 304 GET /register (192.168.32.17) 1.01ms
+[I 120905 17:06:13 web:1447] 302 GET /twitter_login (192.168.32.17) 297.76ms
+[I 120905 17:06:19 handlers:147] twitter oauth_token is QhjDuNe7S3MoyQR66l8pbesRN788tmxRziijvwVjk
+[I 120905 17:06:19 handlers:155] twitter Auth worked
+[I 120905 17:06:19 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 17:06:19 web:1447] 302 GET /twitter_login?oauth_token=QhjDuNe7S3MoyQR66l8pbesRN788tmxRziijvwVjk&oauth_verifier=XNpfIY1dzX3rIZCvS1gYuA8Bp4V3O0aw6Ye04AsWI (192.168.32.17) 576.90ms
+[I 120905 17:06:19 handlers:208] username is "yepn", image is "https://si0.twimg.com/profile_images/65163362/my2_normal.jpg"
+[I 120905 17:06:19 web:1447] 200 GET /hello (192.168.32.17) 1.46ms
+[I 120905 17:06:46 handlers:208] username is "yepn", image is "https://si0.twimg.com/profile_images/65163362/my2_normal.jpg"
+[I 120905 17:06:46 web:1447] 200 GET /hello (192.168.32.17) 1.67ms
+[I 120905 17:08:14 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 17:08:30 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 17:08:35 handlers:257] genreid is 110729 
+[I 120905 17:08:35 handlers:258] skip is 1 
+[W 120905 17:08:35 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 17:08:35 web:1447] 304 GET /show/110729 (192.168.32.17) 13.13ms
+[E 120905 17:08:35 web:1064] Uncaught exception GET /show/110729 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/show/110729', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'If-None-Match': '"df66b733161055a983cc477dbfd26234673e21af"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 265, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120905 17:08:35 web:718] Cannot send error response after headers written
+[I 120905 17:08:36 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 60.60ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 67.29ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.36ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.90ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.82ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 58.86ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 63.67ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.07ms
+[I 120905 17:08:36 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 274.40ms
+[I 120905 17:08:37 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 271.65ms
+[I 120905 17:08:37 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.09ms
+[I 120905 17:08:37 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 28.08ms
+[I 120905 17:08:37 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 270.09ms
+[I 120905 17:08:37 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 271.25ms
+[I 120905 17:08:37 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 273.69ms
+[I 120905 17:08:37 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.13ms
+[I 120905 17:08:38 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 275.30ms
+[I 120905 17:08:38 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 68.95ms
+[I 120905 17:08:38 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.26ms
+[I 120905 17:08:38 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 313.72ms
+[W 120905 17:08:39 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 17:08:39 web:1447] 200 POST /?page=2 (192.168.32.17) 8.85ms
+[I 120905 17:08:39 web:1447] 304 GET /view/50442a0241ab10602fb5e7b2.jpg?_re=200x300 (192.168.32.17) 75.50ms
+[I 120905 17:08:39 web:1447] 304 GET /view/50442a0241ab10602fb5e7b8.jpg?_re=200x300 (192.168.32.17) 38.71ms
+[I 120905 17:08:39 web:1447] 304 GET /view/50442a0241ab10602fb5e7bb.jpg?_re=200x300 (192.168.32.17) 68.92ms
+[I 120905 17:08:39 web:1447] 304 GET /view/50442a0241ab10602fb5e7bf.jpg?_re=200x300 (192.168.32.17) 270.13ms
+[I 120905 17:08:39 web:1447] 304 GET /view/50442a0241ab10602fb5e7b5.jpg?_re=200x300 (192.168.32.17) 22.18ms
+[I 120905 17:08:39 web:1447] 304 GET /view/50442a0241ab10602fb5e7c3.jpg?_re=200x300 (192.168.32.17) 66.38ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0241ab10602fb5e7c9.jpg?_re=200x300 (192.168.32.17) 272.03ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7cd.jpg?_re=200x300 (192.168.32.17) 28.87ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7d0.jpg?_re=200x300 (192.168.32.17) 27.75ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0241ab10602fb5e7c6.jpg?_re=200x300 (192.168.32.17) 15.73ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7d3.jpg?_re=200x300 (192.168.32.17) 73.34ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7d9.jpg?_re=200x300 (192.168.32.17) 45.55ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7dc.jpg?_re=200x300 (192.168.32.17) 27.65ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7df.jpg?_re=200x300 (192.168.32.17) 27.85ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7e2.jpg?_re=200x300 (192.168.32.17) 267.47ms
+[I 120905 17:08:40 web:1447] 304 GET /view/50442a0341ab10602fb5e7d6.jpg?_re=200x300 (192.168.32.17) 21.71ms
+[I 120905 17:08:41 web:1447] 304 GET /view/50442a0341ab10602fb5e7e8.jpg?_re=200x300 (192.168.32.17) 270.32ms
+[I 120905 17:08:41 web:1447] 304 GET /view/50442a0441ab10602fb5e7ec.jpg?_re=200x300 (192.168.32.17) 93.11ms
+[I 120905 17:08:41 web:1447] 304 GET /view/50442a0441ab10602fb5e7f0.jpg?_re=200x300 (192.168.32.17) 69.47ms
+[I 120905 17:08:41 web:1447] 304 GET /view/50442a0341ab10602fb5e7e5.jpg?_re=200x300 (192.168.32.17) 74.17ms
+[I 120905 17:08:42 handlers:257] genreid is 110729 
+[I 120905 17:08:42 handlers:258] skip is 1 
+[W 120905 17:08:42 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 17:08:42 web:1447] 304 GET /show/110729 (192.168.32.17) 9.12ms
+[E 120905 17:08:42 web:1064] Uncaught exception GET /show/110729 (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/show/110729', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0', 'If-None-Match': '"df66b733161055a983cc477dbfd26234673e21af"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1000, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1118, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 265, in get
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 665, in finish
+        raise RuntimeError("finish() called twice.  May be caused "
+    RuntimeError: finish() called twice.  May be caused by using async operations without the @asynchronous decorator.
+[E 120905 17:08:42 web:718] Cannot send error response after headers written
+[I 120905 17:08:42 web:1447] 304 GET /static/js/jquery.masonry.min.js?v=fc2d7 (192.168.32.17) 1.05ms
+[I 120905 17:08:42 web:1447] 304 GET /static/js/bipapa.js?v=c5ffa (192.168.32.17) 0.43ms
+[I 120905 17:08:42 web:1447] 304 GET /static/js/login.js?v=1b279 (192.168.32.17) 0.42ms
+[I 120905 17:08:42 web:1447] 304 GET /static/css/bipapa.css?v=90b61 (192.168.32.17) 0.43ms
+[I 120905 17:08:42 web:1447] 304 GET /static/css/login.css?v=c2f09 (192.168.32.17) 0.41ms
+[I 120905 17:08:42 web:1447] 304 GET /static/js/jquery.infinitescroll.min.js?v=24131 (192.168.32.17) 0.42ms
+[I 120905 17:08:43 web:1447] 304 GET /view/504429ff41ab10602fb5e770.jpg?_re=200x300 (192.168.32.17) 58.23ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e773.jpg?_re=200x300 (192.168.32.17) 66.47ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e776.jpg?_re=200x300 (192.168.32.17) 59.79ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e779.jpg?_re=200x300 (192.168.32.17) 60.74ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e77c.jpg?_re=200x300 (192.168.32.17) 59.08ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e77f.jpg?_re=200x300 (192.168.32.17) 59.65ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e785.jpg?_re=200x300 (192.168.32.17) 63.83ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e788.jpg?_re=200x300 (192.168.32.17) 65.22ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e78b.jpg?_re=200x300 (192.168.32.17) 274.19ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e782.jpg?_re=200x300 (192.168.32.17) 67.22ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e78f.jpg?_re=200x300 (192.168.32.17) 69.57ms
+[I 120905 17:08:43 web:1447] 304 GET /view/50442a0041ab10602fb5e796.jpg?_re=200x300 (192.168.32.17) 27.75ms
+[I 120905 17:08:44 web:1447] 304 GET /view/50442a0041ab10602fb5e799.jpg?_re=200x300 (192.168.32.17) 268.92ms
+[I 120905 17:08:44 web:1447] 304 GET /view/50442a0141ab10602fb5e79d.jpg?_re=200x300 (192.168.32.17) 69.38ms
+[I 120905 17:08:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7a1.jpg?_re=200x300 (192.168.32.17) 273.54ms
+[I 120905 17:08:44 web:1447] 304 GET /view/50442a0041ab10602fb5e793.jpg?_re=200x300 (192.168.32.17) 25.08ms
+[I 120905 17:08:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7a8.jpg?_re=200x300 (192.168.32.17) 275.43ms
+[I 120905 17:08:44 web:1447] 304 GET /view/50442a0141ab10602fb5e7ac.jpg?_re=200x300 (192.168.32.17) 68.56ms
+[I 120905 17:08:44 web:1447] 304 GET /view/50442a0241ab10602fb5e7af.jpg?_re=200x300 (192.168.32.17) 14.31ms
+[I 120905 17:08:44 web:1447] 304 GET /static/images/bar.png (192.168.32.17) 0.41ms
+[I 120905 17:08:45 web:1447] 304 GET /view/50442a0141ab10602fb5e7a5.jpg?_re=200x300 (192.168.32.17) 267.36ms
+[I 120905 17:08:45 web:1447] 304 GET /static/images/loginArrow.png (192.168.32.17) 0.38ms
+[I 120905 17:08:45 web:1447] 304 GET /static/images/buttonbg.png (192.168.32.17) 0.37ms
+[W 120905 17:08:46 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 17:08:46 web:1447] 304 GET /register (192.168.32.17) 1.17ms
+[I 120905 17:13:01 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 17:13:19 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120905 17:13:40 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0', 'If-None-Match': '"4170c0f2806a29ca77a7b9e9aa78066976172f54"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:13:40 web:1447] 500 GET /register (192.168.32.17) 4.65ms
+[E 120905 17:13:41 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:13:41 web:1447] 500 GET /register (192.168.32.17) 1.13ms
+[E 120905 17:13:42 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:13:42 web:1447] 500 GET /register (192.168.32.17) 1.11ms
+[I 120905 17:14:23 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120905 17:14:24 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:14:24 web:1447] 500 GET /register (192.168.32.17) 4.95ms
+[E 120905 17:14:26 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:14:26 web:727] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 725, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 58, in write_error
+        trace_info, request_info))
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 701, in finish
+        self.request.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 433, in finish
+        self.connection.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 187, in finish
+        self._finish_request()
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 223, in _finish_request
+        self.stream.read_until(b("\r\n\r\n"), self._header_callback)
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 153, in read_until
+        self._try_inline_read()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 381, in _try_inline_read
+        self._check_closed()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 564, in _check_closed
+        raise IOError("Stream is closed")
+    IOError: Stream is closed
+[E 120905 17:14:26 iostream:307] Uncaught exception, closing connection.
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 729, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120905 17:14:26 ioloop:435] Exception in callback <tornado.stack_context._StackContextWrapper object at 0x2917ba8>
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/ioloop.py", line 421, in _run_callback
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 304, in wrapper
+        callback(*args)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 262, in _on_headers
+        self.request_callback(self._request)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1412, in __call__
+        handler._execute(transforms, *args, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1025, in _execute
+        self._handle_request_exception(e)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1065, in _handle_request_exception
+        self.send_error(500, exc_info=sys.exc_info())
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 729, in send_error
+        self.finish()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 700, in finish
+        self.flush(include_footers=True)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 660, in flush
+        self.request.write(headers + chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 429, in write
+        self.connection.write(chunk, callback=callback)
+      File "/usr/lib/python2.6/site-packages/tornado/httpserver.py", line 177, in write
+        assert self._request, "Request closed"
+    AssertionError: Request closed
+[E 120905 17:14:26 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:14:26 web:1447] 500 GET /register (192.168.32.17) 1.27ms
+[E 120905 17:14:45 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:14:45 web:1447] 500 GET /register (192.168.32.17) 1.12ms
+[I 120905 17:15:30 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 17:15:32 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120905 17:15:33 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:15:33 web:1447] 500 GET /register (192.168.32.17) 4.97ms
+[E 120905 17:15:33 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:15:33 web:1447] 500 GET /register (192.168.32.17) 1.13ms
+[E 120905 17:15:33 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:15:33 web:1447] 500 GET /register (192.168.32.17) 1.11ms
+[E 120905 17:15:34 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:15:34 web:1447] 500 GET /register (192.168.32.17) 1.22ms
+[E 120905 17:15:34 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:15:34 web:1447] 500 GET /register (192.168.32.17) 1.09ms
+[I 120905 17:16:13 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 17:33:32 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120905 17:33:35 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:33:35 web:1447] 500 GET /register (192.168.32.17) 4.92ms
+[E 120905 17:33:36 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:33:36 web:1447] 500 GET /register (192.168.32.17) 1.13ms
+[I 120905 17:33:49 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120905 17:33:50 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:33:50 web:1447] 500 GET /register (192.168.32.17) 4.91ms
+[E 120905 17:33:50 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:33:50 web:1447] 500 GET /register (192.168.32.17) 1.12ms
+[E 120905 17:33:51 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:33:51 web:1447] 500 GET /register (192.168.32.17) 1.12ms
+[E 120905 17:33:51 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:33:51 web:1447] 500 GET /register (192.168.32.17) 1.23ms
+[I 120905 17:34:07 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120905 17:34:08 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:34:08 web:1447] 500 GET /register (192.168.32.17) 4.86ms
+[E 120905 17:34:08 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:34:08 web:1447] 500 GET /register (192.168.32.17) 1.12ms
+[E 120905 17:34:09 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:34:09 web:1447] 500 GET /register (192.168.32.17) 1.11ms
+[E 120905 17:34:09 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:34:09 web:1447] 500 GET /register (192.168.32.17) 1.24ms
+[W 120905 17:34:09 iostream:425] Read error on 25: [Errno 104] Connection reset by peer
+[W 120905 17:34:09 iostream:359] error on read
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 354, in _handle_read
+        if self._read_to_buffer() == 0:
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 421, in _read_to_buffer
+        chunk = self._read_from_socket()
+      File "/usr/lib/python2.6/site-packages/tornado/iostream.py", line 402, in _read_from_socket
+        chunk = self.socket.recv(self.read_chunk_size)
+    error: [Errno 104] Connection reset by peer
+[E 120905 17:34:09 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:34:09 web:1447] 500 GET /register (192.168.32.17) 1.10ms
+[E 120905 17:34:09 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 17:34:09 web:1447] 500 GET /register (192.168.32.17) 1.11ms
+[I 120905 17:40:03 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 18:04:44 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[E 120905 18:04:47 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:47 web:1447] 500 GET /register (192.168.32.17) 4.70ms
+[E 120905 18:04:48 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:48 web:1447] 500 GET /register (192.168.32.17) 1.17ms
+[E 120905 18:04:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:49 web:1447] 500 GET /register (192.168.32.17) 1.11ms
+[E 120905 18:04:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:49 web:1447] 500 GET /register (192.168.32.17) 1.23ms
+[E 120905 18:04:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:49 web:1447] 500 GET /register (192.168.32.17) 1.09ms
+[E 120905 18:04:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:49 web:1447] 500 GET /register (192.168.32.17) 1.09ms
+[E 120905 18:04:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:49 web:1447] 500 GET /register (192.168.32.17) 1.11ms
+[E 120905 18:04:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:49 web:1447] 500 GET /register (192.168.32.17) 1.10ms
+[E 120905 18:04:49 web:1064] Uncaught exception GET /register (192.168.32.17)
+    HTTPRequest(protocol='http', host='10.24.94.36:8888', method='GET', uri='/register', version='HTTP/1.1', remote_ip='192.168.32.17', body='', headers={'Accept-Language': 'ja,en-us;q=0.7,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '10.24.94.36:8888', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0', 'Connection': 'keep-alive', 'Cookie': 'username=InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091; image="Imh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy82NTE2MzM2Mi9teTJfbm9ybWFsLmpwZyI=|1346832379|91604b6a5e300684c49bbf2655951af651534020"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1021, in _execute
+        getattr(self, self.request.method.lower())(*args, **kwargs)
+      File "/root/bipapa/handlers/handlers.py", line 117, in get
+        self.render("register.html")
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 498, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 606, in render_string
+        current_user=self.current_user,
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 836, in current_user
+        self._current_user = self.get_current_user()
+    TypeError: get_current_user() takes exactly 2 arguments (1 given)
+[E 120905 18:04:49 web:1447] 500 GET /register (192.168.32.17) 1.10ms
+[I 120905 18:05:14 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 18:05:14 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 18:05:14 web:1447] 200 GET /register (192.168.32.17) 4.23ms
+[I 120905 18:05:37 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 18:05:37 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 18:05:37 web:1447] 304 GET /register (192.168.32.17) 4.17ms
+[I 120905 18:05:46 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 18:05:46 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 18:05:46 web:1447] 304 GET /register (192.168.32.17) 4.21ms
+[W 120905 18:05:46 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 18:05:46 web:1447] 304 GET /register (192.168.32.17) 1.03ms
+[W 120905 18:05:47 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 18:05:47 web:1447] 304 GET /register (192.168.32.17) 1.10ms
+[W 120905 18:05:47 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 18:05:47 web:1447] 304 GET /register (192.168.32.17) 1.01ms
+[W 120905 18:05:47 web:2027] Invalid cookie signature 'InllcG4i|1346832379|a705f2f7ca07da16e0326ac2b94c5a5f558ac091'
+[I 120905 18:05:47 web:1447] 304 GET /register (192.168.32.17) 1.02ms
+[I 120905 18:05:51 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 18:05:52 web:1447] 304 GET /register (192.168.32.17) 3.89ms
+[I 120905 18:05:52 web:1447] 304 GET /register (192.168.32.17) 0.83ms
+[I 120905 18:05:53 web:1447] 304 GET /register (192.168.32.17) 0.92ms
+[I 120905 18:06:08 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 18:06:10 web:1447] 304 GET /register (192.168.32.17) 3.69ms
+[I 120905 18:06:11 web:1447] 304 GET /register (192.168.32.17) 0.83ms
+[I 120905 18:06:11 web:1447] 304 GET /register (192.168.32.17) 0.92ms
+[I 120905 18:06:13 web:1447] 302 GET /twitter_login (192.168.32.17) 306.25ms
+[I 120905 18:06:17 handlers:147] twitter oauth_token is kyWvSE657A3ZmIuvwWOCpImVuJ6Xbg0B5EEcbZoaI
+[I 120905 18:06:17 handlers:155] twitter Auth worked
+[I 120905 18:06:17 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:06:17 web:1447] 302 GET /twitter_login?oauth_token=kyWvSE657A3ZmIuvwWOCpImVuJ6Xbg0B5EEcbZoaI&oauth_verifier=dfI5DEA2oYeGYLYijNlv1qRU2gbueGFj8MeKxTJVOc (192.168.32.17) 570.76ms
+[I 120905 18:06:17 web:1447] 302 GET /hello (192.168.32.17) 0.38ms
+[I 120905 18:06:18 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.84ms
+[I 120905 18:06:52 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 18:06:58 web:1447] 304 GET /register (192.168.32.17) 3.92ms
+[I 120905 18:07:00 web:1447] 302 GET /twitter_login (192.168.32.17) 306.83ms
+[I 120905 18:07:02 handlers:147] twitter oauth_token is d3PbdjWOOB3smndJcm3NTRvmcOV3aFsd8JcTyDPmk
+[I 120905 18:07:03 handlers:155] twitter Auth worked
+[I 120905 18:07:03 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:07:03 web:1447] 302 GET /twitter_login?oauth_token=d3PbdjWOOB3smndJcm3NTRvmcOV3aFsd8JcTyDPmk&oauth_verifier=bIjg6XqJ7KbsNxRQLjJulRUw7WkzNA3pBc9Mvo7LpU (192.168.32.17) 584.40ms
+[I 120905 18:07:03 web:1447] 302 GET /hello (192.168.32.17) 0.37ms
+[I 120905 18:07:03 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.83ms
+[I 120905 18:07:48 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 18:07:52 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 3.69ms
+[I 120905 18:07:54 web:1447] 304 GET /register (192.168.32.17) 0.83ms
+[I 120905 18:07:56 web:1447] 302 GET /twitter_login (192.168.32.17) 287.21ms
+[I 120905 18:07:59 handlers:147] twitter oauth_token is Aq3DewEajRNssJnTSfRuKpNmiQVYpHFkdoDxHFiVDo
+[I 120905 18:07:59 handlers:155] twitter Auth worked
+[I 120905 18:07:59 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:07:59 web:1447] 302 GET /twitter_login?oauth_token=Aq3DewEajRNssJnTSfRuKpNmiQVYpHFkdoDxHFiVDo&oauth_verifier=MIe3uqepXtrLcncm8yrteYbblmUivGR7r2VFuCh7M (192.168.32.17) 594.23ms
+[I 120905 18:08:00 web:1447] 302 GET /hello (192.168.32.17) 0.37ms
+[I 120905 18:08:00 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 1.02ms
+[I 120905 18:08:12 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 18:08:17 web:1447] 304 GET /register (192.168.32.17) 3.92ms
+[I 120905 18:08:19 web:1447] 302 GET /twitter_login (192.168.32.17) 293.24ms
+[I 120905 18:08:21 handlers:147] twitter oauth_token is dbw5N9mI5NYKcjiqjOfMMiBhCgNt6ZzMh2k1IrdMl8
+[I 120905 18:08:22 handlers:155] twitter Auth worked
+[I 120905 18:08:22 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:08:22 web:1447] 302 GET /twitter_login?oauth_token=dbw5N9mI5NYKcjiqjOfMMiBhCgNt6ZzMh2k1IrdMl8&oauth_verifier=Ro6cATwrgwXmgUpV7UnyKEqCKBrdsvqrn6XzHtfJkDg (192.168.32.17) 579.36ms
+[I 120905 18:08:22 web:1447] 302 GET /hello (192.168.32.17) 0.37ms
+[I 120905 18:08:22 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.82ms
+[I 120905 18:08:36 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 1.00ms
+[I 120905 18:08:37 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.83ms
+[I 120905 18:08:37 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.81ms
+[I 120905 18:08:37 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.82ms
+[I 120905 18:08:38 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.82ms
+[I 120905 18:08:38 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.81ms
+[I 120905 18:08:38 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.82ms
+[I 120905 18:08:38 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.83ms
+[I 120905 18:08:39 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.82ms
+[I 120905 18:08:55 web:1447] 304 GET /register (192.168.32.17) 1.03ms
+[I 120905 18:09:04 web:1447] 304 GET /register (192.168.32.17) 0.81ms
+[I 120905 18:09:07 web:1447] 302 GET /twitter_login (192.168.32.17) 299.13ms
+[I 120905 18:09:09 handlers:147] twitter oauth_token is WI2gtcfs42Gn0RQOtiWf43ky8p0yDDPjn4n4kpNPOag
+[I 120905 18:09:10 handlers:155] twitter Auth worked
+[I 120905 18:09:10 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:09:10 web:1447] 302 GET /twitter_login?oauth_token=WI2gtcfs42Gn0RQOtiWf43ky8p0yDDPjn4n4kpNPOag&oauth_verifier=iXpzPW3q8K5xGQLYlhL0XzWUnRZi15UaLhb2OxIZi0E (192.168.32.17) 638.38ms
+[I 120905 18:09:10 web:1447] 302 GET /hello (192.168.32.17) 0.37ms
+[I 120905 18:09:10 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.82ms
+[I 120905 18:11:05 web:1447] 304 GET /register (192.168.32.17) 0.75ms
+[I 120905 18:11:07 web:1447] 302 GET /twitter_login (192.168.32.17) 301.07ms
+[I 120905 18:11:31 handlers:147] twitter oauth_token is ZETpNfm8p1mGY1p350pbaEqdGhqvXW3EW0BODWlvx8
+[I 120905 18:11:32 handlers:155] twitter Auth worked
+[I 120905 18:11:32 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:11:32 web:1447] 302 GET /twitter_login?oauth_token=ZETpNfm8p1mGY1p350pbaEqdGhqvXW3EW0BODWlvx8&oauth_verifier=8X5zSf0h01piISnx6xBlMakDToFcTksJMHWar2LQw (192.168.32.17) 600.94ms
+[I 120905 18:11:32 web:1447] 302 GET /hello (192.168.32.17) 0.37ms
+[I 120905 18:11:32 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.82ms
+[I 120905 18:12:15 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[W 120905 18:12:21 web:2027] Invalid cookie signature 'InllcG4i|1346836292|b6dc1e9c4bb9f8013ccdbcba69a984d538ae1392'
+[I 120905 18:12:21 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 4.32ms
+[W 120905 18:12:24 web:2027] Invalid cookie signature 'InllcG4i|1346836292|b6dc1e9c4bb9f8013ccdbcba69a984d538ae1392'
+[I 120905 18:12:24 web:1447] 304 GET /register (192.168.32.17) 1.04ms
+[I 120905 18:12:26 web:1447] 302 GET /twitter_login (192.168.32.17) 311.74ms
+[I 120905 18:12:29 handlers:147] twitter oauth_token is dUvx1h8tGEaojJcwBvaeDr2dJAbIq3jN1WdMMxZm2H4
+[I 120905 18:12:30 handlers:155] twitter Auth worked
+[I 120905 18:12:30 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:12:30 web:1447] 302 GET /twitter_login?oauth_token=dUvx1h8tGEaojJcwBvaeDr2dJAbIq3jN1WdMMxZm2H4&oauth_verifier=ROatrlWsT16EGcyb3wxGx26D9729YR85DdU3CKh575Q (192.168.32.17) 571.57ms
+[I 120905 18:12:30 handlers:209] username is "yepn", image is "https://si0.twimg.com/profile_images/65163362/my2_normal.jpg"
+[I 120905 18:12:30 web:1447] 200 GET /hello (192.168.32.17) 1.67ms
+[I 120905 18:12:50 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server
+[I 120905 18:12:53 web:1447] 302 GET /logout (192.168.32.17) 1.07ms
+[I 120905 18:12:53 web:1447] 304 GET /login (192.168.32.17) 3.42ms
+[I 120905 18:12:55 web:1447] 304 GET /register (192.168.32.17) 0.72ms
+[I 120905 18:12:57 web:1447] 302 GET /twitter_login (192.168.32.17) 305.25ms
+[I 120905 18:13:00 handlers:147] twitter oauth_token is BGM3jPltPWdotDwWfB193t1bTCLfxNuowuJPWrTv3M
+[I 120905 18:13:00 handlers:155] twitter Auth worked
+[I 120905 18:13:00 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:13:00 web:1447] 302 GET /twitter_login?oauth_token=BGM3jPltPWdotDwWfB193t1bTCLfxNuowuJPWrTv3M&oauth_verifier=4QjCKaTRCpZkM6Xh8dlvtgl0srJ8wKQYTOjFUntrA (192.168.32.17) 562.47ms
+[I 120905 18:13:01 web:1447] 302 GET /hello (192.168.32.17) 0.29ms
+[I 120905 18:13:01 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.92ms
+[I 120905 18:13:02 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.72ms
+[I 120905 18:13:03 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.71ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.72ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.73ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.73ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.72ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.73ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.73ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.73ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.72ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.72ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.71ms
+[I 120905 18:13:04 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.73ms
+[I 120905 18:13:07 web:1447] 304 GET /register (192.168.32.17) 0.69ms
+[I 120905 18:13:10 web:1447] 302 GET /twitter_login (192.168.32.17) 282.18ms
+[I 120905 18:13:12 handlers:147] twitter oauth_token is Bn6cJYTm0oR4Yskgl4aOp7DGDx8pRqaqMha5Dva8
+[I 120905 18:13:12 handlers:155] twitter Auth worked
+[I 120905 18:13:12 handlers:69] this is in set_current_user is {'username': u'yepn', 'image': u'https://si0.twimg.com/profile_images/65163362/my2_normal.jpg'}
+[I 120905 18:13:12 web:1447] 302 GET /twitter_login?oauth_token=Bn6cJYTm0oR4Yskgl4aOp7DGDx8pRqaqMha5Dva8&oauth_verifier=MKX8cOObNcN55gPx9UbVkIbQyzVdUaPvnXbIgQAptg (192.168.32.17) 635.54ms
+[I 120905 18:13:13 web:1447] 302 GET /hello (192.168.32.17) 0.28ms
+[I 120905 18:13:13 web:1447] 304 GET /login?next=%2Fhello (192.168.32.17) 0.73ms
+[I 120905 18:13:22 autoreload:175] /root/bipapa/handlers/handlers.py modified; restarting server

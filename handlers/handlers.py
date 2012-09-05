@@ -60,16 +60,19 @@ class BaseHandler(tornado.web.RequestHandler):
     def get_login_url(self):
         return u"/login"
 
-    def get_current_user(self):
-        user_json = self.get_secure_cookie("user") or False
+    def get_current_user(self,param=""):
+        user_json = self.get_secure_cookie("username") or False
         if not user_json: return None
         return tornado.escape.json_decode(user_json)
     
-    def set_current_user(self, user):
+    def set_current_user(self, **user):
+        logging.info("this is in set_current_user is %s" %user)
         if user:
-            self.set_secure_cookie("user", tornado.escape.json_encode(user))
+            for key in user.keys():
+                self.set_secure_cookie(key, tornado.escape.json_encode(user[key]))
         else:
-            self.clear_cookie("user")
+            self.clear_allcookies()
+#            self.clear_cookie("user")
 
     @property        
     def db(self):
@@ -151,13 +154,13 @@ class TwitterLoginHandler(LoginHandler, tornado.auth.TwitterMixin):
             raise tornado.web.HTTPError(500, "Twitter auth failed")
         logging.info("twitter Auth worked")
 
-        user = {}
-        user["username"] = twitteruser["username"]
-        user["profile_image"] = twitteruser["profile_image_url_https"]
-        logging.info(user)
+#        user = {}
+#        user["username"] = twitteruser["username"]
+#        user["image"] = twitteruser["profile_image_url_https"]
+#        logging.info(user)
         
 #        userId = self.db.users.save(user)
-        self.set_current_user(user['username'])
+        self.set_current_user(username=twitteruser["username"], image=twitteruser["profile_image_url_https"])
         self.redirect("hello")
 
 class FacebookLoginHandler(LoginHandler, tornado.auth.FacebookGraphMixin):
@@ -199,9 +202,13 @@ class LogoutHandler(BaseHandler):
 class HelloHandler(BaseHandler):
     @tornado.web.authenticated
     def get(self):
-        user = self.get_current_user()
-        logging.info("user is %s" % user)
-        self.render("hello.html", user=user)
+        username = self.get_secure_cookie("username")
+        image = self.get_secure_cookie("image")
+#        username = self.get_current_user("username")
+#        image = self.get_current_user("image")
+        logging.info("username is %s, image is %s" % (username,image))
+        self.render("hello.html", username=tornado.escape.json_decode(username), image = tornado.escape.json_decode(image))
+#        self.render("hello.html", username=username ,image = image)
 
     def post(self):
         return self.get()
@@ -240,7 +247,6 @@ class ViewImageHandler(BaseHandler):
         self.add_header('Content-Type',img_file.content_type)
         self.write(img)
         self.finish()
-		    
 
 class ShowHandler(BaseHandler):
     @tornado.web.asynchronous
@@ -258,6 +264,7 @@ class ShowHandler(BaseHandler):
             for iterm in iterms_list:
                 iterms.append(iterm)
         self.render("show.html", iterms=iterms)
+        self.finish()
         
     def post(self):
         return self.get()
