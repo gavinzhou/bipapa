@@ -60,6 +60,23 @@ class BaseHandler(tornado.web.RequestHandler):
     def get_login_url(self):
         return u"/login"
 
+    def get_current_user2(self):
+        _user = {}
+        _user["username"] = tornado.escape.json_decode(self.get_secure_cookie("username"))
+        _user["image"] = tornado.escape.json_decode(self.get_secure_cookie("image"))
+#        _user["email"] = tornado.escape.json_decode(self.get_secure_cookie("email"))
+        logging.info(_user)
+
+#        username = self.get_secure_cookie("username")
+#        image = self.get_secure_cookie("image")
+#        email = self.get_secure_cookie("email")
+#        _user["username"] = tornado.escape.json_decode(username)
+#        _user["image"] = tornado.escape.json_decode(image)
+#        _user["email"] = tornado.escape.json_decode(email)
+#        logging.info("this is in get_current_user2 is %s " %user)
+#        logging.info("this is in get_current_user2 user type is %s " %type(user))
+        return _user
+
     def get_current_user(self,param=""):
         user_json = self.get_secure_cookie("username") or False
         if not user_json: return None
@@ -202,11 +219,13 @@ class LogoutHandler(BaseHandler):
 class HelloHandler(BaseHandler):
     @tornado.web.authenticated
     def get(self):
+        user = self.get_current_user2()
         username = self.get_secure_cookie("username")
         image = self.get_secure_cookie("image")
 #        username = self.get_current_user("username")
 #        image = self.get_current_user("image")
-        logging.info("username is %s, image is %s" % (username,image))
+#        logging.info("username is %s, image is %s" % (username,image))
+        logging.info("username is %s, image is %s" % (user["username"],user["image"]))
         self.render("hello.html", username=tornado.escape.json_decode(username), image = tornado.escape.json_decode(image))
 #        self.render("hello.html", username=username ,image = image)
 
